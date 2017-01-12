@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MRiLabCoil Name="Coil_1ChHead" Notes="1 Chanel Head Coil">
+   <CoilCircle Azimuth="0" CoilID="1" CurrentDir="1" Elevation="0" PosX="-0.1" PosY="0" PosZ="0" Radius="0.06" Scale="0.1" Segment="20"/>
+</MRiLabCoil>

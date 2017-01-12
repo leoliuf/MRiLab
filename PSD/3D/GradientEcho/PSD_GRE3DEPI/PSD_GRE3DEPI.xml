@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MRiLabSeq Name="PSD_GRE3DEPI" Notes="3D hybrid EPI gradient echo sequence">
+   <CVs CV1="10e-3" CV10="0" CV11="0" CV12="0" CV13="0" CV14="0" CV2="15e-3" CV3="0" CV4="0" CV5="0" CV6="0" CV7="0" CV8="0" CV9="0"/>
+   <Specials EPI="^1"/>
+   
+      <Pulses Freq="1" Notes="regular TR section" Switch="$1'on','off'" TREnd="Inf" TRStart="1" tE="VCtl.TR" tS="0">
+      <rf>
+         <rfSinc AnchorTE="$1'on','off'" Apod="$1'Non','Hamming','Hanning'" CoilID="1" DupSpacing="0" Duplicates="1" FA="VCtl.FlipAng" Notes="excitation rf" Switch="$1'on','off'" TBP="4" dt="20e-6" rfFreq="0" rfPhase="0" tEnd="1e-3" tStart="0"/>
+      </rf>
+      <GzSS>
+         <GzCartesian   DupSpacing="0" Duplicates="1" Gz1Sign="1" Gz2Sign="0" Notes="cartesian phase" Switch="$1'on','off'" t1End="CV2" t1Start="CV1" t2End="VCtl.TE+CV2" t2Start="VCtl.TE+CV1" tRamp="100e-6"/>
+      </GzSS>
+      <GyPE>
+         <GyEPI Gy1Sign="-1" Gy2Sign="1" Notes="EPI phase encoding" Switch="$1'on','off'" t1Start="CV1" t2Middle="VCtl.TE"/>
+      </GyPE>
+      <GxR>
+         <GxEPI Gx1Sign="-1" Gx2Sign="1" Notes="EPI frequency encoding" Switch="$1'on','off'" t1Start="CV1" t2Middle="VCtl.TE"/>
+      </GxR>
+      <ADC>
+         <ADCEPI Notes="EPI readout" Switch="$1'on','off'" tMiddle="VCtl.TE"/>
+      </ADC>
+      <Ext>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="1" Notes="reset K space location" Switch="$1'on','off'" tStart="CV1/3"/>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="5" Notes="calculate remaining scan time" Switch="$1'on','off'" tStart="0"/>
+      </Ext>
+   </Pulses>
+</MRiLabSeq>

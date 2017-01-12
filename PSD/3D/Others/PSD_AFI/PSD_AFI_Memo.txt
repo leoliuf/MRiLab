@@ -1,0 +1,10 @@
+============3D Actual Flip Angle Imaging============
+Usage : run 3D AFI method for estimating flip angle
+Version : 1.0
+Author : Fang Liu, PhD
+Time : 09/10/2012
+Affiliation : University of Wisconsin-Madison
+=========================================
+Note:
+TR1=CV3
+TR2=TR-CV3

@@ -1,0 +1,7 @@
+======3D Gradient Echo Sequence======
+Usage : run standard 3D gradient echo scan
+Version : 1.0
+Author : Fang Liu, PhD
+Time : 09/10/2012
+Affiliation : University of Wisconsin-Madison
+============================

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MRiLabSeq Name="PSD_GRE3DSpiral" Notes="3D spiral gradient echo sequence">
+   <CVs CV1="10e-3" CV10="0" CV11="0" CV12="0" CV13="0" CV14="0" CV2="20e-3" CV3="0" CV4="0" CV5="0" CV6="0" CV7="0" CV8="0" CV9="0"/>
+   <Specials Gridding="^1" RTRecon="^1" Spiral="^1"/>
+   <Pulses Freq="1" Notes="regular TR section" Switch="$1'on','off'" TREnd="Inf" TRStart="1" tE="VCtl.TR" tS="0">
+      <rf>
+         <rfSinc AnchorTE="$1'on','off'" Apod="$1'Non','Hamming','Hanning'" CoilID="1" DupSpacing="0" Duplicates="1" FA="VCtl.FlipAng" Notes="excitation rf" Switch="$1'on','off'" TBP="4" dt="20e-6" rfFreq="0" rfPhase="0" tEnd="1e-3" tStart="0"/>
+      </rf>
+      <GzSS>
+         <GzCartesian DupSpacing="0" Duplicates="1" Gz1Sign="1" Gz2Sign="0" Notes="cartesian phase" Switch="$1'on','off'" t1End="CV2" t1Start="CV1" t2End="VCtl.TE+CV2" t2Start="VCtl.TE+CV1" tRamp="100e-6"/>
+      </GzSS>
+      <GyPE>
+         <GySpiral Notes="spiral encoding" Switch="$1'on','off'" dt="0.004e-3" tStart="VCtl.TE"/>
+      </GyPE>
+      <GxR>
+         <GxSpiral Notes="spiral encoding" Switch="$1'on','off'" dt="0.004e-3" tStart="VCtl.TE"/>
+      </GxR>
+      <ADC>
+         <ADCSpiral Notes="spiral readout" Switch="$1'on','off'" tStart="VCtl.TE"/>
+      </ADC>
+      <Ext>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="1" Notes="reset K space location" Switch="$1'on','off'" tStart="1e-3"/>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="5" Notes="calculate remaining scan time" Switch="$1'on','off'" tStart="0"/>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="9" Notes="real time recon" Switch="$1'on','off'" tStart="VCtl.TE+CV2"/>
+      </Ext>
+   </Pulses>
+</MRiLabSeq>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MRiLabGrad Name="Grad_LinearHead" Notes="Linear Gradient Field">
+   <GradLinear GradLine="$2'GxR','GyPE','GzSS'" GradX="0" GradY="0.5" GradZ="0"/>
+   <GradLinear GradLine="$1'GxR','GyPE','GzSS'" GradX="1" GradY="0" GradZ="0"/>
+   <GradLinear GradLine="$3'GxR','GyPE','GzSS'" GradX="0" GradY="0" GradZ="1"/>
+</MRiLabGrad>

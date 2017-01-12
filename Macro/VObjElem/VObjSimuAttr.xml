@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VObjSimuAttr Notes="VObjnet simulation settings">
+   <Display Box="$1'on','off'" CameraTool="$2'Show','Hide'" Grid="$2'on','off'"/>
+</VObjSimuAttr>

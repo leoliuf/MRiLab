@@ -1,0 +1,7 @@
+=================3D Spin Echo ==================
+Usage : run 3D spin echo
+Version : 1.0
+Author : Fang Liu, PhD
+Time : 09/10/2012
+Affiliation : University of Wisconsin-Madison
+===============================================

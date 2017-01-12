@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MRiLabSeq Name="PSD_FIESTA3D" Notes="3D bSSFP sequence">
+   <CVs CV1="3e-3" CV10="0" CV11="0" CV12="0" CV13="0" CV14="0" CV2="4e-3" CV3="2*pi/2" CV4="2" CV5="0" CV6="0" CV7="0" CV8="0" CV9="0"/>
+   <Specials DummyPulse="^1"/>
+   <Pulses Freq="1" Notes="regular TR section" Switch="$1'on','off'" TREnd="Inf" TRStart="1" tE="VCtl.TR" tS="0">
+      <rf>
+         <rfSinc AnchorTE="$1'on','off'" Apod="$3'Non','Hamming','Hanning'" CoilID="1" DupSpacing="0" Duplicates="1" FA="VCtl.FlipAng" Notes="alpha pulse" Switch="$1'on','off'" TBP="4" dt="20e-6" rfFreq="0" rfPhase="rem(VVar.TRCount-1,CV4)*CV3" tEnd="1.5e-3" tStart="1.2e-3"/>
+         <rfSinc AnchorTE="$2'on','off'" Apod="$3'Non','Hamming','Hanning'" CoilID="2" DupSpacing="0" Duplicates="1" FA="VCtl.FlipAng" Notes="alpha pulse" Switch="$1'on','off'" TBP="4" dt="20e-6" rfFreq="0" rfPhase="rem(VVar.TRCount-1,CV4)*CV3" tEnd="1.5e-3" tStart="1.2e-3"/>
+         <rfSinc AnchorTE="$2'on','off'" Apod="$3'Non','Hamming','Hanning'" CoilID="3" DupSpacing="0" Duplicates="1" FA="VCtl.FlipAng" Notes="alpha pulse" Switch="$1'on','off'" TBP="4" dt="20e-6" rfFreq="0" rfPhase="rem(VVar.TRCount-1,CV4)*CV3" tEnd="1.5e-3" tStart="1.2e-3"/>
+         <rfSinc AnchorTE="$2'on','off'" Apod="$3'Non','Hamming','Hanning'" CoilID="4" DupSpacing="0" Duplicates="1" FA="VCtl.FlipAng" Notes="alpha pulse" Switch="$1'on','off'" TBP="4" dt="20e-6" rfFreq="0" rfPhase="rem(VVar.TRCount-1,CV4)*CV3" tEnd="1.5e-3" tStart="1.2e-3"/>
+         <rfSinc AnchorTE="$2'on','off'" Apod="$3'Non','Hamming','Hanning'" CoilID="5" DupSpacing="0" Duplicates="1" FA="VCtl.FlipAng" Notes="alpha pulse" Switch="$1'on','off'" TBP="4" dt="20e-6" rfFreq="0" rfPhase="rem(VVar.TRCount-1,CV4)*CV3" tEnd="1.5e-3" tStart="1.2e-3"/>
+         <rfSinc AnchorTE="$2'on','off'" Apod="$3'Non','Hamming','Hanning'" CoilID="6" DupSpacing="0" Duplicates="1" FA="VCtl.FlipAng" Notes="alpha pulse" Switch="$1'on','off'" TBP="4" dt="20e-6" rfFreq="0" rfPhase="rem(VVar.TRCount-1,CV4)*CV3" tEnd="1.5e-3" tStart="1.2e-3"/>
+         <rfSinc AnchorTE="$2'on','off'" Apod="$3'Non','Hamming','Hanning'" CoilID="7" DupSpacing="0" Duplicates="1" FA="VCtl.FlipAng" Notes="alpha pulse" Switch="$1'on','off'" TBP="4" dt="20e-6" rfFreq="0" rfPhase="rem(VVar.TRCount-1,CV4)*CV3" tEnd="1.5e-3" tStart="1.2e-3"/>
+         <rfSinc AnchorTE="$2'on','off'" Apod="$3'Non','Hamming','Hanning'" CoilID="8" DupSpacing="0" Duplicates="1" FA="VCtl.FlipAng" Notes="alpha pulse" Switch="$1'on','off'" TBP="4" dt="20e-6" rfFreq="0" rfPhase="rem(VVar.TRCount-1,CV4)*CV3" tEnd="1.5e-3" tStart="1.2e-3"/>
+      </rf>
+      <GzSS>
+         <GzCartesian DupSpacing="0" Duplicates="1" Gz1Sign="1" Gz2Sign="-1" Notes="cartesian phase" Switch="$1'on','off'" t1End="VCtl.TE-CV1" t1Start="VCtl.TE-CV2" t2End="VCtl.TE+CV2" t2Start="VCtl.TE+CV1" tRamp="100e-6"/>
+      </GzSS>
+      <GyPE>
+         <GyCartesian DupSpacing="0" Duplicates="1" Gy1Sign="1" Gy2Sign="-1" Notes="cartesian phase" Switch="$1'on','off'" t1End="VCtl.TE-CV1" t1Start="VCtl.TE-CV2" t2End="VCtl.TE+CV2" t2Start="VCtl.TE+CV1" tRamp="100e-6"/>
+      </GyPE>
+      <GxR>
+         <GxCartesian DupSpacing="0" Duplicates="1" Gx1Sign="-1" Gx2Sign="1" Gx3Sign="-1" Notes="cartesian frequency" Switch="$1'on','off'" t1Start="VCtl.TE-CV2" t2Middle="VCtl.TE" t3Start="VCtl.TE+CV1" tRamp="100e-6"/>
+      </GxR>
+      <ADC>
+         <ADCCartesian DupSpacing="0" Duplicates="1" Notes="cartesian readout" Switch="$1'on','off'" tMiddle="VCtl.TE"/>
+      </ADC>
+      <Ext>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="5" Notes="calculate remaining scan time" Switch="$1'on','off'" tStart="0"/>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="7" Notes="demodulate signal phase referring to rf phase at ADC" Switch="$1'on','off'" tStart="1.35e-3"/>
+      </Ext>
+   </Pulses>
+</MRiLabSeq>

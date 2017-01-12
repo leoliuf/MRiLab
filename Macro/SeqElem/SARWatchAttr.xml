@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SARWatchAttr Notes="local SAR settings">
+   <Spatial N_Gram="0"/>
+   <Temporal N_Second="1" dt="0.1" tEnd="1" tStart="0"/>
+</SARWatchAttr>

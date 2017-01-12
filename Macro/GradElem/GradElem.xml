@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GradElem Notes="magnet element list">
+  <GradLinear GradLine="$1'GxR','GyPE','GzSS'" GradX="" GradY="" GradZ=""/>
+  <GradSymbolic GradLine="$1'GxR','GyPE','GzSS'" GradXEqu="" GradYEqu="" GradZEqu=""/>
+  <GradUser GradLine="$1'GxR','GyPE','GzSS'" GradFile="" Interp="$1'linear','nearest','cubic'"/>
+</GradElem>

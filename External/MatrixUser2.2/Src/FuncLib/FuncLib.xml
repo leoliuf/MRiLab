@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FuncLib Notes="function library">
+   <Display Notes="Display relavent">
+      <funcErase FuncCall="MU_funcErase" FuncHint="Reset matrix display" FuncIcon="Erase.gif" FuncSupportMaxDim="Inf"/>
+      <funcGrid FuncCall="MU_funcGrid" FuncHint="Swith on/off grid line" FuncIcon="Grid.gif" FuncSupportMaxDim="Inf"/>
+      <funcAxis FuncCall="MU_funcAxis" FuncHint="Change image axis" FuncIcon="Axis.gif" FuncSupportMaxDim="Inf"/>
+      <funcMagnify FuncCall="MU_funcMagnify" FuncHint="Open instant magnifier" FuncIcon="Magnifier.gif" FuncSupportMaxDim="Inf"/>
+      <funcProfile FuncCall="MU_funcProfile" FuncHint="Inspect line profile" FuncIcon="Profile.gif" FuncSupportMaxDim="Inf"/>
+      <funcDim FuncCall="MU_funcDim" FuncHint="Inspect dimension profile. Right click mouse for turning on/off live inspection." FuncIcon="Dim.gif" FuncSupportMaxDim="Inf"/>
+      <func3DSlicer FuncCall="MU_func3DSlicer" FuncHint="Open 3D slicer window" FuncIcon="3DSlicer.gif" FuncSupportMaxDim="@3"/>
+      <funcImageRGB FuncCall="MU_funcImageRGB" FuncHint="Create RGB image with current matrix" FuncIcon="ImageRGB.gif" FuncSupportMaxDim="@3"/>
+      <funcMontage FuncCall="MU_funcMontage" FuncHint="Create montage image" FuncIcon="Montage.gif" FuncSupportMaxDim="3"/>
+      <funcImgFuse FuncCall="MU_funcImgFuse" FuncHint="Overlay two matrices" FuncIcon="ImgFuse.gif" FuncSupportMaxDim="Inf"/>
+   </Display>
+   <QuickMath>
+      <funcAbs FuncCall="MU_funcAbs" FuncHint="Calculate absolute value" FuncIcon="Abs.gif" FuncSupportMaxDim="Inf"/>
+      <funcNeg FuncCall="MU_funcNeg" FuncHint="Calculate opposite value" FuncIcon="Negative.gif" FuncSupportMaxDim="Inf"/>
+      <funcLogE FuncCall="MU_funcLogE" FuncHint="Calculate natural log" FuncIcon="LogE.gif" FuncSupportMaxDim="Inf"/>
+      <funcLog10 FuncCall="MU_funcLog10" FuncHint="Calculate log10" FuncIcon="Log10.gif" FuncSupportMaxDim="Inf"/>
+      <funcExp FuncCall="MU_funcExp" FuncHint="Calculate exponential" FuncIcon="Exp.gif" FuncSupportMaxDim="Inf"/>
+      <func10N FuncCall="MU_func10N" FuncHint="Calculate 10^N" FuncIcon="10N.gif" FuncSupportMaxDim="Inf"/>
+      <funcSin FuncCall="MU_funcSin" FuncHint="Calculate sin" FuncIcon="Sin.gif" FuncSupportMaxDim="Inf"/>
+      <funcCos FuncCall="MU_funcCos" FuncHint="Calculate cos" FuncIcon="Cos.gif" FuncSupportMaxDim="Inf"/>
+      <funcTan FuncCall="MU_funcTan" FuncHint="Calculate tan" FuncIcon="Tan.gif" FuncSupportMaxDim="Inf"/>
+      <funcASin FuncCall="MU_funcASin" FuncHint="Calculate inverse sin" FuncIcon="ASin.gif" FuncSupportMaxDim="Inf"/>
+      <funcACos FuncCall="MU_funcACos" FuncHint="Calculate inverse cos" FuncIcon="ACos.gif" FuncSupportMaxDim="Inf"/>
+      <funcATan FuncCall="MU_funcATan" FuncHint="Calculate inverse tan" FuncIcon="ATan.gif" FuncSupportMaxDim="Inf"/>
+   </QuickMath>
+   <Transform Notes="Matrix transform">
+      <funcFlipH FuncCall="MU_funcFlipH" FuncHint="Flip horizontally" FuncIcon="FlipH.gif" FuncSupportMaxDim="3"/>
+      <funcFlipV FuncCall="MU_funcFlipV" FuncHint="Flip vertically" FuncIcon="FlipV.gif" FuncSupportMaxDim="3"/>
+      <funcFlipZ FuncCall="MU_funcFlipZ" FuncHint="Flip along the slice (3rd) direction" FuncIcon="FlipZ.gif" FuncSupportMaxDim="3"/>
+      <funcRot90L FuncCall="MU_funcRot90L" FuncHint="Rotate 90 degree left" FuncIcon="Rot90L.gif" FuncSupportMaxDim="3"/>
+      <funcRot90R FuncCall="MU_funcRot90R" FuncHint="Rotate 90 degree right" FuncIcon="Rot90R.gif" FuncSupportMaxDim="3"/>
+      <funcRotate FuncCall="MU_funcRotate" FuncHint="Rotate certain angle in 3D" FuncIcon="Rotate.gif" FuncSupportMaxDim="3"/>
+      <funcTranslate FuncCall="MU_funcTranslate" FuncHint="Translate along certain direction" FuncIcon="Translate.gif" FuncSupportMaxDim="Inf"/>
+      <funcFFT FuncCall="MU_funcFFT" FuncHint="FFT matrix" FuncIcon="FFT.gif" FuncSupportMaxDim="Inf"/>
+   </Transform>
+   <Process Notes="Matrix process">
+      <funcMask FuncCall="MU_funcMask" FuncHint="Make binary mask" FuncIcon="Mask.gif" FuncSupportMaxDim="Inf"/>
+      <funcSmooth FuncCall="MU_funcSmooth" FuncHint="Smooth image" FuncIcon="Smooth.gif" FuncSupportMaxDim="3"/>
+      <funcSharpen FuncCall="MU_funcSharpen" FuncHint="Sharpen image" FuncIcon="Sharpen.gif" FuncSupportMaxDim="3"/>
+      <funcEdge FuncCall="MU_funcEdge" FuncHint="Detect image edges" FuncIcon="Edge.gif" FuncSupportMaxDim="3"/>
+      <funcFilter FuncCall="MU_funcFilter" FuncHint="Image filter" FuncIcon="Filter.gif" FuncSupportMaxDim="3"/>
+      <funcNoise FuncCall="MU_funcNoise" FuncHint="Add noise in matrix" FuncIcon="Noise.gif" FuncSupportMaxDim="Inf"/>
+      <funcRHolefill FuncCall="MU_funcRHolefill" FuncHint="Manually fill outside selected region" FuncIcon="RHolefill.gif" FuncSupportMaxDim="Inf"/>   
+      <funcHolefill FuncCall="MU_funcHolefill" FuncHint="Manually fill selected region" FuncIcon="Holefill.gif" FuncSupportMaxDim="Inf"/>
+      <funcModify FuncCall="MU_funcModify" FuncHint="Manually modify matrix values" FuncIcon="Modify.gif" FuncSupportMaxDim="Inf"/>
+      <funcReplace FuncCall="MU_funcReplace" FuncHint="Replace matrix values with selected region" FuncIcon="Replace.gif" FuncSupportMaxDim="Inf"/>  
+      <funcCrop FuncCall="MU_funcCrop" FuncHint="Crop rectangle matrix" FuncIcon="Crop.gif" FuncSupportMaxDim="Inf"/> 
+      <funcExtract FuncCall="MU_funcExtract" FuncHint="Extract matrix region" FuncIcon="Extract.gif" FuncSupportMaxDim="Inf"/> 
+      <funcInterp FuncCall="MU_funcInterp" FuncHint="Change matrix resolution via interpolation" FuncIcon="Interp.gif" FuncSupportMaxDim="3"/>
+   </Process>
+   <ROI Notes="ROI relavent">
+      <funcFreeROI FuncCall="MU_funcFreeROI" FuncHint="Draw free-hand ROI" FuncIcon="FreeROI.gif" FuncSupportMaxDim="Inf"/>
+      <funcRectROI FuncCall="MU_funcRectROI" FuncHint="Draw rectangle ROI" FuncIcon="RectROI.gif" FuncSupportMaxDim="Inf"/>
+      <funcCircleROI FuncCall="MU_funcCircleROI" FuncHint="Draw circle ROI" FuncIcon="CircleROI.gif" FuncSupportMaxDim="Inf"/>
+      <funcPolygonROI FuncCall="MU_funcPolygonROI" FuncHint="Draw polygon ROI" FuncIcon="PolygonROI.gif" FuncSupportMaxDim="Inf"/>
+      <funcRulerROI FuncCall="MU_funcRulerROI" FuncHint="Measure voxel distance" FuncIcon="RulerROI.gif" FuncSupportMaxDim="Inf"/>
+      <funcAngleROI FuncCall="MU_funcAngleROI" FuncHint="Measure multiple angles" FuncIcon="AngleROI.gif" FuncSupportMaxDim="Inf"/>
+      <funcManageROI FuncCall="MU_funcManageROI" FuncHint="Manage existing ROI" FuncIcon="ManageROI.gif" FuncSupportMaxDim="Inf"/>
+      <funcVoxStats FuncCall="MU_funcVoxStats" FuncHint="Cacluate voxel statistics of selected ROI" FuncIcon="VoxStats.gif" FuncSupportMaxDim="Inf"/>
+   </ROI>
+   <Segment Notes="Segmentation tools">
+      <funcFreeSeg FuncCall="MU_funcFreeSeg" FuncHint="Create free-hand segmentation" FuncIcon="FreeSeg.gif" FuncSupportMaxDim="Inf"/>
+      <funcCircleSeg FuncCall="MU_funcCircleSeg" FuncHint="Create circle shape segmentation" FuncIcon="CircleSeg.gif" FuncSupportMaxDim="Inf"/>
+      <funcPolygonSeg FuncCall="MU_funcPolygonSeg" FuncHint="Create polygon shape segmentation" FuncIcon="PolygonSeg.gif" FuncSupportMaxDim="Inf"/>
+      <funcEditSeg FuncCall="MU_funcEditSeg" FuncHint="Edit created segmentation region" FuncIcon="EditSeg.gif" FuncSupportMaxDim="Inf"/>
+      <funcSaveSeg FuncCall="MU_funcSaveSeg" FuncHint="Save created segmentation region and mask" FuncIcon="SaveSeg.gif" FuncSupportMaxDim="Inf"/>
+      <funcLoadSeg FuncCall="MU_funcLoadSeg" FuncHint="Load created segmentation region and mask" FuncIcon="LoadSeg.gif" FuncSupportMaxDim="Inf"/>
+   </Segment>
+   <Surface>
+      <funcContour FuncCall="MU_funcContour" FuncHint="Contour plot of matrix" FuncIcon="Contour.gif" FuncSupportMaxDim="Inf"/>
+      <funcContour3 FuncCall="MU_funcContour3" FuncHint="3-D contour plot" FuncIcon="Contour3.gif" FuncSupportMaxDim="Inf"/>
+      <funcContourf FuncCall="MU_funcContourf" FuncHint="Filled 2-D contour plot" FuncIcon="Contourf.gif" FuncSupportMaxDim="Inf"/>
+      <funcSurf FuncCall="MU_funcSurf" FuncHint="3-D shaded surface plot" FuncIcon="Surf.gif" FuncSupportMaxDim="Inf"/>
+      <funcSurfc FuncCall="MU_funcSurfc" FuncHint="Contour plot under a 3-D shaded surface plot" FuncIcon="Surfc.gif" FuncSupportMaxDim="Inf"/>
+      <funcSurfl FuncCall="MU_funcSurfl" FuncHint="Surface plot with colormap-based lighting" FuncIcon="Surfl.gif" FuncSupportMaxDim="Inf"/>
+      <funcMesh FuncCall="MU_funcMesh" FuncHint="Mesh plot" FuncIcon="Mesh.gif" FuncSupportMaxDim="Inf"/>
+      <funcMeshc FuncCall="MU_funcMeshc" FuncHint="Plot a contour graph under mesh graph" FuncIcon="Meshc.gif" FuncSupportMaxDim="Inf"/>
+      <funcMeshz FuncCall="MU_funcMeshz" FuncHint="Plot a curtain around mesh plot" FuncIcon="Meshz.gif" FuncSupportMaxDim="Inf"/>
+      <funcRibbon FuncCall="MU_funcRibbon" FuncHint="Ribbon plot" FuncIcon="Ribbon.gif" FuncSupportMaxDim="Inf"/>
+      <funcWaterfall FuncCall="MU_funcWaterfall" FuncHint="Waterfall plot" FuncIcon="Waterfall.gif" FuncSupportMaxDim="Inf"/>
+      <funcPcolor FuncCall="MU_funcPcolor" FuncHint="Pseudocolor (checkerboard) plot" FuncIcon="Pcolor.gif" FuncSupportMaxDim="Inf"/>
+   </Surface>
+   <Matlab>
+      <funcImTool FuncCall="MU_funcImTool" FuncHint="Open Matlab imtool tool" FuncIcon="ImTool.gif" FuncSupportMaxDim="Inf"/>
+      <funcImPlay FuncCall="MU_funcImPlay" FuncHint="Open Matlab implay tool" FuncIcon="Movie.gif" FuncSupportMaxDim="3"/>
+      <funcImContrast FuncCall="MU_funcImContrast" FuncHint="Open Matlab imcontrast tool" FuncIcon="ImContrast.gif" FuncSupportMaxDim="3"/>
+   </Matlab>
+   <More Notes="More other tools">
+      <func3DRender FuncCall="MU_func3DRender" FuncHint="Open 3D render window" FuncIcon="3DRender.gif" FuncSupportMaxDim="3"/>
+      <funcProjection FuncCall="MU_funcProjection" FuncHint="Perform intensity projection" FuncIcon="MIP.gif" FuncSupportMaxDim="Inf"/>
+      <func3DProj FuncCall="MU_func3DProj" FuncHint="Perform 3D projection" FuncIcon="3DProjection.gif" FuncSupportMaxDim="@3"/> 
+      <func3DReslice FuncCall="MU_func3DReslice" FuncHint="Reslice 3D matrix" FuncIcon="3DReslice.gif" FuncSupportMaxDim="@3"/> 
+      <funcMovie FuncCall="MU_funcMovie" FuncHint="Generate movie based on current matrix" FuncIcon="GenMovie.gif" FuncSupportMaxDim="Inf"/> 
+   </More>
+</FuncLib>

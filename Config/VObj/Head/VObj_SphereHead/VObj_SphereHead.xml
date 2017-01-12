@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MRiLabVObj Gyro="267538030.3797" Model="$1'Normal','MT','ME','GM'" Name="VObj_SphereHead" Notes="3D Sphere Head Object" Type="Water" TypeNum="1" XDim="90" XDimRes="0.002" YDim="90" YDimRes="0.002" ZDim="90" ZDimRes="0.002">
+   <VObjCube Alpha="1" Color="b" Notes="Cube Object">
+      <Geometry CenterX="0.015" CenterY="0.015" CenterZ="0.015" Length="0.03"/>
+      <Property ChemShift="0" ECon="0.5 0.5 0.5" K="10" LineShapeFlag="0" MassDen="1000" Rho="1" T1="1" T2="0.1" T2Star="0.01" TypeFlag="0" TypeIdx="1"/>
+   </VObjCube>
+   <VObjSphere Alpha="1" Color="r" Notes="Sphere Object">
+      <Geometry CenterX="0" CenterY="-0.04" CenterZ="0" FaceNum="20" Radius="0.04"/>
+      <Property ChemShift="0" ECon="0.5 0.5 0.5" K="10" LineShapeFlag="0" MassDen="1000" Rho="1" T1="1" T2="0.1" T2Star="0.01" TypeFlag="0" TypeIdx="1"/>
+   </VObjSphere>
+</MRiLabVObj>

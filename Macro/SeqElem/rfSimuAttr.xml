@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rfSimuAttr Notes="rf simulation settings">
+   <Spin ChemShift="0" Gyro="42.58e6*2*pi" Rho="1" T1="1200e-3" T2="40e-3" TypeNum="1"/>
+   <ZSpatial ZCenter="50" ZSpin="100" ZSpinGap="2e-4"/>
+   <XSpatial Spat_Flag="$2'on','off'" XCenter="100" XSpin="200" XSpinGap="1e-6"/>
+   <YSpatial YCenter="250" YSpin="500" YSpinGap="1e-2"/>
+   <Spectral FreqDownLimit="-10000" FreqRes="50" FreqUpLimit="10000" Freq_Flag="$2'on','off'"/>
+   <Gradient ConstantGrad="1e-3"/>
+   <Magnet dB0="0"/>
+</rfSimuAttr>

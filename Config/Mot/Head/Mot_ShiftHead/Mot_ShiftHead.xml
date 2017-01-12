@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MRiLabMot Name="Mot_ShiftHead" Notes="Uni-directional Head Shift">
+   <MotTranslate Direction="[1;1;0]" Displacement="'0.02*sin(0.1*t)'" dt="1" tEnd="200" tStart="0"/>
+   <MotTranslate Direction="[0;1;0]" Displacement="'0.02*sin(0.1*(t-200))'" dt="1" tEnd="400" tStart="200"/>
+</MRiLabMot>

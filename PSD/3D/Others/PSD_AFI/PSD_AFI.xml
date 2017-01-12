@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MRiLabSeq Name="PSD_AFI" Notes="PSD for performing AFI measurement">
+   <CVs CV1="1.5e-3" CV10="0" CV11="0" CV12="0" CV13="0" CV14="0" CV2="2e-3" CV3="20e-3" CV4="0" CV5="0" CV6="0" CV7="0" CV8="0" CV9="0"/>
+   <Specials DummyPulse="^1" MultiEcho="^1"/>
+   
+      <Pulses Freq="1" Notes="regular TR section" Switch="$1'on','off'" TREnd="Inf" TRStart="1" tE="VCtl.TR" tS="0">
+      <rf>
+         <rfSinc AnchorTE="$1'on','off'" Apod="$2'Non','Hamming','Hanning'" CoilID="1" DupSpacing="CV3" Duplicates="2" FA="VCtl.FlipAng" Notes="sinc rf pulse" Switch="$1'on','off'" TBP="4" dt="20e-6" rfFreq="0" rfPhase="0" tEnd="0.5e-3" tStart="0.2e-3"/>
+      </rf>
+      <GzSS>
+         <GzCartesian   DupSpacing="CV3" Duplicates="2" Gz1Sign="1" Gz2Sign="0" Notes="cartesian phase" Switch="$1'on','off'" t1End="CV2" t1Start="CV1" t2End="VCtl.TE+CV2" t2Start="VCtl.TE+CV1" tRamp="100e-6"/>
+      </GzSS>
+      <GyPE>
+         <GyCartesian   DupSpacing="CV3" Duplicates="2" Gy1Sign="1" Gy2Sign="0" Notes="cartesian phase" Switch="$1'on','off'" t1End="CV2" t1Start="CV1" t2End="VCtl.TE+CV2" t2Start="VCtl.TE+CV1" tRamp="100e-6"/>
+      </GyPE>
+      <GxR>
+         <GxCartesian DupSpacing="0" Duplicates="1" Gx1Sign="-1" Gx2Sign="1" Gx3Sign="0" Notes="cartesian frequency" Switch="$1'on','off'" t1Start="CV1" t2Middle="VCtl.ME_TEs(1)" t3Start="VCtl.TE+CV1" tRamp="100e-6"/>
+         <GxCartesian DupSpacing="0" Duplicates="1" Gx1Sign="-1" Gx2Sign="1" Gx3Sign="0" Notes="cartesian frequency" Switch="$1'on','off'" t1Start="CV3+CV1" t2Middle="CV3+VCtl.ME_TEs(2)" t3Start="CV3+VCtl.TE+CV1" tRamp="100e-6"/>
+      </GxR>
+      <ADC>
+         <ADCCartesian DupSpacing="0" Duplicates="1" Notes="cartesian readout" Switch="$1'on','off'" tMiddle="VCtl.ME_TEs(1)"/>
+         <ADCCartesian DupSpacing="0" Duplicates="1" Notes="cartesian readout" Switch="$1'on','off'" tMiddle="CV3+VCtl.ME_TEs(2)"/>
+      </ADC>
+      <Ext>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="5" Notes="calculate remaining scan time" Switch="$1'on','off'" tStart="0"/>
+         <ExtBit DupSpacing="CV3" Duplicates="2" Ext="1" Notes="reset K space location" Switch="$1'on','off'" tStart="CV1*9/10"/>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="6" Notes="dephase Mxy" Switch="$1'on','off'" tStart="CV3*(9/10)"/>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="6" Notes="dephase Mxy" Switch="$1'on','off'" tStart="VCtl.TR*(9/10)"/>
+      </Ext>
+   </Pulses>
+</MRiLabSeq>

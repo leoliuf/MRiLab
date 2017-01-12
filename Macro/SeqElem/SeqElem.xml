@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SeqElem Notes="sequence element list">
+   <rf Notes="rf pulse element list">
+      <rfSinc AnchorTE="$2'on','off'" Apod="$2'Non','Hamming','Hanning'" CoilID="1" DupSpacing="0" Duplicates="1" FA="90" Notes="Sinc rf pulse" Switch="$1'on','off'" TBP="6" dt="4e-6" rfFreq="0" rfPhase="0" tEnd="0.5e-3" tStart="0.1e-3"/>
+      <rfRect AnchorTE="$2'on','off'" CoilID="1" DupSpacing="0" Duplicates="1" FA="90" Notes="hard pulse" Switch="$1'on','off'" dt="10e-6" rfFreq="0" rfPhase="0" tEnd="0.5e-3" tStart="0.1e-3"/>
+      <rfGaussian AnchorTE="$2'on','off'" CoilID="1" DupSpacing="0" Duplicates="1" FA="850" Notes="Gaussian rf pulse" Switch="$1'on','off'" dt="100e-6" rfFreq="0" rfPhase="0" tEnd="10e-3" tStart="0.1e-3"/>
+      <rfFermi AnchorTE="$2'on','off'" CoilID="1" DupSpacing="0" Duplicates="1" FA="860" Notes="Fermi rf pulse" PW="4e-3" Switch="$1'on','off'" dt="100e-6" rfFreq="0" rfPhase="0" tEnd="10.1e-3" tStart="0.1e-3"/>
+      <rfSLR AnchorTE="$2'on','off'" CoilID="1" DupSpacing="0" Duplicates="1" FA="90" FilterType="$1'ls','min','max','pm','ms'" Notes="SLR rf pulse" PRipple="0.01" PulseType="$2'st','ex','se','sat','inv'" SRipple="0.01" Switch="$1'on','off'" TBP="8" dt="10e-6" rfFreq="0" rfPhase="0" tEnd="1e-3" tStart="0e-3"/>
+      <rfHyperbolicSecant Adiab="4.9" AnchorTE="$2'on','off'" CoilID="1" DupSpacing="0" Duplicates="1" MaxB1="14e-6" Notes="Hyperbolic secant rf pulse" Switch="$1'on','off'" TBP="10" dt="10e-6" rfPhase="0" tEnd="8.5e-3" tStart="0.5e-3"/>
+      <rfTanhTan AnchorTE="$2'on','off'" CoilID="1" DupSpacing="0" Duplicates="1" MaxB1="9e-4" Notes="Tanh/Tan rf pulse" Switch="$1'on','off'" TBP="50" dt="1e-6" rfPhase="0" tEnd="60e-6" tStart="10e-6"/>
+      <rfBIR AnchorTE="$2'on','off'" BIRFlag="$1'BIR-1','BIR-2','BIR-4'" Beta="1.4711" CoilID="1" DupSpacing="0" Duplicates="1" Lambda="10" MaxB1="10e-6" MaxFreq="10e3" Notes="B1 insensitive rotation rf pulse" Switch="$1'on','off'" dt="10e-6" tEnd="4e-3" tStart="1e-3"/>
+      <rfBIREF AnchorTE="$2'on','off'" BIREFFlag="$3'BIREF-1','BIREF-2a','BIREF-2b'" CoilID="1" DupSpacing="0" Duplicates="1" MaxB1="10e-6" MaxFreq="10e3" Notes="B1 insensitive refocus rf pulse" Switch="$1'on','off'" dt="10e-6" tEnd="3e-3" tStart="1e-3"/>
+      <rfRandom AnchorTE="$2'on','off'" CoilID="1" DupSpacing="0" Duplicates="1" Notes="random shape rf pulse" Switch="$1'on','off'" dt="0.5e-6" rfFreq="0" rfGain="9e-4" rfPhase="0" tEnd="0.03e-3" tStart="0.01e-3"/>
+      <rfUser AnchorTE="$2'on','off'" CoilID="1" DupSpacing="0" Duplicates="1" Notes="customized rf pulse" Switch="$1'on','off'" rfFile="'rfUserSinc'"/>
+   </rf>
+   <GzSS Notes="slice selection pulse element list">
+      <GzSelective DupSpacing="0" Duplicates="1" Gz1Sign="0" Gz2Sign="1" Gz3Sign="-1" GzAmp="1e-4" Notes="selective gradient" Switch="$1'on','off'" t2End="0.5e-3" t2Start="0.1e-3" tRamp="40e-6"/>
+      <GzSelective2 DupSpacing="0" Duplicates="1" Gz1Amp="4e-4" Gz2Amp="2e-4" Gz3Amp="4e-4" Notes="selective gradient with crusher" Switch="$1'on','off'" t2End="0.5e-3" t2Start="0.3e-3" tGz1="0.2e-3" tGz3="0.2e-3" tRamp="40e-6"/>
+      <GzCartesian DupSpacing="0" Duplicates="1" Gz1Sign="" Gz2Sign="" Notes="" Switch="$1'on','off'" t1End="" t1Start="" t2End="" t2Start="" tRamp="4e-6"/>
+      <GzTrapezoid DupSpacing="0" Duplicates="1" GzAmp="" Notes="" Switch="$1'on','off'" sRamp="" tEnd="" tRamp="" tStart=""/>
+      <GzAreaTrapezoid Area="" DupSpacing="0" Duplicates="1" Notes="" Switch="$1'on','off'" tEnd="" tStart=""/>
+      <GzAreaTrapezoid2 Area="" DupSpacing="0" Duplicates="1" Notes="" Switch="$1'on','off'" tStart=""/>
+      <GzUser DupSpacing="0" Duplicates="1" GzFile="" Notes="customized Gz gradient" Switch="$1'on','off'"/>
+   </GzSS>
+   <GyPE Notes="phase encoding pulse element list">
+      <GyCartesian DupSpacing="0" Duplicates="1" Gy1Sign="" Gy2Sign="" Notes="" Switch="$1'on','off'" t1End="" t1Start="" t2End="" t2Start="" tRamp="4e-6"/>
+      <GyTrapezoid DupSpacing="0" Duplicates="1" GyAmp="" Notes="" Switch="$1'on','off'" sRamp="" tEnd="" tRamp="" tStart=""/>
+      <GyAreaTrapezoid Area="" DupSpacing="0" Duplicates="1" Notes="" Switch="$1'on','off'" tEnd="" tStart=""/>
+      <GyAreaTrapezoid2 Area="" DupSpacing="0" Duplicates="1" Notes="" Switch="$1'on','off'" tStart=""/>
+      <GyRadial Gy1Sign="" Gy2Sign="" Gy3Sign="" Notes="" Switch="$1'on','off'" t1Start="" t2Middle="" t3Start="" tRamp="4e-6"/>
+      <GySpiral Notes="" Switch="$1'on','off'" dt="" tStart=""/>
+      <GyFSE Gy1Sign="" Gy2Sign="" Notes="" Switch="$1'on','off'" tGy1="" tGy2="" tMiddle="" tOffset=""/>
+      <GyEPI Gy1Sign="" Gy2Sign="" Notes="" Switch="$1'on','off'" t1Start="" t2Middle=""/>
+      <GyUser DupSpacing="0" Duplicates="1" GyFile="" Notes="customized Gy gradient" Switch="$1'on','off'"/>
+   </GyPE>
+   <GxR Notes="frequency encoding pulse element list">
+      <GxCartesian DupSpacing="0" Duplicates="1" Gx1Sign="" Gx2Sign="1" Gx3Sign="" Notes="" Switch="$1'on','off'" t1Start="" t2Middle="" t3Start="" tRamp="4e-6"/>
+      <GxTrapezoid DupSpacing="0" Duplicates="1" GxAmp="" Notes="" Switch="$1'on','off'" sRamp="" tEnd="" tRamp="" tStart=""/>
+      <GxAreaTrapezoid Area="" DupSpacing="0" Duplicates="1" Notes="" Switch="$1'on','off'" tEnd="" tStart=""/>
+      <GxAreaTrapezoid2 Area="" DupSpacing="0" Duplicates="1" Notes="" Switch="$1'on','off'" tStart=""/>
+      <GxRadial Gx1Sign="" Gx2Sign="1" Gx3Sign="" Notes="" Switch="$1'on','off'" t1Start="" t2Middle="" t3Start="" tRamp="4e-6"/>
+      <GxSpiral Notes="" Switch="$1'on','off'" dt="" tStart=""/>
+      <GxFSE Gx1Sign="" Gx2Sign="" Notes="" Switch="$1'on','off'" t1Start="" t2Middle=""/>
+      <GxEPI Gx1Sign="" Gx2Sign="" Notes="" Switch="$1'on','off'" t1Start="" t2Middle=""/>
+      <GxUser DupSpacing="0" Duplicates="1" GxFile="" Notes="customized Gx gradient" Switch="$1'on','off'"/>
+   </GxR>
+   <ADC Notes="acquisition pulse element list">
+      <ADCCartesian DupSpacing="0" Duplicates="1" Notes="" Switch="$1'on','off'" tMiddle=""/>
+      <ADCBlock DupSpacing="0" Duplicates="1" Notes="" Switch="$1'on','off'" sSample="" tEnd="" tStart=""/>
+      <ADCRadial Notes="" Switch="$1'on','off'" tMiddle=""/>
+      <ADCSpiral Notes="" Switch="$1'on','off'" tStart=""/>
+      <ADCFSE Notes="" Switch="$1'on','off'" tMiddle=""/>
+      <ADCEPI Notes="" Switch="$1'on','off'" tMiddle=""/>
+      <ADCUser ADCFile="" DupSpacing="0" Duplicates="1" Notes="customized ADC" Switch="$1'on','off'"/>
+   </ADC>
+   <Ext Notes="extended pulse element list">
+      <ExtBit DupSpacing="0" Duplicates="1" Ext="" Notes="" Switch="$1'on','off'" tStart=""/>
+   </Ext>
+</SeqElem>

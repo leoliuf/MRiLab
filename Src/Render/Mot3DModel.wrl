@@ -1,0 +1,116 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+Background {
+	groundAngle	[ 0.9, 1.5, 1.57 ]
+	groundColor	[ 0 0.8 0,
+			  0.174249 0.82 0.187362,
+			  0.467223 0.82 0.445801,
+			  0.621997 0.67 0.600279 ]
+	skyAngle	[ 0.1, 1.2, 1.57 ]
+	skyColor	[ 0.76238 0.8 0.1427,
+			  0.277798 0.219779 0.7,
+			  0.222549 0.390234 0.7,
+			  0.60094 0.662637 0.69 ]
+}
+DEF Sphere Transform {
+	children [ 
+	    DEF SmallSphere_XPos Transform {
+		    translation	1 1.19209e-006 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	1 0.0408163 0.0408163
+					    specularColor	0.984314 0.984314 0.984314
+				    }
+
+			    }
+
+			    geometry	Sphere {
+				    radius	0.3
+			    }
+
+		    }
+	    }
+
+	    DEF SmallSphere_YPos Transform {
+		    translation	0 1 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.0223017 0.8 0.139417
+					    specularColor	1 1 1
+				    }
+
+			    }
+
+			    geometry	Sphere {
+				    radius	0.3
+			    }
+
+		    }
+	    }
+
+	    DEF SmallSphere_ZPos Transform {
+		    translation	0 0 1
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.00200167 0.0121456 0.8
+					    specularColor	1 1 1
+				    }
+
+			    }
+
+			    geometry	Sphere {
+				    radius	0.3
+			    }
+
+		    }
+	    }
+
+	    DEF BigSphere Transform {
+		    translation	9.9279e-007 -1.43051e-006 -2.89886e-013
+		    rotation	0.974451 0.154442 -0.163076  0.697254
+		    scale	0.999997 0.999997 0.999999
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.1
+					    diffuseColor	0.53 0.456573 0.177846
+					    specularColor	1 1 1
+				    }
+
+			    }
+
+			    geometry	Sphere {
+			    }
+
+		    }
+	    }
+
+	    VisibilitySensor {
+	    }
+	]
+}
+DEF ZPos Viewpoint {
+	position	0 0 1
+	description	"ZPos"
+}
+DEF YPos Viewpoint {
+	orientation	-1 0 0  1.5708
+	position	0 1 0
+	description	"YPos"
+}
+DEF XPos Viewpoint {
+	orientation	0 1 0  1.5708
+	position	1 0 0
+	description	"XPos"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MRiLabSeq Name="PSD_T2Prep" Notes="3D T2 preparation spoied gradient echo sequence">
+   <CVs CV1="1.5e-3" CV10="0" CV11="0" CV12="0" CV13="0" CV14="0" CV2="2e-3" CV3="4e-3" CV4="0" CV5="0" CV6="0" CV7="0" CV8="0" CV9="0"/>
+   <Specials DummyPulse="^1" T2Prep="^1"/>
+   <Pulses Freq="1" Notes="regular TR section" Switch="$1'on','off'" TREnd="Inf" TRStart="1" tE="VCtl.TR" tS="0">
+      <rf>
+         <rfSinc AnchorTE="$1'on','off'" Apod="$2'Non','Hamming','Hanning'" CoilID="1" DupSpacing="0" Duplicates="1" FA="VCtl.FlipAng" Notes="sinc rf pulse" Switch="$1'on','off'" TBP="4" dt="20e-6" rfFreq="0" rfPhase="0" tEnd="0.5e-3" tStart="0.2e-3"/>
+      </rf>
+      <GzSS>
+         <GzSelective DupSpacing="0" Duplicates="1" Gz1Sign="0" Gz2Sign="1" Gz3Sign="-1" GzAmp="1e-4" Notes="selective gradient" Switch="$1'on','off'" t2End="0.5e-3" t2Start="0.2e-3" tRamp="40e-6"/>
+         <GzCartesian DupSpacing="0" Duplicates="1" Gz1Sign="1" Gz2Sign="0" Notes="cartesian phase" Switch="$1'on','off'" t1End="CV2" t1Start="CV1" t2End="VCtl.TE+CV2" t2Start="VCtl.TE+CV1" tRamp="100e-6"/>
+      </GzSS>
+      <GyPE>
+         <GyCartesian DupSpacing="0" Duplicates="1" Gy1Sign="1" Gy2Sign="0" Notes="cartesian phase" Switch="$1'on','off'" t1End="CV2" t1Start="CV1" t2End="VCtl.TE+CV2" t2Start="VCtl.TE+CV1" tRamp="100e-6"/>
+      </GyPE>
+      <GxR>
+         <GxCartesian DupSpacing="0" Duplicates="1" Gx1Sign="-1" Gx2Sign="1" Gx3Sign="0" Notes="cartesian frequency" Switch="$1'on','off'" t1Start="CV1" t2Middle="VCtl.TE" t3Start="VCtl.TE+CV1" tRamp="100e-6"/>
+      </GxR>
+      <ADC>
+         <ADCCartesian DupSpacing="0" Duplicates="1" Notes="cartesian readout" Switch="$1'on','off'" tMiddle="VCtl.TE"/>
+      </ADC>
+      <Ext>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="5" Notes="calculate remaining scan time" Switch="$1'on','off'" tStart="0"/>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="1" Notes="reset K space location" Switch="$1'on','off'" tStart="CV1*9/10"/>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="6" Notes="dephase Mxy" Switch="$1'on','off'" tStart="VCtl.TR*(9/10)"/>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="9" Notes="real time recon" Switch="$1'on','off'" tStart="VCtl.TE+CV3"/>
+      </Ext>
+   </Pulses>
+   <Pulses Freq="VCtl.ResPhase" Notes="T2 Prep section" Switch="$1'on','off'" TREnd="Inf" TRStart="3" tE="0" tS="-VCtl.T2Prep">
+      <rf>
+         <rfSinc AnchorTE="$2'on','off'" Apod="$2'Non','Hamming','Hanning'" CoilID="1" DupSpacing="0" Duplicates="1" FA="90" Notes="sinc rf pulse" Switch="$1'on','off'" TBP="4" dt="10e-6" rfFreq="0" rfPhase="0" tEnd="0.5e-3" tStart="0.3e-3"/>
+         <rfSinc AnchorTE="$2'on','off'" Apod="$2'Non','Hamming','Hanning'" CoilID="1" DupSpacing="0" Duplicates="1" FA="-90" Notes="flip back spin" Switch="$1'on','off'" TBP="4" dt="10e-6" rfFreq="0" rfPhase="0" tEnd="VCtl.T2Prep-0.3e-3" tStart="VCtl.T2Prep-0.5e-3"/>
+      </rf>
+      <GzSS/>
+      <GyPE/>
+      <GxR/>
+      <ADC/>
+      <Ext>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="6" Notes="dephase Mxy" Switch="$1'on','off'" tStart="0"/>
+         <ExtBit DupSpacing="0" Duplicates="1" Ext="6" Notes="dephase Mxy" Switch="$1'on','off'" tStart="VCtl.T2Prep-0.2e-3"/>
+      </Ext>
+   </Pulses>
+</MRiLabSeq>

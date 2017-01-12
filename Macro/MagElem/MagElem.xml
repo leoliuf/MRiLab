@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagElem Notes="magnet element list">
+  <MagLinear GradX="" GradY="" GradZ="" Scale=""/>
+  <MagGaussian PosX="" PosY="" PosZ="" DeltaX="" DeltaY="" DeltaZ="" Scale=""/>
+  <MagSymbolic Equation=""/>
+  <MagUser MagFile="" Interp="$1'linear','nearest','cubic'"/>
+</MagElem>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SeqSimuAttr Notes="sequence simulation settings">
+   <Waveform LineMarker="$2'off','on'" Moments="$1'off','on'" TREnd="40" TRStart="1"/>
+   <KSpace RenderMode="$1'VTK','Matlab'" RenderPoint="$1'off','on'"/>
+</SeqSimuAttr>

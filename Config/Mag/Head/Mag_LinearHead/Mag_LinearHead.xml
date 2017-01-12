@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MRiLabMag Name="Mag_LinearHead" Notes="Linear dB0 Field Head Magnet">
+   <MagLinear GradX="0" GradY="1" GradZ="0" Scale="6e-5"/>
+</MRiLabMag>

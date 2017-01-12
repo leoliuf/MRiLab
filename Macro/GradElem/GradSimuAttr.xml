@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GradSimuAttr Notes="Gradnet simulation settings">
+   <Display Colormap="$2'Jet','Gray','Hot'" DispMode="$3'Gradient','Grid','Both'" GradLine="$1'GxR','GyPE','GzSS'" Plane="$1'XY','XZ','YZ'"/>
+   <Grid XDimRes="20e-3" YDimRes="20e-3" ZDimRes="20e-3"/>
+</GradSimuAttr>

@@ -1,0 +1,11 @@
+=======3D Balanced Steady-State Free Precession======
+Usage : run 3D bSSFP experiment (FIESTA)
+Version : 1.0
+Author : Fang Liu, PhD
+Time : 09/10/2012
+Affiliation : University of Wisconsin-Madison
+===============================================
+Note:
+CV3  (rf phase cycling increment, 0 for no phase cycling)
+CV4  (steps in one cycle,equals to 2*pi/CV3)
+This sequence supports multi RF transmitting

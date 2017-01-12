@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MRiLabMag Name="Mag_GaussianHead" Notes="Gaussian dB0 Field Head Magnet">
+   <MagGaussian DeltaX="0.08" DeltaY="0.08" DeltaZ="0.08" PosX="0" PosY="0" PosZ="0" Scale="5e-6"/>
+</MRiLabMag>

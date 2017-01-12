@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Radial R_SpokeNum="32" R_AngRange="$1'pi','2*pi'" R_AngPattern="$1'Linear','Golden'" R_SampPerSpoke="41"/>

@@ -1,0 +1,11 @@
+======3D CEST Spoiled Gradient Echo Sequence=====
+Usage : run 3D CEST SPGR
+Version : 1.0
+Author : Fang Liu, PhD
+Time : 09/10/2012
+Affiliation : University of Wisconsin-Madison
+===========================================
+Note: 
+Need to load CEST phantom to enable CEST simulation.
+CV5: CEST pulse flip angle
+CV6: CEST pulse offset frequency

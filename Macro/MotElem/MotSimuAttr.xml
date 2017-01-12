@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotSimuAttr Notes="Motion simulation settings">
+   <Display Object="$1'Sphere'" ViewPoint="$3'XPos','YPos','ZPos'" ZoomOut="1"/>
+   <Replay Repeat="1" Sample="10"/>
+</MotSimuAttr>

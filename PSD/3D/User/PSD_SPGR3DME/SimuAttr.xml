@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimuAttr Description="Simulation Setting Panel Attributes">
+   <Imaging BandWidth="80e3" FOVFreq="6e-2" FOVPhase="6e-2" FlipAng="10" FreqDir="$1'A/P','L/R','S/I'" ResFreq="40" ResPhase="40" ScanPlane="$1'Axial','Sagittal','Coronal'" SliceNum="1" SliceThick="2e-3" TE="4e-3" TEPerTR="1" TR="10e-3"/>
+   <Advanced MasterTxCoil="1" MultiTransmit="$1'off','on'" NEX="1" NoFreqAlias="$2'off','on'" NoPhaseAlias="$2'off','on'" NoSliceAlias="$2'off','on'" Shim="$1'Auto', 'Manual'" TEAnchor="$2'Start', 'Middle', 'End'"/>
+   <Hardware B0="3" B1Level="1e-6" E1Level="1e-6" MaxGrad="500e-3" MaxSlewRate="2000" MinUpdRate="4e-6" Model="GE Discovery MR750" NoiseLevel="0" SpinPerVoxel="1"/>
+   <Recon AutoRecon="$2'off','on'" ExternalEng="" OutputType="$1'MAT','ISMRMRD','Both'" ReconEng="$1'Default','External'" ReconType="$1'Cartesian','NonCart'"/>
+</SimuAttr>

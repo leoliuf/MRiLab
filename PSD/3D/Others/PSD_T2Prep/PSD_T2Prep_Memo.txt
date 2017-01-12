@@ -1,0 +1,9 @@
+====3D T2Prep Spoiled Gradient Echo Sequence====
+Usage : testing for T2Prep, in-complete!!!!!
+Version : 1.0
+Author : Fang Liu, PhD
+Time : 03/10/2014
+Affiliation : University of Wisconsin-Madison
+=========================================
+Note:
+Use Ext flag for dephasing Mxy at each TR, no RF spoiling or gradient spoiling needed.

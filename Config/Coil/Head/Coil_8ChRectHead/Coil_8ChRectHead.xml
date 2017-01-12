@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MRiLabCoil Name="Coil_8ChRectHead" Notes="8 Chanel Head Coil with rectangle loops">
+   <CoilRectangle Azimuth="0" CoilID="1" CurrentDir="1" Elevation="0" Length="0.1" PosX="-0.12" PosY="0" PosZ="0" Scale="0.1" Width="0.08"/>
+   <CoilRectangle Azimuth="-pi/2" CoilID="2" CurrentDir="1" Elevation="0" Length="0.1" PosX="0" PosY="0.12" PosZ="0" Scale="0" Width="0.08"/>
+   <CoilRectangle Azimuth="0" CoilID="3" CurrentDir="1" Elevation="0" Length="0.1" PosX="0.12" PosY="0" PosZ="0" Scale="0.1" Width="0.08"/>
+   <CoilRectangle Azimuth="-pi/2" CoilID="4" CurrentDir="1" Elevation="0" Length="0.1" PosX="0" PosY="-0.12" PosZ="0" Scale="0" Width="0.08"/>
+   <CoilRectangle Azimuth="pi/4" CoilID="5" CurrentDir="1" Elevation="0" Length="0.1" PosX="-0.1" PosY="-0.1" PosZ="0" Scale="0.1" Width="0.08"/>
+   <CoilRectangle Azimuth="-pi/4" CoilID="6" CurrentDir="1" Elevation="0" Length="0.1" PosX="-0.1" PosY="0.1" PosZ="0" Scale="0.1" Width="0.08"/>
+   <CoilRectangle Azimuth="pi/4" CoilID="7" CurrentDir="1" Elevation="0" Length="0.1" PosX="0.1" PosY="0.1" PosZ="0" Scale="0.1" Width="0.08"/>
+   <CoilRectangle Azimuth="-pi/4" CoilID="8" CurrentDir="1" Elevation="0" Length="0.1" PosX="0.1" PosY="-0.1" PosZ="0" Scale="0.1" Width="0.08"/>
+</MRiLabCoil>

@@ -1,0 +1,15 @@
+======3D Spiral Gradient Echo Sequence======
+Usage : run 3D Stack-of-Spirals gradient echo
+Version : 1.0
+Author : Fang Liu, PhD
+Time : 09/10/2012
+Affiliation : University of Wisconsin-Madison
+========================================
+Note: 
+to satisfy radial Nyquist criterion,
+S_Lamda <= (S_ShotNum/(2*pi*FOVFreq))
+
+to satisfy azimuthal Nyquist criterion
+S_Gradient <= BandWidth/(FOVFreq * (Gyro/(2*pi)))
+
+SlewRate will overshoot S_SlewRate at slew-rate-limited region.

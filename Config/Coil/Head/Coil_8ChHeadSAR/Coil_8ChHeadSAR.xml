@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MRiLabCoil Name="Coil_8ChHeadSAR" Notes="8 Chanel Head Coil Array for SAR Estimation">
+   <CoilUser B1File="'B1_1'" CoilID="1" E1File="'E1_1'" Interp="$1'linear','nearest','cubic'" PosX="-0.1" PosY="0" PosZ="0"/>
+   <CoilUser B1File="'B1_2'" CoilID="2" E1File="'E1_2'" Interp="$1'linear','nearest','cubic'" PosX="-0.1" PosY="0.1" PosZ="0"/>
+   <CoilUser B1File="'B1_3'" CoilID="3" E1File="'E1_3'" Interp="$1'linear','nearest','cubic'" PosX="0" PosY="0.1" PosZ="0"/>
+   <CoilUser B1File="'B1_4'" CoilID="4" E1File="'E1_4'" Interp="$1'linear','nearest','cubic'" PosX="0.1" PosY="0.1" PosZ="0"/>
+   <CoilUser B1File="'B1_5'" CoilID="5" E1File="'E1_5'" Interp="$1'linear','nearest','cubic'" PosX="0.1" PosY="0" PosZ="0"/>
+   <CoilUser B1File="'B1_6'" CoilID="6" E1File="'E1_6'" Interp="$1'linear','nearest','cubic'" PosX="0.1" PosY="-0.1" PosZ="0"/>
+   <CoilUser B1File="'B1_7'" CoilID="7" E1File="'E1_7'" Interp="$1'linear','nearest','cubic'" PosX="0" PosY="-0.1" PosZ="0"/>
+   <CoilUser B1File="'B1_8'" CoilID="8" E1File="'E1_8'" Interp="$1'linear','nearest','cubic'" PosX="-0.1" PosY="-0.1" PosZ="0"/>
+</MRiLabCoil>

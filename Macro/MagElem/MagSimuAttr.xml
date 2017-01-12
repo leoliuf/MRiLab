@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagSimuAttr Notes="Magnet simulation settings">
+   <Display Colormap="$1'Jet','Gray','Hot'" Plane="$1'XY','XZ','YZ'"/>
+   <Grid XDimRes="10e-3" YDimRes="10e-3" ZDimRes="10e-3"/>
+</MagSimuAttr>

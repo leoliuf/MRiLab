@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoilElem Notes="coil element list">
+  <CoilCircle CoilID="" PosX="" PosY="" PosZ="" Azimuth="" Elevation="" Radius="" Segment="" Scale="" CurrentDir="1"/>
+  <CoilRectangle CoilID="" PosX="" PosY="" PosZ="" Azimuth="" Elevation="" Length="" Width="" Scale="" CurrentDir="1"/>
+  <CoilUser E1File="" B1File="" CoilID="" PosX="" PosY="" PosZ="" Interp="$1'linear','nearest','cubic'"/>
+</CoilElem>

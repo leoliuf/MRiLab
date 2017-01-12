@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VObjElem Notes="virtual object element list">
+    <VObjSphere Notes="Sphere Object" Color="r" Alpha="1">
+        <Geometry CenterX="0" CenterY="0" CenterZ="0" FaceNum="20" Radius="1"/>
+        <Property ChemShift="0" ECon="0.5 0.5 0.5" K="10" MassDen="1000" Rho="1" T1="1" T2="0.1" T2Star="0.01" TypeIdx="1" TypeFlag="0" LineShapeFlag="0"/>
+    </VObjSphere>
+    <VObjEllipsoid Notes="Ellipsoid Object" Color="r" Alpha="1">
+        <Geometry CenterX="0" CenterY="0" CenterZ="0" RadiusX="0.5" RadiusY="0.5" RadiusZ="1" FaceNum="20" />
+        <Property ChemShift="0" ECon="0.5 0.5 0.5" K="10" MassDen="1000" Rho="1" T1="1" T2="0.1" T2Star="0.01" TypeIdx="1" TypeFlag="0" LineShapeFlag="0"/>
+    </VObjEllipsoid>
+    <VObjCube Notes="Cube Object" Color="r" Alpha="1">
+        <Geometry CenterX="0" CenterY="0" CenterZ="0" Length="1"/>
+        <Property ChemShift="0" ECon="0.5 0.5 0.5" K="10" MassDen="1000" Rho="1" T1="1" T2="0.1" T2Star="0.01" TypeIdx="1" TypeFlag="0" LineShapeFlag="0"/>
+    </VObjCube>
+    <VObjCylinder Notes="Cylinder Object" Color="r" Alpha="1">
+        <Geometry CenterX="0" CenterY="0" CenterZ="0" FaceNum="20" Radius="1" Length="1"/>
+        <Property ChemShift="0" ECon="0.5 0.5 0.5" K="10" MassDen="1000" Rho="1" T1="1" T2="0.1" T2Star="0.01" TypeIdx="1" TypeFlag="0" LineShapeFlag="0"/>
+    </VObjCylinder>
+    <VObjPyramid Notes="Pyramid Object" Color="r" Alpha="1">
+        <Geometry CenterX="0" CenterY="0" CenterZ="0" Length="1" Height="1"/>
+        <Property ChemShift="0" ECon="0.5 0.5 0.5" K="10" MassDen="1000" Rho="1" T1="1" T2="0.1" T2Star="0.01" TypeIdx="1" TypeFlag="0" LineShapeFlag="0"/>
+    </VObjPyramid>
+</VObjElem>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rfSimuAttr Notes="rf simulation settings">
+   <Display CLimDown="0" CLimUp="1.5e-6" CoilDisplay="$1'on','off'" CoilShow="$1'All','Current'" Colormap="$1'Jet','Gray','Hot'" FieldType="$1'B1Field','E1Field'" Mode="$1'Magnitude','Phase','Real','Imaginary'" Plane="$1'XY','XZ','YZ'"/>
+   <Grid XDimRes="10e-3" YDimRes="10e-3" ZDimRes="10e-3"/>
+</rfSimuAttr>
