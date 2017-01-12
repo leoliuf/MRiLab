@@ -1,0 +1,1201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" 
+"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd" > 
+<html> 
+<head><title>3 Simulation Settings</title> 
+<meta charset="UTF-8" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<link rel="stylesheet" type="text/css" href="MRiLab_User_Guide.css" /> 
+<script type="text/javascript" 
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" 
+></script> 
+<style type="text/css"> 
+.MathJax_MathML {text-indent: 0;} 
+</style> 
+</head><body 
+>
+   <!--l. 313--><div class="crosslinks"><p class="noindent">[<a 
+href="MRiLab_User_Guidech4.html" >next</a>] [<a 
+href="MRiLab_User_Guidech2.html" >prev</a>] [<a 
+href="MRiLab_User_Guidech2.html#tailMRiLab_User_Guidech2.html" >prev-tail</a>] [<a 
+href="#tailMRiLab_User_Guidech3.html">tail</a>] [<a 
+href="MRiLab_User_Guide3.html#MRiLab_User_Guidech3.html" >up</a>] </p></div>
+   <h2 class="chapterHead"><span class="titlemark">Chapter&#x00A0;3</span><br /><a 
+ id="x8-110003"></a>Simulation Settings</h2>
+   <h3 class="sectionHead"><span class="titlemark">3.1   </span> <a 
+ id="x8-120003.1"></a>Loading Virtual Object</h3>
+<!--l. 317--><p class="noindent" >Prior to making any type of simulation in MRiLab, a virtual object has to be loaded
+first. There are three ways of loading a virtual object: go to menu &#8216;Load&#8217; and &#8216;Load
+Phantom&#8217; to load a user customized phantom in .mat file; go to &#8216;Load Phantom
+Example&#8217; to load default phantoms with MR properties mimicking human
+tissues (e.g. Brain, Cartilage, Fat, etc.); go to &#8216;Load Phantom from XML&#8217; to
+load a configurable phantom from XML file (Section <a 
+href="MRiLab_User_Guidech5.html#x10-1010005.3">5.3<!--tex4ht:ref: chap:VirtualObjectDesign --></a>). Note that for
+the XML loading approach, a VObj XML file needs to be selected through
+&#8216;Load Phantom XML&#8217; prior to loading phantom (default phantom XML
+files are saved in the phantom XML root folder MRiLab/Config/VObj ).
+<br 
+class="newline" />
+</p><!--l. 319--><p class="indent" >   If a virtual object is successfully loaded, the geometry of this phantom will show
+as a preview thumbnail at the top right corner of the console (Figure <a 
+href="#x8-120011">3.1<!--tex4ht:ref: fig:VirtualObjectChecking --></a>). The user
+can inspect the central slice of phantom property maps (T1, T2 and Rho etc.) using
+the pop-up menu above the thumbnail. To inspect all slices, the user can click
+&#8216;Display&#8217; button to open a separate display window from MatrixUser. If multiple
+spin species exist in the phantom, the user can also inspect different spin
+type by using &#8216;Spin Type&#8217; pop-up menu below the thumbnail. Moreover, a
+list of complete phantom properties of the virtual object is provided at the
+&#8216;Virtual Object Property&#8217; list, the user can check properties by clicking the
+corresponding items. A complete property list of one virtual object typically
+include:
+</p>
+     <ul class="itemize1">
+     <li class="itemize">Gyro (rad/s/T) : The gyromagnetic ratio of the spin
+     </li>
+     <li class="itemize">ChemShift (Hz/T) : The chemical shift of the spin
+     </li>
+     <li class="itemize">XDim : The number of voxels in X direction
+     </li>
+     <li class="itemize">YDim : The number of voxels in Y direction
+     </li>
+     <li class="itemize">ZDim : The number of voxels in Z direction
+     </li>
+     <li class="itemize">XDimRes (m) : The voxel size in X direction
+
+     </li>
+     <li class="itemize">YDimRes (m) : The voxel size in Y direction
+     </li>
+     <li class="itemize">ZDimRes (m) : The voxel size in Z direction
+     </li>
+     <li class="itemize">Type : A descriptive string of the phantom
+     </li>
+     <li class="itemize">TypeNum : The number of spin species
+     </li>
+     <li class="itemize">Rho : A matrix with the size of <!--l. 332--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> <mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>X</mi><mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>Z</mi><mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>T</mi><mi 
+>y</mi><mi 
+>p</mi><mi 
+>e</mi><mi 
+>N</mi><mi 
+>u</mi><mi 
+>m</mi></math>
+     for describing spin density
+     </li>
+     <li class="itemize">T1 (s) : A matrix with the size of <!--l. 333--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> <mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>X</mi><mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>Z</mi><mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>T</mi><mi 
+>y</mi><mi 
+>p</mi><mi 
+>e</mi><mi 
+>N</mi><mi 
+>u</mi><mi 
+>m</mi></math>
+     for describing T1 relaxation time
+     </li>
+     <li class="itemize">T2 (s) : A matrix with the size of <!--l. 334--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> <mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>X</mi><mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>Z</mi><mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>T</mi><mi 
+>y</mi><mi 
+>p</mi><mi 
+>e</mi><mi 
+>N</mi><mi 
+>u</mi><mi 
+>m</mi></math>
+     for describing T2 relaxation time
+     </li>
+     <li class="itemize">T2Star (s) : A matrix with the size of <!--l. 335--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> <mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>X</mi><mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>Z</mi><mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>T</mi><mi 
+>y</mi><mi 
+>p</mi><mi 
+>e</mi><mi 
+>N</mi><mi 
+>u</mi><mi 
+>m</mi></math>
+     for describing T2* relaxation time</li></ul>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x8-120011"></a>
+
+
+<!--l. 340--><p class="noindent" ><img 
+src="Pictures/VirtualObjectChecking.png" alt="pict"  
+ />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.1: </span><span  
+class="content">A Virtual Object Preview</span></div><!--tex4ht:label?: x8-120011 -->
+
+   </div><hr class="endfigure" />
+<!--l. 345--><p class="indent" >   Optional property for evaluating SAR include: </p>
+     <ul class="itemize1">
+     <li class="itemize">ECon (S/m) : A matrix with the size of <!--l. 347--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> <mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>X</mi><mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>Z</mi><mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi></math>
+     for describing tissue electrical conductivity
+     </li>
+     <li class="itemize">MassDen (kg/m<sup class="textsuperscript"><span 
+class="cmr-9">3</span></sup>) : A matrix with the size of <!--l. 348--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>Y</mi> <mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>X</mi><mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mi 
+>Z</mi><mi 
+>D</mi><mi 
+>i</mi><mi 
+>m</mi></math>
+     for describing tissue mass density</li></ul>
+<!--l. 351--><p class="indent" >   MRiLab v1.3 and above introduces new functionality to simulate tissue models
+with multiple exchanging proton pools. The required properties for performing
+Magnetization Transfer (MT), Multiple Exchanging water pools (ME), Chemical
+Exchange Saturation Transfer (CEST) and Generalized Multi-pool exchanging Model
+(GM) include:
+</p>
+     <ul class="itemize1">
+     <li class="itemize">K (Hz) : A multi-dimensional matrix for describing chemical exchange</li></ul>
+<!--l. 357--><p class="indent" >   The simulation with GM tissue also requires:
+</p>
+     <ul class="itemize1">
+     <li class="itemize">TypeFlag : A flag array for describing proton type (free proton or bound
+     proton)
+     </li>
+     <li class="itemize">LineShapeFlag : A flag array for describing RF saturation line shape</li></ul>
+<!--l. 364--><p class="indent" >   More detailed content about tissue models is available in Chapter <a 
+href="MRiLab_User_Guidech5.html#x10-1010005.3">5.3<!--tex4ht:ref: chap:VirtualObjectDesign --></a>.<br 
+class="newline" />
+</p><!--l. 366--><p class="indent" >   To inspect more details of the digital phantom, press the &#8216;Localizer&#8217; button to
+populate the thumbnail to the main image display panel. MRiLab provides three
+image axes to display axial, sagittal and coronal view section of the 3D virtual
+object, respectively. A scroll bar beside each axes allows to change image slice along
+the corresponding direction, which serves as an anatomical reference for prescribing
+simulation parameters. For instance, the location of a green box in each axes
+indicating current field of view can be adjusted via free hand dragging, and the
+field of view location is instantly updated at &#8216;Field of View&#8217; panel upon
+dragging.
+</p>
+   <h3 class="sectionHead"><span class="titlemark">3.2   </span> <a 
+ id="x8-130003.2"></a>Loading Sequence</h3>
+
+<!--l. 369--><p class="noindent" >One key feature of MRiLab is to allow simulating a wide range of MR sequences for
+desirable MR contrast among different tissues. MRiLab provides a sequence
+loading interface to allow choosing predefined sequences from default MRiLab
+sequence library, or choosing user customized sequences. MRiLab parses a
+selected MR sequence and translates the sequence waveform into specific signal
+which triggers simulation kernel execution. A MR sequence design toolbox is
+separate from this loading interface and will be explained in detail in Chapter
+<a 
+href="MRiLab_User_Guidech5.html#x10-400005">5<!--tex4ht:ref: chap:MRiLabToolboxes --></a>.
+</p><!--l. 371--><p class="noindent" >
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.2.1   </span> <a 
+ id="x8-140003.2.1"></a>Loading Predefined Sequence</h4>
+<!--l. 373--><p class="noindent" >To open a sequence loading interface (Figure <a 
+href="#x8-140012">3.2<!--tex4ht:ref: fig:SequenceLoading --></a>), click the &#8216;Sequence&#8217; button located
+at the center of the main control console. Once the interface is open, the &#8216;Dimension&#8217;
+specifies the sequence spatial encoding scheme (2D or 3D). The &#8216;Category&#8217; provides a
+list of sequence classes including Gradient Echo, Spin Echo, Inversion Recovery, Fast
+Spin Echo, Others and User. Upon clicking one sequence category, sequences
+within the selected category become available in the sequence list on the
+right. Click a sequence, then press &#8216;Accept&#8217; to load the selected sequence.
+pressing &#8216;Cancel&#8217; button will close the interface without loading any sequence.
+<br 
+class="newline" />
+</p>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x8-140012"></a>
+
+
+<!--l. 377--><p class="noindent" ><img 
+src="Pictures/SequenceLoading.png" alt="pict"  
+ />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.2: </span><span  
+class="content">The Sequence Loading Interface. A sequence PSD_FIESTA3D from
+3D GradientEcho Category is chosen, and DummyPulse special technique is
+checked by default.</span></div><!--tex4ht:label?: x8-140012 -->
+
+   </div><hr class="endfigure" />
+<!--l. 382--><p class="indent" >   Notice there is a &#8216;Special Technique (SpecialTech)&#8217; panel below the sequence list.
+If a sequence with special techniques is selected, the corresponding checkboxes beside
+the special techniques will be chosen. For example, by default PSD_FIESTA3D uses
+the special techniques called DummyPulse (driving transient steady-state), therefore,
+by clicking PSD_FIESTA3D, the DummyPulse will be chosen accordingly. However,
+you can uncheck the checkbox for avoiding DummyPulse module, but this may
+cause incomplete simulation for PSD_FIESTA3D. It is recommended to
+keep default selection therefore a complete sequence control is preserved for
+those default sequences. On the other hand, for sequences which have no
+special techniques, you can also add special technique module by checking
+corresponding checkbox. This will load parameter tabs of special techniques on
+the simulation control console to allow configuration. The special technique
+strategy enables the ability to reuse &#8216;capsulized&#8217; module for different sequences.
+<br 
+class="newline" />
+</p><!--l. 384--><p class="indent" >   MRiLab provides a few default sequences under the folder /MRiLab/PSD (follow
+GE&#8217;s naming convention :)), notice the /PSD folder uses the same hierarchic
+structure scheme as that of the loading interface. Typically a new sequence can be
+saved anywhere, however it is recommended to save the sequence under those
+predefined categories under /PSD so they are visible to the loading interface.
+However, if a customized sequence is not directly visible to the loading interface, it
+can also be loaded using PSD loading button marked as &#8216;o&#8217; at the bottom of the
+loading interface. If PSD loading button is used, loading interface will ignore normal
+sequence selection.
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.2.2   </span> <a 
+ id="x8-150003.2.2"></a>Predefined Sequences</h4>
+<!--l. 387--><p class="noindent" >MRiLab provides a few predefined MR sequences including
+</p><!--l. 389--><p class="indent" >
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x8-15002x1">Fast Spin Echo
+         <ul class="itemize1">
+         <li class="itemize">PSD_FSE3D <br 
+class="newline" />A  3D  multishot  Fast  Spin  Echo  (FSE)  sequence  with  interleaved
+         <span 
+class="cmti-10">k</span>-space sampling in Kx-Ky and conventional phase-encoding along
+         Kz.</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-15004x2">Gradient Echo
+
+         <ul class="itemize1">
+         <li class="itemize">PSD_FIESTA3D <br 
+class="newline" />A 3D balanced Steady State Free Precession (bSSFP) sequence.
+         </li>
+         <li class="itemize">PSD_SPGR3D <br 
+class="newline" />A 3D Spoiled Gradient Echo (SPGR) sequence.
+         </li>
+         <li class="itemize">PSD_GRE3D <br 
+class="newline" />A 3D gradient echo sequence with Cartesian readout.
+         </li>
+         <li class="itemize">PSD_GRE3DEPI <br 
+class="newline" />A 3D gradient echo sequence with multishot Echo Planar Imaging
+         (EPI)  readout  using  interleaved  <span 
+class="cmti-10">k</span>-space  sampling  in  Kx-Ky  and
+         conventional phase-encoding along Kz.
+         </li>
+         <li class="itemize">PSD_GRE3DRadial <br 
+class="newline" />A  3D  gradient  echo  sequence  with  radial  readout  in  Kx-Ky
+         and  conventional  phase-encoding  along  Kz,  usually  referred  to  as
+         stack-of-stars sequence.
+         </li>
+         <li class="itemize">PSD_GRE3DSpiral <br 
+class="newline" />A  3D  gradient  echo  sequence  with  multishot  spiral  readout  in
+         Kx-Ky  and  conventional  phase-encoding  along  Kz,  referred  to  as
+         stack-of-spiral sequence.</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-15006x3">Inversion Recovery
+         <ul class="itemize1">
+         <li class="itemize">PSD_IR3D <br 
+class="newline" />A 3D Inversion Recovery (IR) sequence with Cartesian readout.</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-15008x4">SpinEcho
+         <ul class="itemize1">
+         <li class="itemize">PSD_SE3D <br 
+class="newline" />A 3D Spin Echo (SE) sequence with Cartesian readout.</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-15010x5">User
+         <ul class="itemize1">
+         <li class="itemize">PSD_SPGR3DMT <br 
+class="newline" />A 3D SPGR sequence with MT saturation. Note that MT phantom
+         is needed for running this sequence.
+
+         </li>
+         <li class="itemize">PSD_SPGR3DME <br 
+class="newline" />A 3D SPGR sequence for ME tissue model. Note that ME phantom
+         is needed for running this sequence.
+         </li>
+         <li class="itemize">PSD_SPGR3DCEST <br 
+class="newline" />A 3D SPGR sequence with off-resonance saturation to perform pulsed
+         CEST saturation. Note that CEST phantom is needed for running
+         this sequence.
+         </li>
+         <li class="itemize">PSD_SPGR3DGM <br 
+class="newline" />A 3D SPGR sequence for GM tissue model. Note that GM phantom
+         is needed for running this sequence.</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-15012x6">Others
+         <ul class="itemize1">
+         <li class="itemize">PSD_AFI <br 
+class="newline" />A 3D SPGR sequence for performing flip angle mapping using Actual
+         Flip Angle Imaging (AFI) technique <span class="cite">[<a 
+href="MRiLab_User_Guideli3.html#XYarnykh2007">1</a>]</span>.
+         </li>
+         <li class="itemize">PSD_T2Prep <br 
+class="newline" />A 3D SPGR sequence with an additional T2 preparation section.
+         Note  this  sequence  is  aimed  to  demonstrate  the  use  of  multiple
+         &#8216;Pulses&#8217;  structure,  thus  should  NOT  be  straight-forward  used  for
+         practical simulation.</li></ul>
+     </li></ol>
+<!--l. 448--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">3.3   </span> <a 
+ id="x8-160003.3"></a>Loading Coil</h3>
+<!--l. 449--><p class="noindent" >To simulate multi-transmitting and receiving coil array, MRiLab provides a coil
+loading interface to allow choosing different coil configurations for Tx (i.e.
+Transmitting) and/or Rx (i.e. Receiving). MRiLab translates coil configuration and
+computes a B1+/B1- field accordingly. For multi-transmitting coil, each coil element
+can be treated separately and receives individual RF signal source. This allows to
+investigate B1 shimming and multiple RF excitation techniques. For multi-receiving
+coil, each coil element also connects to an individual signal channel and produces
+signal according to its specific coil sensitivity. This allows to investigate
+different coil encoding methods such as parallel imaging. The coil loading
+interface provides functions to load coil configuration. A coil design toolbox is
+separate from loading interface and will be explained in detail in Chapter
+
+<a 
+href="MRiLab_User_Guidech5.html#x10-400005">5<!--tex4ht:ref: chap:MRiLabToolboxes --></a>.
+</p><!--l. 451--><p class="noindent" >
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.3.1   </span> <a 
+ id="x8-170003.3.1"></a>Loading Predefined Coil</h4>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x8-170013"></a>
+
+
+<!--l. 455--><p class="noindent" ><img 
+src="Pictures/CoilLoading.png" alt="pict"  
+ />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.3: </span><span  
+class="content">The Coil Loading Interface. An eight channel coil configuration
+Coil_8ChHead from Head Category is chosen, preview image shows the coil
+sensitivity at the same spatial resolution as that of the chosen digital phantom.</span></div><!--tex4ht:label?: x8-170013 -->
+
+   </div><hr class="endfigure" />
+<!--l. 460--><p class="indent" >   To open a coil loading interface (Figure <a 
+href="#x8-170013">3.3<!--tex4ht:ref: fig:CoilLoading --></a>), click the &#8216;Coil&#8217; button located at the
+center portion of the console. The &#8216;Category&#8217; list specifies different coil configuration
+category based on anatomical structure. The &#8216;Coils&#8217; list beside the &#8216;Category&#8217; list
+provides coil configuration within the selected category. Upon clicking a coil
+configuration, the interface will calculate the coil sensitivity map and display it in the
+preview axes. The user can specify displaying resolution using the &#8216;Precision&#8217;
+with the highest spatial resolution defined as the same resolution of digital
+phantom. Moreover, the user can specify color map from &#8216;Jet&#8217;,&#8216;Gray&#8217; or
+&#8216;Hot&#8217;. Pressing &#8216;Accept&#8217; will load the selected coil configuration. However,
+pressing &#8216;Cancel&#8217; button will close the interface without loading any coil
+configuration. If an uniform unit coil sensitivity is desired, press &#8216;Uniform&#8217; button
+to load that. By default, MRiLab uses an uniform unit coil sensitivity for
+both RF transmitting and receiving. To indicate coil mode, the user needs
+to specify &#8216;Coil Type&#8217; as either Tx for transmitting or Rx for receiving.
+<br 
+class="newline" />
+</p><!--l. 462--><p class="indent" >   MRiLab provides a few default coil configuration under the folder
+/MRiLab/Config/Coil, notice the /Coil folder uses the same hierarchic structure
+scheme as that of the loading interface. Typically a new coil configuration can be
+saved anywhere, however it is recommended to save the coil configuration folder
+under predefined categories therefore they are visible to the loading interface.
+However, if a customized coil configuration is not directly visible to the loading
+interface, it can also be loaded using Coil loading button marked as &#8216;o&#8217; at the bottom
+of the loading interface. If Coil loading button is used, loading interface will ignore
+normal coil selection.
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.3.2   </span> <a 
+ id="x8-180003.3.2"></a>Predefined Coil</h4>
+<!--l. 466--><p class="noindent" >MRiLab provides a few predefined coil configuration including
+</p><!--l. 468--><p class="indent" >
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x8-18002x1">Head
+         <ul class="itemize1">
+         <li class="itemize">Coil_1ChHead <br 
+class="newline" />A coil configuration consists of one single Biot-Savart circle, primarily
+         used for testing purpose.
+         </li>
+         <li class="itemize">Coil_8ChHead <br 
+class="newline" />A coil configuration consists of 8 Biot-Savart circles, which produces
+         relative flat B1 field in X-Y plane along X direction.
+         </li>
+         <li class="itemize">Coil_8ChRectHead <br 
+class="newline" />A coil configuration similar to Coil_8ChHead but with rectangle coil
+         element.
+         </li>
+         <li class="itemize">Coil_8ChHeadSAR <br 
+class="newline" />A coil configuration consists of 8 channels given user input B1 and E1
+         field by using &#8216;CoilUser&#8217;, note SAR evaluation requires E1 field which
+         is only supported by &#8216;CoilUser&#8217; macro in current MRiLab version.</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-18004x2">Chest
+         <ul class="itemize1">
+         <li class="itemize">Coil_9ChSurfChest <br 
+class="newline" />A coil configuration consists of 9 Biot-Savart circles, which produces
+         relative flat B1 field in X-Y plane along Y direction at the surface
+         region.</li></ul>
+     </li></ol>
+<!--l. 488--><p class="indent" >   <span 
+class="cmbx-10">The generated B1 and E1 field is scaled by two factors. </span>&#8216;B1Level&#8217; is a
+linear scale factor for B1. The input B1+ field at a magnitude of B1Level produces
+nominal flip angle. &#8216;E1Level&#8217; is a linear scale factor for E1. When calculating time
+varying SAR, the input E1+ field is scaled by an number of nominal RF amplitude
+normalized by E1Level. These two factors are adjustable at parameter list in Chapter
+<a 
+href="#x8-290003.8">3.8<!--tex4ht:ref: chap:ParameterList --></a>.
+</p><!--l. 491--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">3.4   </span> <a 
+ id="x8-190003.4"></a>Loading Magnet</h3>
+<!--l. 493--><p class="noindent" >Some simulation studies require non-uniform static magnetic field. The situation
+include studies to investigate susceptibility artifact and to develop robust
+sequences in related to filed inhomogeneity. MRiLab provides a magnet loading
+interface to allow loading customized B0 field perturbation map (i.e. dB0
+map, a map for indicating main field variation). A magnet design toolbox is
+separate from loading interface and will be explained in detail in Chapter
+<a 
+href="MRiLab_User_Guidech5.html#x10-400005">5<!--tex4ht:ref: chap:MRiLabToolboxes --></a>.
+</p><!--l. 495--><p class="noindent" >
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.4.1   </span> <a 
+ id="x8-200003.4.1"></a>Loading Predefined Magnet</h4>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x8-200014"></a>
+
+
+<!--l. 499--><p class="noindent" ><img 
+src="Pictures/MagnetLoading.png" alt="pict"  
+ />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.4: </span><span  
+class="content">The Magnet Loading Interface. A magnet Mag_GaussianHead from
+Head Category is chosen, preview image shows the dB0 map in the X-Y plane
+at the same spatial resolution as that of the chosen digital phantom.</span></div><!--tex4ht:label?: x8-200014 -->
+
+   </div><hr class="endfigure" />
+<!--l. 504--><p class="indent" >   To open a magnet loading interface (Figure <a 
+href="#x8-200014">3.4<!--tex4ht:ref: fig:MagnetLoading --></a>), click the &#8216;Magnet&#8217; button
+located at the center of the console. The &#8216;Category&#8217; list specifies different magnet
+category based on anatomical structure. The &#8216;Magnet&#8217; list beside the &#8216;Category&#8217; list
+provides magnet within the selected category. Upon clicking a magnet file,
+the interface will compute a dB0 map and display it in the preview axes.
+Pressing &#8216;Accept&#8217; will load the chosen magnet profile. Pressing &#8216;Cancel&#8217; button
+will close the interface without loading any profile. If an uniform B0 field
+(i.e. zero dB0) is desired, press &#8216;Uniform&#8217; button to load that. By default,
+MRiLab uses an uniform B0 field for simulation which is equivalent to the
+ideal condition without field inhomogeneity across the entire virtual object.
+<br 
+class="newline" />
+</p><!--l. 506--><p class="indent" >   MRiLab provides default magnet profiles in the folder /MRiLab/Config/Mag,
+notice the /Mag folder uses the same hierarchic structure scheme as that of the
+loading interface. Typically a new magnet profile can be saved anywhere, however it
+is recommended to save the magnet profile folder under those predefined categories
+therefore they are visible to the loading interface. However, if a customized
+magnet is not directly visible to the loading interface, it can also be loaded
+using Magnet loading button marked as &#8216;o&#8217; at the bottom of the loading
+interface. If loading button is used, loading interface will ignore normal magnet
+selection.
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.4.2   </span> <a 
+ id="x8-210003.4.2"></a>Predefined Magnet</h4>
+<!--l. 510--><p class="noindent" >MRiLab provides two predefined magnet configuration including
+</p><!--l. 512--><p class="indent" >
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x8-21002x1">Head
+         <ul class="itemize1">
+         <li class="itemize">Mag_GaussianHead <br 
+class="newline" />A magnet profile produces a Gaussian dB0 field in 3D space.
+         </li>
+         <li class="itemize">Mag_LinearHead <br 
+class="newline" />A magnet profile produces a linear dB0 field in 3D space.</li></ul>
+     </li></ol>
+<!--l. 523--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">3.5   </span> <a 
+ id="x8-220003.5"></a>Loading Gradient</h3>
+
+<!--l. 524--><p class="noindent" >MR spatial encoding is typically performed in a linear fashion. However nonlinear
+(curved) spatial encoding may serve particular purposes in some MR studies.
+MRiLab provides a gradient loading interface to load customized 3D nonlinear
+gradient field. This function can help investigate arbitrary curved gradient field for
+imaging simulation. With flexible sequence design, nonlinear gradient encoding
+techniques such as PatLoc can be simulated with minimal efforts in MRiLab. The
+gradient loading interface provides functions to load nonlinear gradient. A gradient
+design toolbox is separate from the loading interface and will be explained in detail in
+Chapter <a 
+href="MRiLab_User_Guidech5.html#x10-400005">5<!--tex4ht:ref: chap:MRiLabToolboxes --></a>.
+</p><!--l. 526--><p class="noindent" >
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.5.1   </span> <a 
+ id="x8-230003.5.1"></a>Loading Predefined Gradient</h4>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x8-230015"></a>
+
+
+<!--l. 530--><p class="noindent" ><img 
+src="Pictures/GradientLoading.png" alt="pict"  
+ />
+<br />  </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.5:    </span><span  
+class="content">The    Gradient    Loading    Interface.    A   gradient    profile
+Grad_LinearHead from Head Category is chosen.</span></div><!--tex4ht:label?: x8-230015 -->
+
+   </div><hr class="endfigure" />
+<!--l. 535--><p class="indent" >   To open a gradient loading interface (Figure <a 
+href="#x8-230015">3.5<!--tex4ht:ref: fig:GradientLoading --></a>), click the &#8216;Gradient&#8217; button
+located at the center of the console. The &#8216;Category&#8217; list specifies different gradient
+category based on the anatomical structure. The &#8216;Gradient&#8217; list beside the
+&#8216;Category&#8217; list provides gradient profile within the selected category. Upon
+clicking a gradient configuration, pressing &#8216;Accept&#8217; will load the selected
+gradient profile. Pressing &#8216;Cancel&#8217; button will close the interface without
+loading any gradient profile. If a constant unit gradient is desired, press
+&#8216;Constant Unit&#8217; button to load that. By default, MRiLab uses a constant unit
+gradient profile in the X, Y and Z direction for gradient simulation. This will
+maintain a conventional linear spatial encoding in all three spatial dimensions.
+<br 
+class="newline" />
+</p><!--l. 537--><p class="indent" >   MRiLab provides gradient profiles under the folder /MRiLab/Config/Grad, notice
+the /Grad folder uses the same hierarchic structure scheme as that of the loading
+interface. Typically a new gradient profile can be saved anywhere, however it is
+recommended to save the gradient profile under those predefined categories therefore
+they are visible to the loading interface. However, if a customized gradient
+is not directly visible to the loading interface, it can also be loaded using
+Gradient loading button marked as &#8216;o&#8217; at the bottom of the loading interface. If
+Gradient loading button is used, loading interface will ignore normal gradient
+selection.
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.5.2   </span> <a 
+ id="x8-240003.5.2"></a>Predefined Gradient</h4>
+<!--l. 541--><p class="noindent" >MRiLab provides one predefined example of gradient profile
+</p><!--l. 543--><p class="indent" >
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x8-24002x1">Head
+         <ul class="itemize1">
+         <li class="itemize">Grad_LinearHead <br 
+class="newline" />A  gradient  profile  produces  constant  gradient  field  with  varying
+         gradient   value   in   three   dimensions,   which   can   cause   image
+         contraction, expansion or shearing etc.</li></ul>
+     </li></ol>
+<!--l. 552--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">3.6   </span> <a 
+ id="x8-250003.6"></a>Loading Motion</h3>
+
+<!--l. 553--><p class="noindent" >MRiLab provides a mechanism to simulate imaging object movement in 3D space.
+The motion simulation introduces an approach to investigate time varying imaging
+techniques such as k-t blast and to enable development of real time image
+reconstruction algorithms. It also helps investigate motion insensitive sequences and
+test motion artifact at various conditions. The motion loading interface provides
+functions to load motion trajectory. A motion design toolbox is separate
+from the loading interface and will be used to design motion pattern in 3D
+space.
+</p><!--l. 556--><p class="noindent" >
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.6.1   </span> <a 
+ id="x8-260003.6.1"></a>Loading Predefined Motion</h4>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x8-260016"></a>
+
+
+<!--l. 560--><p class="noindent" ><img 
+src="Pictures/MotionLoading.png" alt="pict"  
+ />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.6: </span><span  
+class="content">The Motion Loading Interface. A motion profile Mot_RotateHead
+from Head Category is chosen. This motion profile create object rotation in
+three dimensions along any user defined axis.</span></div><!--tex4ht:label?: x8-260016 -->
+
+   </div><hr class="endfigure" />
+<!--l. 565--><p class="indent" >   To open a motion loading interface (Figure <a 
+href="#x8-260016">3.6<!--tex4ht:ref: fig:MotionLoading --></a>), click the &#8216;Motion&#8217; button located
+at the center of the console. The &#8216;Category&#8217; list specifies different motion category
+based on the anatomical structure. The &#8216;Motion&#8217; list beside the &#8216;Category&#8217; list
+provides motion profile within the selected category. Upon clicking a motion pattern,
+pressing &#8216;Accept&#8217; will load the chosen motion profile. Pressing &#8216;Cancel&#8217; button will
+close the interface without loading any motion profile. If no motion is needed, press
+&#8216;Stationary&#8217; button. By default, no motion is used in MRiLab simulation.
+<br 
+class="newline" />
+</p><!--l. 567--><p class="indent" >   MRiLab provides motion profiles under the folder /MRiLab/Config/Mot, notice
+the /Mot folder uses the same hierarchic structure scheme as that of the loading
+interface. Typically a new motion profile can be saved anywhere, however it is
+recommended to save the motion profile under those predefined categories therefore
+they are visible to the loading interface. However, if a customized motion
+is not directly visible to the loading interface, it can also be loaded using
+Motion loading button marked as &#8216;o&#8217; at the bottom of the loading interface. If
+Motion loading button is used, loading interface will ignore normal motion
+selection.
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.6.2   </span> <a 
+ id="x8-270003.6.2"></a>Predefined Motion</h4>
+<!--l. 571--><p class="noindent" >MRiLab provides two predefined examples of motion profile
+</p><!--l. 573--><p class="indent" >
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x8-27002x1">Head
+         <ul class="itemize1">
+         <li class="itemize">Mot_RotateHead <br 
+class="newline" />A motion profile produces object rotation in 3D space along any user
+         defined axis.
+         </li>
+         <li class="itemize">Mot_ShiftHead <br 
+class="newline" />A  motion  profile  produces  object  translation  in  any  user  defined
+         direction.</li></ul>
+     </li></ol>
+<!--l. 583--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">3.7   </span> <a 
+ id="x8-280003.7"></a>Prescribing Scan Parameters</h3>
+
+<!--l. 585--><p class="noindent" >Those loading interfaces provide a mechanism to interpret and convert configuration
+file into MRiLab parameters. Given a successful loading, the &#8216;Coil Selection&#8217;, &#8216;Magnet
+Selection&#8217;,&#8216;Gradient Selection&#8217; and &#8216;Motion Selection&#8217; fields indicate the current
+selected configuration. The user can change the configuration by reloading a new
+configuration file with abovementioned steps. If any of these fields are empty, a
+default setting will be used. Similar to a real scanner system, MRiLab categorizes
+scanning parameters into different groups and present them under different tabs in
+the &#8216;Simulation Settings&#8217; panel (Figure <a 
+href="#x8-280017">3.7<!--tex4ht:ref: fig:SimulationSettings --></a>). Included in any MR sequences are
+five typical tabs including Imaging, Advanced, Hardware, Recon and CVs.
+Additional tabs for special techniques become valid if those techniques are loaded
+from sequence selection. Below are detailed explanation for each of those
+parameters.
+</p>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x8-280017"></a>
+
+
+<!--l. 589--><p class="noindent" ><img 
+src="Pictures/SimulationSettings.png" alt="pict"  
+ />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;3.7:  </span><span  
+class="content">The  Simulation  Settings  Panel.  The  panel  contains  Imaging,
+Advanced, Hardware, Recon and CVs tabs, two additional special technique
+DummyPulse and MT are also added for this sequence.</span></div><!--tex4ht:label?: x8-280017 -->
+
+   </div><hr class="endfigure" />
+   <h3 class="sectionHead"><span class="titlemark">3.8   </span> <a 
+ id="x8-290003.8"></a>Parameter List</h3>
+<!--l. 596--><p class="noindent" >Below are a full list of supported simulation parameters in current MRiLab version.
+Notice that unless otherwise specified, <span 
+class="cmbx-10">MRiLab uses International System of</span>
+<span 
+class="cmbx-10">Units (i.e. SI units) for all the parameters.</span>
+</p><!--l. 598--><p class="noindent" >
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.8.1   </span> <a 
+ id="x8-300003.8.1"></a>Imaging</h4>
+<!--l. 599--><p class="noindent" >The &#8216;Imaging&#8217; tab contains parameters relevant to image resolution, field of view and
+timing setting etc. </p>
+     <ul class="itemize1">
+     <li class="itemize">BandWidth (Hz) : Full receiver bandwidth
+     </li>
+     <li class="itemize">FOVFreq (m) : Field of view in the frequency encoding direction
+     </li>
+     <li class="itemize">FOVPhase (m) : Field of view in the first phase encoding direction
+     </li>
+     <li class="itemize">FlipAng (Degree) : Nominal flip angle of excitation pulse
+     </li>
+     <li class="itemize">FreqDir : Frequency encoding direction
+     </li>
+     <li class="itemize">ResFreq : Number of voxels in frequency encoding direction
+     </li>
+     <li class="itemize">ResPhase : Number of voxels in the first phase encoding direction
+     </li>
+     <li class="itemize">ScanPlane : The scanning plane
+     </li>
+     <li class="itemize">SliceNum : The number of encoding slice
+     </li>
+     <li class="itemize">SliceThick (m) : The thickness of one slice
+     </li>
+     <li class="itemize">TE (s) : The time of echo
+
+     </li>
+     <li class="itemize">TEPerTR : The number of echoes in multiple echo mode, using a number
+     greater than one requires &#8216;MultiEcho&#8217; tab to be loaded
+     </li>
+     <li class="itemize">TR (s) : The time of repetition</li></ul>
+<!--l. 616--><p class="noindent" >
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.8.2   </span> <a 
+ id="x8-310003.8.2"></a>Advanced</h4>
+<!--l. 617--><p class="noindent" >The &#8216;Advanced&#8217; tab contains other imaging parameters. </p>
+     <ul class="itemize1">
+     <li class="itemize">MasterTxCoil : The master transmitting coil in multi RF transmitting
+     mode
+     </li>
+     <li class="itemize">MultiTransmit : The flag for turning on and off multi RF transmitting
+     mode, default mode is &#8216;off&#8217; for single RF transmitting
+     </li>
+     <li class="itemize">NEX : The number of excitation
+     </li>
+     <li class="itemize">NoFreqAlias  :  The  flag  for  avoiding  aliasing  in  frequency  encoding
+     direction, default &#8216;on&#8217; truncates object outside field of view in frequency
+     encoding direction
+     </li>
+     <li class="itemize">NoPhaseAlias : The flag for avoiding aliasing in the first phase encoding
+     direction, default &#8216;on&#8217; truncates object outside field of view in the first
+     phase encoding direction
+     </li>
+     <li class="itemize">NoSliceAlias : The flag for avoiding aliasing in the second phase encoding
+     (i.e. slice encoding) direction, default &#8216;on&#8217; truncates object outside field of
+     view in slice encoding direction
+     </li>
+     <li class="itemize">Shim : The flag for choosing shimming mode, manual shimming requires
+     &#8216;Shim&#8217; tab to be loaded, auto shimming maintain ideal uniform B0 field
+     </li>
+     <li class="itemize">TEAnchor : The flag for choosing TE time offset regarding the excitation
+     RF pulse</li></ul>
+
+<!--l. 629--><p class="noindent" >
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.8.3   </span> <a 
+ id="x8-320003.8.3"></a>Hardware</h4>
+<!--l. 630--><p class="noindent" >The &#8216;Hardware&#8217; tab contains parameters relevant to system hardware setup.
+</p>
+     <ul class="itemize1">
+     <li class="itemize">B0 (T) : Main static magnetic field strength
+     </li>
+     <li class="itemize">B1Level (T) : A linear scale factor for B1. The input B1+ field with
+     magnitude of this number produces nominal flip angle
+     </li>
+     <li class="itemize">E1Level (T) : A linear scale factor for E1. When calculating spatial SAR,
+     the input E1+ field is scaled by a factor of nominal RF amplitude divided
+     by this number
+     </li>
+     <li class="itemize">MaxGrad (T/m) : Maximum allowable gradient strength
+     </li>
+     <li class="itemize">MaxSlewRate (T/m/s) : Maximum allowable gradient slew rate
+     </li>
+     <li class="itemize">MinUpdRate (s) : Minimum update time on generating sequence waveform
+     </li>
+     <li class="itemize">Model : A descriptive string indicating possible real scanner system with
+     similar hardware setting
+     </li>
+     <li class="itemize">NoiseLevel : The level of adjustable noise, the higher the number, the more
+     noise
+     </li>
+     <li class="itemize">SpinPerVoxel : The number of spins in each voxel. Default one spin per
+     voxel will treat T2* equal to T2, <span 
+class="cmbx-10">use a number greater than one to</span>
+     <span 
+class="cmbx-10">simulate T2* effect based on T2Star input</span>. Note that simulation
+     time is likely linearly scaled by this number</li></ul>
+<!--l. 643--><p class="noindent" >
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.8.4   </span> <a 
+ id="x8-330003.8.4"></a>Recon</h4>
+<!--l. 644--><p class="noindent" >The &#8216;Recon&#8217; tab contains parameters relevant to image reconstruction. </p>
+
+     <ul class="itemize1">
+     <li class="itemize">AutoRecon   :   The   flag   for   turning   on   and   off   automatic   image
+     reconstruction after MR signal acquisition
+     </li>
+     <li class="itemize">ExternalEng : The name of a user defined script for image reconstruction
+     </li>
+     <li class="itemize">OutputType : The type of output data including both simulated image
+     and signal, options include &#8216;MAT&#8217; and &#8216;ISMRMRD&#8217;, the latter requires
+     ISMRMRD dependency packages to be installed
+     </li>
+     <li class="itemize">ReconEng  :  The  image  reconstruction  engine,  choosing  &#8216;Default&#8217;  uses
+     MRiLab  default  reconstruction  code,  choosing  &#8216;External&#8217;  uses  external
+     engine which requires ExternalEng to be provided
+     </li>
+     <li class="itemize">ReconType : The type of image reconstruction</li></ul>
+<!--l. 653--><p class="noindent" >
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.8.5   </span> <a 
+ id="x8-340003.8.5"></a>CVs</h4>
+<!--l. 654--><p class="noindent" >The &#8216;CVs&#8217; tab contains Controllable Variables (CV, again follow GE&#8217;s naming
+convention) which exist in the global scope of sequence design. They are designed for
+transferring values among multiple MR sequence modules. The user can use them for
+customized sequence. </p>
+     <ul class="itemize1">
+     <li class="itemize">CV1 : Controllable variable 1
+     </li>
+     <li class="itemize">CV2 : Controllable variable 2
+     </li>
+     <li class="itemize">CV3 : Controllable variable 3
+     </li>
+     <li class="itemize">CV4 : Controllable variable 4
+     </li>
+     <li class="itemize">CV5 : Controllable variable 5
+     </li>
+     <li class="itemize">CV6 : Controllable variable 6
+     </li>
+     <li class="itemize">CV7 : Controllable variable 7
+
+     </li>
+     <li class="itemize">CV8 : Controllable variable 8
+     </li>
+     <li class="itemize">CV9 : Controllable variable 9
+     </li>
+     <li class="itemize">CV10 : Controllable variable 10
+     </li>
+     <li class="itemize">CV11 : Controllable variable 11
+     </li>
+     <li class="itemize">CV12 : Controllable variable 12
+     </li>
+     <li class="itemize">CV13 : Controllable variable 13
+     </li>
+     <li class="itemize">CV14 : Controllable variable 14</li></ul>
+<!--l. 672--><p class="noindent" >
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">3.8.6   </span> <a 
+ id="x8-350003.8.6"></a>SpecialTech</h4>
+<!--l. 674--><p class="noindent" >The Special Technique (SpecialTech) contains multiple tabs from which one or more
+are loaded based on sequence configuration and user choice.
+</p><!--l. 676--><p class="indent" >
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x8-35002x1">DummyPulse <br 
+class="newline" />The &#8216;DummyPulse&#8217; tab are designed to add dummy pulse section prior to
+     image acquisition section. It can be used to skip transient steady state
+     signal.
+         <ul class="itemize1">
+         <li class="itemize">DP_Flag : The flag for turning on and off dummy pulse
+         </li>
+         <li class="itemize">DP_FlipAng (Degree) : The flip angle of excitation pulse for dummy
+         pulse
+         </li>
+         <li class="itemize">DP_Num : The number of TRs for dummy pulse
+         </li>
+         <li class="itemize">DP_TR (s) : The time of repetition for dummy pulse</li></ul>
+
+     </li>
+     <li 
+  class="enumerate" id="x8-35004x2">EPI <br 
+class="newline" />The &#8216;EPI&#8217; tab contains parameters for performing multi shot interleaved EPI
+     readout.
+         <ul class="itemize1">
+         <li class="itemize">EPI_ESP (s) : The echo spacing for EPI
+         </li>
+         <li class="itemize">EPI_ETL : The echo train length for EPI
+         </li>
+         <li class="itemize">EPI_EchoShifting : The flag for turning on and off echo shifting
+         </li>
+         <li class="itemize">EPI_ShotNum  :  The  number  of  EPI  shots,  multi  shot  EPI  uses
+         interleave mode</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-35006x3">FSE <br 
+class="newline" />The &#8216;FSE&#8217; tab contains parameters for performing multi shot interleaved FSE
+     readout.
+         <ul class="itemize1">
+         <li class="itemize">FSE_ESP (s) : The echo spacing for FSE
+         </li>
+         <li class="itemize">FSE_ETL : The echo train length for FSE
+         </li>
+         <li class="itemize">FSE_ShotNum : The number of FSE shots, multi shot FSE uses
+         interleave mode</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-35008x4">GRAPPA (:TODO) <br 
+class="newline" />The &#8216;GRAPPA&#8217; tab contains parameters for performing parallel imaging using
+     GRAPPA.
+     </li>
+     <li 
+  class="enumerate" id="x8-35010x5">Gridding <br 
+class="newline" />The &#8216;Gridding&#8217; tab contains parameters for controlling gridding process in
+     default Non-Cartesian reconstruction. MRiLab uses Voronoi diagram for
+     <span 
+class="cmti-10">k</span>-space density compensation, and uses Kaiser-Bessel kernel for gridding.
+     Detailed explanation is beyond the scope of this manual, interested users are
+     referred to literature <span class="cite">[<a 
+href="MRiLab_User_Guideli3.html#XJackson1991">2</a>,&#x00A0;<a 
+href="MRiLab_User_Guideli3.html#XVRasche1999">3</a>,&#x00A0;<a 
+href="MRiLab_User_Guideli3.html#XBeatty2005">4</a>]</span>.
+         <ul class="itemize1">
+         <li class="itemize">G_Deapodization   :   The   flag   for   turning   on   and   off   kernel
+         deapodization (i.e. dividing reconstructed image with the iFFT of
+         the gridding kernel)
+
+         </li>
+         <li class="itemize">G_KernelSample  :  The  number  of  kernel  sample  point,  the  more
+         sample points, the better kernel approximation
+         </li>
+         <li class="itemize">G_KernelWidth : The full width of kernel in the unit of gridding grid
+         </li>
+         <li class="itemize">G_OverGrid : The over gridding factor
+         </li>
+         <li class="itemize">G_Truncation : The flag for turning on and off image truncation for
+         reconstructed image</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-35012x6">IRPrep <br 
+class="newline" />The &#8216;IRPrep&#8217; tab contains parameters for inversion recovery sequence.
+         <ul class="itemize1">
+         <li class="itemize">TI (s) : The time of inversion recovery</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-35014x7">MT <br 
+class="newline" />The &#8216;MT&#8217; tab contains parameters for activating MR sequences running
+     Magnetization Transfer model (MT). In order to perform MT experiment, MT
+     phantom is required.
+         <ul class="itemize1">
+         <li class="itemize">MT_Flag : The flag for turning on and off MT simulation</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-35016x8">ME <br 
+class="newline" />The &#8216;ME&#8217; tab contains parameters for activating MR sequences running
+     Multiple pool spin Exchange model (ME). In order to perform ME experiment,
+     ME phantom is required.
+         <ul class="itemize1">
+         <li class="itemize">ME_Flag : The flag for turning on and off ME simulation</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-35018x9">CEST <br 
+class="newline" />The &#8216;CEST&#8217; tab contains parameters for activating MR sequences running
+     Chemical Exchange Saturation Transfer (CEST). In order to perform CEST
+     experiment, CEST phantom is required.
+         <ul class="itemize1">
+         <li class="itemize">CEST_Flag : The flag for turning on and off CEST simulation</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-35020x10">GM <br 
+class="newline" />The &#8216;GM&#8217; tab contains parameters for activating MR sequences running
+     Generalized Multi-pool exchanging model (GM). In order to perform GM
+     experiment, GM phantom is required.
+
+         <ul class="itemize1">
+         <li class="itemize">GM_Flag : The flag for turning on and off GM simulation</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-35022x11">RTRecon <br 
+class="newline" />The &#8216;RTRecon&#8217; tab contains parameters for performing real time image
+     reconstruction. Notice that adding RTRecon tab is required to perform real
+     time reconstruction, the user also needs to use the extended real time process
+     to trigger real time image reconstruction at the Ext sequence line. See Section
+     <a 
+href="MRiLab_User_Guidech5.html#x10-950005.2.7">5.2.7<!--tex4ht:ref: subs:ExtMacroLibrary --></a> for more details.
+         <ul class="itemize1">
+         <li class="itemize">RTR_Flag : The flag for turning on and off real time reconstruction
+         </li>
+         <li class="itemize">PlotK_Flag : The flag for turning on and off real time <span 
+class="cmti-10">k</span>-space plotting
+         </li>
+         <li class="itemize">DelayTime : The delay time for refreshing graphics</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-35024x12">MultiEcho <br 
+class="newline" />The &#8216;MultiEcho&#8217; tab contains parameters for performing multi echo experiment,
+     the number of echoes much match TEPerTR.
+         <ul class="itemize1">
+         <li class="itemize">ME_TEs (s) : An array of multiple echo values</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-35026x13">PartialEcho (:TODO) <br 
+class="newline" />The &#8216;PartialEcho&#8217; tab contains parameters for performing partial echo in
+     readout.
+     </li>
+     <li 
+  class="enumerate" id="x8-35028x14">Radial <br 
+class="newline" />The &#8216;Radial&#8217; tab contains parameters for performing 2D radial readout
+     sampling.
+         <ul class="itemize1">
+         <li class="itemize">R_AngPattern : The pattern for sampling the angle in <span 
+class="cmti-10">k</span>-space
+         </li>
+         <li class="itemize">R_AngRange : The range of sampling angle
+         </li>
+         <li class="itemize">R_SampPerSpoke : The number of sampling points in each spoke
+         </li>
+         <li class="itemize">R_SpokeNum : The number of sampling spokes</li></ul>
+
+     </li>
+     <li 
+  class="enumerate" id="x8-35030x15">SENSE (:TODO) <br 
+class="newline" />The &#8216;SENSE&#8217; tab contains parameters for performing parallel imaging using
+     SENSE.
+     </li>
+     <li 
+  class="enumerate" id="x8-35032x16">Shim <br 
+class="newline" />The &#8216;Shim&#8217; tab contains parameters for performing manual B0 shimming.
+         <ul class="itemize1">
+         <li class="itemize">Sh_X : The constant for X term
+         </li>
+         <li class="itemize">Sh_Y : The constant for Y term
+         </li>
+         <li class="itemize">Sh_Z : The constant for Z term
+         </li>
+         <li class="itemize">Sh_ZX : The constant for ZX term
+         </li>
+         <li class="itemize">Sh_ZY : The constant for ZY term
+         </li>
+         <li class="itemize">Sh_Z2 : The constant for Z<sup class="textsuperscript"><span 
+class="cmr-9">2</span></sup> term
+         </li>
+         <li class="itemize">Sh_XYZ : The constant for XYZ term
+         </li>
+         <li class="itemize">Sh_X2_Y2 : The constant for X<sup class="textsuperscript"><span 
+class="cmr-9">2</span></sup>Y<sup class="textsuperscript"><span 
+class="cmr-9">2</span></sup> term</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-35034x17">Spiral <br 
+class="newline" />The &#8216;Spiral&#8217; tab contains parameters for performing multi shot spiral
+     readout. The 2D spiral design uses a method described in literature
+     <span class="cite">[<a 
+href="MRiLab_User_Guideli3.html#XGlover2005">5</a>]</span>.
+         <ul class="itemize1">
+         <li class="itemize">S_Gradient (T/m) : The desired gradient amplitude
+         </li>
+         <li class="itemize">S_Lamda (1/m/rad) : A constant affecting radial sampling interval
+         in the spiral trajectory
+         </li>
+         <li class="itemize">S_ShotNum : The number of spiral interleaves
+         </li>
+         <li class="itemize">S_SlewRate (T/m/s) : The desired slew rate. Notice that in this
+         approximation, slew rate overshoots the desired value for part of the
+         slew-rate-limited region
+
+         </li>
+         <li class="itemize">S_SlewRate0 (T/m/s) : The slew rate at the beginning</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-35036x18">T2Prep <br 
+class="newline" />The &#8216;T2Prep&#8217; tab contains parameters for T2 preparation sequence.
+         <ul class="itemize1">
+         <li class="itemize">T2Prep (s) : The preparation time for T2 decay</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x8-35038x19">VIPR (:TODO) <br 
+class="newline" />The &#8216;VIPR&#8217; tab contains parameters for performing Vastly Undersampled
+     Isotropic Projection Reconstruction (VIPR) sequence.
+     </li>
+     <li 
+  class="enumerate" id="x8-35040x20">ZeroFilling <br 
+class="newline" />The &#8216;ZeroFilling&#8217; tab contains parameters for performing image interpolation in
+     the <span 
+class="cmti-10">k</span>-space using zero filling.
+         <ul class="itemize1">
+         <li class="itemize">ZF_Kz : The zero filling factor in Kz
+         </li>
+         <li class="itemize">ZF_Ky : The number of point in Ky after zero filling
+         </li>
+         <li class="itemize">ZF_Kx : The number of point in Kx after zero filling</li></ul>
+     </li></ol>
+<!--l. 817--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">3.9   </span> <a 
+ id="x8-360003.9"></a>Parallel Computing</h3>
+<!--l. 819--><p class="noindent" >The current MRiLab version supports two types of parallel computing mechanisms:
+GPU based parallel computing using CUDA and multi-threading CPU based parallel
+computing using OpenMP. As mentioned before, GPU support requires NVIDIA
+GPU with CUDA capability (shader model 2.0 and above). The OpenMP is,
+however, supported by most of modern multi core CPU. If both GPU and CPU are
+available, the user can choose to use one of these two methods. To switch parallel
+computing methods, go to &#8216;Parallel&#8217; menu and &#8216;Select Engine&#8217; and choose available
+GPU or CPU devices.
+
+</p>
+   <!--l. 821--><div class="crosslinks"><p class="noindent">[<a 
+href="MRiLab_User_Guidech4.html" >next</a>] [<a 
+href="MRiLab_User_Guidech2.html" >prev</a>] [<a 
+href="MRiLab_User_Guidech2.html#tailMRiLab_User_Guidech2.html" >prev-tail</a>] [<a 
+href="MRiLab_User_Guidech3.html" >front</a>] [<a 
+href="MRiLab_User_Guide3.html#MRiLab_User_Guidech3.html" >up</a>] </p></div>
+<!--l. 821--><p class="indent" >   <a 
+ id="tailMRiLab_User_Guidech3.html"></a>  </p> 
+</body> 
+</html>

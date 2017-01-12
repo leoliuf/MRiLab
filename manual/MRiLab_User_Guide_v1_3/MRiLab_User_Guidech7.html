@@ -1,0 +1,365 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" 
+"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd" > 
+<html> 
+<head><title>7 MRiLab Applications</title> 
+<meta charset="UTF-8" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<link rel="stylesheet" type="text/css" href="MRiLab_User_Guide.css" /> 
+<script type="text/javascript" 
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" 
+></script> 
+<style type="text/css"> 
+.MathJax_MathML {text-indent: 0;} 
+</style> 
+</head><body 
+>
+   <!--l. 4362--><div class="crosslinks"><p class="noindent">[<a 
+href="MRiLab_User_Guideli3.html" >next</a>] [<a 
+href="MRiLab_User_Guidech6.html" >prev</a>] [<a 
+href="MRiLab_User_Guidech6.html#tailMRiLab_User_Guidech6.html" >prev-tail</a>] [<a 
+href="#tailMRiLab_User_Guidech7.html">tail</a>] [<a 
+href="MRiLab_User_Guide3.html#MRiLab_User_Guidech7.html" >up</a>] </p></div>
+   <h2 class="chapterHead"><span class="titlemark">Chapter&#x00A0;7</span><br /><a 
+ id="x12-1540007"></a>MRiLab Applications</h2>
+<!--l. 4364--><p class="noindent" >This chapter shows a few examples for demonstrating the applications of MRiLab
+simulation
+</p>
+   <h3 class="sectionHead"><span class="titlemark">7.1   </span> <a 
+ id="x12-1550007.1"></a>bSSFP with Non-uniform B0</h3>
+<!--l. 4368--><p class="noindent" >This example (Figure <a 
+href="#x12-1550071">7.1<!--tex4ht:ref: fig:bSSFP --></a>) simulates the dark banding artifact in bSSFP images
+arisen from non-uniform B0 field. To perform this simulation, the following steps are
+needed:
+</p><!--l. 4370--><p class="indent" >
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x12-155002x1">Load Brain (Standard Resolution <!--l. 4371--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>1</mn><mn>0</mn><mn>8</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>9</mn><mn>0</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>9</mn><mn>0</mn></math>)
+     </li>
+     <li 
+  class="enumerate" id="x12-155004x2">Load PSD_FIESTA3D
+     </li>
+     <li 
+  class="enumerate" id="x12-155006x3">Load Mag_GaussianHead</li></ol>
+<!--l. 4376--><p class="indent" >   The user can adjust the &#8216;FlipAng&#8217;, &#8216;TR&#8217; and &#8216;TE&#8217; to modify the pattern of the
+banding artifact.
+</p>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x12-1550071"></a>
+
+
+<!--l. 4380--><p class="noindent" ><img 
+src="Pictures/bSSFP.png" alt="pict"  
+ />
+<br />  </p><div class="caption" 
+><span class="id">Figure&#x00A0;7.1:   </span><span  
+class="content">Simulated   3D   bSSFP   brain   image   of   matrix   size   of
+<!--l. 4381--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>1</mn><mn>0</mn><mn>0</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>8</mn><mn>0</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>2</mn><mn>0</mn></math>.
+The    circular    banding    artifact    is    due    to    added    Gaussian    field
+simulating  the  main  magnet  field  inhomogeneity.  Left:  TR/TE=16/8ms,
+FA=<!--l. 4381--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>4</mn><msup><mrow 
+><mn>0</mn></mrow><mrow 
+><mo 
+class="MathClass-bin">&#x2218;</mo></mrow></msup 
+></math>;
+Middle: TR/TE=16/8ms, FA=<!--l. 4381--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>4</mn><msup><mrow 
+><mn>0</mn></mrow><mrow 
+><mo 
+class="MathClass-bin">&#x2218;</mo></mrow></msup 
+></math>,
+Gaussian           B0           applied;           Right:           TR/TE=32/16ms,
+FA=<!--l. 4381--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>4</mn><msup><mrow 
+><mn>0</mn></mrow><mrow 
+><mo 
+class="MathClass-bin">&#x2218;</mo></mrow></msup 
+></math>,
+Gaussian B0 applied</span></div><!--tex4ht:label?: x12-1550071 -->
+
+   </div><hr class="endfigure" />
+   <h3 class="sectionHead"><span class="titlemark">7.2   </span> <a 
+ id="x12-1560007.2"></a>Fat Chemical Shift</h3>
+<!--l. 4388--><p class="noindent" >This example (Figure <a 
+href="#x12-1560052">7.2<!--tex4ht:ref: fig:FatWater --></a>) simulates chemical shift artifact at the interface of water
+and fat in a GRE sequence. To perform this simulation, the following steps are
+needed:
+</p><!--l. 4390--><p class="indent" >
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x12-156002x1">Load Water Fat Phantom (<!--l. 4391--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>2</mn><mn>5</mn><mn>6</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>2</mn><mn>5</mn><mn>6</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>3</mn><mn>2</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>2</mn></math>)
+     </li>
+     <li 
+  class="enumerate" id="x12-156004x2">Load PSD_GRE3D</li></ol>
+<!--l. 4395--><p class="indent" >   The user can adjust the &#8216;BandWidth&#8217; and &#8216;FreqDir&#8217; to modify the appearance of
+the chemical shift.
+</p>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x12-1560052"></a>
+
+
+<!--l. 4399--><p class="noindent" ><img 
+src="Pictures/FatWater.png" alt="pict"  
+ />
+<br />  </p><div class="caption" 
+><span class="id">Figure&#x00A0;7.2:    </span><span  
+class="content">Simulated    3D    gradient    echo    image    at    3.0T    using
+cartilage-fat   phantom   showing   water   fat   chemical   shift   at   different
+readout     bandwidth.     The     simulated     in-plane     matrix     size     is
+<!--l. 4400--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>1</mn><mn>0</mn><mn>0</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>1</mn><mn>0</mn><mn>0</mn></math>,
+TR/TE = 10s/50ms, Axial plane, A/P readout. Left: BW=400Hz/pixel; Right:
+BW=100Hz/pixel.</span></div><!--tex4ht:label?: x12-1560052 -->
+
+   </div><hr class="endfigure" />
+   <h3 class="sectionHead"><span class="titlemark">7.3   </span> <a 
+ id="x12-1570007.3"></a>Multi RF Transmitting</h3>
+<!--l. 4406--><p class="noindent" >This example (Figure <a 
+href="#x12-1570093">7.3<!--tex4ht:ref: fig:MultiTransmit --></a>) simulates multiple RF transmitting using a bSSFP
+sequence. To perform this simulation, the following steps are needed:
+</p><!--l. 4408--><p class="indent" >
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x12-157002x1">Load Brain (Standard Resolution <!--l. 4409--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>1</mn><mn>0</mn><mn>8</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>9</mn><mn>0</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>9</mn><mn>0</mn></math>)
+     </li>
+     <li 
+  class="enumerate" id="x12-157004x2">Load PSD_FIESTA3D
+     </li>
+     <li 
+  class="enumerate" id="x12-157006x3">Load Coil_8ChHead to Tx
+     </li>
+     <li 
+  class="enumerate" id="x12-157008x4">Set &#8216;MultiTransmit&#8217; to &#8216;on&#8217;</li></ol>
+<!--l. 4415--><p class="indent" >   The user can adjust the &#8216;B1Level&#8217; to modify the actual flip angle, modify the RF
+pulse using MR sequence Design Toolbox for individual RF source, or modify the coil
+configuration for generating desired B1+ field.
+</p>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x12-1570093"></a>
+
+
+<!--l. 4419--><p class="noindent" ><img 
+src="Pictures/MultiTransmit.png" alt="pict"  
+ />
+<br />  </p><div class="caption" 
+><span class="id">Figure&#x00A0;7.3:   </span><span  
+class="content">Simulated   3D   bSSFP   brain   image   of   matrix   size   of
+<!--l. 4420--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>1</mn><mn>0</mn><mn>0</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>8</mn><mn>0</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>4</mn></math>
+with    different    Tx    coil    configuration.    The    simulated    image    uses
+FA=<!--l. 4420--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>4</mn><msup><mrow 
+><mn>0</mn></mrow><mrow 
+><mo 
+class="MathClass-bin">&#x2218;</mo></mrow></msup 
+></math>,
+TR/TE  =  16/8ms.  Left:  uniform  unit  B1+  field,  RF  transmitting  from
+&#8216;MasterTxCoil&#8217;; Middle: multi RF transmitting from Coil1 and Coil3; Right:
+multi RF transmitting from all coil channels</span></div><!--tex4ht:label?: x12-1570093 -->
+
+   </div><hr class="endfigure" />
+   <h3 class="sectionHead"><span class="titlemark">7.4   </span> <a 
+ id="x12-1580007.4"></a>Multi Receiving Coil</h3>
+<!--l. 4426--><p class="noindent" >This example (Figure <a 
+href="#x12-1580074">7.4<!--tex4ht:ref: fig:MultiReceive --></a>) simulates multiple receiving using a SE sequence. To
+perform this simulation, the following steps are needed:
+</p><!--l. 4428--><p class="indent" >
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x12-158002x1">Load Brain (Standard Resolution <!--l. 4429--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>1</mn><mn>0</mn><mn>8</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>9</mn><mn>0</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>9</mn><mn>0</mn></math>)
+     </li>
+     <li 
+  class="enumerate" id="x12-158004x2">Load PSD_SE3D
+     </li>
+     <li 
+  class="enumerate" id="x12-158006x3">Load Coil_8ChHead to Rx</li></ol>
+<!--l. 4434--><p class="indent" >   The user can adjust the coil configuration for generating desired B1-
+field. All eight channels will be receiving MR signal from the virtual object
+individually.
+</p>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x12-1580074"></a>
+
+
+<!--l. 4438--><p class="noindent" ><img 
+src="Pictures/MultiReceive.png" alt="pict"  
+ />
+<br />  </p><div class="caption" 
+><span class="id">Figure&#x00A0;7.4:   </span><span  
+class="content">Simulated   brain   spin   echo   image   of   matrix   size   of
+<!--l. 4439--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>1</mn><mn>0</mn><mn>0</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>8</mn><mn>0</mn></math>
+with     multi     receiving     Rx     coil.     The     simulated     image     uses
+FA=<!--l. 4439--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>9</mn><msup><mrow 
+><mn>0</mn></mrow><mrow 
+><mo 
+class="MathClass-bin">&#x2218;</mo></mrow></msup 
+></math>,
+TR/TE  =  10s/10ms.  Left:  the  combined  image  using  &#8216;SumofMagn&#8217;;  Right:
+individual image for each coil channel, notice that Coil2 and Coil4 receive no
+signal due to zero B1- field.</span></div><!--tex4ht:label?: x12-1580074 -->
+
+   </div><hr class="endfigure" />
+   <h3 class="sectionHead"><span class="titlemark">7.5   </span> <a 
+ id="x12-1590007.5"></a>Image Gradient</h3>
+<!--l. 4446--><p class="noindent" >This example (Figure <a 
+href="#x12-1590075">7.5<!--tex4ht:ref: fig:ImageGrad --></a>) simulates applying non-unit gradient with a 3D SPGR
+sequence. To perform this simulation, the following steps are needed:
+</p><!--l. 4448--><p class="indent" >
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x12-159002x1">Load Brain (Standard Resolution <!--l. 4449--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>1</mn><mn>0</mn><mn>8</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>9</mn><mn>0</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>9</mn><mn>0</mn></math>)
+     </li>
+     <li 
+  class="enumerate" id="x12-159004x2">Load PSD_SPGR3D
+     </li>
+     <li 
+  class="enumerate" id="x12-159006x3">Load Grad_LinearHead</li></ol>
+<!--l. 4454--><p class="indent" >   The user can adjust the gradient structure for generating desired gradient field.
+Notice that this applied gradient in GyPE GradLine has a factor of 0.5 in the Y
+direction. This will cause image contraction in the Y direction.
+</p>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x12-1590075"></a>
+
+
+<!--l. 4458--><p class="noindent" ><img 
+src="Pictures/ImageGrad.png" alt="pict"  
+ />
+<br />  </p><div class="caption" 
+><span class="id">Figure&#x00A0;7.5:   </span><span  
+class="content">Simulated   brain   3D   SPGR   image   of   matrix   size   of
+<!--l. 4459--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>1</mn><mn>0</mn><mn>0</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>8</mn><mn>0</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>2</mn></math>
+with       non-unit       gradient.       The       simulated       image       uses
+FA=<!--l. 4459--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>2</mn><msup><mrow 
+><mn>0</mn></mrow><mrow 
+><mo 
+class="MathClass-bin">&#x2218;</mo></mrow></msup 
+></math>,
+TR/TE = 60/8ms. Left: unit gradient applied; Right: non-unit gradient applied
+in Y direction.</span></div><!--tex4ht:label?: x12-1590075 -->
+
+   </div><hr class="endfigure" />
+   <h3 class="sectionHead"><span class="titlemark">7.6   </span> <a 
+ id="x12-1600007.6"></a>Motion Artifact</h3>
+<!--l. 4465--><p class="noindent" >This example (Figure <a 
+href="#x12-1600076">7.6<!--tex4ht:ref: fig:MotionBrain --></a>) simulates motion artifact with a 3D GRE sequence. To
+perform this simulation, the following steps are needed:
+</p><!--l. 4467--><p class="indent" >
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x12-160002x1">Load Brain (Standard Resolution <!--l. 4468--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>1</mn><mn>0</mn><mn>8</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>9</mn><mn>0</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>9</mn><mn>0</mn></math>)
+     </li>
+     <li 
+  class="enumerate" id="x12-160004x2">Load PSD_GRE3D
+     </li>
+     <li 
+  class="enumerate" id="x12-160006x3">Load Mot_ShiftHead</li></ol>
+<!--l. 4473--><p class="indent" >   The user can adjust the motion structure to generate different motion track
+patterns, and/or modify motion triggering in the Ext sequence line to sample object
+movement.
+</p>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x12-1600076"></a>
+
+
+<!--l. 4477--><p class="noindent" ><img 
+src="Pictures/MotionBrain.png" alt="pict"  
+ />
+<br />   </p><div class="caption" 
+><span class="id">Figure&#x00A0;7.6:    </span><span  
+class="content">Simulated    brain    GRE    image    of    matrix    size    of
+<!--l. 4478--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>1</mn><mn>0</mn><mn>0</mn> <mo 
+class="MathClass-bin">&#x00D7;</mo> <mn>8</mn><mn>0</mn></math>
+with       translation       motion.       The       simulated       image       uses
+FA=<!--l. 4478--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>9</mn><msup><mrow 
+><mn>0</mn></mrow><mrow 
+><mo 
+class="MathClass-bin">&#x2218;</mo></mrow></msup 
+></math>,
+TR/TE = 10s/50ms, Axial plane, A/P readout. Motion triggering happens one
+time per TR, and motion lasts for 400s. Left: no motion; Right: translation
+motion applied.</span></div><!--tex4ht:label?: x12-1600076 -->
+
+   </div><hr class="endfigure" />
+
+   <!--l. 4483--><div class="crosslinks"><p class="noindent">[<a 
+href="MRiLab_User_Guideli3.html" >next</a>] [<a 
+href="MRiLab_User_Guidech6.html" >prev</a>] [<a 
+href="MRiLab_User_Guidech6.html#tailMRiLab_User_Guidech6.html" >prev-tail</a>] [<a 
+href="MRiLab_User_Guidech7.html" >front</a>] [<a 
+href="MRiLab_User_Guide3.html#MRiLab_User_Guidech7.html" >up</a>] </p></div>
+<!--l. 4483--><p class="indent" >   <a 
+ id="tailMRiLab_User_Guidech7.html"></a>  </p> 
+</body> 
+</html>

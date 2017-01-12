@@ -1,0 +1,393 @@
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+htfcss: cmti  font-style: italic;
+htfcss: cmtt font-family: monospace;
+htfcss: cmmi font-style: italic;
+htfcss: cmmib font-style: italic; font-weight: bold;
+File: MRiLab_User_Guide.html
+File: MRiLab_User_Guide.css
+File: MRiLab_User_Guide.tmp
+File: MRiLab_User_Guide2.html
+File: MRiLab_User_Guide3.html
+Font_Class(4,"4"): <span  class="small-caps"></span>
+Css: body#tex4ht-menu {white-space: nowrap; }
+Css: p.noindent { text-indent: 0em }
+Css: td p.noindent { text-indent: 0em; margin-top:0em; }
+Css: p.nopar { text-indent: 0em; }
+Css: p.indent{ text-indent: 1.5em }
+Css: @media print {div.crosslinks {visibility:hidden;}}
+Css: a img { border-top: 0; border-left: 0; border-right: 0; }
+Font_Css("4"): .small-caps{font-variant: small-caps; }
+Font_Css("10"): .htf-cmbx {font-weight: bold; font-style:normal;}
+Font_Css("12"): .htf-calligraphy {font-family:cursive}
+Font_Css("14"): .htf-italic {font-style: italic;}
+Font_Css("16"): .htf-bold {font-weight: bold;}
+Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; }
+Css: center { margin-top:1em; margin-bottom:1em; }
+Css: td center { margin-top:0em; margin-bottom:0em; }
+Css: .Canvas { position:relative; }
+Css: img.math{vertical-align:middle;}
+Css: li p.indent { text-indent: 0em }
+Css: li p:first-child{ margin-top:0em; }
+Css: li p:last-child, li div:last-child { margin-bottom:0.5em; }
+Css: li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
+Css: .enumerate1 {list-style-type:decimal;}
+Css: .enumerate2 {list-style-type:lower-alpha;}
+Css: .enumerate3 {list-style-type:lower-roman;}
+Css: .enumerate4 {list-style-type:upper-alpha;}
+Css: div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+Css: .obeylines-h,.obeylines-v {white-space: nowrap; }
+Css: div.obeylines-v p { margin-top:0; margin-bottom:0; }
+Css: .overline{ text-decoration:overline; }
+Css: .overline img{ border-top: 1px solid black; }
+Css: td.displaylines {text-align:center; white-space:nowrap;}
+Css: .centerline {text-align:center;}
+Css: .rightline {text-align:right;}
+Css: div.verbatim {font-family: monospace; white-space: nowrap; text-align:left; clear:both; }
+Css: .fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.fbox {display:table}
+Css: div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.minipage{width:100%;}
+Css: div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+Css: div.center div {text-align: left;}
+Css: div.flushright, div.flushright div.flushright {text-align: right;}
+Css: div.flushright div {text-align: left;}
+Css: div.flushleft {text-align: left;}
+Css: .underline{ text-decoration:underline; }
+Css: .underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }
+Css: .framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: .framebox-c {text-align:center;}
+Css: .framebox-l {text-align:left;}
+Css: .framebox-r {text-align:right;}
+Css: span.thank-mark{ vertical-align: super }
+Css: span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
+Css: div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+Css: table.tabular td p{margin-top:0em;}
+Css: table.tabular {margin-left: auto; margin-right: auto;}
+Css: td p:first-child{ margin-top:0em; }
+Css: td p:last-child{ margin-bottom:0em; }
+Css: div.td00{ margin-left:0pt; margin-right:0pt; }
+Css: div.td01{ margin-left:0pt; margin-right:5pt; }
+Css: div.td10{ margin-left:5pt; margin-right:0pt; }
+Css: div.td11{ margin-left:5pt; margin-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: td.td00{ padding-left:0pt; padding-right:0pt; }
+Css: td.td01{ padding-left:0pt; padding-right:5pt; }
+Css: td.td10{ padding-left:5pt; padding-right:0pt; }
+Css: td.td11{ padding-left:5pt; padding-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: .hline hr, .cline hr{ height : 1px; margin:0px; }
+Css: .tabbing-right {text-align:right;}
+Css: span.TEX {letter-spacing: -0.125em; }
+Css: span.TEX span.E{ position:relative;top:0.5ex;left:-0.0417em;}
+Css: a span.TEX span.E {text-decoration: none; }
+Css: span.LATEX span.A{ position:relative; top:-0.5ex; left:-0.4em; font-size:85%;}
+Css: span.LATEX span.TEX{ position:relative; left: -0.4em; }
+Css: div.float, div.figure {margin-left: auto; margin-right: auto;}
+Css: div.float img {text-align:center;}
+Css: div.figure img {text-align:center;}
+Css: .marginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+Css: .marginpar p{margin-top:0.4em; margin-bottom:0.4em;}
+Css: table.equation {width:100%;}
+Css: .equation td{text-align:center; }
+Css: td.equation { margin-top:1em; margin-bottom:1em; } 
+Css: td.equation-label { width:5%; text-align:center; }
+Css: td.eqnarray4 { width:5%; white-space: normal; }
+Css: td.eqnarray2 { width:5%; }
+Css: table.eqnarray-star, table.eqnarray {width:100%;}
+Css: div.eqnarray{text-align:center;}
+Css: div.array {text-align:center;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.pmatrix img{vertical-align:middle;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.bar-css {text-decoration:overline;}
+Css: img.cdots{vertical-align:middle;}
+Css: .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
+Css: .chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
+Css: .index-item, .index-subitem, .index-subsubitem {display:block}
+Css: div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
+Css: div.caption span.id{font-weight: bold; white-space: nowrap; }
+Css: h1.partHead{text-align: center}
+Css: p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: .paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}
+Css: .subparagraphHead, .likesubparagraphHead { font-weight: bold;}
+Css: .quote {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; margin-right:1em; text-align:justify;}
+Css: .verse{white-space:nowrap; margin-left:2em}
+Css: div.maketitle {text-align:center;}
+Css: h2.titleHead{text-align:center;}
+Css: div.maketitle{ margin-bottom: 2em; }
+Css: div.author, div.date {text-align:center;}
+Css: div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
+Css: div.author{white-space: nowrap;}
+Css: .quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
+Css: h1.partHead{text-align: center}
+Css:  .chapterToc, .likechapterToc {margin-left:0em;}
+Css:  .chapterToc ~ .likesectionToc, .chapterToc ~ .sectionToc, .likechapterToc ~ .likesectionToc, .likechapterToc ~ .sectionToc {margin-left:2em;}
+Css:  .chapterToc ~ .likesectionToc ~ .likesubsectionToc, .chapterToc ~ .likesectionToc ~ .subsectionToc, .chapterToc ~ .sectionToc ~ .likesubsectionToc, .chapterToc ~ .sectionToc ~ .subsectionToc, .likechapterToc ~ .likesectionToc ~ .likesubsectionToc, .likechapterToc ~ .likesectionToc ~ .subsectionToc, .likechapterToc ~ .sectionToc ~ .likesubsectionToc, .likechapterToc ~ .sectionToc ~ .subsectionToc {margin-left:4em;}
+Css: .chapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .chapterToc ~ .likesectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .likesectionToc ~ .subsectionToc ~ .subsubsectionToc, .chapterToc ~ .sectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .sectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .chapterToc ~ .sectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .sectionToc ~ .subsectionToc ~ .subsubsectionToc, .likechapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .likechapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .likechapterToc ~ .likesectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .likechapterToc ~ .likesectionToc ~ .subsectionToc ~ .subsubsectionToc, .likechapterToc ~ .sectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .likechapterToc ~ .sectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .likechapterToc ~ .sectionToc ~ .subsectionToc ~ .likesubsubsectionToc .likechapterToc ~ .sectionToc ~ .subsectionToc ~ .subsubsectionToc {margin-left:6em;}
+Css:  .likesectionToc , .sectionToc {margin-left:0em;}
+Css:  .likesectionToc ~ .likesubsectionToc, .likesectionToc ~ .subsectionToc, .sectionToc ~ .likesubsectionToc, .sectionToc ~ .subsectionToc {margin-left:2em;}
+Css: .likesectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .likesectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .likesectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .likesectionToc ~ .subsectionToc ~ .subsubsectionToc, .sectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .sectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .sectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .sectionToc ~ .subsectionToc ~ .subsubsectionToc {margin-left:4em;}
+Css:  .likesubsectionToc, .subsectionToc {margin-left:0em;}
+Css:  .likesubsectionToc ~ .subsubsectionToc, .subsectionToc ~ .subsubsectionToc, {margin-left:2em;}
+Css: .equation td{text-align:center; }
+Css: .equation-star td{text-align:center; }
+Css: table.equation-star { width:100%; }
+Css: table.equation { width:100%; }
+Css: table.align, table.alignat, table.xalignat, table.xxalignat, table.flalign {width:100%; margin-left:5%; white-space: nowrap;}
+Css: table.align-star, table.alignat-star, table.xalignat-star, table.flalign-star {margin-left:auto; margin-right:auto; white-space: nowrap;}
+Css: td.align-label { width:5%; text-align:center; }
+Css: td.align-odd { text-align:right; padding-right:0.3em;}
+Css: td.align-even { text-align:left; padding-right:0.6em;}
+Css: table.multline, table.multline-star {width:100%;}
+Css: td.gather {text-align:center; }
+Css: table.gather {width:100%;}
+Css: div.gather-star {text-align:center;}
+Css: .figure img.graphics {margin-left:10%;}
+l. 157 --- needs --- "convert Pictures/cmake-gui.eps Pictures/cmake-gui.png" ---
+l. 164 --- needs --- "convert Pictures/cmake-gui2.eps Pictures/cmake-gui2.png" ---
+l. 171 --- needs --- "convert Pictures/visualstudio.eps Pictures/visualstudio.png" ---
+l. 215 --- needs --- "convert Pictures/MainSimulationControlConsole.eps Pictures/MainSimulationControlConsole.png" ---
+l. 227 --- needs --- "convert Pictures/FunctionToolboxes.eps Pictures/FunctionToolboxes.png" ---
+l. 241 --- needs --- "convert Pictures/RFMacroLibrary.eps Pictures/RFMacroLibrary.png" ---
+l. 254 --- needs --- "convert Pictures/MRiLabWorkflow.eps Pictures/MRiLabWorkflow.png" ---
+l. 296 --- needs --- "convert Pictures/3DGRESampleScan.eps Pictures/3DGRESampleScan.png" ---
+l. 331 --- needs --- "convert Pictures/VirtualObjectChecking.eps Pictures/VirtualObjectChecking.png" ---
+l. 345 --- needs --- "convert Pictures/SequenceLoading.eps Pictures/SequenceLoading.png" ---
+l. 422 --- needs --- "convert Pictures/CoilLoading.eps Pictures/CoilLoading.png" ---
+l. 460 --- needs --- "convert Pictures/MagnetLoading.eps Pictures/MagnetLoading.png" ---
+l. 491 --- needs --- "convert Pictures/GradientLoading.eps Pictures/GradientLoading.png" ---
+l. 521 --- needs --- "convert Pictures/MotionLoading.eps Pictures/MotionLoading.png" ---
+l. 550 --- needs --- "convert Pictures/SimulationSettings.eps Pictures/SimulationSettings.png" ---
+l. 780 --- needs --- "convert Pictures/SimulationImage.eps Pictures/SimulationImage.png" ---
+l. 798 --- needs --- "convert Pictures/SimulationImage2.eps Pictures/SimulationImage2.png" ---
+--- needs --- MRiLab_User_Guide.idv[1] ==> MRiLab_User_Guide0x.png ---
+--- needs --- MRiLab_User_Guide.idv[2] ==> MRiLab_User_Guide1x.png ---
+--- needs --- MRiLab_User_Guide.idv[3] ==> MRiLab_User_Guide2x.png ---
+--- needs --- MRiLab_User_Guide.idv[4] ==> MRiLab_User_Guide3x.png ---
+l. 853 --- needs --- "convert Pictures/RFDesignPanelIcon.eps Pictures/RFDesignPanelIcon.png" ---
+l. 862 --- needs --- "convert Pictures/RFDesignGUI.eps Pictures/RFDesignGUI.png" ---
+l. 891 --- needs --- "convert Pictures/ConstantGradient.eps Pictures/ConstantGradient.png" ---
+l. 900 --- needs --- "convert Pictures/SliceProfile.eps Pictures/SliceProfile.png" ---
+l. 931 --- needs --- "convert Pictures/PlaybackButtonGroup.eps Pictures/PlaybackButtonGroup.png" ---
+l. 948 --- needs --- "convert Pictures/SliceProfileAtMiddle.eps Pictures/SliceProfileAtMiddle.png" ---
+l. 959 --- needs --- "convert Pictures/SpatialSpectral.eps Pictures/SpatialSpectral.png" ---
+l. 966 --- needs --- "convert Pictures/MatlabDefaultTools.eps Pictures/MatlabDefaultTools.png" ---
+l. 1036 --- needs --- "convert Pictures/SliceProfileTwoSpecies.eps Pictures/SliceProfileTwoSpecies.png" ---
+--- needs --- MRiLab_User_Guide.idv[5] ==> MRiLab_User_Guide4x.png ---
+--- needs --- MRiLab_User_Guide.idv[6] ==> MRiLab_User_Guide5x.png ---
+--- needs --- MRiLab_User_Guide.idv[7] ==> MRiLab_User_Guide6x.png ---
+--- needs --- MRiLab_User_Guide.idv[8] ==> MRiLab_User_Guide7x.png ---
+--- needs --- MRiLab_User_Guide.idv[9] ==> MRiLab_User_Guide8x.png ---
+--- needs --- MRiLab_User_Guide.idv[10] ==> MRiLab_User_Guide9x.png ---
+--- needs --- MRiLab_User_Guide.idv[11] ==> MRiLab_User_Guide10x.png ---
+--- needs --- MRiLab_User_Guide.idv[12] ==> MRiLab_User_Guide11x.png ---
+--- needs --- MRiLab_User_Guide.idv[13] ==> MRiLab_User_Guide12x.png ---
+--- needs --- MRiLab_User_Guide.idv[14] ==> MRiLab_User_Guide13x.png ---
+--- needs --- MRiLab_User_Guide.idv[15] ==> MRiLab_User_Guide14x.png ---
+--- needs --- MRiLab_User_Guide.idv[16] ==> MRiLab_User_Guide15x.png ---
+--- needs --- MRiLab_User_Guide.idv[17] ==> MRiLab_User_Guide16x.png ---
+--- needs --- MRiLab_User_Guide.idv[18] ==> MRiLab_User_Guide17x.png ---
+--- needs --- MRiLab_User_Guide.idv[19] ==> MRiLab_User_Guide18x.png ---
+--- needs --- MRiLab_User_Guide.idv[20] ==> MRiLab_User_Guide19x.png ---
+--- needs --- MRiLab_User_Guide.idv[21] ==> MRiLab_User_Guide20x.png ---
+--- needs --- MRiLab_User_Guide.idv[22] ==> MRiLab_User_Guide21x.png ---
+--- needs --- MRiLab_User_Guide.idv[23] ==> MRiLab_User_Guide22x.png ---
+--- needs --- MRiLab_User_Guide.idv[24] ==> MRiLab_User_Guide23x.png ---
+--- needs --- MRiLab_User_Guide.idv[25] ==> MRiLab_User_Guide24x.png ---
+--- needs --- MRiLab_User_Guide.idv[26] ==> MRiLab_User_Guide25x.png ---
+--- needs --- MRiLab_User_Guide.idv[27] ==> MRiLab_User_Guide26x.png ---
+--- needs --- MRiLab_User_Guide.idv[28] ==> MRiLab_User_Guide27x.png ---
+--- needs --- MRiLab_User_Guide.idv[29] ==> MRiLab_User_Guide28x.png ---
+--- needs --- MRiLab_User_Guide.idv[30] ==> MRiLab_User_Guide29x.png ---
+--- needs --- MRiLab_User_Guide.idv[31] ==> MRiLab_User_Guide30x.png ---
+--- needs --- MRiLab_User_Guide.idv[32] ==> MRiLab_User_Guide31x.png ---
+--- needs --- MRiLab_User_Guide.idv[33] ==> MRiLab_User_Guide32x.png ---
+--- needs --- MRiLab_User_Guide.idv[34] ==> MRiLab_User_Guide33x.png ---
+--- needs --- MRiLab_User_Guide.idv[35] ==> MRiLab_User_Guide34x.png ---
+--- needs --- MRiLab_User_Guide.idv[36] ==> MRiLab_User_Guide35x.png ---
+l. 1657 --- needs --- "convert Pictures/SequenceDesignPanelIcon.eps Pictures/SequenceDesignPanelIcon.png" ---
+l. 1666 --- needs --- "convert Pictures/SequenceDesignGUI.eps Pictures/SequenceDesignGUI.png" ---
+l. 1682 --- needs --- "convert Pictures/SequenceStructure.eps Pictures/SequenceStructure.png" ---
+l. 1708 --- needs --- "convert Pictures/MacroOperationButton.eps Pictures/MacroOperationButton.png" ---
+l. 1729 --- needs --- "convert Pictures/TwoPulses.eps Pictures/TwoPulses.png" ---
+l. 1744 --- needs --- "convert Pictures/RFSource.eps Pictures/RFSource.png" ---
+l. 1753 --- needs --- "convert Pictures/SequenceDisplayButton.eps Pictures/SequenceDisplayButton.png" ---
+l. 1777 --- needs --- "convert Pictures/AllSequence.eps Pictures/AllSequence.png" ---
+l. 1795 --- needs --- "convert Pictures/MatlabSpiral.eps Pictures/MatlabSpiral.png" ---
+l. 1809 --- needs --- "convert Pictures/VTK.eps Pictures/VTK.png" ---
+l. 1899 --- needs --- "convert Pictures/GzSelective.eps Pictures/GzSelective.png" ---
+l. 1926 --- needs --- "convert Pictures/GzSelective2.eps Pictures/GzSelective2.png" ---
+l. 1950 --- needs --- "convert Pictures/GzTrapezoid.eps Pictures/GzTrapezoid.png" ---
+l. 1972 --- needs --- "convert Pictures/GzAreaTrapezoid.eps Pictures/GzAreaTrapezoid.png" ---
+l. 1992 --- needs --- "convert Pictures/GzAreaTrapezoid2.eps Pictures/GzAreaTrapezoid2.png" ---
+l. 2019 --- needs --- "convert Pictures/GzCartesian.eps Pictures/GzCartesian.png" ---
+l. 2128 --- needs --- "convert Pictures/GyRadial.eps Pictures/GyRadial.png" ---
+l. 2148 --- needs --- "convert Pictures/GySpiral.eps Pictures/GySpiral.png" ---
+l. 2173 --- needs --- "convert Pictures/GyFSE.eps Pictures/GyFSE.png" ---
+l. 2195 --- needs --- "convert Pictures/GyEPI.eps Pictures/GyEPI.png" ---
+l. 2284 --- needs --- "convert Pictures/GxCartesian.eps Pictures/GxCartesian.png" ---
+l. 2337 --- needs --- "convert Pictures/GxFSE.eps Pictures/GxFSE.png" ---
+l. 2359 --- needs --- "convert Pictures/GxEPI.eps Pictures/GxEPI.png" ---
+l. 2397 --- needs --- "convert Pictures/ADCBlock.eps Pictures/ADCBlock.png" ---
+l. 2489 --- needs --- "convert Pictures/ExtBit.eps Pictures/ExtBit.png" ---
+l. 2735 --- needs --- "convert Pictures/NewPSD.eps Pictures/NewPSD.png" ---
+l. 2829 --- needs --- "convert Pictures/PhantomDesignPanelIcon.eps Pictures/PhantomDesignPanelIcon.png" ---
+l. 2836 --- needs --- "convert Pictures/PhantomDesignGUI.eps Pictures/PhantomDesignGUI.png" ---
+l. 3044 --- needs --- "convert Pictures/CoilDesignPanelIcon.eps Pictures/CoilDesignPanelIcon.png" ---
+l. 3053 --- needs --- "convert Pictures/CoilDesignGUI.eps Pictures/CoilDesignGUI.png" ---
+l. 3101 --- needs --- "convert Pictures/B1DisplayButton.eps Pictures/B1DisplayButton.png" ---
+l. 3117 --- needs --- "convert Pictures/B1Field.eps Pictures/B1Field.png" ---
+l. 3165 --- needs --- "convert Pictures/NewCoil.eps Pictures/NewCoil.png" ---
+l. 3177 --- needs --- "convert Pictures/MagnetDesignPanelIcon.eps Pictures/MagnetDesignPanelIcon.png" ---
+l. 3186 --- needs --- "convert Pictures/MagnetDesignGUI.eps Pictures/MagnetDesignGUI.png" ---
+l. 3292 --- needs --- "convert Pictures/GradientDesignPanelIcon.eps Pictures/GradientDesignPanelIcon.png" ---
+l. 3301 --- needs --- "convert Pictures/GradientDesignGUI.eps Pictures/GradientDesignGUI.png" ---
+l. 3403 --- needs --- "convert Pictures/MotionDesignPanelIcon.eps Pictures/MotionDesignPanelIcon.png" ---
+l. 3412 --- needs --- "convert Pictures/MotionDesignGUI.eps Pictures/MotionDesignGUI.png" ---
+l. 3584 --- needs --- "convert Pictures/MatrixUserPanelIcon.eps Pictures/MatrixUserPanelIcon.png" ---
+l. 3593 --- needs --- "convert Pictures/MatrixUser.eps Pictures/MatrixUser.png" ---
+l. 3623 --- needs --- "convert Pictures/LoadFromBinary.eps Pictures/LoadFromBinary.png" ---
+l. 3634 --- needs --- "convert Pictures/LoadFromDICOM.eps Pictures/LoadFromDICOM.png" ---
+l. 3657 --- needs --- "convert Pictures/MatrixUserDisplayPanel.eps Pictures/MatrixUserDisplayPanel.png" ---
+l. 3670 --- needs --- "convert Pictures/SaveFig.eps Pictures/SaveFig.png" ---
+l. 3671 --- needs --- "convert Pictures/ZoomIn.eps Pictures/ZoomIn.png" ---
+l. 3672 --- needs --- "convert Pictures/ZoomOut.eps Pictures/ZoomOut.png" ---
+l. 3673 --- needs --- "convert Pictures/Pan.eps Pictures/Pan.png" ---
+l. 3674 --- needs --- "convert Pictures/DataCursor.eps Pictures/DataCursor.png" ---
+l. 3675 --- needs --- "convert Pictures/Print.eps Pictures/Print.png" ---
+l. 3676 --- needs --- "convert Pictures/Colorbar.eps Pictures/Colorbar.png" ---
+l. 3699 --- needs --- "convert Pictures/MatrixCalc.eps Pictures/MatrixCalc.png" ---
+l. 3699 --- needs --- "convert Pictures/Upload.eps Pictures/Upload.png" ---
+l. 3710 --- needs --- "convert Pictures/MatrixCalcExample.eps Pictures/MatrixCalcExample.png" ---
+l. 3748 --- needs --- "convert Pictures/Release.eps Pictures/Release.png" ---
+l. 3749 --- needs --- "convert Pictures/Grid.eps Pictures/Grid.png" ---
+l. 3750 --- needs --- "convert Pictures/Magnifier.eps Pictures/Magnifier.png" ---
+l. 3751 --- needs --- "convert Pictures/LineProfile.eps Pictures/LineProfile.png" ---
+l. 3755 --- needs --- "convert Pictures/BrainProfile.eps Pictures/BrainProfile.png" ---
+l. 3762 --- needs --- "convert Pictures/DimProfile.eps Pictures/DimProfile.png" ---
+l. 3766 --- needs --- "convert Pictures/DimProfileWindow.eps Pictures/DimProfileWindow.png" ---
+l. 3771 --- needs --- "convert Pictures/3DSlicer.eps Pictures/3DSlicer.png" ---
+l. 3774 --- needs --- "convert Pictures/RedBar.eps Pictures/RedBar.png" ---
+l. 3775 --- needs --- "convert Pictures/YellowBar.eps Pictures/YellowBar.png" ---
+l. 3776 --- needs --- "convert Pictures/Switch.eps Pictures/Switch.png" ---
+l. 3776 --- needs --- "convert Pictures/Upload.eps Pictures/Upload.png" ---
+l. 3781 --- needs --- "convert Pictures/3DSlice.eps Pictures/3DSlice.png" ---
+l. 3786 --- needs --- "convert Pictures/RGBImage.eps Pictures/RGBImage.png" ---
+l. 3787 --- needs --- "convert Pictures/Montage.eps Pictures/Montage.png" ---
+l. 3791 --- needs --- "convert Pictures/MontageImage.eps Pictures/MontageImage.png" ---
+l. 3796 --- needs --- "convert Pictures/Fuse.eps Pictures/Fuse.png" ---
+l. 3796 --- needs --- "convert Pictures/Release.eps Pictures/Release.png" ---
+l. 3800 --- needs --- "convert Pictures/ImageFuse.eps Pictures/ImageFuse.png" ---
+l. 3812 --- needs --- "convert Pictures/Abs.eps Pictures/Abs.png" ---
+l. 3813 --- needs --- "convert Pictures/Negnate.eps Pictures/Negnate.png" ---
+l. 3814 --- needs --- "convert Pictures/Ln.eps Pictures/Ln.png" ---
+l. 3815 --- needs --- "convert Pictures/Log.eps Pictures/Log.png" ---
+l. 3816 --- needs --- "convert Pictures/Exp.eps Pictures/Exp.png" ---
+l. 3817 --- needs --- "convert Pictures/10n.eps Pictures/10n.png" ---
+l. 3818 --- needs --- "convert Pictures/Sin.eps Pictures/Sin.png" ---
+l. 3819 --- needs --- "convert Pictures/Cos.eps Pictures/Cos.png" ---
+l. 3820 --- needs --- "convert Pictures/Tan.eps Pictures/Tan.png" ---
+l. 3821 --- needs --- "convert Pictures/ASin.eps Pictures/ASin.png" ---
+l. 3822 --- needs --- "convert Pictures/ACos.eps Pictures/ACos.png" ---
+l. 3823 --- needs --- "convert Pictures/ATan.eps Pictures/ATan.png" ---
+l. 3832 --- needs --- "convert Pictures/FlipLR.eps Pictures/FlipLR.png" ---
+l. 3833 --- needs --- "convert Pictures/FlipUD.eps Pictures/FlipUD.png" ---
+l. 3834 --- needs --- "convert Pictures/FlipZ.eps Pictures/FlipZ.png" ---
+l. 3835 --- needs --- "convert Pictures/Rot90L.eps Pictures/Rot90L.png" ---
+l. 3836 --- needs --- "convert Pictures/Rot90R.eps Pictures/Rot90R.png" ---
+l. 3837 --- needs --- "convert Pictures/Rotate.eps Pictures/Rotate.png" ---
+l. 3838 --- needs --- "convert Pictures/Translate.eps Pictures/Translate.png" ---
+l. 3839 --- needs --- "convert Pictures/FFT.eps Pictures/FFT.png" ---
+l. 3847 --- needs --- "convert Pictures/Mask.eps Pictures/Mask.png" ---
+l. 3848 --- needs --- "convert Pictures/Smooth.eps Pictures/Smooth.png" ---
+l. 3849 --- needs --- "convert Pictures/Sharpen.eps Pictures/Sharpen.png" ---
+l. 3850 --- needs --- "convert Pictures/Edge.eps Pictures/Edge.png" ---
+l. 3851 --- needs --- "convert Pictures/Filter.eps Pictures/Filter.png" ---
+l. 3855 --- needs --- "convert Pictures/FilterResult.eps Pictures/FilterResult.png" ---
+l. 3861 --- needs --- "convert Pictures/Noise.eps Pictures/Noise.png" ---
+l. 3865 --- needs --- "convert Pictures/NoiseResult.eps Pictures/NoiseResult.png" ---
+l. 3871 --- needs --- "convert Pictures/FillOut.eps Pictures/FillOut.png" ---
+l. 3872 --- needs --- "convert Pictures/FillIn.eps Pictures/FillIn.png" ---
+l. 3873 --- needs --- "convert Pictures/Fill.eps Pictures/Fill.png" ---
+l. 3874 --- needs --- "convert Pictures/Replace.eps Pictures/Replace.png" ---
+l. 3875 --- needs --- "convert Pictures/Crop.eps Pictures/Crop.png" ---
+l. 3876 --- needs --- "convert Pictures/Extract.eps Pictures/Extract.png" ---
+l. 3877 --- needs --- "convert Pictures/Resolution.eps Pictures/Resolution.png" ---
+l. 3881 --- needs --- "convert Pictures/ChangeResolution.eps Pictures/ChangeResolution.png" ---
+l. 3894 --- needs --- "convert Pictures/FreeROI.eps Pictures/FreeROI.png" ---
+l. 3895 --- needs --- "convert Pictures/RectangleROI.eps Pictures/RectangleROI.png" ---
+l. 3896 --- needs --- "convert Pictures/CircleROI.eps Pictures/CircleROI.png" ---
+l. 3897 --- needs --- "convert Pictures/PolygonROI.eps Pictures/PolygonROI.png" ---
+l. 3898 --- needs --- "convert Pictures/LineROI.eps Pictures/LineROI.png" ---
+l. 3899 --- needs --- "convert Pictures/AngleROI.eps Pictures/AngleROI.png" ---
+l. 3900 --- needs --- "convert Pictures/ROIManager.eps Pictures/ROIManager.png" ---
+l. 3901 --- needs --- "convert Pictures/Histogram.eps Pictures/Histogram.png" ---
+l. 3906 --- needs --- "convert Pictures/ROIs.eps Pictures/ROIs.png" ---
+l. 3914 --- needs --- "convert Pictures/Hist.eps Pictures/Hist.png" ---
+l. 3924 --- needs --- "convert Pictures/FreeSeg.eps Pictures/FreeSeg.png" ---
+l. 3925 --- needs --- "convert Pictures/CircleSeg.eps Pictures/CircleSeg.png" ---
+l. 3926 --- needs --- "convert Pictures/PolygonSeg.eps Pictures/PolygonSeg.png" ---
+l. 3927 --- needs --- "convert Pictures/EditSeg.eps Pictures/EditSeg.png" ---
+l. 3928 --- needs --- "convert Pictures/SaveSeg.eps Pictures/SaveSeg.png" ---
+l. 3929 --- needs --- "convert Pictures/LoadSeg.eps Pictures/LoadSeg.png" ---
+l. 3935 --- needs --- "convert Pictures/Segs.eps Pictures/Segs.png" ---
+l. 3940 --- needs --- "convert Pictures/EditSeg.eps Pictures/EditSeg.png" ---
+l. 3940 --- needs --- "convert Pictures/SaveSeg.eps Pictures/SaveSeg.png" ---
+l. 3940 --- needs --- "convert Pictures/Upload.eps Pictures/Upload.png" ---
+l. 3940 --- needs --- "convert Pictures/LoadSeg.eps Pictures/LoadSeg.png" ---
+l. 3940 --- needs --- "convert Pictures/Release.eps Pictures/Release.png" ---
+l. 3947 --- needs --- "convert Pictures/Contour.eps Pictures/Contour.png" ---
+l. 3948 --- needs --- "convert Pictures/Contour3.eps Pictures/Contour3.png" ---
+l. 3949 --- needs --- "convert Pictures/ContourFill.eps Pictures/ContourFill.png" ---
+l. 3950 --- needs --- "convert Pictures/Surface.eps Pictures/Surface.png" ---
+l. 3951 --- needs --- "convert Pictures/SurfaceCon.eps Pictures/SurfaceCon.png" ---
+l. 3952 --- needs --- "convert Pictures/SurfaceCol.eps Pictures/SurfaceCol.png" ---
+l. 3953 --- needs --- "convert Pictures/Mesh.eps Pictures/Mesh.png" ---
+l. 3954 --- needs --- "convert Pictures/MeshCon.eps Pictures/MeshCon.png" ---
+l. 3955 --- needs --- "convert Pictures/MeshC.eps Pictures/MeshC.png" ---
+l. 3956 --- needs --- "convert Pictures/Reb.eps Pictures/Reb.png" ---
+l. 3957 --- needs --- "convert Pictures/Waterfall.eps Pictures/Waterfall.png" ---
+l. 3958 --- needs --- "convert Pictures/Pcolor.eps Pictures/Pcolor.png" ---
+l. 3967 --- needs --- "convert Pictures/imtool.eps Pictures/imtool.png" ---
+l. 3968 --- needs --- "convert Pictures/immovie.eps Pictures/immovie.png" ---
+l. 3969 --- needs --- "convert Pictures/imcontrast.eps Pictures/imcontrast.png" ---
+l. 3974 --- needs --- "convert Pictures/matlabIM.eps Pictures/matlabIM.png" ---
+l. 3984 --- needs --- "convert Pictures/3DRender.eps Pictures/3DRender.png" ---
+l. 3988 --- needs --- "convert Pictures/BrainRender.eps Pictures/BrainRender.png" ---
+l. 3993 --- needs --- "convert Pictures/MIP.eps Pictures/MIP.png" ---
+l. 3994 --- needs --- "convert Pictures/MIP3D.eps Pictures/MIP3D.png" ---
+l. 3999 --- needs --- "convert Pictures/3DMIP.eps Pictures/3DMIP.png" ---
+l. 4004 --- needs --- "convert Pictures/3DReslice.eps Pictures/3DReslice.png" ---
+l. 4005 --- needs --- "convert Pictures/Moive.eps Pictures/Moive.png" ---
+l. 4010 --- needs --- "convert Pictures/Reslice.eps Pictures/Reslice.png" ---
+l. 4029 --- needs --- "convert Pictures/SpinWatcherPanelIcon.eps Pictures/SpinWatcherPanelIcon.png" ---
+l. 4037 --- needs --- "convert Pictures/SpinWatcher.eps Pictures/SpinWatcher.png" ---
+l. 4046 --- needs --- "convert Pictures/Cursor.eps Pictures/Cursor.png" ---
+l. 4143 --- needs --- "convert Pictures/bSSFP.eps Pictures/bSSFP.png" ---
+l. 4162 --- needs --- "convert Pictures/FatWater.eps Pictures/FatWater.png" ---
+l. 4182 --- needs --- "convert Pictures/MultiTransmit.eps Pictures/MultiTransmit.png" ---
+l. 4201 --- needs --- "convert Pictures/MultiReceive.eps Pictures/MultiReceive.png" ---
+l. 4221 --- needs --- "convert Pictures/ImageGrad.eps Pictures/ImageGrad.png" ---
+l. 4240 --- needs --- "convert Pictures/MotionBrain.eps Pictures/MotionBrain.png" ---
+--- characters ---
+Font("cmex","10","10","100")
+Font("cmr","5","5","100")
+Font("cmr","7","7","100")
+Font("cmr","10","10","100")
+Font("cmmi","5","5","100")
+Font("cmmi","7","7","100")
+Font("cmmi","10","10","100")
+Font("cmsy","5","5","100")
+Font("cmsy","7","7","100")
+Font("cmsy","10","10","100")
+Font("cmr","17","17","100")
+Font("cmr","12","12","100")
+Font("cmtt","10","10","100")
+Font("cmti","10","10","100")
+Font("cmbx","10","10","100")
+Font("cmr","9","9","100")
+Font("cmcsc","10","10","100")

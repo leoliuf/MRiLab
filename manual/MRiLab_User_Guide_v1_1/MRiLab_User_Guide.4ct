@@ -1,0 +1,245 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{3}{x3-1000}{QQ2-3-1}{Preface}}{3}\relax 
+\doTocEntry\tocchapter{1}{\csname a:TocLink\endcsname{3}{x3-20001}{QQ2-3-2}{Introduction}}{3}\relax 
+\doTocEntry\tocsection{1.1}{\csname a:TocLink\endcsname{3}{x3-30001.1}{QQ2-3-3}{What is MRiLab}}{3}\relax 
+\doTocEntry\tocsection{1.2}{\csname a:TocLink\endcsname{3}{x3-40001.2}{QQ2-3-4}{Obtaining MRiLab}}{3}\relax 
+\doTocEntry\tocsection{1.3}{\csname a:TocLink\endcsname{3}{x3-50001.3}{QQ2-3-5}{Installing and Running MRiLab}}{3}\relax 
+\doTocEntry\toclof{1.1}{\csname a:TocLink\endcsname{3}{x3-50151}{}{\ignorespaces The cmake-gui for locating source folder and build folder}}{figure}\relax 
+\doTocEntry\toclof{1.2}{\csname a:TocLink\endcsname{3}{x3-50162}{}{\ignorespaces The cmake-gui for configuring and building Visual Studio projects}}{figure}\relax 
+\doTocEntry\toclof{1.3}{\csname a:TocLink\endcsname{3}{x3-50173}{}{\ignorespaces Build INSTALL project using Visual Studio}}{figure}\relax 
+\doTocEntry\toclot{1.1}{\csname a:TocLink\endcsname{3}{x3-50181}{}{\ignorespaces Fang's Computer Environment}}{table}\relax 
+\doTocEntry\tocchapter{2}{\csname a:TocLink\endcsname{3}{x3-60002}{QQ2-3-10}{Platform Overview}}{11}\relax 
+\doTocEntry\tocsection{2.1}{\csname a:TocLink\endcsname{3}{x3-70002.1}{QQ2-3-11}{MRiLab Simulation Platform}}{11}\relax 
+\doTocEntry\toclof{2.1}{\csname a:TocLink\endcsname{3}{x3-70031}{}{\ignorespaces The MRiLab Main Simulation Control Console. This control console functions like a MR scanner console for graphically adjusting imaging setup and conducting simulation control.}}{figure}\relax 
+\doTocEntry\toclof{2.2}{\csname a:TocLink\endcsname{3}{x3-70062}{}{\ignorespaces The Shortcut for Function Toolbox on Simulation Control Console. Each icon is associated with an individual toolbox with specific functions.}}{figure}\relax 
+\doTocEntry\toclof{2.3}{\csname a:TocLink\endcsname{3}{x3-70113}{}{\ignorespaces The Macro Library Tree Structure in MRiLab. Individual tree nodes under SeqElem root are functional macros that can be used for designing MR sequences. Notice that only RF nodes are unfolded here for display purpose.}}{figure}\relax 
+\doTocEntry\tocsection{2.2}{\csname a:TocLink\endcsname{3}{x3-80002.2}{QQ2-3-15}{Simulation Workflow}}{12}\relax 
+\doTocEntry\toclof{2.4}{\csname a:TocLink\endcsname{3}{x3-80014}{}{\ignorespaces MRiLab Workflow Diagram}}{figure}\relax 
+\doTocEntry\tocsection{2.3}{\csname a:TocLink\endcsname{3}{x3-90002.3}{QQ2-3-17}{Gradient Echo: Start A Simple Scan}}{16}\relax 
+\doTocEntry\toclof{2.5}{\csname a:TocLink\endcsname{3}{x3-90015}{}{\ignorespaces The Final Simulation Result for A 3D GRE Experiment}}{figure}\relax 
+\doTocEntry\tocchapter{3}{\csname a:TocLink\endcsname{3}{x3-100003}{QQ2-3-19}{Simulation Settings}}{21}\relax 
+\doTocEntry\tocsection{3.1}{\csname a:TocLink\endcsname{3}{x3-110003.1}{QQ2-3-20}{Loading Virtual Object}}{21}\relax 
+\doTocEntry\toclof{3.1}{\csname a:TocLink\endcsname{3}{x3-110011}{}{\ignorespaces A Virtual Object Preview}}{figure}\relax 
+\doTocEntry\tocsection{3.2}{\csname a:TocLink\endcsname{3}{x3-120003.2}{QQ2-3-22}{Loading Sequence}}{25}\relax 
+\doTocEntry\tocsubsection{3.2.1}{\csname a:TocLink\endcsname{3}{x3-130003.2.1}{QQ2-3-23}{Loading Predefined Sequence}}{25}\relax 
+\doTocEntry\toclof{3.2}{\csname a:TocLink\endcsname{3}{x3-130012}{}{\ignorespaces The Sequence Loading Interface. A sequence named PSD\_FIESTA3D from 3D GradientEcho Category is chosen, and DummyPulse special technique is checked by default.}}{figure}\relax 
+\doTocEntry\tocsubsection{3.2.2}{\csname a:TocLink\endcsname{3}{x3-140003.2.2}{QQ2-3-25}{Predefined Sequences}}{28}\relax 
+\doTocEntry\tocsection{3.3}{\csname a:TocLink\endcsname{3}{x3-150003.3}{QQ2-3-26}{Loading Coil}}{30}\relax 
+\doTocEntry\tocsubsection{3.3.1}{\csname a:TocLink\endcsname{3}{x3-160003.3.1}{QQ2-3-27}{Loading Predefined Coil}}{31}\relax 
+\doTocEntry\toclof{3.3}{\csname a:TocLink\endcsname{3}{x3-160013}{}{\ignorespaces The Coil Loading Interface. An eight channel coil configuration named Coil\_8ChHead from Head Category is chosen, preview image shows the total coil sensitivity with the same spatial resolution as that of the chosen digital phantom.}}{figure}\relax 
+\doTocEntry\tocsubsection{3.3.2}{\csname a:TocLink\endcsname{3}{x3-170003.3.2}{QQ2-3-29}{Predefined Coil}}{34}\relax 
+\doTocEntry\tocsection{3.4}{\csname a:TocLink\endcsname{3}{x3-180003.4}{QQ2-3-30}{Loading Magnet}}{35}\relax 
+\doTocEntry\tocsubsection{3.4.1}{\csname a:TocLink\endcsname{3}{x3-190003.4.1}{QQ2-3-31}{Loading Predefined Magnet}}{35}\relax 
+\doTocEntry\toclof{3.4}{\csname a:TocLink\endcsname{3}{x3-190014}{}{\ignorespaces The Magnet Loading Interface. A magnet named Mag\_GaussianHead from Head Category is chosen, preview image shows the dB0 map in the X-Y plane with the same spatial resolution as that of the chosen digital phantom.}}{figure}\relax 
+\doTocEntry\tocsubsection{3.4.2}{\csname a:TocLink\endcsname{3}{x3-200003.4.2}{QQ2-3-33}{Predefined Magnet}}{38}\relax 
+\doTocEntry\tocsection{3.5}{\csname a:TocLink\endcsname{3}{x3-210003.5}{QQ2-3-34}{Loading Gradient}}{38}\relax 
+\doTocEntry\tocsubsection{3.5.1}{\csname a:TocLink\endcsname{3}{x3-220003.5.1}{QQ2-3-35}{Loading Predefined Gradient}}{39}\relax 
+\doTocEntry\toclof{3.5}{\csname a:TocLink\endcsname{3}{x3-220015}{}{\ignorespaces The Gradient Loading Interface. A gradient profile named Grad\_LinearHead from Head Category is chosen.}}{figure}\relax 
+\doTocEntry\tocsubsection{3.5.2}{\csname a:TocLink\endcsname{3}{x3-230003.5.2}{QQ2-3-37}{Predefined Gradient}}{42}\relax 
+\doTocEntry\tocsection{3.6}{\csname a:TocLink\endcsname{3}{x3-240003.6}{QQ2-3-38}{Loading Motion}}{42}\relax 
+\doTocEntry\tocsubsection{3.6.1}{\csname a:TocLink\endcsname{3}{x3-250003.6.1}{QQ2-3-39}{Loading Predefined Motion}}{43}\relax 
+\doTocEntry\toclof{3.6}{\csname a:TocLink\endcsname{3}{x3-250016}{}{\ignorespaces The Motion Loading Interface. A motion profile named Mot\_RotateHead from Head Category is chosen. This motion profile create object rotation in three dimensions along any user defined axis.}}{figure}\relax 
+\doTocEntry\tocsubsection{3.6.2}{\csname a:TocLink\endcsname{3}{x3-260003.6.2}{QQ2-3-41}{Predefined Motion}}{46}\relax 
+\doTocEntry\tocsection{3.7}{\csname a:TocLink\endcsname{3}{x3-270003.7}{QQ2-3-42}{Prescribing Scan Parameters}}{46}\relax 
+\doTocEntry\toclof{3.7}{\csname a:TocLink\endcsname{3}{x3-270017}{}{\ignorespaces The Simulation Settings Panel. The panel contains Imaging, Advanced, Hardware, Recon and CVs tabs, two additional special technique DummyPulse and MT are also added for this sequence.}}{figure}\relax 
+\doTocEntry\tocsection{3.8}{\csname a:TocLink\endcsname{3}{x3-280003.8}{QQ2-3-44}{Parameter List}}{50}\relax 
+\doTocEntry\tocsubsection{3.8.1}{\csname a:TocLink\endcsname{3}{x3-290003.8.1}{QQ2-3-45}{Imaging}}{50}\relax 
+\doTocEntry\tocsubsection{3.8.2}{\csname a:TocLink\endcsname{3}{x3-300003.8.2}{QQ2-3-46}{Advanced}}{51}\relax 
+\doTocEntry\tocsubsection{3.8.3}{\csname a:TocLink\endcsname{3}{x3-310003.8.3}{QQ2-3-47}{Hardware}}{51}\relax 
+\doTocEntry\tocsubsection{3.8.4}{\csname a:TocLink\endcsname{3}{x3-320003.8.4}{QQ2-3-48}{Recon}}{52}\relax 
+\doTocEntry\tocsubsection{3.8.5}{\csname a:TocLink\endcsname{3}{x3-330003.8.5}{QQ2-3-49}{CVs}}{53}\relax 
+\doTocEntry\tocsubsection{3.8.6}{\csname a:TocLink\endcsname{3}{x3-340003.8.6}{QQ2-3-50}{SpecialTech}}{54}\relax 
+\doTocEntry\tocsection{3.9}{\csname a:TocLink\endcsname{3}{x3-350003.9}{QQ2-3-51}{Parallel Computing}}{58}\relax 
+\doTocEntry\tocchapter{4}{\csname a:TocLink\endcsname{3}{x3-360004}{QQ2-3-52}{Simulation}}{59}\relax 
+\doTocEntry\tocsection{4.1}{\csname a:TocLink\endcsname{3}{x3-370004.1}{QQ2-3-53}{Running Simulation}}{59}\relax 
+\doTocEntry\tocsection{4.2}{\csname a:TocLink\endcsname{3}{x3-380004.2}{QQ2-3-54}{Image, SNR and SAR}}{59}\relax 
+\doTocEntry\toclof{4.1}{\csname a:TocLink\endcsname{3}{x3-380011}{}{\ignorespaces A Preview of A Simulated Image. The preview is one slice of simulated image using gradient echo sequence with radial readout and reconstructed without deapodization.}}{figure}\relax 
+\doTocEntry\toclof{4.2}{\csname a:TocLink\endcsname{3}{x3-380022}{}{\ignorespaces A Preview of A Simulated Image with Multiple Receiving. The preview is one slice of simulated image using FIESTA sequence with 8 channel head coil. The image is from the fifth coil channel.}}{figure}\relax 
+\doTocEntry\tocchapter{5}{\csname a:TocLink\endcsname{3}{x3-390005}{QQ2-3-57}{MRiLab Toolboxes}}{67}\relax 
+\doTocEntry\tocsection{5.1}{\csname a:TocLink\endcsname{3}{x3-400005.1}{QQ2-3-58}{RF Pulse Design}}{67}\relax 
+\doTocEntry\toclof{5.1}{\csname a:TocLink\endcsname{3}{x3-400011}{}{\ignorespaces RF Design Panel Toolbar Icon}}{figure}\relax 
+\doTocEntry\tocsubsection{5.1.1}{\csname a:TocLink\endcsname{3}{x3-410005.1.1}{QQ2-3-60}{RF Design GUI}}{70}\relax 
+\doTocEntry\toclof{5.2}{\csname a:TocLink\endcsname{3}{x3-410012}{}{\ignorespaces RF Design Panel. An example of simulating the slice profile of a linear phase Shinnar-Le Roux RF pulse.}}{figure}\relax 
+\doTocEntry\toclof{5.3}{\csname a:TocLink\endcsname{3}{x3-410043}{}{\ignorespaces A Warning Window for Using Constant Gradient}}{figure}\relax 
+\doTocEntry\toclof{5.4}{\csname a:TocLink\endcsname{3}{x3-410074}{}{\ignorespaces A Slice Profile Analysis of A linear phase SLR Pulse}}{figure}\relax 
+\doTocEntry\toclof{5.5}{\csname a:TocLink\endcsname{3}{x3-410085}{}{\ignorespaces The Playback Control Group for Spin Response}}{figure}\relax 
+\doTocEntry\toclof{5.6}{\csname a:TocLink\endcsname{3}{x3-410096}{}{\ignorespaces An Intermediate Slice Profile in The Middle of RF Pulse}}{figure}\relax 
+\doTocEntry\toclof{5.7}{\csname a:TocLink\endcsname{3}{x3-410127}{}{\ignorespaces The Magnitude of Spin Transverse Component from A Spatial-Spectral Analysis of An Inversion Adiabatic rf Pulse}}{figure}\relax 
+\doTocEntry\toclof{5.8}{\csname a:TocLink\endcsname{3}{x3-410138}{}{\ignorespaces Matlab Default Graphical Tools}}{figure}\relax 
+\doTocEntry\toclof{5.9}{\csname a:TocLink\endcsname{3}{x3-410309}{}{\ignorespaces A Slice Profile Analysis of Two Spin Species}}{figure}\relax 
+\doTocEntry\tocsubsection{5.1.2}{\csname a:TocLink\endcsname{3}{x3-420005.1.2}{QQ2-3-69}{RF Macro Library}}{78}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-430005.1.2}{QQ2-3-70}{rfSinc}}{78}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-440005.1.2}{QQ2-3-71}{rfRect}}{80}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-450005.1.2}{QQ2-3-72}{rfGaussian}}{82}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-460005.1.2}{QQ2-3-73}{rfFermi}}{83}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-470005.1.2}{QQ2-3-74}{rfSLR}}{85}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-480005.1.2}{QQ2-3-75}{rfHyperbolicSecant}}{86}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-490005.1.2}{QQ2-3-76}{rfTanhTan}}{88}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-500005.1.2}{QQ2-3-77}{rfBIR}}{90}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-510005.1.2}{QQ2-3-78}{rfBIREF}}{94}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-520005.1.2}{QQ2-3-79}{rfRandom}}{97}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-530005.1.2}{QQ2-3-80}{rfUser}}{98}\relax 
+\doTocEntry\tocsubsection{5.1.3}{\csname a:TocLink\endcsname{3}{x3-540005.1.3}{QQ2-3-81}{Make New RF Macro}}{99}\relax 
+\doTocEntry\tocsection{5.2}{\csname a:TocLink\endcsname{3}{x3-550005.2}{QQ2-3-82}{MR Sequence Design}}{105}\relax 
+\doTocEntry\toclof{5.10}{\csname a:TocLink\endcsname{3}{x3-5500110}{}{\ignorespaces Sequence Design Panel Toolbar Icon}}{figure}\relax 
+\doTocEntry\tocsubsection{5.2.1}{\csname a:TocLink\endcsname{3}{x3-560005.2.1}{QQ2-3-84}{Sequence Design GUI}}{108}\relax 
+\doTocEntry\toclof{5.11}{\csname a:TocLink\endcsname{3}{x3-5600111}{}{\ignorespaces Sequence Design Panel. A bSSFP sequence is shown.}}{figure}\relax 
+\doTocEntry\toclof{5.12}{\csname a:TocLink\endcsname{3}{x3-5600612}{}{\ignorespaces An Example of A Typical MR Sequence Structure in MRiLab}}{figure}\relax 
+\doTocEntry\toclof{5.13}{\csname a:TocLink\endcsname{3}{x3-5600713}{}{\ignorespaces Macro Operation Buttons}}{figure}\relax 
+\doTocEntry\toclof{5.14}{\csname a:TocLink\endcsname{3}{x3-5601214}{}{\ignorespaces An Example of Multiple RF Source. The `MultiTransmit' is turned on and this sequence contains total 4 RF sources. The RF source 2 is chosen and the corresponding RF pulse waveform for coil channel 2 is shown.}}{figure}\relax 
+\doTocEntry\toclof{5.15}{\csname a:TocLink\endcsname{3}{x3-5601315}{}{\ignorespaces The Sequence Display Button.}}{figure}\relax 
+\doTocEntry\toclof{5.16}{\csname a:TocLink\endcsname{3}{x3-5601416}{}{\ignorespaces A Sequence View with Multiple TRs.}}{figure}\relax 
+\doTocEntry\toclof{5.17}{\csname a:TocLink\endcsname{3}{x3-5601717}{}{\ignorespaces Matlab Rendered K-Space Trajectory for A Spiral Readout with 5 Interleaves. The left figure is without K-Space point rendering. The right figure is with K-Space point rendering with the arrows indicating K-Space traversing direction.}}{figure}\relax 
+\doTocEntry\toclof{5.18}{\csname a:TocLink\endcsname{3}{x3-5601818}{}{\ignorespaces VTK Rendered K-Space Trajectory Examples. The top left figure shows a typical single slice Cartesian readout. The top right figure shows a single slice multishot EPI readout. The bottom left figure shows a single slice multishot spiral readout. The bottom right figure shows a 3D Stack-of-Stars radial readout.}}{figure}\relax 
+\doTocEntry\tocsubsection{5.2.2}{\csname a:TocLink\endcsname{3}{x3-570005.2.2}{QQ2-3-93}{Virtual Structure}}{115}\relax 
+\doTocEntry\tocsubsection{5.2.3}{\csname a:TocLink\endcsname{3}{x3-580005.2.3}{QQ2-3-94}{GzSS Macro Library}}{117}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-590005.2.3}{QQ2-3-95}{GzSelective}}{117}\relax 
+\doTocEntry\toclof{5.19}{\csname a:TocLink\endcsname{3}{x3-5900119}{}{\ignorespaces GzSelective Waveform}}{figure}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-600005.2.3}{QQ2-3-97}{GzSelective2}}{121}\relax 
+\doTocEntry\toclof{5.20}{\csname a:TocLink\endcsname{3}{x3-6000120}{}{\ignorespaces GzSelective2 Waveform}}{figure}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-610005.2.3}{QQ2-3-99}{GzTrapezoid}}{124}\relax 
+\doTocEntry\toclof{5.21}{\csname a:TocLink\endcsname{3}{x3-6100121}{}{\ignorespaces GzTrapezoid Waveform}}{figure}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-620005.2.3}{QQ2-3-101}{GzAreaTrapezoid}}{127}\relax 
+\doTocEntry\toclof{5.22}{\csname a:TocLink\endcsname{3}{x3-6200122}{}{\ignorespaces GzAreaTrapezoid Waveform}}{figure}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-630005.2.3}{QQ2-3-103}{GzAreaTrapezoid2}}{130}\relax 
+\doTocEntry\toclof{5.23}{\csname a:TocLink\endcsname{3}{x3-6300123}{}{\ignorespaces GzAreaTrapezoid2 Waveform}}{figure}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-640005.2.3}{QQ2-3-105}{GzCartesian}}{133}\relax 
+\doTocEntry\toclof{5.24}{\csname a:TocLink\endcsname{3}{x3-6400124}{}{\ignorespaces GzCartesian Waveform}}{figure}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-650005.2.3}{QQ2-3-107}{GzUser}}{136}\relax 
+\doTocEntry\tocsubsection{5.2.4}{\csname a:TocLink\endcsname{3}{x3-660005.2.4}{QQ2-3-108}{GyPE Macro Library}}{136}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-670005.2.4}{QQ2-3-109}{GyTrapezoid}}{137}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-680005.2.4}{QQ2-3-110}{GyAreaTrapezoid}}{137}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-690005.2.4}{QQ2-3-111}{GyAreaTrapezoid2}}{138}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-700005.2.4}{QQ2-3-112}{GyCartesian}}{139}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-710005.2.4}{QQ2-3-113}{GyRadial}}{140}\relax 
+\doTocEntry\toclof{5.25}{\csname a:TocLink\endcsname{3}{x3-7100125}{}{\ignorespaces GyRadial Waveform}}{figure}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-720005.2.4}{QQ2-3-115}{GySpiral}}{143}\relax 
+\doTocEntry\toclof{5.26}{\csname a:TocLink\endcsname{3}{x3-7200126}{}{\ignorespaces GySpiral Waveform}}{figure}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-730005.2.4}{QQ2-3-117}{GyFSE}}{146}\relax 
+\doTocEntry\toclof{5.27}{\csname a:TocLink\endcsname{3}{x3-7300127}{}{\ignorespaces GyFSE Waveform}}{figure}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-740005.2.4}{QQ2-3-119}{GyEPI}}{149}\relax 
+\doTocEntry\toclof{5.28}{\csname a:TocLink\endcsname{3}{x3-7400128}{}{\ignorespaces GyEPI Waveform}}{figure}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-750005.2.4}{QQ2-3-121}{GyUser}}{152}\relax 
+\doTocEntry\tocsubsection{5.2.5}{\csname a:TocLink\endcsname{3}{x3-760005.2.5}{QQ2-3-122}{GxR Macro Library}}{152}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-770005.2.5}{QQ2-3-123}{GxTrapezoid}}{153}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-780005.2.5}{QQ2-3-124}{GxAreaTrapezoid}}{153}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-790005.2.5}{QQ2-3-125}{GxAreaTrapezoid2}}{154}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-800005.2.5}{QQ2-3-126}{GxCartesian}}{155}\relax 
+\doTocEntry\toclof{5.29}{\csname a:TocLink\endcsname{3}{x3-8000129}{}{\ignorespaces GxCartesian Waveform}}{figure}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-810005.2.5}{QQ2-3-128}{GxRadial}}{158}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-820005.2.5}{QQ2-3-129}{GxSpiral}}{159}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-830005.2.5}{QQ2-3-130}{GxFSE}}{159}\relax 
+\doTocEntry\toclof{5.30}{\csname a:TocLink\endcsname{3}{x3-8300130}{}{\ignorespaces GxFSE Waveform}}{figure}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-840005.2.5}{QQ2-3-132}{GxEPI}}{163}\relax 
+\doTocEntry\toclof{5.31}{\csname a:TocLink\endcsname{3}{x3-8400131}{}{\ignorespaces GxEPI Waveform}}{figure}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-850005.2.5}{QQ2-3-134}{GxUser}}{166}\relax 
+\doTocEntry\tocsubsection{5.2.6}{\csname a:TocLink\endcsname{3}{x3-860005.2.6}{QQ2-3-135}{ADC Macro Library}}{166}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-870005.2.6}{QQ2-3-136}{ADCBlock}}{167}\relax 
+\doTocEntry\toclof{5.32}{\csname a:TocLink\endcsname{3}{x3-8700132}{}{\ignorespaces ADCBlock Waveform}}{figure}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-880005.2.6}{QQ2-3-138}{ADCCartesian}}{170}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-890005.2.6}{QQ2-3-139}{ADCRadial}}{170}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-900005.2.6}{QQ2-3-140}{ADCSpiral}}{171}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-910005.2.6}{QQ2-3-141}{ADCFSE}}{171}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-920005.2.6}{QQ2-3-142}{ADCEPI}}{171}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-930005.2.6}{QQ2-3-143}{ADCUser}}{172}\relax 
+\doTocEntry\tocsubsection{5.2.7}{\csname a:TocLink\endcsname{3}{x3-940005.2.7}{QQ2-3-144}{Ext Macro Library}}{173}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-950005.2.7}{QQ2-3-145}{ExtBit}}{173}\relax 
+\doTocEntry\toclof{5.33}{\csname a:TocLink\endcsname{3}{x3-9500133}{}{\ignorespaces ExtBit Waveform}}{figure}\relax 
+\doTocEntry\tocsubsection{5.2.8}{\csname a:TocLink\endcsname{3}{x3-960005.2.8}{QQ2-3-147}{Make New Ext Plugin}}{176}\relax 
+\doTocEntry\tocsubsection{5.2.9}{\csname a:TocLink\endcsname{3}{x3-970005.2.9}{QQ2-3-148}{Make New Gradient Macro}}{183}\relax 
+\doTocEntry\tocsubsection{5.2.10}{\csname a:TocLink\endcsname{3}{x3-980005.2.10}{QQ2-3-149}{Make New MR Sequence}}{186}\relax 
+\doTocEntry\toclof{5.34}{\csname a:TocLink\endcsname{3}{x3-9800134}{}{\ignorespaces The Sequence Creation Window}}{figure}\relax 
+\doTocEntry\tocsubsection{5.2.11}{\csname a:TocLink\endcsname{3}{x3-990005.2.11}{QQ2-3-151}{Make New Virtual Object}}{190}\relax 
+\doTocEntry\tocsection{5.3}{\csname a:TocLink\endcsname{3}{x3-1000005.3}{QQ2-3-152}{Coil B1 Design}}{194}\relax 
+\doTocEntry\toclof{5.35}{\csname a:TocLink\endcsname{3}{x3-10000135}{}{\ignorespaces Coil Design Panel Toolbar Icon}}{figure}\relax 
+\doTocEntry\tocsubsection{5.3.1}{\csname a:TocLink\endcsname{3}{x3-1010005.3.1}{QQ2-3-154}{Coil Design GUI}}{197}\relax 
+\doTocEntry\toclof{5.36}{\csname a:TocLink\endcsname{3}{x3-10100136}{}{\ignorespaces Coil B1 Design Panel. An eight channel coil is shown.}}{figure}\relax 
+\doTocEntry\toclof{5.37}{\csname a:TocLink\endcsname{3}{x3-10101237}{}{\ignorespaces The B1 Field Display Button.}}{figure}\relax 
+\doTocEntry\toclof{5.38}{\csname a:TocLink\endcsname{3}{x3-10101338}{}{\ignorespaces An Example of B1 Field on XY Plane.}}{figure}\relax 
+\doTocEntry\tocsubsection{5.3.2}{\csname a:TocLink\endcsname{3}{x3-1020005.3.2}{QQ2-3-158}{Coil Element Macro Library}}{207}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-1030005.3.2}{QQ2-3-159}{CoilCircle}}{207}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-1040005.3.2}{QQ2-3-160}{CoilUser}}{208}\relax 
+\doTocEntry\tocsubsection{5.3.3}{\csname a:TocLink\endcsname{3}{x3-1050005.3.3}{QQ2-3-161}{Make New Coil}}{208}\relax 
+\doTocEntry\toclof{5.39}{\csname a:TocLink\endcsname{3}{x3-10500139}{}{\ignorespaces The Coil Creation Window}}{figure}\relax 
+\doTocEntry\tocsection{5.4}{\csname a:TocLink\endcsname{3}{x3-1060005.4}{QQ2-3-163}{Magnet dB0 Design}}{211}\relax 
+\doTocEntry\toclof{5.40}{\csname a:TocLink\endcsname{3}{x3-10600140}{}{\ignorespaces Magnet Design Panel Toolbar Icon}}{figure}\relax 
+\doTocEntry\tocsubsection{5.4.1}{\csname a:TocLink\endcsname{3}{x3-1070005.4.1}{QQ2-3-165}{Magnet Design GUI}}{214}\relax 
+\doTocEntry\toclof{5.41}{\csname a:TocLink\endcsname{3}{x3-10700141}{}{\ignorespaces Magnet dB0 Design Panel}}{figure}\relax 
+\doTocEntry\tocsubsection{5.4.2}{\csname a:TocLink\endcsname{3}{x3-1080005.4.2}{QQ2-3-167}{Magnet Element Macro Library}}{218}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-1090005.4.2}{QQ2-3-168}{MagLinear}}{218}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-1100005.4.2}{QQ2-3-169}{MagGaussian}}{219}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-1110005.4.2}{QQ2-3-170}{MagSymbolic}}{219}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-1120005.4.2}{QQ2-3-171}{MagUser}}{220}\relax 
+\doTocEntry\tocsubsection{5.4.3}{\csname a:TocLink\endcsname{3}{x3-1130005.4.3}{QQ2-3-172}{Make New Magnet}}{220}\relax 
+\doTocEntry\tocsection{5.5}{\csname a:TocLink\endcsname{3}{x3-1140005.5}{QQ2-3-173}{Gradient Design}}{220}\relax 
+\doTocEntry\toclof{5.42}{\csname a:TocLink\endcsname{3}{x3-11400142}{}{\ignorespaces Gradient Design Panel Toolbar Icon}}{figure}\relax 
+\doTocEntry\tocsubsection{5.5.1}{\csname a:TocLink\endcsname{3}{x3-1150005.5.1}{QQ2-3-175}{Gradient Design GUI}}{223}\relax 
+\doTocEntry\toclof{5.43}{\csname a:TocLink\endcsname{3}{x3-11500143}{}{\ignorespaces Gradient Design Panel}}{figure}\relax 
+\doTocEntry\tocsubsection{5.5.2}{\csname a:TocLink\endcsname{3}{x3-1160005.5.2}{QQ2-3-177}{Gradient Element Macro Library}}{228}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-1170005.5.2}{QQ2-3-178}{GradLinear}}{228}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-1180005.5.2}{QQ2-3-179}{GradSymbolic}}{228}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-1190005.5.2}{QQ2-3-180}{GradUser}}{229}\relax 
+\doTocEntry\tocsubsection{5.5.3}{\csname a:TocLink\endcsname{3}{x3-1200005.5.3}{QQ2-3-181}{Make New Gradient}}{229}\relax 
+\doTocEntry\tocsection{5.6}{\csname a:TocLink\endcsname{3}{x3-1210005.6}{QQ2-3-182}{Motion Design}}{230}\relax 
+\doTocEntry\toclof{5.44}{\csname a:TocLink\endcsname{3}{x3-12100144}{}{\ignorespaces Motion Design Panel Toolbar Icon}}{figure}\relax 
+\doTocEntry\tocsubsection{5.6.1}{\csname a:TocLink\endcsname{3}{x3-1220005.6.1}{QQ2-3-184}{Motion Design Panel}}{233}\relax 
+\doTocEntry\toclof{5.45}{\csname a:TocLink\endcsname{3}{x3-12200145}{}{\ignorespaces Motion Design Panel}}{figure}\relax 
+\doTocEntry\tocsubsection{5.6.2}{\csname a:TocLink\endcsname{3}{x3-1230005.6.2}{QQ2-3-186}{Motion Element Macro Library}}{237}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-1240005.6.2}{QQ2-3-187}{MotTranslate}}{237}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-1250005.6.2}{QQ2-3-188}{MotRotate}}{238}\relax 
+\doTocEntry\tocsubsection{5.6.3}{\csname a:TocLink\endcsname{3}{x3-1260005.6.3}{QQ2-3-189}{Make New Motion}}{238}\relax 
+\doTocEntry\tocsection{5.7}{\csname a:TocLink\endcsname{3}{x3-1270005.7}{QQ2-3-190}{Image Reconstruction}}{239}\relax 
+\doTocEntry\tocsubsection{5.7.1}{\csname a:TocLink\endcsname{3}{x3-1280005.7.1}{QQ2-3-191}{Default Engine}}{239}\relax 
+\doTocEntry\tocsubsection{5.7.2}{\csname a:TocLink\endcsname{3}{x3-1290005.7.2}{QQ2-3-192}{External Engine}}{239}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-1300005.7.2}{QQ2-3-193}{Gadgetron}}{242}\relax 
+\doTocEntry\tocsection{5.8}{\csname a:TocLink\endcsname{3}{x3-1310005.8}{QQ2-3-194}{Simulation Output}}{243}\relax 
+\doTocEntry\tocchapter{6}{\csname a:TocLink\endcsname{3}{x3-1320006}{QQ2-3-195}{Image Display and Analysis}}{245}\relax 
+\doTocEntry\tocsection{6.1}{\csname a:TocLink\endcsname{3}{x3-1330006.1}{QQ2-3-196}{MagicRightClick}}{245}\relax 
+\doTocEntry\tocsection{6.2}{\csname a:TocLink\endcsname{3}{x3-1340006.2}{QQ2-3-197}{MatrixUser}}{245}\relax 
+\doTocEntry\toclof{6.1}{\csname a:TocLink\endcsname{3}{x3-1340011}{}{\ignorespaces MatrixUser Toolbar Icon}}{figure}\relax 
+\doTocEntry\toclof{6.2}{\csname a:TocLink\endcsname{3}{x3-1340022}{}{\ignorespaces MatrixUser Main Window}}{figure}\relax 
+\doTocEntry\tocsubsection{6.2.1}{\csname a:TocLink\endcsname{3}{x3-1350006.2.1}{QQ2-3-200}{Data Import}}{251}\relax 
+\doTocEntry\toclof{6.3}{\csname a:TocLink\endcsname{3}{x3-1350013}{}{\ignorespaces MatrixUser Binary File Loading Interface}}{figure}\relax 
+\doTocEntry\toclof{6.4}{\csname a:TocLink\endcsname{3}{x3-1350024}{}{\ignorespaces MatrixUser DICOM File Loading Interface}}{figure}\relax 
+\doTocEntry\tocsubsection{6.2.2}{\csname a:TocLink\endcsname{3}{x3-1360006.2.2}{QQ2-3-203}{Window Layout}}{252}\relax 
+\doTocEntry\toclof{6.5}{\csname a:TocLink\endcsname{3}{x3-1360015}{}{\ignorespaces MatrixUser Display Window}}{figure}\relax 
+\doTocEntry\toclof{6.6}{\csname a:TocLink\endcsname{3}{x3-1360086}{}{\ignorespaces MatrixUser Concatenation Example}}{figure}\relax 
+\doTocEntry\tocsubsection{6.2.3}{\csname a:TocLink\endcsname{3}{x3-1370006.2.3}{QQ2-3-206}{Function Library}}{257}\relax 
+\doTocEntry\toclof{6.7}{\csname a:TocLink\endcsname{3}{x3-1370037}{}{\ignorespaces An Example of 1D Profile. The user can relocate and resize the profile checking line on the image for inspecting live 1D profile. The buttons on the profile window can list profile data, save the data as `data\_plt' array into workspace or copy the data into clipboard.}}{figure}\relax 
+\doTocEntry\toclof{6.8}{\csname a:TocLink\endcsname{3}{x3-1370048}{}{\ignorespaces An Example of Plotting the First (Column) and Second (Row) Matrix Dimension Profile. The user needs to specify which matrix dimension to plot. The profile curve will update according to current mouse cursor position. The user can pause or resume live updating by right click on main display window.}}{figure}\relax 
+\doTocEntry\toclof{6.9}{\csname a:TocLink\endcsname{3}{x3-1370059}{}{\ignorespaces 3D Slicer. To change view slice, the user needs to activate localizer line and then click on desired coordinate on the main display window.}}{figure}\relax 
+\doTocEntry\toclof{6.10}{\csname a:TocLink\endcsname{3}{x3-13700610}{}{\ignorespaces Montage Image. An example of creating a 4-by-5 montage image using multiple matrix slices starting from the first slice.}}{figure}\relax 
+\doTocEntry\toclof{6.11}{\csname a:TocLink\endcsname{3}{x3-13700711}{}{\ignorespaces An Example of Overlapping Two Matrices. A second window is provided for adjusting overlapping effect. The user can choose to overlap any size compatible matrices from the matrix list. There exist control items to change foreground colormap scheme, to modify image intensity fraction, or to change foreground color limits.}}{figure}\relax 
+\doTocEntry\toclof{6.12}{\csname a:TocLink\endcsname{3}{x3-13701412}{}{\ignorespaces Image Filters. An example is shown for applying various image filters.}}{figure}\relax 
+\doTocEntry\toclof{6.13}{\csname a:TocLink\endcsname{3}{x3-13701513}{}{\ignorespaces Image Noise. An example is shown for applying various image noise.}}{figure}\relax 
+\doTocEntry\toclof{6.14}{\csname a:TocLink\endcsname{3}{x3-13701614}{}{\ignorespaces Interpolation Window. An example is shown to double spatial resolution in x and y direction by using a linear interpolation.}}{figure}\relax 
+\doTocEntry\toclof{6.15}{\csname a:TocLink\endcsname{3}{x3-13701915}{}{\ignorespaces Draw Multiple ROIs and Redraw on A Second Image. The source ROIs are in green, copied ROIs are in red.}}{figure}\relax 
+\doTocEntry\toclof{6.16}{\csname a:TocLink\endcsname{3}{x3-13702016}{}{\ignorespaces Histogram for One Image Slice}}{figure}\relax 
+\doTocEntry\toclof{6.17}{\csname a:TocLink\endcsname{3}{x3-13702317}{}{\ignorespaces Editing Segmentation}}{figure}\relax 
+\doTocEntry\toclof{6.18}{\csname a:TocLink\endcsname{3}{x3-13702818}{}{\ignorespaces Matlab Tools}}{figure}\relax 
+\doTocEntry\toclof{6.19}{\csname a:TocLink\endcsname{3}{x3-13703119}{}{\ignorespaces An Example of 3D Human Brain Rendering. Control units on the rendering window are provided for fine tuning the renderer. The user can select isosurface threshold, cutoff connectivity threshold (i.e. object with total voxels less than the threshold will be removed from the rendering. `@' is followed by the voxel number of current largest object) and object opacity. A set of pushbuttons are also available for changing surface color, display box and patches. The default Matlab camera toolbar are provided for adjusting the lighting effect.}}{figure}\relax 
+\doTocEntry\toclof{6.20}{\csname a:TocLink\endcsname{3}{x3-13703220}{}{\ignorespaces 3D Maximum Intensity Projection (MIP). An example of 3D MIP around axial axis of a human knee MRI image stack shows the vascular system of the knee joint.}}{figure}\relax 
+\doTocEntry\toclof{6.21}{\csname a:TocLink\endcsname{3}{x3-13703321}{}{\ignorespaces Reslice 3D Matrix. An example of 3D reslicing generates a new stack of images in the oblique plane from an axial human knee MRI image stack. Note that the resliced images are extracted from the plane perpendicular to the indicating line on the left window.}}{figure}\relax 
+\doTocEntry\tocsection{6.3}{\csname a:TocLink\endcsname{3}{x3-1380006.3}{QQ2-3-222}{arrayShow}}{266}\relax 
+\doTocEntry\tocsection{6.4}{\csname a:TocLink\endcsname{3}{x3-1390006.4}{QQ2-3-223}{SpinWatcher}}{266}\relax 
+\doTocEntry\toclof{6.22}{\csname a:TocLink\endcsname{3}{x3-13900122}{}{\ignorespaces SpinWatcher Toolbar Icon}}{figure}\relax 
+\doTocEntry\toclof{6.23}{\csname a:TocLink\endcsname{3}{x3-13900223}{}{\ignorespaces SpinWatcher Main Interface}}{figure}\relax 
+\doTocEntry\tocsection{6.5}{\csname a:TocLink\endcsname{3}{x3-1400006.5}{QQ2-3-226}{SARWatcher}}{275}\relax 
+\doTocEntry\tocchapter{7}{\csname a:TocLink\endcsname{3}{x3-1410007}{QQ2-3-227}{MRiLab Applications}}{277}\relax 
+\doTocEntry\tocsection{7.1}{\csname a:TocLink\endcsname{3}{x3-1420007.1}{QQ2-3-228}{bSSFP with Non-uniform B0}}{277}\relax 
+\doTocEntry\toclof{7.1}{\csname a:TocLink\endcsname{3}{x3-1420071}{}{\ignorespaces Simulated 3D bSSFP brain image of matrix size of $100 \times 80 \times 20$. The circular banding artifact is due to added Gaussian field simulating the main magnet field inhomogeneity. Left: TR/TE=16/8ms, FA=$40^{\circ }$; Middle: TR/TE=16/8ms, FA=$40^{\circ }$, Gaussian B0 applied; Right: TR/TE=32/16ms, FA=$40^{\circ }$, Gaussian B0 applied}}{figure}\relax 
+\doTocEntry\tocsection{7.2}{\csname a:TocLink\endcsname{3}{x3-1430007.2}{QQ2-3-230}{Fat Chemical Shift}}{280}\relax 
+\doTocEntry\toclof{7.2}{\csname a:TocLink\endcsname{3}{x3-1430052}{}{\ignorespaces Simulated 3D gradient echo image at 3.0T using cartilage-fat phantom showing water fat chemical shift at different readout bandwidth. The simulated in-plane matrix size is $100 \times 100$, TR/TE = 10s/50ms, Axial plane, A/P readout. Left: BW=400Hz/pixel; Right: BW=100Hz/pixel.}}{figure}\relax 
+\doTocEntry\tocsection{7.3}{\csname a:TocLink\endcsname{3}{x3-1440007.3}{QQ2-3-232}{Multi RF Transmitting}}{283}\relax 
+\doTocEntry\toclof{7.3}{\csname a:TocLink\endcsname{3}{x3-1440093}{}{\ignorespaces Simulated 3D bSSFP brain image of matrix size of $100 \times 80 \times 4$ with different Tx coil configuration. The simulated image uses FA=$40^{\circ }$, TR/TE = 16/8ms. Left: uniform unit B1+ field, RF transmitting from `MasterTxCoil'; Middle: multi RF transmitting from Coil1 and Coil3; Right: multi RF transmitting from all coil channels}}{figure}\relax 
+\doTocEntry\tocsection{7.4}{\csname a:TocLink\endcsname{3}{x3-1450007.4}{QQ2-3-234}{Multi Receiving Coil}}{286}\relax 
+\doTocEntry\toclof{7.4}{\csname a:TocLink\endcsname{3}{x3-1450074}{}{\ignorespaces Simulated brain spin echo image of matrix size of $100 \times 80$ with multi receiving Rx coil. The simulated image uses FA=$90^{\circ }$, TR/TE = 10s/10ms. Left: the combined image using `SumofMagn'; Right: individual image for each coil channel, notice that Coil2 and Coil4 receive no signal due to zero B1- field.}}{figure}\relax 
+\doTocEntry\tocsection{7.5}{\csname a:TocLink\endcsname{3}{x3-1460007.5}{QQ2-3-236}{Image Gradient}}{289}\relax 
+\doTocEntry\toclof{7.5}{\csname a:TocLink\endcsname{3}{x3-1460075}{}{\ignorespaces Simulated brain 3D SPGR image of matrix size of $100 \times 80 \times 2$ with non-unit gradient. The simulated image uses FA=$20^{\circ }$, TR/TE = 60/8ms. Left: unit gradient applied; Right: non-unit gradient applied in Y direction.}}{figure}\relax 
+\doTocEntry\tocsection{7.6}{\csname a:TocLink\endcsname{3}{x3-1470007.6}{QQ2-3-238}{Motion Artifact}}{292}\relax 
+\doTocEntry\toclof{7.6}{\csname a:TocLink\endcsname{3}{x3-1470076}{}{\ignorespaces Simulated brain GRE image of matrix size of $100 \times 80$ with translation motion. The simulated image uses FA=$90^{\circ }$, TR/TE = 10s/50ms, Axial plane, A/P readout. Motion triggering happens one time per TR, and motion lasts for 400s. Left: no motion; Right: translation motion applied.}}{figure}\relax 
+\doTocEntry\tocchapter{8}{\csname a:TocLink\endcsname{3}{x3-1480008}{QQ2-3-240}{FAQs}}{297}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{3}{x3-1490008}{QQ2-3-241}{Bibliography}}{299}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{3}{x3-1500008}{QQ2-3-242}{Acknowledgment}}{303}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{3}{x3-1510008}{QQ2-3-243}{Afterword}}{305}\relax 
+\par 

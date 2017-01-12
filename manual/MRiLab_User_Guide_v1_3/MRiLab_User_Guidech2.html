@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" 
+"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd" > 
+<html> 
+<head><title>2 Platform Overview</title> 
+<meta charset="UTF-8" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<link rel="stylesheet" type="text/css" href="MRiLab_User_Guide.css" /> 
+<script type="text/javascript" 
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" 
+></script> 
+<style type="text/css"> 
+.MathJax_MathML {text-indent: 0;} 
+</style> 
+</head><body 
+>
+   <!--l. 214--><div class="crosslinks"><p class="noindent">[<a 
+href="MRiLab_User_Guidech3.html" >next</a>] [<a 
+href="MRiLab_User_Guidech1.html" >prev</a>] [<a 
+href="MRiLab_User_Guidech1.html#tailMRiLab_User_Guidech1.html" >prev-tail</a>] [<a 
+href="#tailMRiLab_User_Guidech2.html">tail</a>] [<a 
+href="MRiLab_User_Guide3.html#MRiLab_User_Guidech2.html" >up</a>] </p></div>
+   <h2 class="chapterHead"><span class="titlemark">Chapter&#x00A0;2</span><br /><a 
+ id="x7-70002"></a>Platform Overview</h2>
+   <h3 class="sectionHead"><span class="titlemark">2.1   </span> <a 
+ id="x7-80002.1"></a>MRiLab Simulation Platform</h3>
+<!--l. 216--><p class="noindent" >The MRiLab simulation platform consists of
+</p><!--l. 218--><p class="indent" >
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x7-8002x1">A Main Simulation Control Console <br 
+class="newline" />The  main  simulation  console  (Figure  <a 
+href="#x7-80031">2.1<!--tex4ht:ref: fig:MainSimulationControlConsole --></a>)  behaves  analogous  to  a
+     MR  scanner  console  for  graphically  adjusting  imaging  setup  and
+     conducting simulation control. Simulation feedback are instantly updated
+     on information panels during simulation.
+     <hr class="figure" /><div class="figure" 
+><a 
+ id="x7-80031"></a>   <img 
+src="Pictures/MainSimulationControlConsole.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;2.1: </span><span  
+class="content">The MRiLab Main Simulation Control Console. This control console
+functions like a MR scanner console for graphically adjusting imaging setup and
+conducting simulation control.</span></div><!--tex4ht:label?: x7-80031 -->
+     </div><hr class="endfigure" />
+     </li>
+     <li 
+  class="enumerate" id="x7-8005x2">Design Toolboxes <br 
+class="newline" />The Design toolboxes (Figure <a 
+href="#x7-80062">2.2<!--tex4ht:ref: fig:FunctionToolboxes --></a>) provide independent interfaces for analyzing
+     RF pulse (e.g. SLR, non-adiabatic and adiabatic pulse etc.), constructing
+     arbitrary pulse sequence (e.g. SPGR, SSFP and FSE etc.), configuring coil
+     profile and static field (i.e. B1+/- and B0 field), designing imaging object
+     moving track and evaluating spatial specific absorption rate (SAR). Dedicated
+     image display and analysis tools (SpinWatcher, SARWatcher, MatrixUser and
+     arrayShow) are developed and tailored to work with multi-dimensional image
+     array output.
+     <hr class="figure" /><div class="figure" 
+><a 
+ id="x7-80062"></a>   <img 
+src="Pictures/FunctionToolboxes.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;2.2: </span><span  
+class="content">The Shortcut for Function Toolbox on Simulation Control Console.
+Each icon is associated with an individual toolbox with specific functions.</span></div><!--tex4ht:label?: x7-80062 -->
+     </div><hr class="endfigure" />
+     </li>
+     <li 
+  class="enumerate" id="x7-8008x3">Discrete Bloch-equation Solving Kernels <br 
+class="newline" />The Bloch-equation solving kernels manipulate tissue spin evolution at discrete
+     time interval with a desired spin model and at a given MR sequence. These
+     kernels are accelerated using Matlab MEX functions that are optimized for
+     running GPU and multi-threading CPU parallel computing techniques.
+     Moreover, these kernels are also capable of preprocessing acquired MR signal
+     and <span 
+class="cmti-10">k</span>-space locations prior to desirable image reconstruction. Further image
+     reconstruction with stored <span 
+class="cmti-10">k</span>-space data is accomplished in corresponding
+     reconstruction module.
+
+     </li>
+     <li 
+  class="enumerate" id="x7-8010x4">Macro Library <br 
+class="newline" />MRiLab uses a concept of macros for simplifying experiment design. A macro
+     in MRiLab is defined as a programming-free module that can be added,
+     removed and modified in the process of constructing MR sequence, coil profile,
+     magnet field and object moving track, etc. For instance, a Sinc RF pulse
+     (rfSinc) is considered as a RF macro that can be used for constructing a
+     gradient echo sequence, and the attributes of this macro include pulse starting
+     time (tStart), pulse ending time (tEnd) and the time bandwidth product
+     (TBP) etc. MRiLab provides a macro library (Figure <a 
+href="#x7-80113">2.3<!--tex4ht:ref: fig:RFMacroLibrary --></a>) covering a wide
+     range of macros. Using these predefined macros, you should be able to
+     accomplish most of experimental design work. However, if special macros are
+     needed, MRiLab also provides interfaces to work with user-defined
+     macros. More detailed description for macros is provided in Chapter
+     <a 
+href="MRiLab_User_Guidech5.html#x10-400005">5<!--tex4ht:ref: chap:MRiLabToolboxes --></a>.
+     <hr class="figure" /><div class="figure" 
+><a 
+ id="x7-80113"></a>   <img 
+src="Pictures/RFMacroLibrary.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;2.3: </span><span  
+class="content">The Macro Library Tree Structure in MRiLab. Individual tree nodes
+under SeqElem root are functional macros that can be used for designing MR
+sequences. Notice that only RF nodes are unfolded here for display purpose.</span></div><!--tex4ht:label?: x7-80113 -->
+     </div><hr class="endfigure" />
+     </li></ol>
+<!--l. 257--><p class="indent" >   MRiLab applies flexible simulation information storage by using XML file system,
+which simplifies translating simulation across different studies. MRiLab also supports
+external plugins programmed using either Matlab or C language for creating
+extendable simulation environment.
+</p><!--l. 259--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">2.2   </span> <a 
+ id="x7-90002.2"></a>Simulation Workflow</h3>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x7-90014"></a>
+
+
+<!--l. 263--><p class="noindent" ><img 
+src="Pictures/MRiLabWorkflow.png" alt="pict"  
+ />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;2.4: </span><span  
+class="content">MRiLab Workflow Diagram</span></div><!--tex4ht:label?: x7-90014 -->
+
+   </div><hr class="endfigure" />
+<!--l. 268--><p class="indent" >   The workflow diagram of MRiLab simulation is shown in Figure <a 
+href="#x7-90014">2.4<!--tex4ht:ref: fig:MRiLabWorkflow --></a>. One typical
+simulation requires input of :
+</p>
+     <ul class="itemize1">
+     <li class="itemize">Virtual object (VObj) with specific tissue properties including Rho (spin
+     density), T1 and T2 etc.
+     </li>
+     <li class="itemize">MR sequence to drive spin evolution
+     </li>
+     <li class="itemize">B1+/- field for RF transmitting and receiving, default to be uniform field
+     </li>
+     <li class="itemize">Gradient field for spatial encoding, default to be linear gradient
+     </li>
+     <li class="itemize">Magnet  field  perturbation  describing  main  static  field  inhomogeneity
+     (dB0), default to be zero
+     </li>
+     <li class="itemize">Motion pattern for describing imaging object movement during real time
+     simulation</li></ul>
+<!--l. 279--><p class="indent" >   The input is configured at the main control console where the user can modify
+any aspect of the simulation experiment. The main console preprocesses the input
+information, then translates them into kernel signal, based on which the
+discrete solving kernel executes each voxel of imaging objects with either
+GPU or multi-threading CPU acceleration. The acquired MR signal <span 
+class="cmti-10">k</span>-space
+data from the kernel passes to image reconstruction module where either
+default recon code or external recon tool (e.g. Gadgetron) is applied. The
+reconstructed image can be analyzed using MRiLab image display tools including
+:
+</p>
+     <ul class="itemize1">
+     <li class="itemize">MatrixUser  :  An  image  display  and  analysis  tool  for  manipulating
+     multidimensional matrix
+     </li>
+     <li class="itemize">SpinWatcher  :  An  analysis  tool  for  analyzing  spin  evolution  behavior
+     within a single voxel
+     </li>
+     <li class="itemize">SARWatcher : An analysis tool for analyzing local spatial SAR distribution
+     </li>
+     <li class="itemize">arrayShow : A Matlab image viewer for the evaluation of multidimensional
+     complex images</li></ul>
+
+   <h3 class="sectionHead"><span class="titlemark">2.3   </span> <a 
+ id="x7-100002.3"></a>Gradient Echo: Start A Simple Scan</h3>
+<!--l. 290--><p class="noindent" >Up to this point, you may wonder how I can start to use MRiLab. Here below is a
+simple 3D Gradient Echo (GRE) simulation example to gain your first experience of
+using MRiLab.
+</p>
+     <ul class="itemize1">
+     <li class="itemize">Open MRiLab by running &#8216;MRiLab.m&#8217; under the root folder. MRiLab will
+     try to detect available CPU and GPU devices, and initialize the simulation
+     environment. After initialization (typically in couple seconds), MRiLab
+     Main  Simulation  Control  Console  will  open.  Empty  Axial,  Sagittal,
+     Coronal and Preview views show up. Notice that on the console, several
+     push buttons are disabled at this point, it means more inputs are needed
+     for activating them.
+     </li>
+     <li class="itemize">To simulate images, the virtual object a.k.a. digital phantom is needed.
+     Go to &#8216;Load&#8217;, &#8216;Load Phantom Example&#8217;, choose one of the predefined
+     digital phantoms for the experiment. Several digital phantoms suitable
+     for different experiment purposes are already provided. Here, let&#8217;s choose
+     &#8216;Brain  (Standard  Resolution  108x90x90)&#8217;.  After  loading  this  phantom,
+     notice that preview images show up at the top right corner under &#8216;VObj
+     Spin Map&#8217;. The property information of this phantom also show in &#8216;Virtual
+     Object Property. Let&#8217;s choose &#8216;Rho&#8217; map from the pop-up menu, and click
+     &#8216;Localizer&#8217; button to show more image details. Now Axial, Sagittal and
+     Coronal axes are displayed with this 3D digital phantom. <span 
+class="cmbx-10">Click &#8216;Update&#8217;</span>
+     <span 
+class="cmbx-10">button to accept this phantom loading. </span>Notice that after updating,
+     all push buttons become enabled.
+     </li>
+     <li class="itemize">Since we want to simulate 3D GRE experiment, we need to load 3D GRE
+     sequence first. Click the &#8216;Sequence&#8217; button located at the center portion
+     of the console. A SeqList will open where you can choose and load MR
+     sequences.  Let&#8217;s  click  &#8216;Dimension&#8217;  pop-up  menu  and  choose  &#8216;3D&#8217;.  The
+     Category list shows a full list of current available sequence type. Click
+     &#8216;GradientEcho&#8217;, then click &#8216;PSD_GRE3D&#8217; from the Sequence list. Click
+     &#8216;Accept&#8217; button to accept and load a 3D GRE sequence. Notice that the
+     &#8216;Simulation Settings&#8217; tabs on the console update and change to the setting
+     for the current GRE sequence. <span 
+class="cmbx-10">Click &#8216;Update&#8217; button to accept this</span>
+     <span 
+class="cmbx-10">sequence loading.</span>
+     </li>
+     <li class="itemize">Under the &#8216;Imaging&#8217; tab, there are several parameters for imaging control,
+     for instance, Field-of-View in the frequency encoding direction (FOVFreq).
+     We can simply accept the default setting at this moment, however, if you
+
+     do make any changes, <span 
+class="cmbx-10">you need to click &#8216;Update&#8217; button to update</span>
+     <span 
+class="cmbx-10">those changes before proceeding to Scan.</span>
+     </li>
+     <li class="itemize">The final step is to click &#8216;Scan&#8217; button and wait for the simulation to start.
+     Depending on imaging setting and computing hardware, the simulation
+     will typically finish in a short period of time, the reconstructed image will
+     show in the &#8216;Preview&#8217; view.</li></ul>
+<!--l. 300--><p class="indent" >   The final result of this 3D GRE experiment should be somewhat similar to this
+(Figure <a 
+href="#x7-100015">2.5<!--tex4ht:ref: fig:3DGRESampleScan --></a>).
+</p>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x7-100015"></a>
+
+
+<!--l. 305--><p class="noindent" ><img 
+src="Pictures/3DGRESampleScan.png" alt="pict"  
+ />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;2.5: </span><span  
+class="content">The Simulation Result for A 3D GRE Experiment</span></div><!--tex4ht:label?: x7-100015 -->
+
+   </div><hr class="endfigure" />
+<!--l. 310--><p class="indent" >   If you managed to simulate this gradient echo image, congratulations! You have
+successfully performed your first MRiLab experiment. So you should be prepared for
+deeper understanding of MRiLab simulation platform by following the rest of this
+user guide.
+
+</p>
+   <!--l. 313--><div class="crosslinks"><p class="noindent">[<a 
+href="MRiLab_User_Guidech3.html" >next</a>] [<a 
+href="MRiLab_User_Guidech1.html" >prev</a>] [<a 
+href="MRiLab_User_Guidech1.html#tailMRiLab_User_Guidech1.html" >prev-tail</a>] [<a 
+href="MRiLab_User_Guidech2.html" >front</a>] [<a 
+href="MRiLab_User_Guide3.html#MRiLab_User_Guidech2.html" >up</a>] </p></div>
+<!--l. 313--><p class="indent" >   <a 
+ id="tailMRiLab_User_Guidech2.html"></a>  </p> 
+</body> 
+</html>

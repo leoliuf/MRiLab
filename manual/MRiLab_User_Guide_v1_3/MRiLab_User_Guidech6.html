@@ -1,0 +1,1324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" 
+"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd" > 
+<html> 
+<head><title>6 Image Display and Analysis</title> 
+<meta charset="UTF-8" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<link rel="stylesheet" type="text/css" href="MRiLab_User_Guide.css" /> 
+<script type="text/javascript" 
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" 
+></script> 
+<style type="text/css"> 
+.MathJax_MathML {text-indent: 0;} 
+</style> 
+</head><body 
+>
+   <!--l. 3760--><div class="crosslinks"><p class="noindent">[<a 
+href="MRiLab_User_Guidech7.html" >next</a>] [<a 
+href="MRiLab_User_Guidech5.html" >prev</a>] [<a 
+href="MRiLab_User_Guidech5.html#tailMRiLab_User_Guidech5.html" >prev-tail</a>] [<a 
+href="#tailMRiLab_User_Guidech6.html">tail</a>] [<a 
+href="MRiLab_User_Guide3.html#MRiLab_User_Guidech6.html" >up</a>] </p></div>
+   <h2 class="chapterHead"><span class="titlemark">Chapter&#x00A0;6</span><br /><a 
+ id="x11-1440006"></a>Image Display and Analysis</h2>
+<!--l. 3762--><p class="noindent" >MRiLab incorporated a set of image display and analysis tools. They are designed
+using Matlab GUIDE, and carefully tuned for manipulating multi-dimensional image
+data in Matlab.
+</p>
+   <h3 class="sectionHead"><span class="titlemark">6.1   </span> <a 
+ id="x11-1450006.1"></a>MagicRightClick</h3>
+<!--l. 3765--><p class="noindent" >The user can right click on any MRiLab graphical axes to create an individual figure
+with the identical graphical content.
+</p><!--l. 3767--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">6.2   </span> <a 
+ id="x11-1460006.2"></a>MatrixUser</h3>
+<!--l. 3768--><p class="noindent" >MRiLab incorporated a toolbox called &#8216;MatrixUser&#8217; for performing image display and
+analysis. This toolbox can be activated by pressing &#8216;MatrixUser&#8217; toolbar icon located
+at the top of the main simulation console.
+</p>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x11-1460011"></a>
+
+
+<!--l. 3772--><p class="noindent" ><img 
+src="Pictures/MatrixUserPanelIcon.png" alt="pict"  
+ />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;6.1: </span><span  
+class="content">MatrixUser Toolbar Icon</span></div><!--tex4ht:label?: x11-1460011 -->
+
+   </div><hr class="endfigure" />
+<!--l. 3777--><p class="indent" >   MatrixUser will search through the current output folder and load all image series
+from this folder into Matlab base workspace. The MatrixUser main window (Figure
+<a 
+href="#x11-1460022">6.2<!--tex4ht:ref: fig:MatrixUser --></a>) works as a matrix manager for loaded images. The user can choose to display
+image series by using the pop-up menu. The matrix size, type and value range are
+calculated and provided on the right side. The user can press &#8216;MatrixUser&#8217; button to
+activate MatrixUser display window. Current MatrixUser version supports
+displaying any valid Matlab multi-dimensional matrix and Matlab structure
+variable.
+</p>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x11-1460022"></a>
+
+
+<!--l. 3781--><p class="noindent" ><img 
+src="Pictures/MatrixUser.png" alt="pict"  
+ />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;6.2: </span><span  
+class="content">MatrixUser Main Window</span></div><!--tex4ht:label?: x11-1460022 -->
+
+   </div><hr class="endfigure" />
+   <h4 class="subsectionHead"><span class="titlemark">6.2.1   </span> <a 
+ id="x11-1470006.2.1"></a>Data Import</h4>
+<!--l. 3789--><p class="noindent" >By default, MatrixUser reads Matlab base workspace, scans existing matrices in the
+Matlab session, then creates a matrix list for tracking matrix content. Once those
+matrices are updated by the user, MatrixUser will also update the matrix
+list. Moreover, there are several different approaches to import data from
+outside Matlab into MatrixUser. The imported matrices will be saved into
+Matlab base workspace. The import functions are located under &#8216;Load&#8217; menu,
+including:
+</p>
+     <ul class="itemize1">
+     <li class="itemize">Load MAT file
+     <!--l. 3795--><p class="noindent" >The default Matlab .mat file is natively supported by MatrixUser.
+     </p></li>
+     <li class="itemize">Load System Clipboard
+     <!--l. 3799--><p class="noindent" >If image content exists in the system clipboard, it can be converted into a
+     RGB image which contains a three slice matrix with each slice corresponds
+     to an individual Red, Green and Blue channel.
+     </p></li>
+     <li class="itemize">Load ScreenShot
+     <!--l. 3803--><p class="noindent" >MatrixUser takes a full screenshot for current monitor and saves it into a
+     RGB image as described above.
+     </p></li>
+     <li class="itemize">Load from Binary file
+     <!--l. 3807--><p class="noindent" >Binary data file is supported by MatrixUser. The user needs to properly
+     configure loading parameters (Figure <a 
+href="#x11-1470013">6.3<!--tex4ht:ref: fig:LoadFromBinary --></a>) according to the matrix size and
+     data type information.
+</p>
+     <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-1470013"></a>   <img 
+src="Pictures/LoadFromBinary.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.3: </span><span  
+class="content">MatrixUser Binary File Loading Interface</span></div><!--tex4ht:label?: x11-1470013 -->
+     </div><hr class="endfigure" />
+     </li>
+     <li class="itemize">Load DICOM file(s)
+     <!--l. 3818--><p class="noindent" >MatrixUser supports loading multiple DICOM files by using a file filter
+     interface (Figure <a 
+href="#x11-1470024">6.4<!--tex4ht:ref: fig:LoadFromDICOM --></a>). The user needs to load DICOM files into the loading
+     interface by selecting desired DICOM files (multiple selection supported). The
+     selected files are listed in the DICOM file list. The user can click any single
+
+     DICOM file to read associated DICOM header and image preview. To manually
+     create a matrix using DICOM files, choose files from the DICOM file list, press
+     &#8216;<!--l. 3818--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > <mo 
+class="MathClass-rel">&#x003E;</mo><mo 
+class="MathClass-rel">&#x003E;</mo><mo 
+class="MathClass-rel">&#x003E;</mo><mo 
+class="MathClass-rel">&#x003E;</mo><mo 
+class="MathClass-rel">&#x003E;</mo><mo 
+class="MathClass-rel">&#x003E;</mo></math>&#8217; to
+     push the files into selected DICOM file list, provide a matrix name, press
+     &#8216;Convert&#8217; button to create a matrix based on chosen DICOM files. The user can
+     load those created matrices into base workspace by pressing &#8216;Load matrix&#8217;
+     button.
+</p>
+     <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-1470024"></a>   <img 
+src="Pictures/LoadFromDICOM.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.4: </span><span  
+class="content">MatrixUser DICOM File Loading Interface</span></div><!--tex4ht:label?: x11-1470024 -->
+     </div><hr class="endfigure" />
+     </li>
+     <li class="itemize">Load DICOM file(s) in Batch
+     <!--l. 3829--><p class="noindent" >MatrixUser supports loading DICOM files in a batch mode. This function
+     requires the path of the folder containing DICOM files is provided. MatrixUser
+     will try to create separate matrices for DICOM files coming from different
+     image series. A matrix selection interface will provide converted matrices with
+     loading functions.
+     </p></li>
+     <li class="itemize">Load from NIfTI file
+     <!--l. 3833--><p class="noindent" >NIfTI file with .nii suffix is supported by MatrixUser.
+</p>
+     </li></ul>
+<!--l. 3838--><p class="noindent" >
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">6.2.2   </span> <a 
+ id="x11-1480006.2.2"></a>Window Layout</h4>
+<!--l. 3840--><p class="noindent" >To activate MatrixUser display window, press &#8216;MatrixUser&#8217; button. If the selected
+matrix contains complex value, four options are available for displaying magnitude,
+phase, real and imaginary of the matrix. Figure <a 
+href="#x11-1480015">6.5<!--tex4ht:ref: fig:MatrixUserDisplayPanel --></a> demonstrates an overview of
+the window layout of the MatrixUser display window. The window consists
+of
+</p>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x11-1480015"></a>
+
+
+<!--l. 3845--><p class="noindent" ><img 
+src="Pictures/MatrixUserDisplayPanel.png" alt="pict"  
+ />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;6.5: </span><span  
+class="content">MatrixUser Display Window</span></div><!--tex4ht:label?: x11-1480015 -->
+
+   </div><hr class="endfigure" />
+     <ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x11-148003x1">Matlab Default Toolbar <br 
+class="newline" />
+     <!--l. 3855--><p class="noindent" >Matlab toolbar provides basic interactive functions for displaying matrix.
+     These functions include:
+</p>
+         <ul class="itemize1">
+         <li class="itemize">   <img 
+src="Pictures/SaveFig.png" alt="pict"  
+ />  : Save current image axes into an image file
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/ZoomIn.png" alt="pict"  
+ />  : Zoom in matrix area
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/ZoomOut.png" alt="pict"  
+ />  : Zoom out matrix area
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Pan.png" alt="pict"  
+ />  : Manually move matrix position
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/DataCursor.png" alt="pict"  
+ />  : Check individual voxel value and index
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Print.png" alt="pict"  
+ />  : Print current figure
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Colorbar.png" alt="pict"  
+ />  : Turn on/off color bar</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x11-148005x2">MatrixUser Function Library <br 
+class="newline" />
+     <!--l. 3869--><p class="noindent" >Most of the matrix analysis functions are represented on function bench panel.
+     MatrixUser groups these functions into categories and dynamically loads them
+     according to the dimension size and compatibility of current display matrix. A
+     multi-tab is used to contain individual function button associated with each
+     function. The tabs under the multi-tab are used to switch between function
+     categories, which include
+</p>
+         <ul class="itemize1">
+         <li class="itemize">Display : Multi-dimensional matrix display functions
+         </li>
+         <li class="itemize">QuickMath : Perform math calculation for current matrix
+         </li>
+         <li class="itemize">Transform : Transform current matrix
+         </li>
+         <li class="itemize">Process : Basic matrix processing functions
+
+         </li>
+         <li class="itemize">ROI : Region-of-Interest functions
+         </li>
+         <li class="itemize">Segment : Segmentation functions
+         </li>
+         <li class="itemize">Surface : Generate surface or mesh plot for current image
+         </li>
+         <li class="itemize">Matlab : Matlab default image tools
+         </li>
+         <li class="itemize">More : Uncategorized functions</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x11-148007x3">Matrix Calculator <br 
+class="newline" />
+     <!--l. 3887--><p class="noindent" >The matrix calculator consists of three control items, including a matrix
+     expression editbox, an execution button (    <img 
+src="Pictures/MatrixCalc.png" alt="pict"  
+ /> ) and a matrix saving button (
+      <img 
+src="Pictures/Upload.png" alt="pict"  
+ /> ). Valid matrix calculation expression can be executed in the calculator
+     and updated in the display window, serving as a convenient way to analyze
+     matrix calculation result. Matrix concatenation and recombination can also be
+     done in the calculator, for example, to side-by-side compare multiple 3D
+     matrices (Figure <a 
+href="#x11-1480086">6.6<!--tex4ht:ref: fig:MatrixCalcExample --></a>). Some valid calculation examples are, but not limited to:
+     </p>
+         <ul class="itemize1">
+         <li class="itemize">A,B Combines A and B in one row
+         </li>
+         <li class="itemize">A,B;C,D Combines A and B in the first row, C and D in the second
+         row
+         </li>
+         <li class="itemize">A,B;C,zeros(size(C)) Combines A and B in the first row, C in the
+         second row, pad with zero value
+         </li>
+         <li class="itemize">sin(A),cos(B) Calculates voxel-wise sin for A and cos for B, then
+         combine them in one row
+         </li>
+         <li class="itemize">A(:,1:10,:) Extracts submatrix from A and display it</li></ul>
+     <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-1480086"></a>   <img 
+src="Pictures/MatrixCalcExample.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.6: </span><span  
+class="content">MatrixUser Concatenation Example</span></div><!--tex4ht:label?: x11-1480086 -->
+     </div><hr class="endfigure" />
+     <!--l. 3903--><p class="noindent" >where A, B, C and D are multi-dimensional matrices with proper matrix size.
+     Also note that the source matrices have to stay in the base workspace
+     for being referenced. Pressing the execution button will perform the
+
+     calculation and save the result as a temporary matrix. The user can
+     also save the temporary matrix into workspace by pressing matrix
+     saving button. The saved temporary matrix will have a &#8216;_tmp&#8217; suffix by
+     default.
+     </p></li>
+     <li 
+  class="enumerate" id="x11-148010x4">Matrix Display Axes <br 
+class="newline" />
+     <!--l. 3907--><p class="noindent" >The display axes renders an image for one slice of current matrix. The user can
+     use mouse cursor to inspect the coordinate and value of any voxel. Moving
+     mouse wheel back and forth moves the slice location along current dimension
+     and updates the display axes.
+     </p></li>
+     <li 
+  class="enumerate" id="x11-148012x5">Matrix Color Control Group <br 
+class="newline" />
+     <!--l. 3911--><p class="noindent" >The matrix color control group provides a set of sliders, editboxes and popup
+     menu which help control image color scheme and contrast. This group consists
+     of
+</p>
+         <ul class="itemize1">
+         <li class="itemize">Colormap Popup Menu: Choose different colormap scheme
+         </li>
+         <li class="itemize">Upper Color Bound Slider (right slider): Slide to control the upper
+         bound of color limits
+         </li>
+         <li class="itemize">Upper Color Bound EditText (right editbox): Edit to control the
+         upper bound of color limits
+         </li>
+         <li class="itemize">Lower Color Bound Slider (left slider): Slide to control the lower
+         bound of color limits
+         </li>
+         <li class="itemize">Lower Color Bound EditText (left editbox): Edit to control the lower
+         bound of color limits</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x11-148014x6">Matrix Dimension Control Group <br 
+class="newline" />
+     <!--l. 3923--><p class="noindent" >MatrixUser measures the dimension size of the display matrix and assigns one
+     slider and editbox for each dimension that is above 2 (i.e. no slider and editbox
+     for the first and second dimension). These control items are located in
+     individual dimension tab and can be used to switch among slices in current
+     active dimension.
+</p>
+     </li></ol>
+
+   <h4 class="subsectionHead"><span class="titlemark">6.2.3   </span> <a 
+ id="x11-1490006.2.3"></a>Function Library</h4>
+<!--l. 3929--><p class="noindent" >
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x11-149002x1">Display <br 
+class="newline" />
+     <!--l. 3933--><p class="noindent" >Matrix display functions are listed under this tab.
+</p>
+         <ul class="itemize1">
+         <li class="itemize">   <img 
+src="Pictures/Release.png" alt="pict"  
+ />  : Reset matrix display and erase additional display effect
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Grid.png" alt="pict"  
+ />  : Turn on and off black grid line on the image display axes
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Magnifier.png" alt="pict"  
+ />  : Open an instant magnifier which zooms in specific image
+         area
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/LineProfile.png" alt="pict"  
+ />  : Plot and update a profile curve along a resizable checking
+         line (Figure <a 
+href="#x11-1490037">6.7<!--tex4ht:ref: fig:BrainProfile --></a>)
+         <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-1490037"></a>   <img 
+src="Pictures/BrainProfile.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.7: </span><span  
+class="content">An Example of 1D Profile. The user can relocate and resize the
+profile checking line on the image for inspecting live 1D profile. The buttons on
+the profile window can list profile data, save the data as &#8216;data_plt&#8217; array into
+workspace or copy the data into clipboard.</span></div><!--tex4ht:label?: x11-1490037 -->
+         </div><hr class="endfigure" />
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/DimProfile.png" alt="pict"  
+ />  : Plot and update a profile curve along a matrix dimension (Figure
+         <a 
+href="#x11-1490048">6.8<!--tex4ht:ref: fig:DimProfileWindow --></a>)
+         <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-1490048"></a>   <img 
+src="Pictures/DimProfileWindow.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.8: </span><span  
+class="content">An Example of Plotting the First (Column) and Second (Row)
+Matrix Dimension Profile. The user needs to specify which matrix dimension to
+plot. The profile curve will update according to current mouse cursor position.
+The user can pause or resume live updating by right click on main display
+window.</span></div><!--tex4ht:label?: x11-1490048 -->
+         </div><hr class="endfigure" />
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/3DSlicer.png" alt="pict"  
+ />  : Open a separate window with two matrix display axes (Figure
+         <a 
+href="#x11-1490059">6.9<!--tex4ht:ref: fig:3DSlice --></a>) displaying another two orthogonal images. The operation buttons on
+         the second window consists of
+             <ul class="itemize2">
+             <li class="itemize">   <img 
+src="Pictures/RedBar.png" alt="pict"  
+ />  : Activate or deactivate localizer line on main display
+
+             </li>
+             <li class="itemize">   <img 
+src="Pictures/YellowBar.png" alt="pict"  
+ />  : Activate or deactivate localizer line on main display
+             </li>
+             <li class="itemize">    <img 
+src="Pictures/Switch.png" alt="pict"  
+ />   :  Switch  matrices  between  main  display  and  second
+             display. This operation simply permutes current matrix into its
+             orthogonal version. The user can save the transformed matrix
+             using (    <img 
+src="Pictures/Upload.png" alt="pict"  
+ /> ).</li></ul>
+         <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-1490059"></a>   <img 
+src="Pictures/3DSlice.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.9: </span><span  
+class="content">3D Slicer. To change view slice, the user needs to activate localizer
+line and then click on desired coordinate on the main display window.</span></div><!--tex4ht:label?: x11-1490059 -->
+         </div><hr class="endfigure" />
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/RGBImage.png" alt="pict"  
+ />  : Create a RGB image, assign current slice and following two slices
+         to Red, Green and Blue channel, respectively
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Montage.png" alt="pict"  
+ />  : Create a montage image using multiple slices (Figure
+         <a 
+href="#x11-14900610">6.10<!--tex4ht:ref: fig:MontageImage --></a>)
+         <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-14900610"></a>   <img 
+src="Pictures/MontageImage.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.10: </span><span  
+class="content">Montage Image. An example of creating a 4-by-5 montage image
+using multiple matrix slices starting from the first slice.</span></div><!--tex4ht:label?: x11-14900610 -->
+         </div><hr class="endfigure" />
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Fuse.png" alt="pict"  
+ />  : Overlap two matrices with the same matrix size (Figure <a 
+href="#x11-14900711">6.11<!--tex4ht:ref: fig:ImageFuse --></a>),
+         notice that the user can press     <img 
+src="Pictures/Release.png" alt="pict"  
+ />  to remove foreground matrix from
+         overlapping with background matrix.
+         <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-14900711"></a>   <img 
+src="Pictures/ImageFuse.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.11: </span><span  
+class="content">An Example of Overlapping Two Matrices. A second window is
+provided for adjusting overlapping effect. The user can choose to overlap any size
+compatible matrices from the matrix list. There exist control items to change
+foreground colormap scheme, to modify image intensity fraction, or to change
+foreground color limits.</span></div><!--tex4ht:label?: x11-14900711 -->
+         </div><hr class="endfigure" />
+         </li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x11-149009x2">QuickMath <br 
+class="newline" />
+     <!--l. 3997--><p class="noindent" >This function category performs quick math calculation for current matrix. A
+     few commonly used math calculation are provided under this tab. Instead,
+     complex calculation can be performed using matrix calculator as mentioned
+     above.
+</p>
+
+         <ul class="itemize1">
+         <li class="itemize">   <img 
+src="Pictures/Abs.png" alt="pict"  
+ />  : Calculate absolute value
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Negnate.png" alt="pict"  
+ />  : Calculate negative value
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Ln.png" alt="pict"  
+ />  : Calculate natural logarithm
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Log.png" alt="pict"  
+ />  : Calculate base 10 logarithm
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Exp.png" alt="pict"  
+ />  : Calculate exponential
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/10n.png" alt="pict"  
+ />  : Calculate the power of 10
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Sin.png" alt="pict"  
+ />  : Calculate sine
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Cos.png" alt="pict"  
+ />  : Calculate cosine
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Tan.png" alt="pict"  
+ />  : Calculate tangent
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/ASin.png" alt="pict"  
+ />  : Calculate inverse sine
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/ACos.png" alt="pict"  
+ />  : Calculate inverse cosine
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/ATan.png" alt="pict"  
+ />  : Calculate inverse tangent
+         </li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x11-149011x3">Transform <br 
+class="newline" />
+     <!--l. 4017--><p class="noindent" >This function category performs spatial transformation or fast Fourier
+     transform (FFT) to current matrix.
+</p>
+         <ul class="itemize1">
+         <li class="itemize">   <img 
+src="Pictures/FlipLR.png" alt="pict"  
+ />  : Flip matrix horizontally (along the first dimension)
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/FlipUD.png" alt="pict"  
+ />  : Flip matrix vertically (along the second dimension)
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/FlipZ.png" alt="pict"  
+ />  : Flip matrix along slice direction (the third dimension)
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Rot90L.png" alt="pict"  
+ />  : Rotate matrix 90 degree in the counter clockwise direction
+
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Rot90R.png" alt="pict"  
+ />  : Rotate matrix 90 degree in the clockwise direction
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Rotate.png" alt="pict"  
+ />  : Rotate matrix certain degree along an axis specified using
+         the rotation axis origin and direction in the 3D space
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Translate.png" alt="pict"  
+ />  : Translate matrix along certain direction
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/FFT.png" alt="pict"  
+ />  : Perform multi-dimensional FFT for current matrix, the user
+         needs to specify up to which dimension to perform FFT.</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x11-149013x4">Process <br 
+class="newline" />
+     <!--l. 4032--><p class="noindent" >This function category performs basic matrix processing functions.
+</p>
+         <ul class="itemize1">
+         <li class="itemize">   <img 
+src="Pictures/Mask.png" alt="pict"  
+ />  : Create binary mask based on given threshold
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Smooth.png" alt="pict"  
+ />  : Perform smoothing operation to current matrix
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Sharpen.png" alt="pict"  
+ />  : Perform sharpening operation to current matrix
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Edge.png" alt="pict"  
+ />  : Perform edge detection to current matrix
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Filter.png" alt="pict"  
+ />  : Provides various image filters (Figure <a 
+href="#x11-14901412">6.12<!--tex4ht:ref: fig:FilterResult --></a>)
+         <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-14901412"></a>   <img 
+src="Pictures/FilterResult.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.12: </span><span  
+class="content">Image Filters. An example is shown for applying various image
+filters.</span></div><!--tex4ht:label?: x11-14901412 -->
+         </div><hr class="endfigure" />
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Noise.png" alt="pict"  
+ />  : Add noise to matrix (Figure <a 
+href="#x11-14901513">6.13<!--tex4ht:ref: fig:NoiseResult --></a>)
+         <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-14901513"></a>   <img 
+src="Pictures/NoiseResult.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.13: </span><span  
+class="content">Image Noise. An example is shown for applying various image
+noise.</span></div><!--tex4ht:label?: x11-14901513 -->
+         </div><hr class="endfigure" />
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/FillOut.png" alt="pict"  
+ />  : Replace voxel value for the voxels within certain value range and
+         outside a polygon area. The user needs to draw a polygon first (double
+         click to confirm the polygon).
+
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/FillIn.png" alt="pict"  
+ />  : Replace voxel value for the voxels within certain value range and
+         inside a polygon area. The user needs to draw a polygon first (double click
+         to confirm the polygon).
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Fill.png" alt="pict"  
+ />  : Replace voxel value for the voxels inside a polygon area. The
+         user needs to draw a polygon first (double click to confirm the
+         polygon).
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Replace.png" alt="pict"  
+ />  : Replace matrix area with a selected matrix source region. The
+         user needs to draw a free-hand area (source region), drag the free-hand
+         region to target matrix area, then double click to confirm the
+         operation.
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Crop.png" alt="pict"  
+ />  : Crop current matrix using a rectangle box (double click to
+         confirm the cropping)
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Extract.png" alt="pict"  
+ />  : Extract parts of current matrix using irregular shape (double
+         click to confirm the extracting)
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Resolution.png" alt="pict"  
+ />  : Resample current matrix by using chosen interpolation method
+         (Figure <a 
+href="#x11-14901614">6.14<!--tex4ht:ref: fig:ChangeResolution --></a>). The user can specify sampling factors in x, y and z direction
+         for 3D matrix.
+         <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-14901614"></a>   <img 
+src="Pictures/ChangeResolution.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.14: </span><span  
+class="content">Interpolation Window. An example is shown to double spatial
+resolution in x and y direction by using a linear interpolation.</span></div><!--tex4ht:label?: x11-14901614 -->
+         </div><hr class="endfigure" />
+         </li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x11-149018x5">ROI <br 
+class="newline" />
+     <!--l. 4079--><p class="noindent" >MatrixUser provides a set of function buttons for performing Region-of-Interest
+     (ROI) analysis (Figure <a 
+href="#x11-14901915">6.15<!--tex4ht:ref: fig:ROIs --></a>). To create a ROI, the user needs to click ROI
+     button first, then draw a ROI on the image axes. The statistical measures
+     (i.e. mean, standard deviation and relative standard deviation) for
+     voxels in delineated ROI is calculated and updated with moving ROI
+     position or changing ROI shape. The ROI function buttons consists
+     of
+</p>
+         <ul class="itemize1">
+         <li class="itemize">   <img 
+src="Pictures/FreeROI.png" alt="pict"  
+ />  : Draw a free hand ROI
+
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/RectangleROI.png" alt="pict"  
+ />  : Draw a rectangle or square ROI
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/CircleROI.png" alt="pict"  
+ />  : Draw a circle or ellipse ROI
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/PolygonROI.png" alt="pict"  
+ />  : Draw a polygon ROI
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/LineROI.png" alt="pict"  
+ />  : Draw a straight line for measuring distance in units of pixels
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/AngleROI.png" alt="pict"  
+ />  : Draw a polygon for measuring the interior angles in degrees
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/ROIManager.png" alt="pict"  
+ />  : Record existing ROI shape and location into a ROI list,
+         allow to redraw selected ROI in multiple image axes. To redraw a
+         existing ROI, the user needs to select a ROI in the list, then press
+         &#8216;Show&#8217; button. Note that the copied ROI is no longer resizable and
+         movable.
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Histogram.png" alt="pict"  
+ />  : Plot histogram for current slice (Figure <a 
+href="#x11-14902016">6.16<!--tex4ht:ref: fig:Hist --></a>); if ROIs exist,
+         plot histogram for latest activated ROI</li></ul>
+     <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-14901915"></a>   <img 
+src="Pictures/ROIs.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.15: </span><span  
+class="content">Draw Multiple ROIs and Redraw on A Second Image. The source
+ROIs are in green, copied ROIs are in red.</span></div><!--tex4ht:label?: x11-14901915 -->
+     </div><hr class="endfigure" />
+     <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-14902016"></a>   <img 
+src="Pictures/Hist.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.16: </span><span  
+class="content">Histogram for One Image Slice</span></div><!--tex4ht:label?: x11-14902016 -->
+     </div><hr class="endfigure" />
+     </li>
+     <li 
+  class="enumerate" id="x11-149022x6">Segment <br 
+class="newline" />
+     <!--l. 4109--><p class="noindent" >MatrixUser supports functions for performing multi-slice manual segmentation.
+     To create a segmentation, click segmentation button, then draw a region on the
+     image axes. The user can modify the region location and shape prior to
+     confirming segmentation with double click. The segmentation buttons consists
+     of
+</p>
+         <ul class="itemize1">
+         <li class="itemize">   <img 
+src="Pictures/FreeSeg.png" alt="pict"  
+ />  : Do a free-hand segmentation
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/CircleSeg.png" alt="pict"  
+ />  : Do a circle or ellipse segmentation
+
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/PolygonSeg.png" alt="pict"  
+ />  : Do a polygon segmentation
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/EditSeg.png" alt="pict"  
+ />  : Edit segmentation
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/SaveSeg.png" alt="pict"  
+ />  : Save segmentation into a MAT file
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/LoadSeg.png" alt="pict"  
+ />  : Load segmentation from a MAT file</li></ul>
+     <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-14902317"></a>   <img 
+src="Pictures/Segs.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.17: </span><span  
+class="content">Editing Segmentation</span></div><!--tex4ht:label?: x11-14902317 -->
+     </div><hr class="endfigure" />
+     <!--l. 4128--><p class="noindent" >To edit segmented region (Figure <a 
+href="#x11-14902317">6.17<!--tex4ht:ref: fig:Segs --></a>), press     <img 
+src="Pictures/EditSeg.png" alt="pict"  
+ />  to open a segmentation
+     manager. The manager records the type and location for existing segmented
+     regions. The user can click any region item to inspect the location of the region.
+     To edit chosen region, click &#8216;Edit&#8217; button to activate the region outline. Both
+     the shape and mask flag are editable for segmented region. After editing, click
+     &#8216;Update&#8217; to conform modification. The user can press     <img 
+src="Pictures/SaveSeg.png" alt="pict"  
+ />  to save current
+     segmentation into a MAT file which contains a mask matrix and a cell array
+     storing segmentation location information. The user can also press     <img 
+src="Pictures/Upload.png" alt="pict"  
+ />  to
+     save the mask matrix into workspace. Pressing     <img 
+src="Pictures/LoadSeg.png" alt="pict"  
+ />  can load previous
+     segmented regions from a saved MAT file. Notice that the user can
+     press     <img 
+src="Pictures/Release.png" alt="pict"  
+ />  to remove segmentation from overlapping with background
+     matrix.
+     </p></li>
+     <li 
+  class="enumerate" id="x11-149025x7">Surface <br 
+class="newline" />
+     <!--l. 4132--><p class="noindent" >This function category generates surface or mesh plot for current image.
+</p>
+         <ul class="itemize1">
+         <li class="itemize">   <img 
+src="Pictures/Contour.png" alt="pict"  
+ />  : Create contour plot of current matrix
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Contour3.png" alt="pict"  
+ />  : Create 3D contour plot of current matrix
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/ContourFill.png" alt="pict"  
+ />  : Create filled 2D contour plot
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Surface.png" alt="pict"  
+ />  : Create 3D shaded surface plot
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/SurfaceCon.png" alt="pict"  
+ />  : Create surface plot and contour
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/SurfaceCol.png" alt="pict"  
+ />  : Create surface plot with colormap based lighting
+
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Mesh.png" alt="pict"  
+ />  : Create mesh plot
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/MeshCon.png" alt="pict"  
+ />  : Create mesh plot and contour
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/MeshC.png" alt="pict"  
+ />  : Create a curtain around a mesh plot
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Reb.png" alt="pict"  
+ />  : Create a ribbon plot
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Waterfall.png" alt="pict"  
+ />  : Create a waterfall plot
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Pcolor.png" alt="pict"  
+ />  : Create pcolor (checkerboard) plot</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x11-149027x8">Matlab <br 
+class="newline" />
+     <!--l. 4152--><p class="noindent" >Matlab default image tools (Figure <a 
+href="#x11-14902818">6.18<!--tex4ht:ref: fig:matlabIM --></a>) are tailored for MatrixUser and
+     included in this category.
+</p>
+         <ul class="itemize1">
+         <li class="itemize">   <img 
+src="Pictures/imtool.png" alt="pict"  
+ />  : Perform imtool for current image
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/immovie.png" alt="pict"  
+ />  : Perform immovie for playback current 3D matrix
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/imcontrast.png" alt="pict"  
+ />  : Perform imcontrast for adjusting image contrast</li></ul>
+     <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-14902818"></a>   <img 
+src="Pictures/matlabIM.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.18: </span><span  
+class="content">Matlab Tools</span></div><!--tex4ht:label?: x11-14902818 -->
+     </div><hr class="endfigure" />
+     </li>
+     <li 
+  class="enumerate" id="x11-149030x9">More <br 
+class="newline" />
+     <!--l. 4169--><p class="noindent" >Uncategorized functions are categorized under this tab.
+</p>
+         <ul class="itemize1">
+         <li class="itemize">   <img 
+src="Pictures/3DRender.png" alt="pict"  
+ />  : Create a 3D graph for rendering current matrix (Figure
+         <a 
+href="#x11-14903119">6.19<!--tex4ht:ref: fig:BrainRender --></a>)
+         <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-14903119"></a>   <img 
+src="Pictures/BrainRender.png" alt="pict"  
+ />
+
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.19: </span><span  
+class="content">An Example of 3D Human Brain Rendering. Control units on the
+rendering window are provided for fine tuning the renderer. The user can select
+isosurface threshold, cutoff connectivity threshold (i.e. object with total voxels
+less than the threshold will be removed from the rendering. &#8216;@&#8217; is followed by the
+voxel number of current largest object) and object opacity. A set of pushbuttons
+are also available for changing surface color, display box and patches. The default
+Matlab camera toolbar are provided for adjusting the lighting effect.</span></div><!--tex4ht:label?: x11-14903119 -->
+         </div><hr class="endfigure" />
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/MIP.png" alt="pict"  
+ />  : Perform projection along a given matrix dimension. Support
+         multi-dimensional matrix projection
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/MIP3D.png" alt="pict"  
+ />  : Perform 3D projection along x, y or z axis with certain angle
+         increment (Figure <a 
+href="#x11-14903220">6.20<!--tex4ht:ref: fig:3DMIP --></a>)
+         <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-14903220"></a>   <img 
+src="Pictures/3DMIP.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.20: </span><span  
+class="content">3D Maximum Intensity Projection (MIP). An example of 3D MIP
+around axial axis of a human knee MRI image stack shows the vascular system
+of the knee joint.</span></div><!--tex4ht:label?: x11-14903220 -->
+         </div><hr class="endfigure" />
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/3DReslice.png" alt="pict"  
+ />  : Reslice 3D matrix at given direction. The user needs to draw a
+         line for indicating the slicing direction with double click for confirmation
+         (Figure <a 
+href="#x11-14903321">6.21<!--tex4ht:ref: fig:Reslice --></a>)
+         </li>
+         <li class="itemize">   <img 
+src="Pictures/Moive.png" alt="pict"  
+ />  : Create a movie using current matrix display. Support making
+         movie for overlapped matrices.</li></ul>
+     <hr class="figure" /><div class="figure" 
+><a 
+ id="x11-14903321"></a>   <img 
+src="Pictures/Reslice.png" alt="pict"  
+ />
+<br /> <div class="caption" 
+><span class="id">Figure&#x00A0;6.21: </span><span  
+class="content">Reslice 3D Matrix. An example of 3D reslicing generates a new
+stack of images in the oblique plane from an axial human knee MRI image stack.
+Note that the resliced images are extracted from the plane perpendicular to the
+indicating line on the left window.</span></div><!--tex4ht:label?: x11-14903321 -->
+     </div><hr class="endfigure" />
+     </li></ol>
+<!--l. 4207--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">6.3   </span> <a 
+ id="x11-1500006.3"></a>arrayShow</h3>
+<!--l. 4209--><p class="noindent" >The arrayShow tool is a Matlab image viewer which has been designed for the evaluation
+of multidimensional complex images. arrayShow is originally designed by Tilman Johannes
+Sumpf at Biomedizinische NMR Forschungs GmbH. The user can press &#8216;arrayShow&#8217;
+
+button to activate this viewer. Detailed information about arrayShow can be found at
+<a 
+href="http://www.biomednmr.mpg.de/index.php?option=com_content&task=view&id=137&Itemid=43" class="url" ><span 
+class="cmtt-10">http://www.biomednmr.mpg.de/index.php?option=com_content&amp;task=view&amp;id=137&amp;Itemid=43</span></a>;
+</p><!--l. 4211--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">6.4   </span> <a 
+ id="x11-1510006.4"></a>SpinWatcher</h3>
+<!--l. 4213--><p class="noindent" >The SpinWatcher is designed for monitoring spin evolution behavior within a single
+voxel at given MR sequence and field environment. This function can be activated by
+pressing &#8216;SpinWatcher&#8217; toolbar icon located at the top of the main simulation
+console.
+</p>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x11-15100122"></a>
+
+
+<!--l. 4217--><p class="noindent" ><img 
+src="Pictures/SpinWatcherPanelIcon.png" alt="pict"  
+ />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;6.22: </span><span  
+class="content">SpinWatcher Toolbar Icon</span></div><!--tex4ht:label?: x11-15100122 -->
+
+   </div><hr class="endfigure" />
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x11-15100223"></a>
+
+
+<!--l. 4224--><p class="noindent" ><img 
+src="Pictures/SpinWatcher.png" alt="pict"  
+ />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;6.23: </span><span  
+class="content">SpinWatcher Main Interface</span></div><!--tex4ht:label?: x11-15100223 -->
+
+   </div><hr class="endfigure" />
+<!--l. 4229--><p class="indent" >   Figure <a 
+href="#x11-15100223">6.23<!--tex4ht:ref: fig:SpinWatcher --></a> demonstrates an overview of the SpinWatcher main interface. This
+interface consists of
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x11-151004x1">Voxel Locator <br 
+class="newline" />The default voxel is chosen as the one at the isocenter indicated by a red
+     isocenter marker. However, the user can select any voxel within the virtual
+     object by using      <img 
+src="Pictures/Cursor.png" alt="pict"  
+ /> . The slider beside the image can help change
+     image slices.
+     </li>
+     <li 
+  class="enumerate" id="x11-151006x2">Spin Property and Environment <br 
+class="newline" />
+     <!--l. 4237--><p class="noindent" >The spin properties will be automatically updated with a selected voxel.
+     The user can modify the spin properties and environment to meet their
+     own needs. The editable properties provided in this interface include:
+         </p><ol  class="enumerate2" >
+         <li 
+  class="enumerate" id="x11-151008x1">Spin <br 
+class="newline" />
+             <ul class="itemize1">
+             <li class="itemize">ChemShift (Hz/T): The chemical shift of the spin
+             </li>
+             <li class="itemize">Gyro (rad/s/T): The gyromagnetic ratio of the spin
+             </li>
+             <li class="itemize">Rho : The density of the spin
+             </li>
+             <li class="itemize">T1 (s): The longitudinal relaxation time
+             </li>
+             <li class="itemize">T2 (s): The transverse relaxation time
+             </li>
+             <li class="itemize">T2Star (s): The T2* relaxation time
+             </li>
+             <li class="itemize">SpinPerVoxel : The number of spins in each voxel, default one
+             spin per voxel will treat T2* equal to T2, use a number above
+             one for simulating T2* effect
+             </li>
+             <li class="itemize">TypeNum : The number of spin species
+             </li>
+             <li class="itemize">LocZ : The Z location of the selected voxel
+             </li>
+             <li class="itemize">LocY : The Y location of the selected voxel
+             </li>
+             <li class="itemize">LocX : The X location of the selected voxel</li></ul>
+
+         </li>
+         <li 
+  class="enumerate" id="x11-151010x2">Display <br 
+class="newline" />
+             <ul class="itemize1">
+             <li class="itemize">WindowSize : The window width of the spin evolution plot
+             </li>
+             <li class="itemize">ISOHighlight : The flag for turning on and off isocenter mark
+             </li>
+             <li class="itemize">Grid : The flag for turning on and off grid line
+             </li>
+             <li class="itemize">Axes : The flag for turning on and off axes label</li></ul>
+         </li></ol>
+     <!--l. 4265--><p class="noindent" >The SpinWatcher supports monitoring multiple spin species. The user needs to
+     provide an array of multiple values for T1, T2, T2*, Rho and ChemShift, and
+     give the correct number of spin species. The values must be separated with
+     space. For example
+</p>
+         <ul class="itemize1">
+         <li class="itemize">ChemShift = 0 -210
+         </li>
+         <li class="itemize">Rho = 1.0 0.5
+         </li>
+         <li class="itemize">T1 = 1.2 1.0
+         </li>
+         <li class="itemize">T2 = 0.02 0.03
+         </li>
+         <li class="itemize">T2Star = 0.002 0.003
+         </li>
+         <li class="itemize">TypeNum = 2</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x11-151012x3">Spin Watcher Window <br 
+class="newline" />A 3D spin evolution animation is displayed in the spin watcher window.
+     The 3D animation is controllable using a set of control buttons and
+     sliders
+         <ul class="itemize1">
+         <li class="itemize">Scroll  Bar  :  Drag  the  scroll  bar  to  any  intermediate  time  point
+         between beginning and end
+         </li>
+         <li class="itemize"><!--l. 4282--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mo 
+class="MathClass-rel">|</mo> <mo 
+class="MathClass-rel">&#x003C;</mo></math>
+         : Move to the beginning
+
+         </li>
+         <li class="itemize">X : Pause animation, notice that the interface can only be closed
+         while animation is paused
+         </li>
+         <li class="itemize">O : Resume animation
+         </li>
+         <li class="itemize"><!--l. 4285--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > <mo 
+class="MathClass-rel">&#x003E;</mo></math>
+         : Play at normal speed
+         </li>
+         <li class="itemize"><!--l. 4286--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > <mo 
+class="MathClass-rel">&#x003E;</mo><mo 
+class="MathClass-rel">&#x003E;</mo></math>
+         : Play at double normal speed
+         </li>
+         <li class="itemize"><!--l. 4287--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" > <mo 
+class="MathClass-rel">&#x003E;</mo> <mo 
+class="MathClass-rel">|</mo></math>
+         : Move to the end</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x11-151014x4">Spin Evolution Plot <br 
+class="newline" />
+     <!--l. 4292--><p class="noindent" >SpinWatcher provides two plots for capturing the spin evolution (i.e.
+     <!--l. 4292--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mo 
+class="MathClass-rel">|</mo></math>Mxy<!--l. 4292--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mo 
+class="MathClass-rel">|</mo></math>
+     and Mz) regarding time. Press &#8216;Execute&#8217; button to recalculate the spin
+     evolution plot if changes to spin property and environment was made. The
+     settings can be saved into a file by pressing &#8216;Update&#8217;. To export temporary
+     variables of spin evolution into Matlab base workspace, press &#8216;Export&#8217;, the
+     exported variables include :
+</p>
+         <ul class="itemize1">
+         <li class="itemize">Muts : A array for time points
+         </li>
+         <li class="itemize">MxySum : A array for <!--l. 4296--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mo 
+class="MathClass-rel">|</mo></math>Mxy<!--l. 4296--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mo 
+class="MathClass-rel">|</mo></math>
+         </li>
+         <li class="itemize">MzSum : A array for Mz
+         </li>
+         <li class="itemize">Mx : <!--l. 4298--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>x</mi></math>
+         component of magnetization
+         </li>
+         <li class="itemize">My : <!--l. 4299--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>y</mi></math>
+         component of magnetization
+         </li>
+         <li class="itemize">Mz : <!--l. 4300--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>z</mi></math>
+         component of magnetization</li></ul>
+
+     <!--l. 4303--><p class="noindent" >The user can also undock the spin evolution plot by pressing
+     &#8216;<!--l. 4303--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mo 
+class="MathClass-bin">&#x2227;</mo></math>&#8217;
+     button.</p></li></ol>
+   <h3 class="sectionHead"><span class="titlemark">6.5   </span> <a 
+ id="x11-1520006.5"></a>SARWatcher</h3>
+<!--l. 4308--><p class="noindent" >The SARWatcher is a graphical toolbox for monitoring time varying spatial Specific
+Absorption Rate (SAR) of the virtual object under given experimental design. This
+function can be activated by pressing &#8216;SARWatcher&#8217; toolbar icon located at the top
+of the main simulation console. <span 
+class="cmbx-10">Note that in order to evaluate SAR,</span>
+<span 
+class="cmbx-10">transmitting RF coil with E1 field is required. </span>One example can be found at
+Coil_8ChHeadSAR.
+</p>
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x11-15200124"></a>
+
+
+<!--l. 4313--><p class="noindent" ><img 
+src="Pictures/SARWatcherPanelIcon.png" alt="pict"  
+ />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;6.24: </span><span  
+class="content">SARWatcher Toolbar Icon</span></div><!--tex4ht:label?: x11-15200124 -->
+
+   </div><hr class="endfigure" />
+   <hr class="figure" /><div class="figure" 
+>
+
+<a 
+ id="x11-15200225"></a>
+
+
+<!--l. 4320--><p class="noindent" ><img 
+src="Pictures/SARWatcher.png" alt="pict"  
+ />
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;6.25: </span><span  
+class="content">SARWatcher Main Interface</span></div><!--tex4ht:label?: x11-15200225 -->
+
+   </div><hr class="endfigure" />
+<!--l. 4325--><p class="indent" >   Figure <a 
+href="#x11-15200225">6.25<!--tex4ht:ref: fig:SARWatcher --></a> demonstrates an overview of the SARWatcher main interface. This
+interface consists of
+     </p><ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x11-152004x1">SAR/Power <br 
+class="newline" />The SAR/Power panel displays time varying spatial SAR and power map
+     for the virtual object. The user can choose different time point (horizontal
+     scroll bar) and slice (vertical scroll bar) to inspect map details.
+     </li>
+     <li 
+  class="enumerate" id="x11-152006x2">Local SAR Settings<br 
+class="newline" />The  &#8216;Spatial&#8217;  and  &#8216;Temporal&#8217;  tab  on  the  &#8216;Local  SAR  Settings&#8217;  panel
+     contain parameters for controlling SAR and power calculation.
+         <ol  class="enumerate2" >
+         <li 
+  class="enumerate" id="x11-152008x1">Spatial <br 
+class="newline" />
+             <ul class="itemize1">
+             <li class="itemize">N_Gram (g): The number to specify averaged N-gram SAR, set
+             to 0 indicating unaveraged spatial SAR</li></ul>
+         </li>
+         <li 
+  class="enumerate" id="x11-152010x2">Temporal <br 
+class="newline" />
+             <ul class="itemize1">
+             <li class="itemize">tStart (s): The starting time to calculate SAR
+             </li>
+             <li class="itemize">tEnd (s): The ending time for SAR calculation
+             </li>
+             <li class="itemize">dt (s): The nominal time interval for SAR calculation
+             </li>
+             <li class="itemize">N_Second (s): The nominal time window for SAR calculation</li></ul>
+         </li></ol>
+     </li>
+     <li 
+  class="enumerate" id="x11-152012x3">Time Point Table<br 
+class="newline" />The Time Point Table contains a list of time point (s) and N_Second (s) in
+     actual SAR calculation, this is because SAR calculation only updates at
+     execution points.
+     </li>
+     <li 
+  class="enumerate" id="x11-152014x4">SAR Stats <br 
+class="newline" />The SAR Stats panel contains overall statistics for calculated SAR and power
+     at given time point.
+     </li></ol>
+
+<!--l. 4357--><p class="indent" >   The user can export the SAR and power map in a separate window by pressing
+&#8216;Export&#8217; button. Pressing &#8216;Update&#8217; button updates any modifications. The spatial
+SAR and power calculation follows the methods described in literature <span class="cite">[<a 
+href="MRiLab_User_Guideli3.html#XCollins2001">11</a>,&#x00A0;<a 
+href="MRiLab_User_Guideli3.html#XCao2014">12</a>]</span>. The
+spatial N-gram SAR averaging is implemented using a method described in literature
+<span class="cite">[<a 
+href="MRiLab_User_Guideli3.html#XCarluccio2013">13</a>]</span>.
+</p>
+   <h3 class="sectionHead"><span class="titlemark">6.6   </span> <a 
+ id="x11-1530006.6"></a>SeqConverter</h3>
+<!--l. 4360--><p class="noindent" >(:TODO) SeqConverter is a graphical toolbox for converting MRiLab MR
+sequence format to more portable sequence format. This toolbox is still under
+developing.
+
+</p>
+   <!--l. 4362--><div class="crosslinks"><p class="noindent">[<a 
+href="MRiLab_User_Guidech7.html" >next</a>] [<a 
+href="MRiLab_User_Guidech5.html" >prev</a>] [<a 
+href="MRiLab_User_Guidech5.html#tailMRiLab_User_Guidech5.html" >prev-tail</a>] [<a 
+href="MRiLab_User_Guidech6.html" >front</a>] [<a 
+href="MRiLab_User_Guide3.html#MRiLab_User_Guidech6.html" >up</a>] </p></div>
+<!--l. 4362--><p class="indent" >   <a 
+ id="tailMRiLab_User_Guidech6.html"></a>  </p> 
+</body> 
+</html>
