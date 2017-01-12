@@ -1,0 +1,2804 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.5.20)  12 JAN 2017 12:38
+entering extended mode
+**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx\HCode\def\HCod
+e##1{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\g
+@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\doc
+umentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname te
+x4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HC
+ode}{\documentstyle[tex4ht]}}}\makeatother\HCode epsconfig2,2,frames.a.b.c.\inp
+ut  MRiLab_User_Guide.tex
+
+(D:\Dropbox\Write\MRiLab\v1.3\MRiLab_Web\manual\MRiLab_User_Guide_v1_3_\MRiLab_
+User_Guide.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk10.clo"
+File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\tex4ht.sty"
+version 2008-10-27-17:23
+Package: tex4ht 
+--------------------------------------
+--- Note --- for _ at preamble, use the command line option `early_'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ at preamble, use the command line option `early^'
+--------------------------------------
+\tmp:toks=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\usepackage.4ht"
+version 2009-05-21-09:32
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen103
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvips.def"
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty"
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))))
+\c@section@level=\count100
+LaTeX Info: Redefining \ref on input line 353.
+LaTeX Info: Redefining \pageref on input line 353.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(D:\Dropbox\Write\MRiLab\v1.3\MRiLab_Web\manual\MRiLab_User_Guide_v1_3_\epsconf
+ig2.cfg ("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\tex4ht.4ht"
+version 2009-01-07-07:11
+--------------------------------------
+--- Note --- for additional information, use the command line option `info'
+--------------------------------------
+
+::::::::::::::::::::::::::::::::::::::::::
+ TeX4ht info is available in the log file 
+::::::::::::::::::::::::::::::::::::::::::
+--------------------------------------
+--- Note --- For MathML on MSIE + MathPlayer use the command line option `mathp
+layer'
+--------------------------------------
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\tex4ht.sty"
+version 2008-10-27-17:23
+
+--- needs --- tex4ht MRiLab_User_Guide ---
+\tmp:cnt=\count101
+
+(D:\Dropbox\Write\MRiLab\v1.3\MRiLab_Web\manual\MRiLab_User_Guide_v1_3_\MRiLab_
+User_Guide.tmp)
+\tmp:dim=\skip46
+
+(D:\Dropbox\Write\MRiLab\v1.3\MRiLab_Web\manual\MRiLab_User_Guide_v1_3_\MRiLab_
+User_Guide.xref)
+\:refout=\write3
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- to remove the <?xml version=...?> processing instruction use the c
+ommand line option `no-VERSION'
+--------------------------------------
+--------------------------------------
+--- Note --- to remove the DOCTYPE declaration use the command line option `no-
+DOCTYPE'
+--------------------------------------
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht")
+--------------------------------------
+--- Note --- for marking of the base font, use the command line option `fonts+'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for non active _, use the command line option `no_'
+--------------------------------------
+--------------------------------------
+--- Note --- for _ of catcode 13, use the command line option `_13'
+--------------------------------------
+--------------------------------------
+--- Note --- for non active ^, use the command line option `no^'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ of catcode 13, use the command line option `^13'
+--------------------------------------
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- For section filenames that reflect on their titles use the command
+ line option `sec-filename'
+--------------------------------------
+--------------------------------------
+--- Note --- for alternative charset, use the command line option `charset=...'
+
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS font decoration, use the `NoFonts' command line opti
+on
+--------------------------------------
+--------------------------------------
+--- Note --- for jpg bitmaps of pictures, use the `jpg' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for gif bitmaps of pictures, use the `gif' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for file extension name xht, use the command line option `xht'
+--------------------------------------
+TeX4ht package options: 2,frames,html,xhtml,mathml
+--------------------------------------
+--- Note --- to ignore CSS code, use the command line option `-css
+--------------------------------------
+--------------------------------------
+--- Note --- for inline CSS code, use the command line option `css-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for pop ups on mouse over, use the command line option `mouseover'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for addressing images in a subdirectory, use the command line opti
+on `imgdir:.../'
+--------------------------------------
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht")
+\:tokwrite=\toks21
+\:tokpage=\toks22
+--------------------------------------
+--- Note --- for back links to toc, use the command line option `sections+'
+--------------------------------------
+--------------------------------------
+--- Note --- for linear crosslinks of pages, use the command line option `next'
+
+--------------------------------------
+\:tocout=\write4
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht")
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\latex.4ht"
+version 2009-05-21-09:32
+--------------------------------------
+--- Note --- for links into captions, instead of float heads, use the command l
+ine option `refcaption'
+--------------------------------------
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- For mini tocs immediately aftter the header use the command line o
+ption `minitoc<'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements with valued data, use the command lin
+e option `enumerate+'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements li's with value attributes, use the c
+ommand line option `enumerate-'
+--------------------------------------
+--------------------------------------
+--- Note --- for CSS2 code, use the command line option `css2'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial tabular, use the command line option `pic-tabular'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap fbox'es, use the command line option `pic-fbox'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap framebox'es, use the command line option `pic-framebox'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for inline footnotes use command line option `fn-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for tracing of latex font commands, use the command line option `f
+onts'
+--------------------------------------
+--------------------------------------
+--- Note --- for width specifications of tabular p entries, use the `p-width' c
+ommand line option or a configuration similar to \Configure{HColWidth}{\HCode{ 
+style="width:\HColWidth"}}
+--------------------------------------
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\fontmath.4ht"
+version 2009-05-21-09:32
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+\tmp:bx=\box28
+ [1
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 1375.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1375.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [2] [3] [4] [5]
+[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
+[22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36]
+[37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48]
+--------------------------------------
+--- Note --- for sources failing to produce clean mathml code, try the command 
+line option `mathml-'
+--------------------------------------
+ [49] [50] [51]
+[52] [53]) ("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\book.4ht"
+version 2009-05-21-09:32
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- for tocs without * entries, use command line option `notoc*'
+--------------------------------------
+--------------------------------------
+--- Note --- for tocs without * entries, use command line option `notoc*'
+--------------------------------------
+--------------------------------------
+--- Note --- to eliminate mini tables of contents, use the command line option 
+`nominitoc'
+--------------------------------------
+--------------------------------------
+--- Note --- for frames-like object-based table of contents, use the command li
+ne option `obj-toc'
+--------------------------------------
+--------------------------------------
+--- Note --- for files named derived from section titles, use the command line 
+option `sec-filename'
+--------------------------------------
+--------------------------------------
+--- Note --- for i-columns index, use the command line option `index=i' (e.g., 
+index=2)
+--------------------------------------
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\amsmath.4ht"
+version 2009-05-21-09:32
+\tmp:muskip=\muskip12
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\amstext.4ht"
+version 2009-05-21-09:32
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\amsbsy.4ht"
+version 2009-05-21-09:32
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\amsopn.4ht"
+version 2009-05-21-09:32
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\amsfonts.4ht"
+version 2009-05-21-09:32
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\amssymb.4ht"
+version 2009-05-21-09:32
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+ [54] [55] [56]
+[57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71]
+[72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86]
+[87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101]
+[102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113]
+[114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125]
+[126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
+[138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149]
+[150] [151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161]
+[162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
+[174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185]
+[186] [187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197]
+[198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208] [209]
+[210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221]
+[222] [223] [224] [225] [226] [227] [228] [229] [230] [231] [232] [233]
+[234] [235] [236] [237] [238] [239] [240] [241] [242] [243] [244] [245]
+[246] [247] [248] [249] [250] [251] [252] [253] [254] [255] [256] [257])
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\graphicx.4ht"
+version 2009-05-21-09:32
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\graphics.4ht"
+version 2009-05-21-09:32
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- if included graphics are of degraded quality, try the command line
+ options `graphics-num' or `graphics-'. The `num' should provide the density of
+ pixels in the bitmaps (e.g., 110). 
+--------------------------------------
+--------------------------------------
+--- Note --- for key dimensions try the option `Gin-dim'; for key dimensions wh
+en bounding box is unavailable try `Gin-dim+'; neither is recommended
+--------------------------------------
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\dvips.4ht"
+version 2009-05-21-09:32
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\nameref.4ht"
+version 2010-09-04-21:02
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\url.4ht"
+version 2009-05-21-09:32
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- for URL encoding within href use the command line option `url-enc'
+
+--------------------------------------
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\th4.4ht"
+version 2009-05-21-09:32
+--------------------------------------
+--- Note --- for javascript support, use the command line option `javascript'
+--------------------------------------
+--------------------------------------
+--- Note --- for java support, use the command line option `java'
+--------------------------------------
+--------------------------------------
+--- Note --- for image maps support, use the command line option `image-maps'
+--------------------------------------
+--------------------------------------
+--- Note --- for frames support, use the command line option `frames-' or `fram
+es'
+--------------------------------------
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4.4ht"
+version 2009-05-18-23:01
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\unicode.4ht"
+version 2009-02-23-20:45
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\mathml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html-mml.4ht"
+version 2009-04-18-11:08
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\tex4ht\html4-uni.4ht"))
+(D:\Dropbox\Write\MRiLab\v1.3\MRiLab_Web\manual\MRiLab_User_Guide_v1_3_\MRiLab_
+User_Guide.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+--- file MRiLab_User_Guide.css ---
+--- file MRiLab_User_Guide2.html ---
+
+(D:\Dropbox\Write\MRiLab\v1.3\MRiLab_Web\manual\MRiLab_User_Guide_v1_3_\MRiLab_
+User_Guide.4ct [1]) [2]
+--- file MRiLab_User_Guide3.html ---
+) [3
+
+] [4
+
+] [1] [2
+
+] [3] [1] [2]
+--- file MRiLab_User_Guideli1.html ---
+
+(D:\Dropbox\Write\MRiLab\v1.3\MRiLab_Web\manual\MRiLab_User_Guide_v1_3_\MRiLab_
+User_Guide.4ct [3
+
+] [4]) [5] [6
+
+]
+--- file MRiLab_User_Guideli2.html ---
+ [7
+
+] [8
+
+] [1] [2
+
+]
+Chapter 1.
+--- file MRiLab_User_Guidech1.html ---
+[3
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 89.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
+ [4] [5] [6]
+
+LaTeX Warning: File `Pictures/cmake-gui.eps' not found on input line 164.
+
+l.164 --- TeX4ht warning --- File `Pictures/cmake-gui.eps' not found ---
+l.164 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/cmake
+-gui.eps (no BoundingBox) ---
+l. 164 --- needs --- Pictures/cmake-gui.png ---
+
+LaTeX Warning: File `Pictures/cmake-gui2.eps' not found on input line 171.
+
+l.171 --- TeX4ht warning --- File `Pictures/cmake-gui2.eps' not found ---
+l.171 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/cmake
+-gui2.eps (no BoundingBox) ---
+l. 171 --- needs --- Pictures/cmake-gui2.png ---
+
+LaTeX Warning: File `Pictures/visualstudio.eps' not found on input line 178.
+
+l.178 --- TeX4ht warning --- File `Pictures/visualstudio.eps' not found ---
+l.178 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/visua
+lstudio.eps (no BoundingBox) ---
+l. 178 --- needs --- Pictures/visualstudio.png ---
+[7] [8
+
+] [9
+
+] [10
+
+] [11
+
+] [12
+
+]
+Chapter 2.
+--- file MRiLab_User_Guidech2.html ---
+
+LaTeX Warning: File `Pictures/MainSimulationControlConsole.eps' not found on in
+put line 224.
+
+l.224 --- TeX4ht warning --- File `Pictures/MainSimulationControlConsole.eps' n
+ot found ---
+l.224 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/MainS
+imulationControlConsole.eps (no BoundingBox) ---
+l. 224 --- needs --- Pictures/MainSimulationControlConsole.png ---
+
+LaTeX Warning: File `Pictures/FunctionToolboxes.eps' not found on input line 23
+6.
+
+l.236 --- TeX4ht warning --- File `Pictures/FunctionToolboxes.eps' not found --
+-
+l.236 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Funct
+ionToolboxes.eps (no BoundingBox) ---
+l. 236 --- needs --- Pictures/FunctionToolboxes.png ---
+[13]
+
+LaTeX Warning: File `Pictures/RFMacroLibrary.eps' not found on input line 250.
+
+l.250 --- TeX4ht warning --- File `Pictures/RFMacroLibrary.eps' not found ---
+l.250 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/RFMac
+roLibrary.eps (no BoundingBox) ---
+l. 250 --- needs --- Pictures/RFMacroLibrary.png ---
+[14] [15
+
+]
+
+LaTeX Warning: File `Pictures/MRiLabWorkflow.eps' not found on input line 263.
+
+l.263 --- TeX4ht warning --- File `Pictures/MRiLabWorkflow.eps' not found ---
+l.263 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/MRiLa
+bWorkflow.eps (no BoundingBox) ---
+l. 263 --- needs --- Pictures/MRiLabWorkflow.png ---
+[16
+
+] [17
+
+] [18] [19] [20
+
+]
+
+LaTeX Warning: File `Pictures/3DGRESampleScan.eps' not found on input line 305.
+
+
+l.305 --- TeX4ht warning --- File `Pictures/3DGRESampleScan.eps' not found ---
+l.305 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/3DGRE
+SampleScan.eps (no BoundingBox) ---
+l. 305 --- needs --- Pictures/3DGRESampleScan.png ---
+[21
+
+] [22
+
+] [23
+
+] [24
+
+]
+Chapter 3.
+--- file MRiLab_User_Guidech3.html ---
+[25] [26] [27
+
+]
+
+LaTeX Warning: File `Pictures/VirtualObjectChecking.eps' not found on input lin
+e 340.
+
+l.340 --- TeX4ht warning --- File `Pictures/VirtualObjectChecking.eps' not foun
+d ---
+l.340 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Virtu
+alObjectChecking.eps (no BoundingBox) ---
+l. 340 --- needs --- Pictures/VirtualObjectChecking.png ---
+[28
+
+] [29
+
+] [30] [31
+
+]
+
+LaTeX Warning: File `Pictures/SequenceLoading.eps' not found on input line 377.
+
+
+l.377 --- TeX4ht warning --- File `Pictures/SequenceLoading.eps' not found ---
+l.377 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Seque
+nceLoading.eps (no BoundingBox) ---
+l. 377 --- needs --- Pictures/SequenceLoading.png ---
+[32
+
+] [33
+
+] [34] [35] [36] [37
+
+]
+
+LaTeX Warning: File `Pictures/CoilLoading.eps' not found on input line 455.
+
+l.455 --- TeX4ht warning --- File `Pictures/CoilLoading.eps' not found ---
+l.455 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/CoilL
+oading.eps (no BoundingBox) ---
+l. 455 --- needs --- Pictures/CoilLoading.png ---
+[38
+
+] [39
+
+] [40] [41
+
+]
+
+LaTeX Warning: File `Pictures/MagnetLoading.eps' not found on input line 499.
+
+l.499 --- TeX4ht warning --- File `Pictures/MagnetLoading.eps' not found ---
+l.499 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Magne
+tLoading.eps (no BoundingBox) ---
+l. 499 --- needs --- Pictures/MagnetLoading.png ---
+[42
+
+] [43
+
+] [44] [45
+
+]
+
+LaTeX Warning: File `Pictures/GradientLoading.eps' not found on input line 530.
+
+
+l.530 --- TeX4ht warning --- File `Pictures/GradientLoading.eps' not found ---
+l.530 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Gradi
+entLoading.eps (no BoundingBox) ---
+l. 530 --- needs --- Pictures/GradientLoading.png ---
+[46
+
+] [47
+
+] [48] [49
+
+]
+
+LaTeX Warning: File `Pictures/MotionLoading.eps' not found on input line 560.
+
+l.560 --- TeX4ht warning --- File `Pictures/MotionLoading.eps' not found ---
+l.560 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Motio
+nLoading.eps (no BoundingBox) ---
+l. 560 --- needs --- Pictures/MotionLoading.png ---
+[50
+
+] [51
+
+] [52] [53
+
+]
+
+LaTeX Warning: File `Pictures/SimulationSettings.eps' not found on input line 5
+89.
+
+l.589 --- TeX4ht warning --- File `Pictures/SimulationSettings.eps' not found -
+--
+l.589 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Simul
+ationSettings.eps (no BoundingBox) ---
+l. 589 --- needs --- Pictures/SimulationSettings.png ---
+[54
+
+] [55
+
+] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65
+
+] [66
+
+]
+Chapter 4.
+--- file MRiLab_User_Guidech4.html ---
+[67] [68
+
+]
+
+LaTeX Warning: File `Pictures/BatchSimPanelIcon.eps' not found on input line 83
+5.
+
+l.835 --- TeX4ht warning --- File `Pictures/BatchSimPanelIcon.eps' not found --
+-
+l.835 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Batch
+SimPanelIcon.eps (no BoundingBox) ---
+l. 835 --- needs --- Pictures/BatchSimPanelIcon.png ---
+[69
+
+] [70
+
+] [71
+
+]
+
+LaTeX Warning: File `Pictures/BatchSim.eps' not found on input line 844.
+
+l.844 --- TeX4ht warning --- File `Pictures/BatchSim.eps' not found ---
+l.844 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Batch
+Sim.eps (no BoundingBox) ---
+l. 844 --- needs --- Pictures/BatchSim.png ---
+[72
+
+] [73
+
+] [74
+
+]
+
+LaTeX Warning: File `Pictures/SimulationImage.eps' not found on input line 854.
+
+
+l.854 --- TeX4ht warning --- File `Pictures/SimulationImage.eps' not found ---
+l.854 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Simul
+ationImage.eps (no BoundingBox) ---
+l. 854 --- needs --- Pictures/SimulationImage.png ---
+[75
+
+] [76
+
+] [77
+
+]
+
+LaTeX Warning: File `Pictures/SimulationImage2.eps' not found on input line 873
+.
+
+l.873 --- TeX4ht warning --- File `Pictures/SimulationImage2.eps' not found ---
+
+l.873 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Simul
+ationImage2.eps (no BoundingBox) ---
+l. 873 --- needs --- Pictures/SimulationImage2.png ---
+[78
+
+] [79
+
+] [80] [81
+
+] [82
+
+]
+Chapter 5.
+--- file MRiLab_User_Guidech5.html ---
+[83] [84
+
+]
+
+LaTeX Warning: File `Pictures/RFDesignPanelIcon.eps' not found on input line 92
+8.
+
+l.928 --- TeX4ht warning --- File `Pictures/RFDesignPanelIcon.eps' not found --
+-
+l.928 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/RFDes
+ignPanelIcon.eps (no BoundingBox) ---
+l. 928 --- needs --- Pictures/RFDesignPanelIcon.png ---
+[85
+
+] [86
+
+] [87
+
+]
+
+LaTeX Warning: File `Pictures/RFDesignGUI.eps' not found on input line 937.
+
+l.937 --- TeX4ht warning --- File `Pictures/RFDesignGUI.eps' not found ---
+l.937 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/RFDes
+ignGUI.eps (no BoundingBox) ---
+l. 937 --- needs --- Pictures/RFDesignGUI.png ---
+[88
+
+] [89
+
+]
+
+LaTeX Warning: File `Pictures/ConstantGradient.eps' not found on input line 966
+.
+
+l.966 --- TeX4ht warning --- File `Pictures/ConstantGradient.eps' not found ---
+
+l.966 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Const
+antGradient.eps (no BoundingBox) ---
+l. 966 --- needs --- Pictures/ConstantGradient.png ---
+
+LaTeX Warning: File `Pictures/SliceProfile.eps' not found on input line 975.
+
+l.975 --- TeX4ht warning --- File `Pictures/SliceProfile.eps' not found ---
+l.975 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Slice
+Profile.eps (no BoundingBox) ---
+l. 975 --- needs --- Pictures/SliceProfile.png ---
+[90]
+
+LaTeX Warning: File `Pictures/PlaybackButtonGroup.eps' not found on input line 
+1006.
+
+l.1006 --- TeX4ht warning --- File `Pictures/PlaybackButtonGroup.eps' not found
+ ---
+l.1006 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Play
+backButtonGroup.eps (no BoundingBox) ---
+l. 1006 --- needs --- Pictures/PlaybackButtonGroup.png ---
+[91]
+
+LaTeX Warning: File `Pictures/SliceProfileAtMiddle.eps' not found on input line
+ 1023.
+
+l.1023 --- TeX4ht warning --- File `Pictures/SliceProfileAtMiddle.eps' not foun
+d ---
+l.1023 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Slic
+eProfileAtMiddle.eps (no BoundingBox) ---
+l. 1023 --- needs --- Pictures/SliceProfileAtMiddle.png ---
+
+LaTeX Warning: File `Pictures/SpatialSpectral.eps' not found on input line 1034
+.
+
+l.1034 --- TeX4ht warning --- File `Pictures/SpatialSpectral.eps' not found ---
+
+l.1034 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Spat
+ialSpectral.eps (no BoundingBox) ---
+l. 1034 --- needs --- Pictures/SpatialSpectral.png ---
+
+LaTeX Warning: File `Pictures/MatlabDefaultTools.eps' not found on input line 1
+041.
+
+l.1041 --- TeX4ht warning --- File `Pictures/MatlabDefaultTools.eps' not found 
+---
+l.1041 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Matl
+abDefaultTools.eps (no BoundingBox) ---
+l. 1041 --- needs --- Pictures/MatlabDefaultTools.png ---
+[92] [93]
+
+LaTeX Warning: File `Pictures/SliceProfileTwoSpecies.eps' not found on input li
+ne 1111.
+
+l.1111 --- TeX4ht warning --- File `Pictures/SliceProfileTwoSpecies.eps' not fo
+und ---
+l.1111 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Slic
+eProfileTwoSpecies.eps (no BoundingBox) ---
+l. 1111 --- needs --- Pictures/SliceProfileTwoSpecies.png ---
+[94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106]
+[107]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1409 F
+        requency modulation:
+? q
+OK, entering \batchmode...
+ [108]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1433 F
+        requency modulation:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+ [109]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1454 F
+        requency modulation:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+ [110] [111]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1499 F
+        requency modulation:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1514 F
+        requency modulation:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+ [112]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1537 F
+        requency modulation:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+ [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123
+
+]
+
+LaTeX Warning: File `Pictures/SequenceDesignPanelIcon.eps' not found on input l
+ine 1732.
+
+l.1732 --- TeX4ht warning --- File `Pictures/SequenceDesignPanelIcon.eps' not f
+ound ---
+l.1732 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Sequ
+enceDesignPanelIcon.eps (no BoundingBox) ---
+l. 1732 --- needs --- Pictures/SequenceDesignPanelIcon.png ---
+ [124
+
+] [125
+
+] [126
+
+]
+
+LaTeX Warning: File `Pictures/SequenceDesignGUI.eps' not found on input line 17
+41.
+
+l.1741 --- TeX4ht warning --- File `Pictures/SequenceDesignGUI.eps' not found -
+--
+l.1741 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Sequ
+enceDesignGUI.eps (no BoundingBox) ---
+l. 1741 --- needs --- Pictures/SequenceDesignGUI.png ---
+ [127
+
+]
+
+LaTeX Warning: File `Pictures/SequenceStructure.eps' not found on input line 17
+57.
+
+l.1757 --- TeX4ht warning --- File `Pictures/SequenceStructure.eps' not found -
+--
+l.1757 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Sequ
+enceStructure.eps (no BoundingBox) ---
+l. 1757 --- needs --- Pictures/SequenceStructure.png ---
+ [128
+
+]
+
+LaTeX Warning: File `Pictures/MacroOperationButton.eps' not found on input line
+ 1783.
+
+l.1783 --- TeX4ht warning --- File `Pictures/MacroOperationButton.eps' not foun
+d ---
+l.1783 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Macr
+oOperationButton.eps (no BoundingBox) ---
+l. 1783 --- needs --- Pictures/MacroOperationButton.png ---
+ [129]
+
+LaTeX Warning: File `Pictures/TwoPulses.eps' not found on input line 1804.
+
+l.1804 --- TeX4ht warning --- File `Pictures/TwoPulses.eps' not found ---
+l.1804 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/TwoP
+ulses.eps (no BoundingBox) ---
+l. 1804 --- needs --- Pictures/TwoPulses.png ---
+
+LaTeX Warning: File `Pictures/RFSource.eps' not found on input line 1819.
+
+l.1819 --- TeX4ht warning --- File `Pictures/RFSource.eps' not found ---
+l.1819 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/RFSo
+urce.eps (no BoundingBox) ---
+l. 1819 --- needs --- Pictures/RFSource.png ---
+ [130]
+
+LaTeX Warning: File `Pictures/SequenceDisplayButton.eps' not found on input lin
+e 1828.
+
+l.1828 --- TeX4ht warning --- File `Pictures/SequenceDisplayButton.eps' not fou
+nd ---
+l.1828 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Sequ
+enceDisplayButton.eps (no BoundingBox) ---
+l. 1828 --- needs --- Pictures/SequenceDisplayButton.png ---
+ [131]
+
+LaTeX Warning: File `Pictures/AllSequence.eps' not found on input line 1853.
+
+l.1853 --- TeX4ht warning --- File `Pictures/AllSequence.eps' not found ---
+l.1853 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/AllS
+equence.eps (no BoundingBox) ---
+l. 1853 --- needs --- Pictures/AllSequence.png ---
+
+LaTeX Warning: File `Pictures/MatlabSpiral.eps' not found on input line 1871.
+
+l.1871 --- TeX4ht warning --- File `Pictures/MatlabSpiral.eps' not found ---
+l.1871 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Matl
+abSpiral.eps (no BoundingBox) ---
+l. 1871 --- needs --- Pictures/MatlabSpiral.png ---
+ [132]
+
+LaTeX Warning: File `Pictures/VTK.eps' not found on input line 1885.
+
+l.1885 --- TeX4ht warning --- File `Pictures/VTK.eps' not found ---
+l.1885 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/VTK.
+eps (no BoundingBox) ---
+l. 1885 --- needs --- Pictures/VTK.png ---
+ [133] [134] [135] [136] [137] [138
+
+]
+
+LaTeX Warning: File `Pictures/GzSelective.eps' not found on input line 1975.
+
+l.1975 --- TeX4ht warning --- File `Pictures/GzSelective.eps' not found ---
+l.1975 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/GzSe
+lective.eps (no BoundingBox) ---
+l. 1975 --- needs --- Pictures/GzSelective.png ---
+ [139
+
+] [140
+
+] [141
+
+]
+
+LaTeX Warning: File `Pictures/GzSelective2.eps' not found on input line 2002.
+
+l.2002 --- TeX4ht warning --- File `Pictures/GzSelective2.eps' not found ---
+l.2002 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/GzSe
+lective2.eps (no BoundingBox) ---
+l. 2002 --- needs --- Pictures/GzSelective2.png ---
+ [142
+
+] [143
+
+] [144
+
+]
+
+LaTeX Warning: File `Pictures/GzTrapezoid.eps' not found on input line 2026.
+
+l.2026 --- TeX4ht warning --- File `Pictures/GzTrapezoid.eps' not found ---
+l.2026 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/GzTr
+apezoid.eps (no BoundingBox) ---
+l. 2026 --- needs --- Pictures/GzTrapezoid.png ---
+ [145
+
+] [146
+
+] [147
+
+]
+
+LaTeX Warning: File `Pictures/GzAreaTrapezoid.eps' not found on input line 2048
+.
+
+l.2048 --- TeX4ht warning --- File `Pictures/GzAreaTrapezoid.eps' not found ---
+
+l.2048 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/GzAr
+eaTrapezoid.eps (no BoundingBox) ---
+l. 2048 --- needs --- Pictures/GzAreaTrapezoid.png ---
+ [148
+
+] [149
+
+] [150
+
+]
+
+LaTeX Warning: File `Pictures/GzAreaTrapezoid2.eps' not found on input line 206
+8.
+
+l.2068 --- TeX4ht warning --- File `Pictures/GzAreaTrapezoid2.eps' not found --
+-
+l.2068 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/GzAr
+eaTrapezoid2.eps (no BoundingBox) ---
+l. 2068 --- needs --- Pictures/GzAreaTrapezoid2.png ---
+ [151
+
+] [152
+
+] [153
+
+]
+
+LaTeX Warning: File `Pictures/GzCartesian.eps' not found on input line 2095.
+
+l.2095 --- TeX4ht warning --- File `Pictures/GzCartesian.eps' not found ---
+l.2095 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/GzCa
+rtesian.eps (no BoundingBox) ---
+l. 2095 --- needs --- Pictures/GzCartesian.png ---
+ [154
+
+] [155
+
+] [156] [157] [158] [159] [160
+
+]
+
+LaTeX Warning: File `Pictures/GyRadial.eps' not found on input line 2204.
+
+l.2204 --- TeX4ht warning --- File `Pictures/GyRadial.eps' not found ---
+l.2204 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/GyRa
+dial.eps (no BoundingBox) ---
+l. 2204 --- needs --- Pictures/GyRadial.png ---
+ [161
+
+] [162
+
+] [163
+
+]
+
+LaTeX Warning: File `Pictures/GySpiral.eps' not found on input line 2224.
+
+l.2224 --- TeX4ht warning --- File `Pictures/GySpiral.eps' not found ---
+l.2224 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/GySp
+iral.eps (no BoundingBox) ---
+l. 2224 --- needs --- Pictures/GySpiral.png ---
+ [164
+
+] [165
+
+] [166
+
+]
+
+LaTeX Warning: File `Pictures/GyFSE.eps' not found on input line 2249.
+
+l.2249 --- TeX4ht warning --- File `Pictures/GyFSE.eps' not found ---
+l.2249 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/GyFS
+E.eps (no BoundingBox) ---
+l. 2249 --- needs --- Pictures/GyFSE.png ---
+ [167
+
+] [168
+
+] [169
+
+]
+
+LaTeX Warning: File `Pictures/GyEPI.eps' not found on input line 2271.
+
+l.2271 --- TeX4ht warning --- File `Pictures/GyEPI.eps' not found ---
+l.2271 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/GyEP
+I.eps (no BoundingBox) ---
+l. 2271 --- needs --- Pictures/GyEPI.png ---
+ [170
+
+] [171
+
+] [172] [173] [174] [175
+
+]
+
+LaTeX Warning: File `Pictures/GxCartesian.eps' not found on input line 2360.
+
+l.2360 --- TeX4ht warning --- File `Pictures/GxCartesian.eps' not found ---
+l.2360 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/GxCa
+rtesian.eps (no BoundingBox) ---
+l. 2360 --- needs --- Pictures/GxCartesian.png ---
+ [176
+
+] [177
+
+] [178] [179] [180
+
+]
+
+LaTeX Warning: File `Pictures/GxFSE.eps' not found on input line 2413.
+
+l.2413 --- TeX4ht warning --- File `Pictures/GxFSE.eps' not found ---
+l.2413 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/GxFS
+E.eps (no BoundingBox) ---
+l. 2413 --- needs --- Pictures/GxFSE.png ---
+ [181
+
+] [182
+
+] [183
+
+]
+
+LaTeX Warning: File `Pictures/GxEPI.eps' not found on input line 2435.
+
+l.2435 --- TeX4ht warning --- File `Pictures/GxEPI.eps' not found ---
+l.2435 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/GxEP
+I.eps (no BoundingBox) ---
+l. 2435 --- needs --- Pictures/GxEPI.png ---
+ [184
+
+] [185
+
+] [186] [187
+
+]
+
+LaTeX Warning: File `Pictures/ADCBlock.eps' not found on input line 2473.
+
+l.2473 --- TeX4ht warning --- File `Pictures/ADCBlock.eps' not found ---
+l.2473 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/ADCB
+lock.eps (no BoundingBox) ---
+l. 2473 --- needs --- Pictures/ADCBlock.png ---
+ [188
+
+] [189
+
+] [190] [191] [192] [193
+
+]
+
+LaTeX Warning: File `Pictures/ExtBit.eps' not found on input line 2565.
+
+l.2565 --- TeX4ht warning --- File `Pictures/ExtBit.eps' not found ---
+l.2565 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/ExtB
+it.eps (no BoundingBox) ---
+l. 2565 --- needs --- Pictures/ExtBit.png ---
+ [194
+
+] [195
+
+] [196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208]
+ [209
+
+]
+
+LaTeX Warning: File `Pictures/NewPSD.eps' not found on input line 2811.
+
+l.2811 --- TeX4ht warning --- File `Pictures/NewPSD.eps' not found ---
+l.2811 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/NewP
+SD.eps (no BoundingBox) ---
+l. 2811 --- needs --- Pictures/NewPSD.png ---
+ [210
+
+] [211
+
+] [212] [213] [214] [215] [216]
+
+LaTeX Warning: File `Pictures/GeneralizedExchangeModel.eps' not found on input 
+line 2935.
+
+l.2935 --- TeX4ht warning --- File `Pictures/GeneralizedExchangeModel.eps' not 
+found ---
+l.2935 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Gene
+ralizedExchangeModel.eps (no BoundingBox) ---
+l. 2935 --- needs --- Pictures/GeneralizedExchangeModel.png ---
+ [217] [218] [219] [220] [221
+
+]
+
+LaTeX Warning: File `Pictures/PhantomDesignPanelIcon.eps' not found on input li
+ne 2975.
+
+l.2975 --- TeX4ht warning --- File `Pictures/PhantomDesignPanelIcon.eps' not fo
+und ---
+l.2975 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Phan
+tomDesignPanelIcon.eps (no BoundingBox) ---
+l. 2975 --- needs --- Pictures/PhantomDesignPanelIcon.png ---
+ [222
+
+] [223
+
+] [224
+
+]
+
+LaTeX Warning: File `Pictures/PhantomDesignGUI.eps' not found on input line 298
+2.
+
+l.2982 --- TeX4ht warning --- File `Pictures/PhantomDesignGUI.eps' not found --
+-
+l.2982 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Phan
+tomDesignGUI.eps (no BoundingBox) ---
+l. 2982 --- needs --- Pictures/PhantomDesignGUI.png ---
+ [225
+
+] [226
+
+] [227] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237
+
+]
+
+LaTeX Warning: File `Pictures/CoilDesignPanelIcon.eps' not found on input line 
+3210.
+
+l.3210 --- TeX4ht warning --- File `Pictures/CoilDesignPanelIcon.eps' not found
+ ---
+l.3210 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Coil
+DesignPanelIcon.eps (no BoundingBox) ---
+l. 3210 --- needs --- Pictures/CoilDesignPanelIcon.png ---
+ [238
+
+] [239
+
+] [240
+
+]
+
+LaTeX Warning: File `Pictures/CoilDesignGUI.eps' not found on input line 3219.
+
+l.3219 --- TeX4ht warning --- File `Pictures/CoilDesignGUI.eps' not found ---
+l.3219 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Coil
+DesignGUI.eps (no BoundingBox) ---
+l. 3219 --- needs --- Pictures/CoilDesignGUI.png ---
+ [241
+
+] [242
+
+] [243] [244
+
+]
+
+LaTeX Warning: File `Pictures/FieldDisplayButton.eps' not found on input line 3
+268.
+
+l.3268 --- TeX4ht warning --- File `Pictures/FieldDisplayButton.eps' not found 
+---
+l.3268 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Fiel
+dDisplayButton.eps (no BoundingBox) ---
+l. 3268 --- needs --- Pictures/FieldDisplayButton.png ---
+ [245
+
+] [246
+
+] [247
+
+]
+
+LaTeX Warning: File `Pictures/B1Field.eps' not found on input line 3285.
+
+l.3285 --- TeX4ht warning --- File `Pictures/B1Field.eps' not found ---
+l.3285 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/B1Fi
+eld.eps (no BoundingBox) ---
+l. 3285 --- needs --- Pictures/B1Field.png ---
+ [248
+
+] [249
+
+] [250] [251] [252] [253
+
+]
+
+LaTeX Warning: File `Pictures/NewCoil.eps' not found on input line 3352.
+
+l.3352 --- TeX4ht warning --- File `Pictures/NewCoil.eps' not found ---
+l.3352 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/NewC
+oil.eps (no BoundingBox) ---
+l. 3352 --- needs --- Pictures/NewCoil.png ---
+ [254
+
+] [255
+
+] [256
+
+]
+
+LaTeX Warning: File `Pictures/MagnetDesignPanelIcon.eps' not found on input lin
+e 3364.
+
+l.3364 --- TeX4ht warning --- File `Pictures/MagnetDesignPanelIcon.eps' not fou
+nd ---
+l.3364 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Magn
+etDesignPanelIcon.eps (no BoundingBox) ---
+l. 3364 --- needs --- Pictures/MagnetDesignPanelIcon.png ---
+ [257
+
+] [258
+
+] [259
+
+]
+
+LaTeX Warning: File `Pictures/MagnetDesignGUI.eps' not found on input line 3373
+.
+
+l.3373 --- TeX4ht warning --- File `Pictures/MagnetDesignGUI.eps' not found ---
+
+l.3373 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Magn
+etDesignGUI.eps (no BoundingBox) ---
+l. 3373 --- needs --- Pictures/MagnetDesignGUI.png ---
+ [260
+
+] [261
+
+] [262] [263] [264] [265] [266
+
+]
+
+LaTeX Warning: File `Pictures/GradientDesignPanelIcon.eps' not found on input l
+ine 3480.
+
+l.3480 --- TeX4ht warning --- File `Pictures/GradientDesignPanelIcon.eps' not f
+ound ---
+l.3480 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Grad
+ientDesignPanelIcon.eps (no BoundingBox) ---
+l. 3480 --- needs --- Pictures/GradientDesignPanelIcon.png ---
+ [267
+
+] [268
+
+] [269
+
+]
+
+LaTeX Warning: File `Pictures/GradientDesignGUI.eps' not found on input line 34
+89.
+
+l.3489 --- TeX4ht warning --- File `Pictures/GradientDesignGUI.eps' not found -
+--
+l.3489 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Grad
+ientDesignGUI.eps (no BoundingBox) ---
+l. 3489 --- needs --- Pictures/GradientDesignGUI.png ---
+ [270
+
+] [271
+
+] [272] [273] [274] [275] [276
+
+]
+
+LaTeX Warning: File `Pictures/MotionDesignPanelIcon.eps' not found on input lin
+e 3591.
+
+l.3591 --- TeX4ht warning --- File `Pictures/MotionDesignPanelIcon.eps' not fou
+nd ---
+l.3591 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Moti
+onDesignPanelIcon.eps (no BoundingBox) ---
+l. 3591 --- needs --- Pictures/MotionDesignPanelIcon.png ---
+ [277
+
+] [278
+
+] [279
+
+]
+
+LaTeX Warning: File `Pictures/MotionDesignGUI.eps' not found on input line 3600
+.
+
+l.3600 --- TeX4ht warning --- File `Pictures/MotionDesignGUI.eps' not found ---
+
+l.3600 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Moti
+onDesignGUI.eps (no BoundingBox) ---
+l. 3600 --- needs --- Pictures/MotionDesignGUI.png ---
+ [280
+
+] [281
+
+] [282] [283] [284] [285] [286] [287] [288] [289
+
+] [290
+
+]
+Chapter 6.
+--- file MRiLab_User_Guidech6.html ---
+ [291] [292
+
+]
+
+LaTeX Warning: File `Pictures/MatrixUserPanelIcon.eps' not found on input line 
+3772.
+
+l.3772 --- TeX4ht warning --- File `Pictures/MatrixUserPanelIcon.eps' not found
+ ---
+l.3772 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Matr
+ixUserPanelIcon.eps (no BoundingBox) ---
+l. 3772 --- needs --- Pictures/MatrixUserPanelIcon.png ---
+ [293
+
+] [294
+
+] [295
+
+]
+
+LaTeX Warning: File `Pictures/MatrixUser.eps' not found on input line 3781.
+
+l.3781 --- TeX4ht warning --- File `Pictures/MatrixUser.eps' not found ---
+l.3781 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Matr
+ixUser.eps (no BoundingBox) ---
+l. 3781 --- needs --- Pictures/MatrixUser.png ---
+ [296
+
+]
+
+LaTeX Warning: File `Pictures/LoadFromBinary.eps' not found on input line 3811.
+
+
+l.3811 --- TeX4ht warning --- File `Pictures/LoadFromBinary.eps' not found ---
+l.3811 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Load
+FromBinary.eps (no BoundingBox) ---
+l. 3811 --- needs --- Pictures/LoadFromBinary.png ---
+ [297
+
+]
+
+LaTeX Warning: File `Pictures/LoadFromDICOM.eps' not found on input line 3822.
+
+l.3822 --- TeX4ht warning --- File `Pictures/LoadFromDICOM.eps' not found ---
+l.3822 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Load
+FromDICOM.eps (no BoundingBox) ---
+l. 3822 --- needs --- Pictures/LoadFromDICOM.png ---
+ [298] [299
+
+]
+
+LaTeX Warning: File `Pictures/MatrixUserDisplayPanel.eps' not found on input li
+ne 3845.
+
+l.3845 --- TeX4ht warning --- File `Pictures/MatrixUserDisplayPanel.eps' not fo
+und ---
+l.3845 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Matr
+ixUserDisplayPanel.eps (no BoundingBox) ---
+l. 3845 --- needs --- Pictures/MatrixUserDisplayPanel.png ---
+ [300
+
+]
+
+LaTeX Warning: File `Pictures/SaveFig.eps' not found on input line 3858.
+
+l.3858 --- TeX4ht warning --- File `Pictures/SaveFig.eps' not found ---
+l.3858 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Save
+Fig.eps (no BoundingBox) ---
+l. 3858 --- needs --- Pictures/SaveFig.png ---
+
+LaTeX Warning: File `Pictures/ZoomIn.eps' not found on input line 3859.
+
+l.3859 --- TeX4ht warning --- File `Pictures/ZoomIn.eps' not found ---
+l.3859 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Zoom
+In.eps (no BoundingBox) ---
+l. 3859 --- needs --- Pictures/ZoomIn.png ---
+
+LaTeX Warning: File `Pictures/ZoomOut.eps' not found on input line 3860.
+
+l.3860 --- TeX4ht warning --- File `Pictures/ZoomOut.eps' not found ---
+l.3860 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Zoom
+Out.eps (no BoundingBox) ---
+l. 3860 --- needs --- Pictures/ZoomOut.png ---
+
+LaTeX Warning: File `Pictures/Pan.eps' not found on input line 3861.
+
+l.3861 --- TeX4ht warning --- File `Pictures/Pan.eps' not found ---
+l.3861 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Pan.
+eps (no BoundingBox) ---
+l. 3861 --- needs --- Pictures/Pan.png ---
+
+LaTeX Warning: File `Pictures/DataCursor.eps' not found on input line 3862.
+
+l.3862 --- TeX4ht warning --- File `Pictures/DataCursor.eps' not found ---
+l.3862 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Data
+Cursor.eps (no BoundingBox) ---
+l. 3862 --- needs --- Pictures/DataCursor.png ---
+
+LaTeX Warning: File `Pictures/Print.eps' not found on input line 3863.
+
+l.3863 --- TeX4ht warning --- File `Pictures/Print.eps' not found ---
+l.3863 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Prin
+t.eps (no BoundingBox) ---
+l. 3863 --- needs --- Pictures/Print.png ---
+
+LaTeX Warning: File `Pictures/Colorbar.eps' not found on input line 3864.
+
+l.3864 --- TeX4ht warning --- File `Pictures/Colorbar.eps' not found ---
+l.3864 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Colo
+rbar.eps (no BoundingBox) ---
+l. 3864 --- needs --- Pictures/Colorbar.png ---
+ [301
+
+]
+
+LaTeX Warning: File `Pictures/MatrixCalc.eps' not found on input line 3887.
+
+l.3887 --- TeX4ht warning --- File `Pictures/MatrixCalc.eps' not found ---
+l.3887 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Matr
+ixCalc.eps (no BoundingBox) ---
+l. 3887 --- needs --- Pictures/MatrixCalc.png ---
+
+LaTeX Warning: File `Pictures/Upload.eps' not found on input line 3887.
+
+l.3887 --- TeX4ht warning --- File `Pictures/Upload.eps' not found ---
+l.3887 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Uplo
+ad.eps (no BoundingBox) ---
+l. 3887 --- needs --- Pictures/Upload.png ---
+
+LaTeX Warning: File `Pictures/MatrixCalcExample.eps' not found on input line 38
+98.
+
+l.3898 --- TeX4ht warning --- File `Pictures/MatrixCalcExample.eps' not found -
+--
+l.3898 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Matr
+ixCalcExample.eps (no BoundingBox) ---
+l. 3898 --- needs --- Pictures/MatrixCalcExample.png ---
+ [302] [303]
+
+LaTeX Warning: File `Pictures/Release.eps' not found on input line 3936.
+
+l.3936 --- TeX4ht warning --- File `Pictures/Release.eps' not found ---
+l.3936 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Rele
+ase.eps (no BoundingBox) ---
+l. 3936 --- needs --- Pictures/Release.png ---
+
+LaTeX Warning: File `Pictures/Grid.eps' not found on input line 3937.
+
+l.3937 --- TeX4ht warning --- File `Pictures/Grid.eps' not found ---
+l.3937 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Grid
+.eps (no BoundingBox) ---
+l. 3937 --- needs --- Pictures/Grid.png ---
+
+LaTeX Warning: File `Pictures/Magnifier.eps' not found on input line 3938.
+
+l.3938 --- TeX4ht warning --- File `Pictures/Magnifier.eps' not found ---
+l.3938 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Magn
+ifier.eps (no BoundingBox) ---
+l. 3938 --- needs --- Pictures/Magnifier.png ---
+
+LaTeX Warning: File `Pictures/LineProfile.eps' not found on input line 3939.
+
+l.3939 --- TeX4ht warning --- File `Pictures/LineProfile.eps' not found ---
+l.3939 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Line
+Profile.eps (no BoundingBox) ---
+l. 3939 --- needs --- Pictures/LineProfile.png ---
+
+LaTeX Warning: File `Pictures/BrainProfile.eps' not found on input line 3943.
+
+l.3943 --- TeX4ht warning --- File `Pictures/BrainProfile.eps' not found ---
+l.3943 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Brai
+nProfile.eps (no BoundingBox) ---
+l. 3943 --- needs --- Pictures/BrainProfile.png ---
+
+LaTeX Warning: File `Pictures/DimProfile.eps' not found on input line 3950.
+
+l.3950 --- TeX4ht warning --- File `Pictures/DimProfile.eps' not found ---
+l.3950 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/DimP
+rofile.eps (no BoundingBox) ---
+l. 3950 --- needs --- Pictures/DimProfile.png ---
+
+LaTeX Warning: File `Pictures/DimProfileWindow.eps' not found on input line 395
+4.
+
+l.3954 --- TeX4ht warning --- File `Pictures/DimProfileWindow.eps' not found --
+-
+l.3954 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/DimP
+rofileWindow.eps (no BoundingBox) ---
+l. 3954 --- needs --- Pictures/DimProfileWindow.png ---
+
+LaTeX Warning: File `Pictures/3DSlicer.eps' not found on input line 3959.
+
+l.3959 --- TeX4ht warning --- File `Pictures/3DSlicer.eps' not found ---
+l.3959 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/3DSl
+icer.eps (no BoundingBox) ---
+l. 3959 --- needs --- Pictures/3DSlicer.png ---
+
+LaTeX Warning: File `Pictures/RedBar.eps' not found on input line 3962.
+
+l.3962 --- TeX4ht warning --- File `Pictures/RedBar.eps' not found ---
+l.3962 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/RedB
+ar.eps (no BoundingBox) ---
+l. 3962 --- needs --- Pictures/RedBar.png ---
+
+LaTeX Warning: File `Pictures/YellowBar.eps' not found on input line 3963.
+
+l.3963 --- TeX4ht warning --- File `Pictures/YellowBar.eps' not found ---
+l.3963 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Yell
+owBar.eps (no BoundingBox) ---
+l. 3963 --- needs --- Pictures/YellowBar.png ---
+ [304]
+
+LaTeX Warning: File `Pictures/Switch.eps' not found on input line 3964.
+
+l.3964 --- TeX4ht warning --- File `Pictures/Switch.eps' not found ---
+l.3964 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Swit
+ch.eps (no BoundingBox) ---
+l. 3964 --- needs --- Pictures/Switch.png ---
+
+LaTeX Warning: File `Pictures/Upload.eps' not found on input line 3964.
+
+l.3964 --- TeX4ht warning --- File `Pictures/Upload.eps' not found ---
+l.3964 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Uplo
+ad.eps (no BoundingBox) ---
+l. 3964 --- needs --- Pictures/Upload.png ---
+
+LaTeX Warning: File `Pictures/3DSlice.eps' not found on input line 3969.
+
+l.3969 --- TeX4ht warning --- File `Pictures/3DSlice.eps' not found ---
+l.3969 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/3DSl
+ice.eps (no BoundingBox) ---
+l. 3969 --- needs --- Pictures/3DSlice.png ---
+
+LaTeX Warning: File `Pictures/RGBImage.eps' not found on input line 3974.
+
+l.3974 --- TeX4ht warning --- File `Pictures/RGBImage.eps' not found ---
+l.3974 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/RGBI
+mage.eps (no BoundingBox) ---
+l. 3974 --- needs --- Pictures/RGBImage.png ---
+
+LaTeX Warning: File `Pictures/Montage.eps' not found on input line 3975.
+
+l.3975 --- TeX4ht warning --- File `Pictures/Montage.eps' not found ---
+l.3975 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Mont
+age.eps (no BoundingBox) ---
+l. 3975 --- needs --- Pictures/Montage.png ---
+
+LaTeX Warning: File `Pictures/MontageImage.eps' not found on input line 3979.
+
+l.3979 --- TeX4ht warning --- File `Pictures/MontageImage.eps' not found ---
+l.3979 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Mont
+ageImage.eps (no BoundingBox) ---
+l. 3979 --- needs --- Pictures/MontageImage.png ---
+
+LaTeX Warning: File `Pictures/Fuse.eps' not found on input line 3984.
+
+l.3984 --- TeX4ht warning --- File `Pictures/Fuse.eps' not found ---
+l.3984 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Fuse
+.eps (no BoundingBox) ---
+l. 3984 --- needs --- Pictures/Fuse.png ---
+
+LaTeX Warning: File `Pictures/Release.eps' not found on input line 3984.
+
+l.3984 --- TeX4ht warning --- File `Pictures/Release.eps' not found ---
+l.3984 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Rele
+ase.eps (no BoundingBox) ---
+l. 3984 --- needs --- Pictures/Release.png ---
+
+LaTeX Warning: File `Pictures/ImageFuse.eps' not found on input line 3988.
+
+l.3988 --- TeX4ht warning --- File `Pictures/ImageFuse.eps' not found ---
+l.3988 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Imag
+eFuse.eps (no BoundingBox) ---
+l. 3988 --- needs --- Pictures/ImageFuse.png ---
+
+LaTeX Warning: File `Pictures/Abs.eps' not found on input line 4000.
+
+l.4000 --- TeX4ht warning --- File `Pictures/Abs.eps' not found ---
+l.4000 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Abs.
+eps (no BoundingBox) ---
+l. 4000 --- needs --- Pictures/Abs.png ---
+ [305]
+
+LaTeX Warning: File `Pictures/Negnate.eps' not found on input line 4001.
+
+l.4001 --- TeX4ht warning --- File `Pictures/Negnate.eps' not found ---
+l.4001 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Negn
+ate.eps (no BoundingBox) ---
+l. 4001 --- needs --- Pictures/Negnate.png ---
+
+LaTeX Warning: File `Pictures/Ln.eps' not found on input line 4002.
+
+l.4002 --- TeX4ht warning --- File `Pictures/Ln.eps' not found ---
+l.4002 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Ln.e
+ps (no BoundingBox) ---
+l. 4002 --- needs --- Pictures/Ln.png ---
+
+LaTeX Warning: File `Pictures/Log.eps' not found on input line 4003.
+
+l.4003 --- TeX4ht warning --- File `Pictures/Log.eps' not found ---
+l.4003 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Log.
+eps (no BoundingBox) ---
+l. 4003 --- needs --- Pictures/Log.png ---
+
+LaTeX Warning: File `Pictures/Exp.eps' not found on input line 4004.
+
+l.4004 --- TeX4ht warning --- File `Pictures/Exp.eps' not found ---
+l.4004 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Exp.
+eps (no BoundingBox) ---
+l. 4004 --- needs --- Pictures/Exp.png ---
+
+LaTeX Warning: File `Pictures/10n.eps' not found on input line 4005.
+
+l.4005 --- TeX4ht warning --- File `Pictures/10n.eps' not found ---
+l.4005 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/10n.
+eps (no BoundingBox) ---
+l. 4005 --- needs --- Pictures/10n.png ---
+
+LaTeX Warning: File `Pictures/Sin.eps' not found on input line 4006.
+
+l.4006 --- TeX4ht warning --- File `Pictures/Sin.eps' not found ---
+l.4006 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Sin.
+eps (no BoundingBox) ---
+l. 4006 --- needs --- Pictures/Sin.png ---
+
+LaTeX Warning: File `Pictures/Cos.eps' not found on input line 4007.
+
+l.4007 --- TeX4ht warning --- File `Pictures/Cos.eps' not found ---
+l.4007 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Cos.
+eps (no BoundingBox) ---
+l. 4007 --- needs --- Pictures/Cos.png ---
+
+LaTeX Warning: File `Pictures/Tan.eps' not found on input line 4008.
+
+l.4008 --- TeX4ht warning --- File `Pictures/Tan.eps' not found ---
+l.4008 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Tan.
+eps (no BoundingBox) ---
+l. 4008 --- needs --- Pictures/Tan.png ---
+
+LaTeX Warning: File `Pictures/ASin.eps' not found on input line 4009.
+
+l.4009 --- TeX4ht warning --- File `Pictures/ASin.eps' not found ---
+l.4009 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/ASin
+.eps (no BoundingBox) ---
+l. 4009 --- needs --- Pictures/ASin.png ---
+
+LaTeX Warning: File `Pictures/ACos.eps' not found on input line 4010.
+
+l.4010 --- TeX4ht warning --- File `Pictures/ACos.eps' not found ---
+l.4010 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/ACos
+.eps (no BoundingBox) ---
+l. 4010 --- needs --- Pictures/ACos.png ---
+
+LaTeX Warning: File `Pictures/ATan.eps' not found on input line 4011.
+
+l.4011 --- TeX4ht warning --- File `Pictures/ATan.eps' not found ---
+l.4011 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/ATan
+.eps (no BoundingBox) ---
+l. 4011 --- needs --- Pictures/ATan.png ---
+
+LaTeX Warning: File `Pictures/FlipLR.eps' not found on input line 4020.
+
+l.4020 --- TeX4ht warning --- File `Pictures/FlipLR.eps' not found ---
+l.4020 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Flip
+LR.eps (no BoundingBox) ---
+l. 4020 --- needs --- Pictures/FlipLR.png ---
+
+LaTeX Warning: File `Pictures/FlipUD.eps' not found on input line 4021.
+
+l.4021 --- TeX4ht warning --- File `Pictures/FlipUD.eps' not found ---
+l.4021 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Flip
+UD.eps (no BoundingBox) ---
+l. 4021 --- needs --- Pictures/FlipUD.png ---
+
+LaTeX Warning: File `Pictures/FlipZ.eps' not found on input line 4022.
+
+l.4022 --- TeX4ht warning --- File `Pictures/FlipZ.eps' not found ---
+l.4022 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Flip
+Z.eps (no BoundingBox) ---
+l. 4022 --- needs --- Pictures/FlipZ.png ---
+
+LaTeX Warning: File `Pictures/Rot90L.eps' not found on input line 4023.
+
+l.4023 --- TeX4ht warning --- File `Pictures/Rot90L.eps' not found ---
+l.4023 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Rot9
+0L.eps (no BoundingBox) ---
+l. 4023 --- needs --- Pictures/Rot90L.png ---
+
+LaTeX Warning: File `Pictures/Rot90R.eps' not found on input line 4024.
+
+l.4024 --- TeX4ht warning --- File `Pictures/Rot90R.eps' not found ---
+l.4024 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Rot9
+0R.eps (no BoundingBox) ---
+l. 4024 --- needs --- Pictures/Rot90R.png ---
+ [306]
+
+LaTeX Warning: File `Pictures/Rotate.eps' not found on input line 4025.
+
+l.4025 --- TeX4ht warning --- File `Pictures/Rotate.eps' not found ---
+l.4025 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Rota
+te.eps (no BoundingBox) ---
+l. 4025 --- needs --- Pictures/Rotate.png ---
+
+LaTeX Warning: File `Pictures/Translate.eps' not found on input line 4026.
+
+l.4026 --- TeX4ht warning --- File `Pictures/Translate.eps' not found ---
+l.4026 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Tran
+slate.eps (no BoundingBox) ---
+l. 4026 --- needs --- Pictures/Translate.png ---
+
+LaTeX Warning: File `Pictures/FFT.eps' not found on input line 4027.
+
+l.4027 --- TeX4ht warning --- File `Pictures/FFT.eps' not found ---
+l.4027 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/FFT.
+eps (no BoundingBox) ---
+l. 4027 --- needs --- Pictures/FFT.png ---
+
+LaTeX Warning: File `Pictures/Mask.eps' not found on input line 4035.
+
+l.4035 --- TeX4ht warning --- File `Pictures/Mask.eps' not found ---
+l.4035 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Mask
+.eps (no BoundingBox) ---
+l. 4035 --- needs --- Pictures/Mask.png ---
+
+LaTeX Warning: File `Pictures/Smooth.eps' not found on input line 4036.
+
+l.4036 --- TeX4ht warning --- File `Pictures/Smooth.eps' not found ---
+l.4036 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Smoo
+th.eps (no BoundingBox) ---
+l. 4036 --- needs --- Pictures/Smooth.png ---
+
+LaTeX Warning: File `Pictures/Sharpen.eps' not found on input line 4037.
+
+l.4037 --- TeX4ht warning --- File `Pictures/Sharpen.eps' not found ---
+l.4037 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Shar
+pen.eps (no BoundingBox) ---
+l. 4037 --- needs --- Pictures/Sharpen.png ---
+
+LaTeX Warning: File `Pictures/Edge.eps' not found on input line 4038.
+
+l.4038 --- TeX4ht warning --- File `Pictures/Edge.eps' not found ---
+l.4038 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Edge
+.eps (no BoundingBox) ---
+l. 4038 --- needs --- Pictures/Edge.png ---
+
+LaTeX Warning: File `Pictures/Filter.eps' not found on input line 4039.
+
+l.4039 --- TeX4ht warning --- File `Pictures/Filter.eps' not found ---
+l.4039 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Filt
+er.eps (no BoundingBox) ---
+l. 4039 --- needs --- Pictures/Filter.png ---
+
+LaTeX Warning: File `Pictures/FilterResult.eps' not found on input line 4043.
+
+l.4043 --- TeX4ht warning --- File `Pictures/FilterResult.eps' not found ---
+l.4043 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Filt
+erResult.eps (no BoundingBox) ---
+l. 4043 --- needs --- Pictures/FilterResult.png ---
+
+LaTeX Warning: File `Pictures/Noise.eps' not found on input line 4049.
+
+l.4049 --- TeX4ht warning --- File `Pictures/Noise.eps' not found ---
+l.4049 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Nois
+e.eps (no BoundingBox) ---
+l. 4049 --- needs --- Pictures/Noise.png ---
+
+LaTeX Warning: File `Pictures/NoiseResult.eps' not found on input line 4053.
+
+l.4053 --- TeX4ht warning --- File `Pictures/NoiseResult.eps' not found ---
+l.4053 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Nois
+eResult.eps (no BoundingBox) ---
+l. 4053 --- needs --- Pictures/NoiseResult.png ---
+
+LaTeX Warning: File `Pictures/FillOut.eps' not found on input line 4059.
+
+l.4059 --- TeX4ht warning --- File `Pictures/FillOut.eps' not found ---
+l.4059 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Fill
+Out.eps (no BoundingBox) ---
+l. 4059 --- needs --- Pictures/FillOut.png ---
+
+LaTeX Warning: File `Pictures/FillIn.eps' not found on input line 4060.
+
+l.4060 --- TeX4ht warning --- File `Pictures/FillIn.eps' not found ---
+l.4060 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Fill
+In.eps (no BoundingBox) ---
+l. 4060 --- needs --- Pictures/FillIn.png ---
+ [307]
+
+LaTeX Warning: File `Pictures/Fill.eps' not found on input line 4061.
+
+l.4061 --- TeX4ht warning --- File `Pictures/Fill.eps' not found ---
+l.4061 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Fill
+.eps (no BoundingBox) ---
+l. 4061 --- needs --- Pictures/Fill.png ---
+
+LaTeX Warning: File `Pictures/Replace.eps' not found on input line 4062.
+
+l.4062 --- TeX4ht warning --- File `Pictures/Replace.eps' not found ---
+l.4062 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Repl
+ace.eps (no BoundingBox) ---
+l. 4062 --- needs --- Pictures/Replace.png ---
+
+LaTeX Warning: File `Pictures/Crop.eps' not found on input line 4063.
+
+l.4063 --- TeX4ht warning --- File `Pictures/Crop.eps' not found ---
+l.4063 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Crop
+.eps (no BoundingBox) ---
+l. 4063 --- needs --- Pictures/Crop.png ---
+
+LaTeX Warning: File `Pictures/Extract.eps' not found on input line 4064.
+
+l.4064 --- TeX4ht warning --- File `Pictures/Extract.eps' not found ---
+l.4064 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Extr
+act.eps (no BoundingBox) ---
+l. 4064 --- needs --- Pictures/Extract.png ---
+
+LaTeX Warning: File `Pictures/Resolution.eps' not found on input line 4065.
+
+l.4065 --- TeX4ht warning --- File `Pictures/Resolution.eps' not found ---
+l.4065 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Reso
+lution.eps (no BoundingBox) ---
+l. 4065 --- needs --- Pictures/Resolution.png ---
+
+LaTeX Warning: File `Pictures/ChangeResolution.eps' not found on input line 406
+9.
+
+l.4069 --- TeX4ht warning --- File `Pictures/ChangeResolution.eps' not found --
+-
+l.4069 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Chan
+geResolution.eps (no BoundingBox) ---
+l. 4069 --- needs --- Pictures/ChangeResolution.png ---
+
+LaTeX Warning: File `Pictures/FreeROI.eps' not found on input line 4082.
+
+l.4082 --- TeX4ht warning --- File `Pictures/FreeROI.eps' not found ---
+l.4082 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Free
+ROI.eps (no BoundingBox) ---
+l. 4082 --- needs --- Pictures/FreeROI.png ---
+
+LaTeX Warning: File `Pictures/RectangleROI.eps' not found on input line 4083.
+
+l.4083 --- TeX4ht warning --- File `Pictures/RectangleROI.eps' not found ---
+l.4083 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Rect
+angleROI.eps (no BoundingBox) ---
+l. 4083 --- needs --- Pictures/RectangleROI.png ---
+ [308]
+
+LaTeX Warning: File `Pictures/CircleROI.eps' not found on input line 4084.
+
+l.4084 --- TeX4ht warning --- File `Pictures/CircleROI.eps' not found ---
+l.4084 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Circ
+leROI.eps (no BoundingBox) ---
+l. 4084 --- needs --- Pictures/CircleROI.png ---
+
+LaTeX Warning: File `Pictures/PolygonROI.eps' not found on input line 4085.
+
+l.4085 --- TeX4ht warning --- File `Pictures/PolygonROI.eps' not found ---
+l.4085 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Poly
+gonROI.eps (no BoundingBox) ---
+l. 4085 --- needs --- Pictures/PolygonROI.png ---
+
+LaTeX Warning: File `Pictures/LineROI.eps' not found on input line 4086.
+
+l.4086 --- TeX4ht warning --- File `Pictures/LineROI.eps' not found ---
+l.4086 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Line
+ROI.eps (no BoundingBox) ---
+l. 4086 --- needs --- Pictures/LineROI.png ---
+
+LaTeX Warning: File `Pictures/AngleROI.eps' not found on input line 4087.
+
+l.4087 --- TeX4ht warning --- File `Pictures/AngleROI.eps' not found ---
+l.4087 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Angl
+eROI.eps (no BoundingBox) ---
+l. 4087 --- needs --- Pictures/AngleROI.png ---
+
+LaTeX Warning: File `Pictures/ROIManager.eps' not found on input line 4088.
+
+l.4088 --- TeX4ht warning --- File `Pictures/ROIManager.eps' not found ---
+l.4088 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/ROIM
+anager.eps (no BoundingBox) ---
+l. 4088 --- needs --- Pictures/ROIManager.png ---
+
+LaTeX Warning: File `Pictures/Histogram.eps' not found on input line 4089.
+
+l.4089 --- TeX4ht warning --- File `Pictures/Histogram.eps' not found ---
+l.4089 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Hist
+ogram.eps (no BoundingBox) ---
+l. 4089 --- needs --- Pictures/Histogram.png ---
+
+LaTeX Warning: File `Pictures/ROIs.eps' not found on input line 4094.
+
+l.4094 --- TeX4ht warning --- File `Pictures/ROIs.eps' not found ---
+l.4094 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/ROIs
+.eps (no BoundingBox) ---
+l. 4094 --- needs --- Pictures/ROIs.png ---
+
+LaTeX Warning: File `Pictures/Hist.eps' not found on input line 4102.
+
+l.4102 --- TeX4ht warning --- File `Pictures/Hist.eps' not found ---
+l.4102 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Hist
+.eps (no BoundingBox) ---
+l. 4102 --- needs --- Pictures/Hist.png ---
+
+LaTeX Warning: File `Pictures/FreeSeg.eps' not found on input line 4112.
+
+l.4112 --- TeX4ht warning --- File `Pictures/FreeSeg.eps' not found ---
+l.4112 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Free
+Seg.eps (no BoundingBox) ---
+l. 4112 --- needs --- Pictures/FreeSeg.png ---
+
+LaTeX Warning: File `Pictures/CircleSeg.eps' not found on input line 4113.
+
+l.4113 --- TeX4ht warning --- File `Pictures/CircleSeg.eps' not found ---
+l.4113 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Circ
+leSeg.eps (no BoundingBox) ---
+l. 4113 --- needs --- Pictures/CircleSeg.png ---
+
+LaTeX Warning: File `Pictures/PolygonSeg.eps' not found on input line 4114.
+
+l.4114 --- TeX4ht warning --- File `Pictures/PolygonSeg.eps' not found ---
+l.4114 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Poly
+gonSeg.eps (no BoundingBox) ---
+l. 4114 --- needs --- Pictures/PolygonSeg.png ---
+ [309]
+
+LaTeX Warning: File `Pictures/EditSeg.eps' not found on input line 4115.
+
+l.4115 --- TeX4ht warning --- File `Pictures/EditSeg.eps' not found ---
+l.4115 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Edit
+Seg.eps (no BoundingBox) ---
+l. 4115 --- needs --- Pictures/EditSeg.png ---
+
+LaTeX Warning: File `Pictures/SaveSeg.eps' not found on input line 4116.
+
+l.4116 --- TeX4ht warning --- File `Pictures/SaveSeg.eps' not found ---
+l.4116 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Save
+Seg.eps (no BoundingBox) ---
+l. 4116 --- needs --- Pictures/SaveSeg.png ---
+
+LaTeX Warning: File `Pictures/LoadSeg.eps' not found on input line 4117.
+
+l.4117 --- TeX4ht warning --- File `Pictures/LoadSeg.eps' not found ---
+l.4117 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Load
+Seg.eps (no BoundingBox) ---
+l. 4117 --- needs --- Pictures/LoadSeg.png ---
+
+LaTeX Warning: File `Pictures/Segs.eps' not found on input line 4123.
+
+l.4123 --- TeX4ht warning --- File `Pictures/Segs.eps' not found ---
+l.4123 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Segs
+.eps (no BoundingBox) ---
+l. 4123 --- needs --- Pictures/Segs.png ---
+
+LaTeX Warning: File `Pictures/EditSeg.eps' not found on input line 4128.
+
+l.4128 --- TeX4ht warning --- File `Pictures/EditSeg.eps' not found ---
+l.4128 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Edit
+Seg.eps (no BoundingBox) ---
+l. 4128 --- needs --- Pictures/EditSeg.png ---
+
+LaTeX Warning: File `Pictures/SaveSeg.eps' not found on input line 4128.
+
+l.4128 --- TeX4ht warning --- File `Pictures/SaveSeg.eps' not found ---
+l.4128 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Save
+Seg.eps (no BoundingBox) ---
+l. 4128 --- needs --- Pictures/SaveSeg.png ---
+
+LaTeX Warning: File `Pictures/Upload.eps' not found on input line 4128.
+
+l.4128 --- TeX4ht warning --- File `Pictures/Upload.eps' not found ---
+l.4128 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Uplo
+ad.eps (no BoundingBox) ---
+l. 4128 --- needs --- Pictures/Upload.png ---
+
+LaTeX Warning: File `Pictures/LoadSeg.eps' not found on input line 4128.
+
+l.4128 --- TeX4ht warning --- File `Pictures/LoadSeg.eps' not found ---
+l.4128 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Load
+Seg.eps (no BoundingBox) ---
+l. 4128 --- needs --- Pictures/LoadSeg.png ---
+
+LaTeX Warning: File `Pictures/Release.eps' not found on input line 4128.
+
+l.4128 --- TeX4ht warning --- File `Pictures/Release.eps' not found ---
+l.4128 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Rele
+ase.eps (no BoundingBox) ---
+l. 4128 --- needs --- Pictures/Release.png ---
+
+LaTeX Warning: File `Pictures/Contour.eps' not found on input line 4135.
+
+l.4135 --- TeX4ht warning --- File `Pictures/Contour.eps' not found ---
+l.4135 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Cont
+our.eps (no BoundingBox) ---
+l. 4135 --- needs --- Pictures/Contour.png ---
+
+LaTeX Warning: File `Pictures/Contour3.eps' not found on input line 4136.
+
+l.4136 --- TeX4ht warning --- File `Pictures/Contour3.eps' not found ---
+l.4136 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Cont
+our3.eps (no BoundingBox) ---
+l. 4136 --- needs --- Pictures/Contour3.png ---
+
+LaTeX Warning: File `Pictures/ContourFill.eps' not found on input line 4137.
+
+l.4137 --- TeX4ht warning --- File `Pictures/ContourFill.eps' not found ---
+l.4137 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Cont
+ourFill.eps (no BoundingBox) ---
+l. 4137 --- needs --- Pictures/ContourFill.png ---
+
+LaTeX Warning: File `Pictures/Surface.eps' not found on input line 4138.
+
+l.4138 --- TeX4ht warning --- File `Pictures/Surface.eps' not found ---
+l.4138 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Surf
+ace.eps (no BoundingBox) ---
+l. 4138 --- needs --- Pictures/Surface.png ---
+
+LaTeX Warning: File `Pictures/SurfaceCon.eps' not found on input line 4139.
+
+l.4139 --- TeX4ht warning --- File `Pictures/SurfaceCon.eps' not found ---
+l.4139 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Surf
+aceCon.eps (no BoundingBox) ---
+l. 4139 --- needs --- Pictures/SurfaceCon.png ---
+
+LaTeX Warning: File `Pictures/SurfaceCol.eps' not found on input line 4140.
+
+l.4140 --- TeX4ht warning --- File `Pictures/SurfaceCol.eps' not found ---
+l.4140 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Surf
+aceCol.eps (no BoundingBox) ---
+l. 4140 --- needs --- Pictures/SurfaceCol.png ---
+
+LaTeX Warning: File `Pictures/Mesh.eps' not found on input line 4141.
+
+l.4141 --- TeX4ht warning --- File `Pictures/Mesh.eps' not found ---
+l.4141 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Mesh
+.eps (no BoundingBox) ---
+l. 4141 --- needs --- Pictures/Mesh.png ---
+ [310]
+
+LaTeX Warning: File `Pictures/MeshCon.eps' not found on input line 4142.
+
+l.4142 --- TeX4ht warning --- File `Pictures/MeshCon.eps' not found ---
+l.4142 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Mesh
+Con.eps (no BoundingBox) ---
+l. 4142 --- needs --- Pictures/MeshCon.png ---
+
+LaTeX Warning: File `Pictures/MeshC.eps' not found on input line 4143.
+
+l.4143 --- TeX4ht warning --- File `Pictures/MeshC.eps' not found ---
+l.4143 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Mesh
+C.eps (no BoundingBox) ---
+l. 4143 --- needs --- Pictures/MeshC.png ---
+
+LaTeX Warning: File `Pictures/Reb.eps' not found on input line 4144.
+
+l.4144 --- TeX4ht warning --- File `Pictures/Reb.eps' not found ---
+l.4144 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Reb.
+eps (no BoundingBox) ---
+l. 4144 --- needs --- Pictures/Reb.png ---
+
+LaTeX Warning: File `Pictures/Waterfall.eps' not found on input line 4145.
+
+l.4145 --- TeX4ht warning --- File `Pictures/Waterfall.eps' not found ---
+l.4145 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Wate
+rfall.eps (no BoundingBox) ---
+l. 4145 --- needs --- Pictures/Waterfall.png ---
+
+LaTeX Warning: File `Pictures/Pcolor.eps' not found on input line 4146.
+
+l.4146 --- TeX4ht warning --- File `Pictures/Pcolor.eps' not found ---
+l.4146 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Pcol
+or.eps (no BoundingBox) ---
+l. 4146 --- needs --- Pictures/Pcolor.png ---
+
+LaTeX Warning: File `Pictures/imtool.eps' not found on input line 4155.
+
+l.4155 --- TeX4ht warning --- File `Pictures/imtool.eps' not found ---
+l.4155 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/imto
+ol.eps (no BoundingBox) ---
+l. 4155 --- needs --- Pictures/imtool.png ---
+
+LaTeX Warning: File `Pictures/immovie.eps' not found on input line 4156.
+
+l.4156 --- TeX4ht warning --- File `Pictures/immovie.eps' not found ---
+l.4156 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/immo
+vie.eps (no BoundingBox) ---
+l. 4156 --- needs --- Pictures/immovie.png ---
+
+LaTeX Warning: File `Pictures/imcontrast.eps' not found on input line 4157.
+
+l.4157 --- TeX4ht warning --- File `Pictures/imcontrast.eps' not found ---
+l.4157 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/imco
+ntrast.eps (no BoundingBox) ---
+l. 4157 --- needs --- Pictures/imcontrast.png ---
+
+LaTeX Warning: File `Pictures/matlabIM.eps' not found on input line 4162.
+
+l.4162 --- TeX4ht warning --- File `Pictures/matlabIM.eps' not found ---
+l.4162 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/matl
+abIM.eps (no BoundingBox) ---
+l. 4162 --- needs --- Pictures/matlabIM.png ---
+
+LaTeX Warning: File `Pictures/3DRender.eps' not found on input line 4172.
+
+l.4172 --- TeX4ht warning --- File `Pictures/3DRender.eps' not found ---
+l.4172 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/3DRe
+nder.eps (no BoundingBox) ---
+l. 4172 --- needs --- Pictures/3DRender.png ---
+
+LaTeX Warning: File `Pictures/BrainRender.eps' not found on input line 4176.
+
+l.4176 --- TeX4ht warning --- File `Pictures/BrainRender.eps' not found ---
+l.4176 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Brai
+nRender.eps (no BoundingBox) ---
+l. 4176 --- needs --- Pictures/BrainRender.png ---
+ [311]
+
+LaTeX Warning: File `Pictures/MIP.eps' not found on input line 4181.
+
+l.4181 --- TeX4ht warning --- File `Pictures/MIP.eps' not found ---
+l.4181 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/MIP.
+eps (no BoundingBox) ---
+l. 4181 --- needs --- Pictures/MIP.png ---
+
+LaTeX Warning: File `Pictures/MIP3D.eps' not found on input line 4182.
+
+l.4182 --- TeX4ht warning --- File `Pictures/MIP3D.eps' not found ---
+l.4182 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/MIP3
+D.eps (no BoundingBox) ---
+l. 4182 --- needs --- Pictures/MIP3D.png ---
+
+LaTeX Warning: File `Pictures/3DMIP.eps' not found on input line 4187.
+
+l.4187 --- TeX4ht warning --- File `Pictures/3DMIP.eps' not found ---
+l.4187 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/3DMI
+P.eps (no BoundingBox) ---
+l. 4187 --- needs --- Pictures/3DMIP.png ---
+
+LaTeX Warning: File `Pictures/3DReslice.eps' not found on input line 4192.
+
+l.4192 --- TeX4ht warning --- File `Pictures/3DReslice.eps' not found ---
+l.4192 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/3DRe
+slice.eps (no BoundingBox) ---
+l. 4192 --- needs --- Pictures/3DReslice.png ---
+
+LaTeX Warning: File `Pictures/Moive.eps' not found on input line 4193.
+
+l.4193 --- TeX4ht warning --- File `Pictures/Moive.eps' not found ---
+l.4193 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Moiv
+e.eps (no BoundingBox) ---
+l. 4193 --- needs --- Pictures/Moive.png ---
+
+LaTeX Warning: File `Pictures/Reslice.eps' not found on input line 4198.
+
+l.4198 --- TeX4ht warning --- File `Pictures/Reslice.eps' not found ---
+l.4198 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Resl
+ice.eps (no BoundingBox) ---
+l. 4198 --- needs --- Pictures/Reslice.png ---
+ [312] [313] [314
+
+]
+
+LaTeX Warning: File `Pictures/SpinWatcherPanelIcon.eps' not found on input line
+ 4217.
+
+l.4217 --- TeX4ht warning --- File `Pictures/SpinWatcherPanelIcon.eps' not foun
+d ---
+l.4217 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Spin
+WatcherPanelIcon.eps (no BoundingBox) ---
+l. 4217 --- needs --- Pictures/SpinWatcherPanelIcon.png ---
+ [315
+
+] [316
+
+] [317
+
+]
+
+LaTeX Warning: File `Pictures/SpinWatcher.eps' not found on input line 4224.
+
+l.4224 --- TeX4ht warning --- File `Pictures/SpinWatcher.eps' not found ---
+l.4224 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Spin
+Watcher.eps (no BoundingBox) ---
+l. 4224 --- needs --- Pictures/SpinWatcher.png ---
+ [318
+
+]
+
+LaTeX Warning: File `Pictures/Cursor.eps' not found on input line 4233.
+
+l.4233 --- TeX4ht warning --- File `Pictures/Cursor.eps' not found ---
+l.4233 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Curs
+or.eps (no BoundingBox) ---
+l. 4233 --- needs --- Pictures/Cursor.png ---
+ [319
+
+] [320] [321] [322] [323
+
+]
+
+LaTeX Warning: File `Pictures/SARWatcherPanelIcon.eps' not found on input line 
+4313.
+
+l.4313 --- TeX4ht warning --- File `Pictures/SARWatcherPanelIcon.eps' not found
+ ---
+l.4313 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/SARW
+atcherPanelIcon.eps (no BoundingBox) ---
+l. 4313 --- needs --- Pictures/SARWatcherPanelIcon.png ---
+ [324
+
+] [325
+
+] [326
+
+]
+
+LaTeX Warning: File `Pictures/SARWatcher.eps' not found on input line 4320.
+
+l.4320 --- TeX4ht warning --- File `Pictures/SARWatcher.eps' not found ---
+l.4320 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/SARW
+atcher.eps (no BoundingBox) ---
+l. 4320 --- needs --- Pictures/SARWatcher.png ---
+ [327
+
+] [328
+
+] [329] [330
+
+]
+Chapter 7.
+--- file MRiLab_User_Guidech7.html ---
+ [331
+
+] [332
+
+]
+
+LaTeX Warning: File `Pictures/bSSFP.eps' not found on input line 4380.
+
+l.4380 --- TeX4ht warning --- File `Pictures/bSSFP.eps' not found ---
+l.4380 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/bSSF
+P.eps (no BoundingBox) ---
+l. 4380 --- needs --- Pictures/bSSFP.png ---
+ [333
+
+] [334
+
+] [335
+
+]
+
+LaTeX Warning: File `Pictures/FatWater.eps' not found on input line 4399.
+
+l.4399 --- TeX4ht warning --- File `Pictures/FatWater.eps' not found ---
+l.4399 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/FatW
+ater.eps (no BoundingBox) ---
+l. 4399 --- needs --- Pictures/FatWater.png ---
+ [336
+
+] [337
+
+] [338
+
+]
+
+LaTeX Warning: File `Pictures/MultiTransmit.eps' not found on input line 4419.
+
+l.4419 --- TeX4ht warning --- File `Pictures/MultiTransmit.eps' not found ---
+l.4419 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Mult
+iTransmit.eps (no BoundingBox) ---
+l. 4419 --- needs --- Pictures/MultiTransmit.png ---
+ [339
+
+] [340
+
+] [341
+
+]
+
+LaTeX Warning: File `Pictures/MultiReceive.eps' not found on input line 4438.
+
+l.4438 --- TeX4ht warning --- File `Pictures/MultiReceive.eps' not found ---
+l.4438 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Mult
+iReceive.eps (no BoundingBox) ---
+l. 4438 --- needs --- Pictures/MultiReceive.png ---
+ [342
+
+] [343
+
+] [344
+
+]
+
+LaTeX Warning: File `Pictures/ImageGrad.eps' not found on input line 4458.
+
+l.4458 --- TeX4ht warning --- File `Pictures/ImageGrad.eps' not found ---
+l.4458 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Imag
+eGrad.eps (no BoundingBox) ---
+l. 4458 --- needs --- Pictures/ImageGrad.png ---
+ [345
+
+] [346
+
+] [347
+
+]
+
+LaTeX Warning: File `Pictures/MotionBrain.eps' not found on input line 4477.
+
+l.4477 --- TeX4ht warning --- File `Pictures/MotionBrain.eps' not found ---
+l.4477 --- TeX4ht warning --- Cannot determine size of graphic in Pictures/Moti
+onBrain.eps (no BoundingBox) ---
+l. 4477 --- needs --- Pictures/MotionBrain.png ---
+ [348
+
+] [349
+
+] [350
+
+]
+--- file MRiLab_User_Guideli3.html ---
+ [351
+
+] [352] [353
+
+] [354
+
+]
+--- file MRiLab_User_Guidech8.html ---
+ [355
+
+] [356
+
+]
+--- file MRiLab_User_Guidech9.html ---
+ [357
+
+] [358
+
+]
+(D:\Dropbox\Write\MRiLab\v1.3\MRiLab_Web\manual\MRiLab_User_Guide_v1_3_\MRiLab_
+User_Guide.aux) ) 
+Here is how much of TeX's memory you used:
+ 8850 strings out of 493922
+ 122945 string characters out of 3147308
+ 286457 words of memory out of 3000000
+ 11671 multiletter control sequences out of 15000+200000
+ 15672 words of font info for 59 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 48i,14n,36p,2425b,797s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on MRiLab_User_Guide.dvi (630 pages, 860088 bytes).

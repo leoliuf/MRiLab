@@ -7,3 +7,5 @@ htlatex MRiLab_User_Guide.tex "epsconfig,2,frames"
 #resize image in html, change .css
 
 div.figure img {text-align:center; height: auto; width: auto; max-width: 600px; max-height: 500px;}
+
+#add "mathjax-config.js" to allow MathJax render in GitHub
