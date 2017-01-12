@@ -1,17 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" 
-"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd" > 
-<html> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">  
+<html > 
 <head><title>1 Introduction</title> 
-<meta charset="UTF-8" /> 
-<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
-<link rel="stylesheet" type="text/css" href="MRiLab_User_Guide.css" /> 
-<script src="mathjax-config.js"></script> 
-<script type="text/javascript" 
-src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" 
-></script> 
-<style type="text/css"> 
-.MathJax_MathML {text-indent: 0;} 
-</style> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<!-- 2,frames,html --> 
+<meta name="src" content="MRiLab_User_Guide.tex"> 
+<meta name="date" content="2017-01-12 13:25:00"> 
+<link rel="stylesheet" type="text/css" href="MRiLab_User_Guide.css"> 
 </head><body 
 >
    <!--l. 65--><div class="crosslinks"><p class="noindent">[<a 
@@ -34,7 +31,7 @@ imaging technique. The main MRiLab simulation platform combined with those
 toolboxes can be applied to customize various virtual MR experiments which can
 serve as a prior stage for prototyping and testing new MR technique and
 application.
-</p><!--l. 69--><p class="indent" >   The MRiLab features highly interactive graphical user interface (GUI) for the
+<!--l. 69--><p class="indent" >   The MRiLab features highly interactive graphical user interface (GUI) for the
 convenience of fast experiment design and technique prototyping. High simulation
 accuracy is achieved by simulating discrete spin evolution at small time
 interval using the Bloch-equation and appropriate tissue model. In order to
@@ -44,8 +41,7 @@ multi-threading CPU technique. With efficient parallelization, MRiLab can
 accomplish multidimensional multiple spin species MR simulation at high
 simulation accuracy and time efficiency, and with low computing hardware
 cost.
-</p><!--l. 71--><p class="noindent" >
-</p>
+<!--l. 71--><p class="noindent" >
    <h3 class="sectionHead"><span class="titlemark">1.2   </span> <a 
  id="x6-50001.2"></a>Obtaining MRiLab</h3>
 <!--l. 72--><p class="noindent" >The current MRiLab version (v1.3) is made available online. MRiLab is
@@ -55,17 +51,17 @@ future work. If you find MRiLab useful for the publication of any scientific
 results, including a line in your acknowledgments section for MRiLab is
 requested.<br 
 class="newline" /><br 
-class="newline" />MRiLab downloading address: </p>
+class="newline" />MRiLab downloading address:
 <div class="center" 
 >
 <!--l. 75--><p class="noindent" >
-</p><!--l. 76--><p class="noindent" ><a 
+<!--l. 76--><p class="noindent" ><a 
 href="http://sourceforge.net/projects/mrilab/" class="url" ><span 
-class="cmtt-10">http://sourceforge.net/projects/mrilab/</span></a></p></div>
+class="cmtt-10">http://sourceforge.net/projects/mrilab/</span></a></div>
 <!--l. 79--><p class="indent" >   We also request you to cite this scientific paper:<br 
 class="newline" />
 
-</p><!--l. 81--><p class="indent" >   <span 
+<!--l. 81--><p class="indent" >   <span 
 class="cmcsc-10">F<span 
 class="small-caps">a</span><span 
 class="small-caps">n</span><span 
@@ -126,13 +122,11 @@ class="cmti-10">Fast Realistic MRI Simulations Based on</span>
 <span 
 class="cmti-10">Generalized Multi-Pool Exchange Tissue Model</span>, IEEE Trans. Med. Imag., doi:
 10.1109/TMI.2016.2620961, 2016.
-</p><!--l. 84--><p class="noindent" >
-</p>
+<!--l. 84--><p class="noindent" >
    <h3 class="sectionHead"><span class="titlemark">1.3   </span> <a 
  id="x6-60001.3"></a>Installing and Running MRiLab</h3>
 <!--l. 86--><p class="noindent" >To use MRiLab, you need to install Matlab software first. The current MRiLab
 version was successfully tested under mutiple Matlab versions:
-</p>
      <ul class="itemize1">
      <li class="itemize">Matlab R2011a 64-bit Windows
      </li>
@@ -148,7 +142,7 @@ MRiLab root folder, put the folder to any location in you computer. To run MRiLa
 start Matlab, then simply run the &#8216;MRiLab.m&#8217; script under the MRiLab root folder.
 <br 
 class="newline" />
-</p><!--l. 98--><p class="indent" >   The GUIs in MRiLab is developed under Matlab GUI development environment
+<!--l. 98--><p class="indent" >   The GUIs in MRiLab is developed under Matlab GUI development environment
 (GUIDE). Majority of the simulation configuration code is programmed
 using pure Matlab language and Extensible Markup Language (XML). The
 computing intensive functions are programmed and optimized using MATLAB
@@ -161,11 +155,11 @@ These MEX library binaries have been built under 64-bit Windows and Linux
 OS system and shipped with MRiLab source code. However, if they are
 incompatible with your OS system for any reason or if you wish to modify these
 MEX files for your own good, you need to recompile them from source code.
-
 <br 
 class="newline" />
-</p><!--l. 100--><p class="indent" >   Before recompiling these MEX files, some dependent packages are required.
-     </p><ol  class="enumerate1" >
+<!--l. 100--><p class="indent" >   Before recompiling these MEX files, some dependent packages are required.
+
+     <ol  class="enumerate1" >
      <li 
   class="enumerate" id="x6-6002x1">CMake (required)<br 
 class="newline" />CMake is used for cross platform building of these MEX files.<br 
@@ -174,7 +168,7 @@ class="newline" />
 href="http://www.cmake.org/cmake/resources/software.html" class="url" ><span 
 class="cmtt-10">http://www.cmake.org/cmake/resources/software.html</span></a> <br 
 class="newline" />
-     </p></li>
+     </li>
      <li 
   class="enumerate" id="x6-6004x2">IPP or Framewave (required)<br 
 class="newline" />MRiLab  uses  Intel  Integrated  Performance  Primitives  (IPP)  or  AMD
@@ -193,7 +187,7 @@ class="newline" />AMD Framewave : <a
 href="http://framewave.sourceforge.net" class="url" ><span 
 class="cmtt-10">http://framewave.sourceforge.net</span></a> <br 
 class="newline" />
-     </p></li>
+     </li>
      <li 
   class="enumerate" id="x6-6006x3">CUDA (optional)<br 
 class="newline" />NVIDIA GPU driver is required for running GPU devices and also for
@@ -210,27 +204,27 @@ class="newline" />CUDA : <a
 href="http://www.nvidia.com/object/cuda_home_new.html" class="url" ><span 
 class="cmtt-10">http://www.nvidia.com/object/cuda_home_new.html</span></a> <br 
 class="newline" />
-     </p><!--l. 120--><p class="noindent" >Although   GPU   acceleration   dramatically   improves   computational
+     <!--l. 120--><p class="noindent" >Although   GPU   acceleration   dramatically   improves   computational
      efficiency,  the  GPU  computing  mode  is  also  optional.  Alternatively,
      MRiLab  provides  multi-threading  CPU  computing  mode  via  OpenMP
      which requires no additional packages on modern operating system. The
      CPU  kernel  provides  the  same  simulation  accuary  but  with  reduced
      computational efficiency compared to GPU mode.
-
-     </p></li>
+     </li>
      <li 
   class="enumerate" id="x6-6008x4">VTK (optional) <br 
 class="newline" />The VTK library provides nice functions to render 3D <span 
 class="cmti-10">k</span>-space trajectory
      as well as complex image object in 3D space. The current MRiLab version
      uses MEX built against VTK 5.10. However, VTK rendering is optional
+
      as native Matlab rendering is also provided. <br 
 class="newline" />
      <!--l. 125--><p class="noindent" >VTK : <a 
 href="http://www.vtk.org" class="url" ><span 
 class="cmtt-10">http://www.vtk.org</span></a> <br 
 class="newline" />
-     </p></li>
+     </li>
      <li 
   class="enumerate" id="x6-6010x5">ISMRMRD (optional) <br 
 class="newline" />MRiLab supports data conversion from Matlab variables to ISMRMRD,
@@ -242,11 +236,9 @@ class="newline" />
      <a 
 href="http://ismrmrd.sourceforge.net/#obtaining-and-installing" class="url" ><span 
 class="cmtt-10">http://ismrmrd.sourceforge.net/#obtaining-and-installing</span></a>
-</p>
      </li></ol>
 <!--l. 134--><p class="indent" >   After completing abovementioned dependent packages, you also need to add a few
 environment variables in your system :
-</p>
      <ul class="itemize1">
      <li class="itemize">MATLAB_ROOT : Matlab root folder path
      </li>
@@ -255,8 +247,8 @@ environment variables in your system :
      <li class="itemize">FRAMEWAVE_ROOT : Framewave root folder path if Framewave is used</li></ul>
 <!--l. 142--><p class="indent" >   Note that the C source code for these MEX files is in /MRiLab/Lib/src folder. To
 compile and install MEX files
-</p><!--l. 144--><p class="indent" >
-     </p><ol  class="enumerate1" >
+<!--l. 144--><p class="indent" >
+     <ol  class="enumerate1" >
      <li 
   class="enumerate" id="x6-6012x1">Linux Installation <br 
 class="newline" />The command lines for compiling the MEX files are
@@ -269,9 +261,9 @@ class="newline" />The command lines for compiling the MEX files are
      &#x00A0;<br />sudo&#x00A0;make&#x00A0;install
 </div>
      <!--l. 153--><p class="nopar" >
-     </p><!--l. 155--><p class="noindent" >You also can use cmake-gui for configuration and other building tools (e.g.
+     <!--l. 155--><p class="noindent" >You also can use cmake-gui for configuration and other building tools (e.g.
      Eclipse) for building the binaries.
-     </p></li>
+     </li>
      <li 
   class="enumerate" id="x6-6014x2">Windows Installation <br 
 class="newline" />It is recommended to use cmake-gui for generating Visual Studio projects, then
@@ -279,126 +271,125 @@ class="newline" />It is recommended to use cmake-gui for generating Visual Studi
          <ul class="itemize1">
          <li class="itemize">Step 1 : Locate source folder and build folder in cmake-gui (Figure
          <a 
-href="#x6-60151">1.1<!--tex4ht:ref: fig:cmake-gui --></a>) <hr class="figure" /><div class="figure" 
+href="#x6-60151">1.1<!--tex4ht:ref: fig:cmake-gui --></a>) <hr class="figure"><div class="figure" 
 ><a 
  id="x6-60151"></a>   <img 
 src="Pictures/cmake-gui.png" alt="pict"  
- />
+>
 <br /> <div class="caption" 
 ><span class="id">Figure&#x00A0;1.1: </span><span  
 class="content">The cmake-gui for locating source folder and build folder</span></div><!--tex4ht:label?: x6-60151 -->
-         </div><hr class="endfigure" />
+         <!--l. 167--><p class="noindent" ></div><hr class="endfigure">
          </li>
          <li class="itemize">Step 2 : Configure and generate Visual Studio projects in cmake-gui
          (Figure <a 
-href="#x6-60162">1.2<!--tex4ht:ref: fig:cmake-gui2 --></a>) <hr class="figure" /><div class="figure" 
+href="#x6-60162">1.2<!--tex4ht:ref: fig:cmake-gui2 --></a>) <hr class="figure"><div class="figure" 
 ><a 
  id="x6-60162"></a>   <img 
 src="Pictures/cmake-gui2.png" alt="pict"  
- />
+>
 <br /> <div class="caption" 
 ><span class="id">Figure&#x00A0;1.2: </span><span  
 class="content">The cmake-gui for configuring and building Visual Studio projects</span></div><!--tex4ht:label?: x6-60162 -->
-         </div><hr class="endfigure" />
+         <!--l. 174--><p class="noindent" ></div><hr class="endfigure">
          </li>
          <li class="itemize">Step 3 : Build the INSTALL project, compiled MEX binaries will
          be copied to MRiLab/Lib/bin folder by default (Figure <a 
-href="#x6-60173">1.3<!--tex4ht:ref: fig:visualstudio --></a>) <hr class="figure" /><div class="figure" 
+href="#x6-60173">1.3<!--tex4ht:ref: fig:visualstudio --></a>) <hr class="figure"><div class="figure" 
 ><a 
  id="x6-60173"></a>   <img 
 src="Pictures/visualstudio.png" alt="pict"  
- />
+>
 <br /> <div class="caption" 
 ><span class="id">Figure&#x00A0;1.3: </span><span  
 class="content">Build INSTALL project using Visual Studio</span></div><!--tex4ht:label?: x6-60173 -->
-         </div><hr class="endfigure" />
+         <!--l. 181--><p class="noindent" ></div><hr class="endfigure">
          </li></ul>
      </li></ol>
 <!--l. 187--><p class="indent" >   If installation problems do occur in your case, feel free to leave comments on the
 online supporting forum. For your information, I provide here my development
 environment (Table <a 
 href="#x6-60181">1.1<!--tex4ht:ref: tab:FangSComputerEnvironment --></a>) for the current MRiLab version.
-</p>
    <div class="table">
 
 <!--l. 189--><p class="indent" >   <a 
- id="x6-60181"></a></p><hr class="float" /><div class="float" 
+ id="x6-60181"></a><hr class="float"><div class="float" 
 >
 
 <div class="tabular"> <table id="TBL-2" class="tabular" 
 cellspacing="0" cellpadding="0"  
 ><colgroup id="TBL-2-1g"><col 
-id="TBL-2-1" /><col 
-id="TBL-2-2" /><col 
-id="TBL-2-3" /></colgroup><tr 
-class="hline"><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr 
-class="hline"><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
- style="vertical-align:baseline;" id="TBL-2-1-"><td  style="text-align:left; white-space:nowrap;" id="TBL-2-1-1"  
-class="td11">Environment</td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-1-2"  
-class="td11">Desktop                     </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-1-3"  
+id="TBL-2-1"><col 
+id="TBL-2-2"><col 
+id="TBL-2-3"></colgroup><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr 
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-1-1"  
+class="td11">Environment</td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-1-2"  
+class="td11">Desktop                     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-1-3"  
 class="td11">Desktop                              </td>
 </tr><tr 
-class="hline"><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
- style="vertical-align:baseline;" id="TBL-2-2-"><td  style="text-align:left; white-space:nowrap;" id="TBL-2-2-1"  
-class="td11">Machine       </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-2-2"  
-class="td11">Dell Precision T3500    </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-2-3"  
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-2-1"  
+class="td11">Machine       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-2-2"  
+class="td11">Dell Precision T3500    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-2-3"  
 class="td11">Dell Precision T3500             </td></tr><tr  
- style="vertical-align:baseline;" id="TBL-2-3-"><td  style="text-align:left; white-space:nowrap;" id="TBL-2-3-1"  
-class="td11">CPU </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-3-2"  
-class="td11">Intel Xeon W3530 </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-3-3"  
+ style="vertical-align:baseline;" id="TBL-2-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-3-1"  
+class="td11">CPU </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-3-2"  
+class="td11">Intel Xeon W3530 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-3-3"  
 class="td11">Intel Xeon W3530</td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-2-4-"><td  style="text-align:left; white-space:nowrap;" id="TBL-2-4-1"  
-class="td11">GPU           </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-4-2"  
-class="td11">NVIDIA Quadro K4000</td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-4-3"  
+ style="vertical-align:baseline;" id="TBL-2-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-4-1"  
+class="td11">GPU           </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-4-2"  
+class="td11">NVIDIA Quadro K4000</td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-4-3"  
 class="td11">NVIDIA Quadro K4000         </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-2-5-"><td  style="text-align:left; white-space:nowrap;" id="TBL-2-5-1"  
-class="td11">OS              </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-5-2"  
-class="td11">Windows 7 64-bit        </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-5-3"  
+ style="vertical-align:baseline;" id="TBL-2-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-5-1"  
+class="td11">OS              </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-5-2"  
+class="td11">Windows 7 64-bit        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-5-3"  
 class="td11">Linux Ubuntu 14.04LTS 64-bit</td></tr><tr  
- style="vertical-align:baseline;" id="TBL-2-6-"><td  style="text-align:left; white-space:nowrap;" id="TBL-2-6-1"  
-class="td11">Matlab </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-6-2"  
-class="td11">Matlab R2015a 64-bit </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-6-3"  
+ style="vertical-align:baseline;" id="TBL-2-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-6-1"  
+class="td11">Matlab </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-6-2"  
+class="td11">Matlab R2015a 64-bit </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-6-3"  
 class="td11">Matlab R2015a 64-bit</td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-2-7-"><td  style="text-align:left; white-space:nowrap;" id="TBL-2-7-1"  
-class="td11">C Compiler   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-7-2"  
-class="td11">Visual Studio 10 Win64</td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-7-3"  
+ style="vertical-align:baseline;" id="TBL-2-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-7-1"  
+class="td11">C Compiler   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-7-2"  
+class="td11">Visual Studio 10 Win64</td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-7-3"  
 class="td11">GCC 4.8.4                           </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-2-8-"><td  style="text-align:left; white-space:nowrap;" id="TBL-2-8-1"  
-class="td11">VTK           </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-8-2"  
-class="td11">VTK 5.10                  </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-8-3"  
+ style="vertical-align:baseline;" id="TBL-2-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-8-1"  
+class="td11">VTK           </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-8-2"  
+class="td11">VTK 5.10                  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-8-3"  
 class="td11">VTK 6.3                             </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-2-9-"><td  style="text-align:left; white-space:nowrap;" id="TBL-2-9-1"  
-class="td11">CUDA         </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-9-2"  
-class="td11">CUDA 7.0.28              </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-9-3"  
+ style="vertical-align:baseline;" id="TBL-2-9-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-9-1"  
+class="td11">CUDA         </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-9-2"  
+class="td11">CUDA 7.0.28              </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-9-3"  
 class="td11">CUDA 7.0.28                       </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-2-10-"><td  style="text-align:left; white-space:nowrap;" id="TBL-2-10-1"  
-class="td11">IPP             </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-10-2"  
-class="td11">Intel IPP 7.0              </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-10-3"  
+ style="vertical-align:baseline;" id="TBL-2-10-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-10-1"  
+class="td11">IPP             </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-10-2"  
+class="td11">Intel IPP 7.0              </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-10-3"  
 class="td11">Intel IPP 7.0                        </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-2-11-"><td  style="text-align:left; white-space:nowrap;" id="TBL-2-11-1"  
-class="td11">Framewave   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-11-2"  
-class="td11">AMD Framewave 1.3    </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-11-3"  
+ style="vertical-align:baseline;" id="TBL-2-11-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-11-1"  
+class="td11">Framewave   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-11-2"  
+class="td11">AMD Framewave 1.3    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-11-3"  
 class="td11">AMD Framewave 1.3             </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-2-12-"><td  style="text-align:left; white-space:nowrap;" id="TBL-2-12-1"  
-class="td11">ISMRMRD   </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-12-2"  
-class="td11">ISMRMRD 0.5.0         </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-12-3"  
+ style="vertical-align:baseline;" id="TBL-2-12-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-12-1"  
+class="td11">ISMRMRD   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-12-2"  
+class="td11">ISMRMRD 0.5.0         </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-12-3"  
 class="td11">ISMRMRD 0.5.0                  </td>
 </tr><tr  
- style="vertical-align:baseline;" id="TBL-2-13-"><td  style="text-align:left; white-space:nowrap;" id="TBL-2-13-1"  
-class="td11">Boost          </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-13-2"  
-class="td11">Boost 1.53.0               </td><td  style="text-align:left; white-space:nowrap;" id="TBL-2-13-3"  
+ style="vertical-align:baseline;" id="TBL-2-13-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-13-1"  
+class="td11">Boost          </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-13-2"  
+class="td11">Boost 1.53.0               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-13-3"  
 class="td11">Boost 1.54.0                        </td>
 </tr><tr 
-class="hline"><td><hr /></td><td><hr /></td><td><hr /></td></tr><tr  
- style="vertical-align:baseline;" id="TBL-2-14-"><td  style="text-align:left; white-space:nowrap;" id="TBL-2-14-1"  
+class="hline"><td><hr></td><td><hr></td><td><hr></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-14-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-14-1"  
 class="td11">           </td></tr></table></div>
 <br /> <div class="caption" 
 ><span class="id">Table&#x00A0;1.1: </span><span  
@@ -414,6 +405,5 @@ href="MRiLab_User_Guideli2.html#tailMRiLab_User_Guideli2.html" >prev-tail</a>] [
 href="MRiLab_User_Guidech1.html" >front</a>] [<a 
 href="MRiLab_User_Guide3.html#MRiLab_User_Guidech1.html" >up</a>] </p></div>
 <!--l. 214--><p class="indent" >   <a 
- id="tailMRiLab_User_Guidech1.html"></a>  </p> 
-</body> 
-</html>
+ id="tailMRiLab_User_Guidech1.html"></a>   
+</body></html> 

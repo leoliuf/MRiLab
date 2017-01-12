@@ -1,10 +1,7 @@
-htfcss: cmti  font-style: italic;
-htfcss: cmtt font-family: monospace;
-htfcss: cmbsy font-weight: bold;
-htfcss: cmbsy font-weight: bold;
-htfcss: cmbsy font-weight: bold;
 htfcss: cmbx  font-weight: bold;
 htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+htfcss: cmti  font-style: italic;
+htfcss: cmtt font-family: monospace;
 htfcss: cmmi font-style: italic;
 htfcss: cmmib font-style: italic; font-weight: bold;
 File: MRiLab_User_Guide.html
@@ -41,7 +38,7 @@ Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; 
 Css: center { margin-top:1em; margin-bottom:1em; }
 Css: td center { margin-top:0em; margin-bottom:0em; }
 Css: .Canvas { position:relative; }
-Css: math { text-indent: 0em; }
+Css: img.math{vertical-align:middle;}
 Css: li p.indent { text-indent: 0em }
 Css: li p:first-child{ margin-top:0em; }
 Css: li p:last-child, li div:last-child { margin-bottom:0.5em; }
@@ -103,21 +100,22 @@ Css: div.float img {text-align:center;}
 Css: div.figure img {text-align:center;}
 Css: .marginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
 Css: .marginpar p{margin-top:0.4em; margin-bottom:0.4em;}
-Css: .equation td{text-align:center; vertical-align:middle; }
-Css: td.eq-no{ width:5%; }
-Css: table.equation { width:100%; } 
-Css: div.math-display, div.par-math-display{text-align:center;}
-Css: mtr.hline mtd{ border-bottom:black solid 1px; padding-top:2px; padding-bottom:0em; }
-Css: mtr.hline mtd mo{ display:none }
-Css: math .texttt { font-family: monospace; }
-Css: math .textit { font-style: italic; }
-Css: math .textsl { font-style: oblique; }
-Css: math .textsf { font-family: sans-serif; }
-Css: math .textbf { font-weight: bold; }
-Css: mo.MathClass-op + mi{margin-left:0.3em}
-Css: mi + mo.MathClass-op{margin-left:0.3em}
-Css:  math mstyle[mathvariant="bold"] mi { font-weight: bold; font-style: normal; } 
-Css:  math mstyle[mathvariant="normal"] mi { font-weight: normal; font-style: normal; } 
+Css: table.equation {width:100%;}
+Css: .equation td{text-align:center; }
+Css: td.equation { margin-top:1em; margin-bottom:1em; } 
+Css: td.equation-label { width:5%; text-align:center; }
+Css: td.eqnarray4 { width:5%; white-space: normal; }
+Css: td.eqnarray2 { width:5%; }
+Css: table.eqnarray-star, table.eqnarray {width:100%;}
+Css: div.eqnarray{text-align:center;}
+Css: div.array {text-align:center;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.pmatrix img{vertical-align:middle;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.bar-css {text-decoration:overline;}
+Css: img.cdots{vertical-align:middle;}
 Css: .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
 Css: .chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
 Css: .index-item, .index-subitem, .index-subsubitem {display:block}
@@ -147,13 +145,19 @@ Css:  .likesectionToc ~ .likesubsectionToc, .likesectionToc ~ .subsectionToc, .s
 Css: .likesectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .likesectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .likesectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .likesectionToc ~ .subsectionToc ~ .subsubsectionToc, .sectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .sectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .sectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .sectionToc ~ .subsectionToc ~ .subsubsectionToc {margin-left:4em;}
 Css:  .likesubsectionToc, .subsectionToc {margin-left:0em;}
 Css:  .likesubsectionToc ~ .subsubsectionToc, .subsectionToc ~ .subsubsectionToc, {margin-left:2em;}
-Css: .equation-star td{text-align:center; vertical-align:middle; }
-Css: table.equation-star { width:100%; } 
-Css: mtd.align-odd{margin-left:2em; text-align:right;}
-Css: mtd.align-even{margin-right:2em; text-align:left;}
-Css: .boxed{border: 1px solid black; padding-left:2px; padding-right:2px;}
-Css: mo.qopname + mi{margin-left:0.3em}
-Css: mi + mo.qopname{margin-left:0.3em}
+Css: .equation td{text-align:center; }
+Css: .equation-star td{text-align:center; }
+Css: table.equation-star { width:100%; }
+Css: table.equation { width:100%; }
+Css: table.align, table.alignat, table.xalignat, table.xxalignat, table.flalign {width:100%; margin-left:5%; white-space: nowrap;}
+Css: table.align-star, table.alignat-star, table.xalignat-star, table.flalign-star {margin-left:auto; margin-right:auto; white-space: nowrap;}
+Css: td.align-label { width:5%; text-align:center; }
+Css: td.align-odd { text-align:right; padding-right:0.3em;}
+Css: td.align-even { text-align:left; padding-right:0.6em;}
+Css: table.multline, table.multline-star {width:100%;}
+Css: td.gather {text-align:center; }
+Css: table.gather {width:100%;}
+Css: div.gather-star {text-align:center;}
 Css: .figure img.graphics {margin-left:10%;}
 l. 164 --- needs --- "convert Pictures/cmake-gui.eps Pictures/cmake-gui.png" ---
 l. 171 --- needs --- "convert Pictures/cmake-gui2.eps Pictures/cmake-gui2.png" ---
@@ -174,6 +178,10 @@ l. 835 --- needs --- "convert Pictures/BatchSimPanelIcon.eps Pictures/BatchSimPa
 l. 844 --- needs --- "convert Pictures/BatchSim.eps Pictures/BatchSim.png" ---
 l. 854 --- needs --- "convert Pictures/SimulationImage.eps Pictures/SimulationImage.png" ---
 l. 873 --- needs --- "convert Pictures/SimulationImage2.eps Pictures/SimulationImage2.png" ---
+--- needs --- MRiLab_User_Guide.idv[1] ==> MRiLab_User_Guide0x.svg ---
+--- needs --- MRiLab_User_Guide.idv[2] ==> MRiLab_User_Guide1x.svg ---
+--- needs --- MRiLab_User_Guide.idv[3] ==> MRiLab_User_Guide2x.svg ---
+--- needs --- MRiLab_User_Guide.idv[4] ==> MRiLab_User_Guide3x.svg ---
 l. 928 --- needs --- "convert Pictures/RFDesignPanelIcon.eps Pictures/RFDesignPanelIcon.png" ---
 l. 937 --- needs --- "convert Pictures/RFDesignGUI.eps Pictures/RFDesignGUI.png" ---
 l. 966 --- needs --- "convert Pictures/ConstantGradient.eps Pictures/ConstantGradient.png" ---
@@ -183,6 +191,38 @@ l. 1023 --- needs --- "convert Pictures/SliceProfileAtMiddle.eps Pictures/SliceP
 l. 1034 --- needs --- "convert Pictures/SpatialSpectral.eps Pictures/SpatialSpectral.png" ---
 l. 1041 --- needs --- "convert Pictures/MatlabDefaultTools.eps Pictures/MatlabDefaultTools.png" ---
 l. 1111 --- needs --- "convert Pictures/SliceProfileTwoSpecies.eps Pictures/SliceProfileTwoSpecies.png" ---
+--- needs --- MRiLab_User_Guide.idv[5] ==> MRiLab_User_Guide4x.svg ---
+--- needs --- MRiLab_User_Guide.idv[6] ==> MRiLab_User_Guide5x.svg ---
+--- needs --- MRiLab_User_Guide.idv[7] ==> MRiLab_User_Guide6x.svg ---
+--- needs --- MRiLab_User_Guide.idv[8] ==> MRiLab_User_Guide7x.svg ---
+--- needs --- MRiLab_User_Guide.idv[9] ==> MRiLab_User_Guide8x.svg ---
+--- needs --- MRiLab_User_Guide.idv[10] ==> MRiLab_User_Guide9x.svg ---
+--- needs --- MRiLab_User_Guide.idv[11] ==> MRiLab_User_Guide10x.svg ---
+--- needs --- MRiLab_User_Guide.idv[12] ==> MRiLab_User_Guide11x.svg ---
+--- needs --- MRiLab_User_Guide.idv[13] ==> MRiLab_User_Guide12x.svg ---
+--- needs --- MRiLab_User_Guide.idv[14] ==> MRiLab_User_Guide13x.svg ---
+--- needs --- MRiLab_User_Guide.idv[15] ==> MRiLab_User_Guide14x.svg ---
+--- needs --- MRiLab_User_Guide.idv[16] ==> MRiLab_User_Guide15x.svg ---
+--- needs --- MRiLab_User_Guide.idv[17] ==> MRiLab_User_Guide16x.svg ---
+--- needs --- MRiLab_User_Guide.idv[18] ==> MRiLab_User_Guide17x.svg ---
+--- needs --- MRiLab_User_Guide.idv[19] ==> MRiLab_User_Guide18x.svg ---
+--- needs --- MRiLab_User_Guide.idv[20] ==> MRiLab_User_Guide19x.svg ---
+--- needs --- MRiLab_User_Guide.idv[21] ==> MRiLab_User_Guide20x.svg ---
+--- needs --- MRiLab_User_Guide.idv[22] ==> MRiLab_User_Guide21x.svg ---
+--- needs --- MRiLab_User_Guide.idv[23] ==> MRiLab_User_Guide22x.svg ---
+--- needs --- MRiLab_User_Guide.idv[24] ==> MRiLab_User_Guide23x.svg ---
+--- needs --- MRiLab_User_Guide.idv[25] ==> MRiLab_User_Guide24x.svg ---
+--- needs --- MRiLab_User_Guide.idv[26] ==> MRiLab_User_Guide25x.svg ---
+--- needs --- MRiLab_User_Guide.idv[27] ==> MRiLab_User_Guide26x.svg ---
+--- needs --- MRiLab_User_Guide.idv[28] ==> MRiLab_User_Guide27x.svg ---
+--- needs --- MRiLab_User_Guide.idv[29] ==> MRiLab_User_Guide28x.svg ---
+--- needs --- MRiLab_User_Guide.idv[30] ==> MRiLab_User_Guide29x.svg ---
+--- needs --- MRiLab_User_Guide.idv[31] ==> MRiLab_User_Guide30x.svg ---
+--- needs --- MRiLab_User_Guide.idv[32] ==> MRiLab_User_Guide31x.svg ---
+--- needs --- MRiLab_User_Guide.idv[33] ==> MRiLab_User_Guide32x.svg ---
+--- needs --- MRiLab_User_Guide.idv[34] ==> MRiLab_User_Guide33x.svg ---
+--- needs --- MRiLab_User_Guide.idv[35] ==> MRiLab_User_Guide34x.svg ---
+--- needs --- MRiLab_User_Guide.idv[36] ==> MRiLab_User_Guide35x.svg ---
 l. 1732 --- needs --- "convert Pictures/SequenceDesignPanelIcon.eps Pictures/SequenceDesignPanelIcon.png" ---
 l. 1741 --- needs --- "convert Pictures/SequenceDesignGUI.eps Pictures/SequenceDesignGUI.png" ---
 l. 1757 --- needs --- "convert Pictures/SequenceStructure.eps Pictures/SequenceStructure.png" ---
@@ -361,21 +401,10 @@ Font("cmmi","10","10","100")
 Font("cmsy","5","5","100")
 Font("cmsy","7","7","100")
 Font("cmsy","10","10","100")
-Font("cmbx","10","10","100")
-Font("cmbsy","10","10","100")
-Font("cmbsy","7","7","100")
-Font("cmbsy","5","5","100")
-Font("cmex","7","7","100")
-Font("cmex","7","7","71")
-Font("msam","10","10","100")
-Font("msam","7","7","100")
-Font("msam","5","5","100")
-Font("msbm","10","10","100")
-Font("msbm","7","7","100")
-Font("msbm","5","5","100")
 Font("cmr","17","17","100")
 Font("cmr","12","12","100")
 Font("cmtt","10","10","100")
 Font("cmti","10","10","100")
 Font("cmcsc","10","10","100")
+Font("cmbx","10","10","100")
 Font("cmr","9","9","100")
