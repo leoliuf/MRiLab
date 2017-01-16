@@ -1,137 +1,106 @@
-/* MRiLab Homepage */
+<!DOCTYPE HTML>
+<!-- Website template by freewebsitetemplates.com -->
 <html>
 <head>
 	<meta charset="UTF-8">
 	<title>MRiLab</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-<body background="images/background.jpg">
-	<div id="page">
-		<div id="header">
+<body>
+	<div id="header">
+		<div>
+			<div class="logo">
+				<a href="index.html"></a>
+			</div>
+			<ul id="navigation">
+				<li class="active">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="news.html">News</a>
+				</li>
+				<li>
+					<a href="docs.html">Docs</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="showbox">
+		<div class="clearfix">
+			<img src="images/workflow.png" alt="Img" height="269" width="368">
 			<div>
-				<a href="index.html" id="logo"><img src="images/MRiLabIcon.png" alt="LOGO"></a>
-			</div>
-			<span class="shadow"></span>
-		</div>
-		<div id="contents">
-			<div class="body">
-				<h1>Welcome to MRiLab</h1>
-				<div class="frame1">
-                    <hr>
-					Publications <br>
-					* <a href="docs/ISMRM2013_MRiLab_Abstract.pdf">ISMRM 2013 Abstract</a> <br>
-					* <a href="docs/ISMRM2013_MRiLab_Poster.pdf">ISMRM 2013 Poster</a> <br>
-                                        * <a href="docs/ISMRM2014_MRiLab_Abstract.pdf">ISMRM 2014 Abstract</a> <br>
-                                        * <a href="docs/ISMRM2016_Workshop_MRiLab_Abstract.pdf">ISMRM 2016 Workshop Abstract</a> <br>
-					* <a href="docs/TMI2016.pdf">TMI 2016 Paper</a> <br>
-					<br>
-					Documentation <br>
-					* <a href="docs/MRiLab_v1.0_User_Guide.pdf">v1.0 User Guide</a> <br>
-					* <a href="manual/MRiLab_User_Guide_v1_1/MRiLab_User_Guide.html">v1.1 User Guide</a> <br>
-                    * <a href="manual/MRiLab_User_Guide_v1_2/MRiLab_User_Guide.html">v1.2 User Guide</a> <br>
-					* <a href="manual/MRiLab_User_Guide_v1_3/MRiLab_User_Guide.html">v1.3 User Guide</a> <br>
-					<br>
-					Videos <br>
-					* <a href="demo.html">MRiLab Demo</a> <br>
-					<br>
-					Links <br>
-					* <a href="http://www.fliu37.com">Fang Liu</a> <br>
-					* <a href="http://matrixuser.sourceforge.net/index.html">MatrixUser</a><br>
-					* <a href="http://www.radiology.wisc.edu/research/MRI/index.php"> UW MRI Research</a><br>
-					* <a href="http://www.medphysics.wisc.edu/">UW Medical Physics</a> <br>
-                    <hr>
-					Visitor Globe<br>
-                    <script type="text/javascript" src="http://ji.revolvermaps.com/2/2.js?i=8qa4unbp4me&amp;m=0&amp;s=90&amp;c=ff0000&amp;t=1" async="async"></script>			
-                </div>
+				<h1>MRiLab</h1>
+				<h2>A numerical MRI simulator</h2>
 				<p>
-					The MRiLab is a numerical MRI simulation package. It has been developed and optimized to simulate MR signal formation, k-space acquisition 
-					and MR image reconstruction. MRiLab provides several dedicated toolboxes to analyze RF pulse, design MR sequence, configure multiple 
-					transmitting and receiving coils, investigate magnetic field related properties and evaluate real-time imaging technique. The main MRiLab 
-					simulation platform combined with those toolboxes can be applied to customize various virtual MR experiments which can serve as a prior
-					stage for prototyping and testing new MR technique and application.
+					MRiLab is a rapid and versatile numerical MRI simulator with Matlab interface and GPU parallel acceleration on Windows and Linux <span>
+<a href="https://github.com/leoliuf/MRiLab" class="btn">GitHub</a>
+<span>
+<a href="https://sourceforge.net/projects/mrilab" class="btn">SourceForge</a>
+<b>Free to MRI Simulation</b>
 				</p>
-				<p>
-				The MRiLab features highly interactive graphical user interface (GUI) for the convenience of fast experiment design and technique prototyping. 
-				High simulation accuracy is achieved by simulating discrete spin evolution at small time interval using the Bloch-equation and appropriate
-				tissue model. In order to manipulate large multidimensional spin array, MRiLab employs parallel computing by incorporating latest graphical 
-				processing unit (GPU) technique and multi-threading CPU technique. With efficient parallelization, MRiLab can accomplish multidimensional 
-				multiple spin species MR simulation at high simulation accuracy and time efficiency, and with low computing hardware cost. 
-				</p>
-				<p>
-					MRiLab is released as a free software. This means that you are free to use and modify this software as your needs, 
-					as long as you acknowledge the original author in any future work. If you find MRiLab useful for the publication 
-					of any scientific results, please cite this <a href="http://ieeexplore.ieee.org/document/7676360/">paper</a>: <br><br>
-					<i> Fast Realistic MRI Simulations Based on Generalized Multi-Pool Exchange Tissue Model. IEEE Transactions on Medical Imaging. 2016. doi: 10.1109/TMI.2016.2620961 </i>
-				<hr>
-				   Download: |<a href="http://sourceforge.net/projects/mrilab/">SourceForge</a> | <a href="https://github.com/leoliuf/MRiLab">GitHub</a>|
-				<hr>
-					Please send email to <a href="http://www.fliu37.com">Fang Liu</a> to let the author know you are using MRiLab,  
-					your suggestions and requests may be the next step for improving MRiLab. As a return, the author can keep you informed 
-					with the new MRiLab version and new features. Thanks.
-				</p>
-				<p>
-				   <img src="images/new.gif" alt="NEW" align="left"> <br>
-								<a href="manual/MRiLab_User_Guide_v1_3/MRiLab_User_Guide.html">MRiLab v1.3</a> is now available, with new features of: 
-				</p>
-				<p>
-								&emsp;&emsp;&emsp;&emsp;> Support multi-pool exchange tissue model <br>
-								&emsp;&emsp;&emsp;&emsp;> Provide simulation in batch mode <br>
-								&emsp;&emsp;&emsp;&emsp;> Provide spatial SAR and power evaluation <br>
-								&emsp;&emsp;&emsp;&emsp;> Polish graphical interface<br>
-								&emsp;&emsp;&emsp;&emsp;> More... <br>
-				</p>
-				<p>
-				   Author: <br>
-						Fang Liu (<a href="mailto:leoliuf@gmail.com">leoliuf@gmail.com</a>) <br>
-						Department of Medical Physics <br>
-						University of Wisconsin-Madison
-						
-				</p>
-			</div>
-			<div class="body">
-				<div id="featured">
-					<h3>MRiLab Rocks</h3>
-					<ul>
-						<li>
-							<div>
-								<img src="images/bSSFP.png"> 
-							</div>
-							<p>
-								bSSFP Banding Artifact
-							</p>
-						</li>
-						<li>
-							<div>
-								<img src="images/FatWater.png"> 
-							</div>
-							<p>
-								Fat Water Chemical Shift
-							</p>
-						</li>
-						<li>
-							<div>
-								<img src="images/MultiTransmit.png"> 
-							</div>
-							<p>
-								Multi RF Transmitting
-							</p>
-						</li>
-						<li>
-							<div>
-								<img src="images/MultiReceive.png"> 
-							</div>
-							<p>
-								Multi Channel Receiving
-							</p>
-						</li>
-					</ul>
-				</div>
 			</div>
 		</div>
-		<footer>
-		<hr>
-		  <p><i>Last page update 1/10/2017</i></p>
-		</footer>
+	</div>
+	<div id="contents">
+		<div class="clearfix">
+		      <h2> Updates: </h2>
+			<div class="date">
+				<p>
+					<span>01</span>
+					2017
+				</p>
+			</div>
+		      <p>
+			 <b>MRiLab v1.3</b> is now available, with multiple new features. <a href="news.html" class="more">Read More</a><br>
+			 <a href="manual/MRiLab_User_Guide_v1_3/MRiLab_User_Guide.html">v1.3 User Guide</a>
+		      </p>
+		      <p>
+
+		      </p>
+		</div>
+		<div id="tagline" class="clearfix">
+			<div>
+			<h1>Design With Flexibility</h1>
+				<p>
+					MRiLab features highly interactive graphical user interface (GUI) for the convenience of fast experiment design and technique prototyping.
+				</p>
+				<p>
+					High simulation accuracy is achieved by simulating discrete spin evolution at small time interval using the Bloch-equation and appropriate tissue model. 
+				</p>
+				<p>
+					To manipulate large multidimensional spin array, MRiLab employs parallel computing by incorporating latest graphical processing unit (GPU) technique and multi-threading CPU technique.
+				</p>
+			</div>
+			<div>
+			<h1>Design For Functionality</h1>
+				<p>
+					You can simulate MR signal formation, <i>k</i>-space acquisition and MR image reconstruction. MRiLab provides several dedicated toolboxes to analyze RF pulse, design MR sequence, configure multiple transmitting and receiving coils, investigate magnetic field related properties, evaluate real-time imaging technique and more.
+				</p>
+				<p>
+					The main MRiLab simulation platform combined with dedicated toolboxes can be applied to customize various virtual MR experiments which can serve as a prior stage for prototyping and testing new MR technique and application.
+				</p>
+			</div>
+		</div>
+
+		<div class="clearfix">
+			<h2>Please consider cite <a href="http://ieeexplore.ieee.org/document/7676360/">this paper</a>:</h2>
+			<p>
+			F. Liu, J.V. Velikina, W.F. Block, R. Kijowski, A.A. Samsonov. <i>Fast Realistic MRI Simulations Based on Generalized Multi-Pool Exchange Tissue Model.</i> IEEE Transactions on Medical Imaging. 2016. doi: 10.1109/TMI.2016.2620961
+			</p>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="clearfix">
+			<div id="connect">
+				<a href="https://github.com/leoliuf/MRiLab" target="_blank" class="github"></a><a href="https://sourceforge.net/projects/mrilab/" target="_blank" class="sourceforge"></a>
+			</div>
+			<p>
+				© 2012-2017 Fang Liu. All Rights Reserved.
+			</p>
+		</div>
 	</div>
 </body>
 </html>
