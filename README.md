@@ -1,4 +1,4 @@
-[![MRiLab](http://mrilab.sourceforge.net/images/MRiLabIcon.png)]()
+[![MRiLab](http://mrilab.sourceforge.net/images/logo.png)]()
 #MRiLab
 ### A Numerical Magnetic Resonance Imaging (MRI) Simulation Platform
 
