@@ -5,7 +5,7 @@ global VCtl
 global VObj
 global VMag
 
-if ~isfield(VCtl,'X2_Y2')
+if ~isfield(VCtl,'Sh_X2_Y2')
     warndlg('Please load Shim tab. Manual Shimming was not performed!');
     return;
 end
