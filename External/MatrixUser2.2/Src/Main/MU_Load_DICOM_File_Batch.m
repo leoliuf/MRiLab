@@ -104,7 +104,8 @@ for i=3:max(size(files))
         catch me
             display([char(39) varargin{4} sep file_name char(39) ' is not in DICOM format. Conversion failed.']);
             if i==max(size(files)) & ~strcmp(tmp,'tmpvalue')
-                eval(['handles.created_matrices.' tmp '=' tmp ';']);
+                [a,ind]=sort(image_pos(:,1),'ascend');
+                eval(['handles.created_matrices.' tmp '=' tmp '(:,:,ind);']);
             end
             continue;
         end
@@ -170,20 +171,30 @@ for i=3:max(size(files))
 
             tmp2=['MU' num2str(info.SeriesNumber) regexprep(info.SeriesDescription,'[^\/w'']','') '_hdr'];
             eval([tmp2 '=hdr;'] );
-            eval(['handles.created_matrices.' pre_tmp '=' pre_tmp ';']);
+            
+            if ~strcmp(pre_tmp,'tmpvalue')
+                [a,ind]=sort(image_pos(:,1),'ascend');
+                eval(['handles.created_matrices.' pre_tmp '=' pre_tmp '(:,:,ind);']);
+            else
+                eval(['handles.created_matrices.' pre_tmp '=' pre_tmp ';']);
+            end
+             
             eval(['handles.created_matrices.' tmp2 '=' tmp2 ';']);
             eval(['clear ' pre_tmp ';']); % clear tmp matrix and save memory
             tmp=['MU' num2str(info.SeriesNumber) regexprep(info.SeriesDescription,'[^\/w'']','')];
             pre_tmp=tmp;
             slice_num=1;
+            image_pos=[];
         end
         try 
             eval([tmp '(:,:,' num2str(slice_num) ')=dicomread(' char(39) varargin{4} sep file_name char(39) ');']);
+            image_pos(end+1,:)=info.InstanceNumber;
         catch me
             display(['Reading DICOM file ''' varargin{4} sep file_name ''' failed.']);
         end
         if i==max(size(files))
-            eval(['handles.created_matrices.' tmp '=' tmp ';']);
+            [a,ind]=sort(image_pos(:,1),'ascend');
+            eval(['handles.created_matrices.' tmp '=' tmp '(:,:,ind);']);
         end
         
         slice_num=slice_num+1;
