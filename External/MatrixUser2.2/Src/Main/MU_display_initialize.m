@@ -134,6 +134,7 @@ handles.output=hObject;
 %-----------------------------------------------graphics
 % initialize color group
 set(handles.Matrix_name_edit,'String',currentMatrix);
+set(handles.MU_matrix_display,'Name',['MU: ' currentMatrix]);
 set(handles.C_upper_slider,'Min',Min_D);
 set(handles.C_upper_slider,'Max',Max_D);
 set(handles.C_upper_slider,'Value',Max_D);
