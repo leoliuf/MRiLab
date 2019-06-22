@@ -13,8 +13,8 @@ The main portal for access to source code and documentation is the [GitHub][1]. 
 ### Updates
 
 **Video Demo** for [ISMRM 2019 Open-Source Software Tools Weekend Course][3]:
-  * [Educational Talk](../blob/master/Doc/ISMRM2019_MRiLab_Educational_Talk_Public.pptx)
-  * [Demo Talk](../blob/master/Doc/ISMRM2019_MRiLab_Demo_Final_Public.pptx)  
+  * [Educational Talk](../master/Doc/ISMRM2019_MRiLab_Educational_Talk_Public.pptx)
+  * [Demo Talk](../master/Doc/ISMRM2019_MRiLab_Demo_Final_Public.pptx)  
   * Example #1: a gradient echo image formation in MRI https://youtu.be/ol3wCrbIS_4
   * Example #2: echo-planar imaging (EPI) https://youtu.be/7eVc5ztdAy4
   * Example #3: non-Cartesian radial K-space acquisition https://youtu.be/IGl-MJcG2yg
