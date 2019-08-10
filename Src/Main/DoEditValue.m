@@ -1,7 +1,7 @@
 
 function DoEditValue(handles,parent_handle,Attributes,AttrhNumber,dims)
 
-% Create Editbox for ajusting attributes at the frame given by parent_handle
+% Create Editbox for adjusting attributes at the frame given by parent_handle
 % special mark
 % '$value' ----popupmenu
 % '^value' ----checkbox
@@ -32,7 +32,8 @@ for j=1:Wpair
     for i=1:Hpair
         if ind<=length(Attributes)
             Attrh.([Attributes(ind).Name 'Text'])=uicontrol(parent_handle,'Style', 'text', 'String', Attributes(ind).Name,'FontWeight','bold','Units','normalized',...
-                                                                    'Position', [(j-1)*(TextW+SpaceW+EditW) (i-1)*(TextH+SpaceH) TextW TextH]);
+                                                                    'Position', [(j-1)*(TextW+SpaceW+EditW) (i-1)*(TextH+SpaceH) TextW TextH],...
+                                                                    'TooltipString', DoTellMeInfo(Attributes(ind).Name));
             eval(['handles.Attrh' num2str(AttrhNumber) '.' Attributes(ind).Name 'Text=Attrh.' Attributes(ind).Name 'Text;']);
             if ~isempty(Attributes(ind).Value)
                 switch Attributes(ind).Value(1)
@@ -41,30 +42,30 @@ for j=1:Wpair
                         Attrh.(Attributes(ind).Name)=uicontrol(parent_handle,'Style', 'popupmenu', 'String', AttributeOpt,'BackgroundColor',[1 1 1],...
                                                                         'Value',str2double(Attributes(ind).Value(2)),'Units','normalized',...
                                                                         'Position', [(j-1)*(TextW+SpaceW+EditW)+TextW (i-1)*(TextH+SpaceH) EditW EditH],...
-                                                                        'TooltipString',[Attributes(ind).Name ' : ' Attributes(ind).Value(3:end)]);
+                                                                        'TooltipString',['Default: ' Attributes(ind).Value(2:end)]);
                         eval(['handles.Attrh' num2str(AttrhNumber) '.' Attributes(ind).Name '=Attrh.' Attributes(ind).Name ';']);
                     case '^'
                         Attrh.(Attributes(ind).Name)=uicontrol(parent_handle,'Style', 'checkbox', 'String',[],'BackgroundColor',[1 1 1],...
                                                                         'Value',str2double(Attributes(ind).Value(2)),'Units','normalized',...
                                                                         'Position', [(j-1)*(TextW+SpaceW+EditW)+TextW (i-1)*(TextH+SpaceH) EditW EditH],...
-                                                                        'TooltipString',[Attributes(ind).Name ' : ' Attributes(ind).Value]);
+                                                                        'TooltipString',['Default: ' Attributes(ind).Value(2:end)]);
                         eval(['handles.Attrh' num2str(AttrhNumber) '.' Attributes(ind).Name '=Attrh.' Attributes(ind).Name ';']);
                     case '@'
                         eval(['AttributeOpt=' Attributes(ind).Value(2:end) ';']);
                         Attrh.(Attributes(ind).Name)=uicontrol(parent_handle,'Style', 'text', 'String',AttributeOpt,'Units','normalized',...
                                                                         'Position', [(j-1)*(TextW+SpaceW+EditW)+TextW (i-1)*(TextH+SpaceH) EditW EditH],...
-                                                                        'TooltipString',[Attributes(ind).Name ' : ' AttributeOpt]);
+                                                                        'TooltipString',['Default: ' AttributeOpt]);
                         eval(['handles.Attrh' num2str(AttrhNumber) '.' Attributes(ind).Name '=Attrh.' Attributes(ind).Name ';']);
                     otherwise
                         Attrh.(Attributes(ind).Name)=uicontrol(parent_handle,'Style', 'edit', 'String', Attributes(ind).Value,'Units','normalized','BackgroundColor',[1 1 1],...
                                                                     'Position', [(j-1)*(TextW+SpaceW+EditW)+TextW (i-1)*(TextH+SpaceH) EditW EditH],...
-                                                                    'TooltipString',[Attributes(ind).Name ' : ' Attributes(ind).Value]);
+                                                                    'TooltipString',['Default: ' Attributes(ind).Value]);
                         eval(['handles.Attrh' num2str(AttrhNumber) '.' Attributes(ind).Name '=Attrh.' Attributes(ind).Name ';']);
                 end
             else
                 Attrh.(Attributes(ind).Name)=uicontrol(parent_handle,'Style', 'edit', 'String', Attributes(ind).Value,'Units','normalized','BackgroundColor',[1 1 1],...
                                                                     'Position', [(j-1)*(TextW+SpaceW+EditW)+TextW (i-1)*(TextH+SpaceH) EditW EditH],...
-                                                                    'TooltipString',[Attributes(ind).Name ' : ' Attributes(ind).Value]);
+                                                                    'TooltipString',['Default: ' Attributes(ind).Value]);
                 eval(['handles.Attrh' num2str(AttrhNumber) '.' Attributes(ind).Name '=Attrh.' Attributes(ind).Name ';']);
             end
         end
